@@ -1,0 +1,45 @@
+{
+  "experiment_id": "PASA_S2CIT_CACHE",
+  "query_id": "RealScholarQuery_29",
+  "raw_query": "Research on teaching llms to do math prove and solve IMO level math problems.",
+  "gold_ids": [
+    "title:accessing gpt-4 level mathematical olympiad solutions via monte carlo tree self-refine with llama-3 8b",
+    "title:deepseek-prover: advancing theorem proving in llms through large-scale synthetic data",
+    "title:hdflow: enhancing llm complex problem-solving with hybrid thinking and dynamic workflows",
+    "title:infimm-webmath-40b: advancing multimodal pre-training for enhanced mathematical reasoning",
+    "title:large language models for mathematical reasoning: progresses and challenges",
+    "title:lean-star: learning to interleave thinking and proving",
+    "title:lyra: orchestrating dual correction in automated theorem proving",
+    "title:proving olympiad algebraic inequalities without human demonstrations",
+    "title_n:accessinggpt4levelmathematicalolympiadsolutionsviamontecarlotreeselfrefinewithllama38b",
+    "title_n:deepseekproveradvancingtheoremprovinginllmsthroughlargescalesyntheticdata",
+    "title_n:hdflowenhancingllmcomplexproblemsolvingwithhybridthinkinganddynamicworkflows",
+    "title_n:infimmwebmath40badvancingmultimodalpretrainingforenhancedmathematicalreasoning",
+    "title_n:largelanguagemodelsformathematicalreasoningprogressesandchallenges",
+    "title_n:leanstarlearningtointerleavethinkingandproving",
+    "title_n:lyraorchestratingdualcorrectioninautomatedtheoremproving",
+    "title_n:provingolympiadalgebraicinequalitieswithouthumandemonstrations"
+  ],
+  "predicted_ids": [],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 55527.5,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Research on teaching llms to do math prove and solve IMO level math problems.",
+      "api": "error",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 19:34:04"
+}

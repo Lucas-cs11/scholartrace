@@ -1,0 +1,106 @@
+{
+  "experiment_id": "PASA_FULL_CR",
+  "query_id": "RealScholarQuery_28",
+  "raw_query": "Show me code evaluation datasets with a mid-level hardness. It show be harder than HumanEval and MBPP, but easier than code_contests.",
+  "gold_ids": [
+    "title:cruxeval: a benchmark for code reasoning, understanding and execution",
+    "title:naturalcodebench: examining coding performance mismatch on humaneval and natural user prompts",
+    "title:pythonsaga: redefining the benchmark to evaluate code generating llm",
+    "title:swe-bench: can language models resolve real-world github issues?",
+    "title_n:cruxevalabenchmarkforcodereasoningunderstandingandexecution",
+    "title_n:naturalcodebenchexaminingcodingperformancemismatchonhumanevalandnaturaluserprompts",
+    "title_n:pythonsagaredefiningthebenchmarktoevaluatecodegeneratingllm",
+    "title_n:swebenchcanlanguagemodelsresolverealworldgithubissues"
+  ],
+  "predicted_ids": [
+    "doi:10.18653/v1/2025.findings-acl.1133",
+    "doi:10.18653/v1/2024.findings-acl.471",
+    "doi:10.18653/v1/2025.findings-acl.686",
+    "doi:10.3390/app15189907",
+    "doi:10.15276/ict.02.2025.47",
+    "doi:10.2139/ssrn.6773758",
+    "doi:10.1109/llm4code66737.2025.00016",
+    "doi:10.1109/gcwot69191.2026.11499481",
+    "doi:10.1109/aiita69518.2026.11567118",
+    "doi:10.1145/3715727",
+    "doi:10.1109/icst62969.2025.10989022",
+    "doi:10.1109/qce60285.2024.00137",
+    "doi:10.63317/2zjsm6sdd5yo",
+    "doi:10.1109/llm4code66737.2025.00014"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 27,
+  "llm_calls": 5,
+  "input_tokens": 5452,
+  "output_tokens": 2767,
+  "latency_ms": 68235.9,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Show me code evaluation datasets with a mid-level hardness. It show be harder than HumanEval and MBPP, but easier than code_contests.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 1349,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "HumanEval MBPP benchmark",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "code generation benchmark difficulty",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "code_contests benchmark",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "program synthesis benchmark",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "code evaluation benchmark",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Show me code evaluation datasets with a mid-level hardness. It show be harder than HumanEval and MBPP, but easier than code_contests.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 12,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 16:24:12"
+}

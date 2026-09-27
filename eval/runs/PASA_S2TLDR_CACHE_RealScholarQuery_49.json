@@ -1,0 +1,111 @@
+{
+  "experiment_id": "PASA_S2TLDR_CACHE",
+  "query_id": "RealScholarQuery_49",
+  "raw_query": "Can you help me find research papers that explore the use of large vision-language models as agents to automatically play PC games?",
+  "gold_ids": [
+    "title:atari-gpt: investigating the capabilities of multimodal large language models as low-level policies for atari games",
+    "title:can vlms play action role-playing games? take black myth wukong as a study case",
+    "title:groot: learning to follow instructions by watching gameplay videos",
+    "title:jarvis-1: open-world multi-task agents with memory-augmented multimodal language models",
+    "title:octopus: embodied vision-language programmer from environmental feedback",
+    "title:steve-1: a generative model for text-to-behavior in minecraft",
+    "title:towards general computer control: a multimodal agent for red dead redemption ii as a case study",
+    "title:will gpt-4 run doom?",
+    "title_n:atarigptinvestigatingthecapabilitiesofmultimodallargelanguagemodelsaslowlevelpoliciesforatarigames",
+    "title_n:canvlmsplayactionroleplayinggamestakeblackmythwukongasastudycase",
+    "title_n:grootlearningtofollowinstructionsbywatchinggameplayvideos",
+    "title_n:jarvis1openworldmultitaskagentswithmemoryaugmentedmultimodallanguagemodels",
+    "title_n:octopusembodiedvisionlanguageprogrammerfromenvironmentalfeedback",
+    "title_n:steve1agenerativemodelfortexttobehaviorinminecraft",
+    "title_n:towardsgeneralcomputercontrolamultimodalagentforreddeadredemptioniiasacasestudy",
+    "title_n:willgpt4rundoom"
+  ],
+  "predicted_ids": [
+    "fa0d056dd585eeffb4333cb55807d357808f8440",
+    "f7749635a5fc0492ef4705bee963ffa887bb2865",
+    "31a1b5feb5518c892c8d597792afce61f739120d",
+    "934eae300bdfeee8285cf275cdc912ede80882e6",
+    "fd5363bbf95ab132a4644d3cc7d4ad5f8406ce77",
+    "c90832a84ea0b17626be02abd752c8e5421f7db8",
+    "W4386794445",
+    "c76bdadd2e373531f3c97bda050daf19df63a9d0",
+    "d160e10dd95a8633bbd693e376a0f13d32549a77",
+    "3421d12d98956c36c5d39c0ef023b378b6922068",
+    "193c0713c918a783c7d81398545c14b55d52b5bc",
+    "8dccf45aa7b6d3e7ef8fe762751cb35c86778141",
+    "b9289af1bcbc9dbba438ca400f97719dad5eb317",
+    "W4387929411",
+    "W4403752129",
+    "13ee82805c6169c5b8f58a7bae1ad96bc2031c9a",
+    "W4393154152",
+    "6fbb3ed823526ac050b610d353ea91a8515f7e69",
+    "a8fcc3f8983e63cd3cf51038310c8b034a576420",
+    "b70001401a06be07736f9f74877bb66b99f03463"
+  ],
+  "precision": 0.05,
+  "recall": 0.125,
+  "f1": 0.0714,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 47149.0,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Can you help me find research papers that explore the use of large vision-language models as agents to automatically play PC games?",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "large vision-language models agents",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "vision-language models play games",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "VLM agents gaming",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "multimodal agents PC games",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "autonomous agents video games",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 19:22:18"
+}

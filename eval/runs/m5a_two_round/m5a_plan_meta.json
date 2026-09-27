@@ -1,0 +1,9 @@
+{
+  "version": "m5a-planner-v1",
+  "prompt_hash": "c914dc27fbff32d0",
+  "queries": 22,
+  "llm_calls": 22,
+  "input_tokens": 37730,
+  "output_tokens": 8705,
+  "created_at": "2026-08-30 22:15:35"
+}

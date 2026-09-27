@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B0",
+  "query_id": "q013",
+  "raw_query": "long short-term memory recurrent network architecture that can learn long-range temporal dependencies for sequence prediction",
+  "gold_ids": [
+    "doi:10.1162/neco.1997.9.8.1735",
+    "openalex:W2064675550",
+    "title:long short-term memory"
+  ],
+  "predicted_ids": [
+    "W2895790973",
+    "W4226023758",
+    "W3157175643",
+    "W3092762910",
+    "W4401163187",
+    "W4400591407",
+    "W2953521532",
+    "W2782791108",
+    "W1811853421",
+    "W2613331518",
+    "W4288108708",
+    "W2771644755",
+    "W2250739653",
+    "W2800819102",
+    "W2893892260",
+    "W3151387141",
+    "W2336509392",
+    "W3038342057",
+    "W2805541293",
+    "W2949062675"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 1,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 4212.1,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-20 20:26:47"
+}

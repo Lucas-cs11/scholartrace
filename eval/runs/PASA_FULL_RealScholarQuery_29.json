@@ -1,0 +1,120 @@
+{
+  "experiment_id": "PASA_FULL",
+  "query_id": "RealScholarQuery_29",
+  "raw_query": "Research on teaching llms to do math prove and solve IMO level math problems.",
+  "gold_ids": [
+    "title:accessing gpt-4 level mathematical olympiad solutions via monte carlo tree self-refine with llama-3 8b",
+    "title:deepseek-prover: advancing theorem proving in llms through large-scale synthetic data",
+    "title:hdflow: enhancing llm complex problem-solving with hybrid thinking and dynamic workflows",
+    "title:infimm-webmath-40b: advancing multimodal pre-training for enhanced mathematical reasoning",
+    "title:large language models for mathematical reasoning: progresses and challenges",
+    "title:lean-star: learning to interleave thinking and proving",
+    "title:lyra: orchestrating dual correction in automated theorem proving",
+    "title:proving olympiad algebraic inequalities without human demonstrations",
+    "title_n:accessinggpt4levelmathematicalolympiadsolutionsviamontecarlotreeselfrefinewithllama38b",
+    "title_n:deepseekproveradvancingtheoremprovinginllmsthroughlargescalesyntheticdata",
+    "title_n:hdflowenhancingllmcomplexproblemsolvingwithhybridthinkinganddynamicworkflows",
+    "title_n:infimmwebmath40badvancingmultimodalpretrainingforenhancedmathematicalreasoning",
+    "title_n:largelanguagemodelsformathematicalreasoningprogressesandchallenges",
+    "title_n:leanstarlearningtointerleavethinkingandproving",
+    "title_n:lyraorchestratingdualcorrectioninautomatedtheoremproving",
+    "title_n:provingolympiadalgebraicinequalitieswithouthumandemonstrations"
+  ],
+  "predicted_ids": [
+    "W4406890586",
+    "W4407697148",
+    "W4409348062",
+    "W4412889879",
+    "W4399454849",
+    "W4385079476",
+    "W4414913062",
+    "W4391032236",
+    "W4416525378",
+    "W2099085143",
+    "W4411119451",
+    "W4414972313",
+    "W4393065402",
+    "W3134642945",
+    "W2000906536",
+    "W3177813494",
+    "W4404356490",
+    "W4319460874",
+    "W4404782812",
+    "W4400141990"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 27,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 27490.8,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Research on teaching llms to do math prove and solve IMO level math problems.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LLM math proof IMO",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "language model mathematical reasoning",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "automated theorem proving",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "IMO problem solving neural",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "large language model math",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Research on teaching llms to do math prove and solve IMO level math problems.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 16,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-24 08:19:46"
+}

@@ -1,0 +1,76 @@
+{
+  "experiment_id": "PASA_ASSOC_3",
+  "query_id": "RealScholarQuery_20",
+  "raw_query": "Find papers supporting the claim that knowledgeable LLMs have sufficient inductive capacity to analyze the relationships between multiple papers and systematically write a survey on them.",
+  "gold_ids": [
+    "title:explaining relationships among research papers",
+    "title:instruct large language models to generate scientific literature survey step by step",
+    "title:system for systematic literature review using multiple ai agents: concept and an empirical evaluation",
+    "title:vitality 2: reviewing academic literature using large language models",
+    "title_n:explainingrelationshipsamongresearchpapers",
+    "title_n:instructlargelanguagemodelstogeneratescientificliteraturesurveystepbystep",
+    "title_n:systemforsystematicliteraturereviewusingmultipleaiagentsconceptandanempiricalevaluation",
+    "title_n:vitality2reviewingacademicliteratureusinglargelanguagemodels"
+  ],
+  "predicted_ids": [
+    "W4395443419",
+    "W4413392231",
+    "W4414799483",
+    "W4386907387",
+    "W4414352388",
+    "W4388184238",
+    "W4406686240",
+    "W4393166469",
+    "W4390041215",
+    "W7116940540",
+    "W4386718981",
+    "W4360991106",
+    "W4404781858",
+    "W4394700699",
+    "W4387929411",
+    "W4319653860",
+    "W7138925079",
+    "W4384389564",
+    "W4394778685",
+    "W4375949262"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 23,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 51802.5,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Find papers supporting the claim that knowledgeable LLMs have sufficient inductive capacity to analyze the relationships between multiple papers and systematically write a survey on them.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "Find papers supporting the claim that knowledgeable LLMs have sufficient inductive capacity to analyze the relationships",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Find papers supporting the claim that knowledgeable LLMs have sufficient inductive capacity to analyze the relationships between multiple papers and systematically write a survey on them.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 32,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-24 12:48:14"
+}

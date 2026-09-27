@@ -1,0 +1,62 @@
+{
+  "experiment_id": "B1",
+  "query_id": "q003",
+  "raw_query": "transformer architecture using self-attention for neural machine translation, sequence-to-sequence without recurrence",
+  "gold_ids": [
+    "doi:10.48550/arxiv.1706.03762",
+    "openalex:W2626778328",
+    "title:attention is all you need"
+  ],
+  "predicted_ids": [
+    "W2952744660",
+    "W2903739847",
+    "W2964189376",
+    "W2799051177",
+    "W2767206889",
+    "W2963532813",
+    "W4320459518",
+    "W3025165719",
+    "W2990818246",
+    "W4382203079",
+    "W4389326242",
+    "W2112796928",
+    "W2964110616",
+    "W3111535274",
+    "W2996428491",
+    "W4401889742",
+    "W4385342469",
+    "W2952230511",
+    "W4293163051",
+    "W4391855109"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 1,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 4688.7,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "transformer architecture using self-attention for neural machine translation, sequence-to-sequence without recurrence",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "transformer architecture using self-attention for neural machine translation, sequence-to-sequence without recurrence",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 08:00:42"
+}

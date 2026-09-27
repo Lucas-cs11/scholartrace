@@ -1,0 +1,62 @@
+{
+  "experiment_id": "B1",
+  "query_id": "q013",
+  "raw_query": "long short-term memory recurrent network architecture that can learn long-range temporal dependencies for sequence prediction",
+  "gold_ids": [
+    "doi:10.1162/neco.1997.9.8.1735",
+    "openalex:W2064675550",
+    "title:long short-term memory"
+  ],
+  "predicted_ids": [
+    "W3208818769",
+    "W4409445495",
+    "W4404122126",
+    "W3117770186",
+    "W4401410988",
+    "W4403586266",
+    "W4380361831",
+    "W4406295314",
+    "W4402964696",
+    "W4389076537",
+    "W4400599071",
+    "W4397033629",
+    "W4400745378",
+    "W3042588155",
+    "W4389881453",
+    "W4214704553",
+    "W4390906246",
+    "W3206291303",
+    "W4410154209",
+    "W4307572272"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 3,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 13459.4,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "long short-term memory recurrent network architecture that can learn long-range temporal dependencies for sequence prediction",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "long short-term memory recurrent network architecture that can learn long-range temporal dependencies for sequence predi",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 08:04:58"
+}

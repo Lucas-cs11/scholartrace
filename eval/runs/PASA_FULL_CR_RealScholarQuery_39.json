@@ -1,0 +1,100 @@
+{
+  "experiment_id": "PASA_FULL_CR",
+  "query_id": "RealScholarQuery_39",
+  "raw_query": "Help me search for the work related to the synthetic data of large language models. I want to know how to automatically generate large-scale, high-quality, diverse, difficult, and valuable long thought data for learning.",
+  "gold_ids": [
+    "title:deepseek-prover: advancing theorem proving in llms through large-scale synthetic data",
+    "title:mustard: mastering uniform synthesis of theorem and proof data",
+    "title_n:deepseekproveradvancingtheoremprovinginllmsthroughlargescalesyntheticdata",
+    "title_n:mustardmasteringuniformsynthesisoftheoremandproofdata"
+  ],
+  "predicted_ids": [
+    "doi:10.30574/wjaets.2025.15.2.0652",
+    "doi:10.36227/techrxiv.176369747.70179230/v1",
+    "doi:10.47749/t/unicamp.2024.1499839",
+    "doi:10.20944/preprints202606.1871.v1",
+    "doi:10.5220/0013318300003890",
+    "doi:10.22541/au.172660477.72210139/v1",
+    "doi:10.1007/s00521-025-11826-x",
+    "doi:10.55248/gengpi.6.0525.18106",
+    "doi:10.64898/2026.01.27.26345015",
+    "doi:10.32388/pjil3e",
+    "doi:10.2196/preprints.53241",
+    "doi:10.2139/ssrn.7140345"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 27,
+  "llm_calls": 5,
+  "input_tokens": 5500,
+  "output_tokens": 3001,
+  "latency_ms": 61345.0,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Help me search for the work related to the synthetic data of large language models. I want to know how to automatically generate large-scale, high-quality, diverse, difficult, and valuable long thought data for learning.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 1424,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "long thought data generation",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "synthetic data large language models",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "automatic generation synthetic data LLM",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "high-quality diverse synthetic data",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "large-scale synthetic data language models",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Help me search for the work related to the synthetic data of large language models. I want to know how to automatically generate large-scale, high-quality, diverse, difficult, and valuable long thought data for learning.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 24,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 16:36:07"
+}

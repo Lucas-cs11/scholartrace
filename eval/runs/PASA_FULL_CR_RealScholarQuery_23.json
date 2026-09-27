@@ -1,0 +1,98 @@
+{
+  "experiment_id": "PASA_FULL_CR",
+  "query_id": "RealScholarQuery_23",
+  "raw_query": "Show me papers utilizing reinforcement learning to optimize diffusion models for video generation.",
+  "gold_ids": [
+    "title:instructvideo: instructing video diffusion models with human feedback",
+    "title:video diffusion alignment via reward gradients",
+    "title_n:instructvideoinstructingvideodiffusionmodelswithhumanfeedback",
+    "title_n:videodiffusionalignmentviarewardgradients"
+  ],
+  "predicted_ids": [
+    "doi:10.1109/iccc68654.2025.11438198",
+    "doi:10.1109/cvpr52733.2024.00834",
+    "doi:10.1109/tpami.2025.3590730/mm1",
+    "doi:10.2139/ssrn.7235656",
+    "doi:10.21437/interspeech.2025-63",
+    "doi:10.1145/3799914.3799936",
+    "doi:10.52202/079017-0776",
+    "doi:10.64898/2026.03.25.714128",
+    "doi:10.20944/preprints202407.0330.v1",
+    "doi:10.1039/d6sc02655a",
+    "doi:10.20535/srit.2308-8893.2024.3.09",
+    "doi:10.1016/j.neunet.2025.108146",
+    "doi:10.2139/ssrn.6651939",
+    "doi:10.1109/ijcnn64981.2025.11228639",
+    "doi:10.1109/mpcon66082.2025.11256731",
+    "doi:10.1109/ccpqt60491.2023.00024",
+    "doi:10.1109/cvpr52734.2025.00682",
+    "doi:10.2139/ssrn.4999610",
+    "doi:10.1007/s00354-026-00326-8"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 22,
+  "llm_calls": 5,
+  "input_tokens": 5188,
+  "output_tokens": 2760,
+  "latency_ms": 54247.7,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Show me papers utilizing reinforcement learning to optimize diffusion models for video generation.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 1203,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "reinforcement learning diffusion models",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "diffusion policy optimization",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "diffusion models video generation",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "video diffusion reinforcement learning",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Show me papers utilizing reinforcement learning to optimize diffusion models for video generation.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 8,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 16:18:42"
+}

@@ -1,0 +1,16 @@
+{
+  "experiment": "PASA_ASSOC_M2_DENSITY",
+  "query_id": "RealScholarQuery_21",
+  "f1": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "tp": 0,
+  "api_calls": 0,
+  "llm_calls": 2,
+  "input_tokens": 2792,
+  "output_tokens": 948,
+  "latency_ms": 7253.0,
+  "n_predicted": 3,
+  "raw_candidates": 20,
+  "rerank_pool_candidates": 20
+}

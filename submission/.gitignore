@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# 环境与密钥
+.env
+.env.local
+.env.bak
+.env.*
+
+# 运行时产物
+eval/runs/*
+!eval/runs/.gitkeep
+logs/
+*.log
+
+# 数据（大文件不入库）
+data/
+*.sqlite
+*.db

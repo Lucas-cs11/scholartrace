@@ -1,0 +1,129 @@
+{
+  "experiment_id": "PASA_S2CIT_CACHE",
+  "query_id": "RealScholarQuery_49",
+  "raw_query": "Can you help me find research papers that explore the use of large vision-language models as agents to automatically play PC games?",
+  "gold_ids": [
+    "title:atari-gpt: investigating the capabilities of multimodal large language models as low-level policies for atari games",
+    "title:can vlms play action role-playing games? take black myth wukong as a study case",
+    "title:groot: learning to follow instructions by watching gameplay videos",
+    "title:jarvis-1: open-world multi-task agents with memory-augmented multimodal language models",
+    "title:octopus: embodied vision-language programmer from environmental feedback",
+    "title:steve-1: a generative model for text-to-behavior in minecraft",
+    "title:towards general computer control: a multimodal agent for red dead redemption ii as a case study",
+    "title:will gpt-4 run doom?",
+    "title_n:atarigptinvestigatingthecapabilitiesofmultimodallargelanguagemodelsaslowlevelpoliciesforatarigames",
+    "title_n:canvlmsplayactionroleplayinggamestakeblackmythwukongasastudycase",
+    "title_n:grootlearningtofollowinstructionsbywatchinggameplayvideos",
+    "title_n:jarvis1openworldmultitaskagentswithmemoryaugmentedmultimodallanguagemodels",
+    "title_n:octopusembodiedvisionlanguageprogrammerfromenvironmentalfeedback",
+    "title_n:steve1agenerativemodelfortexttobehaviorinminecraft",
+    "title_n:towardsgeneralcomputercontrolamultimodalagentforreddeadredemptioniiasacasestudy",
+    "title_n:willgpt4rundoom"
+  ],
+  "predicted_ids": [
+    "f7749635a5fc0492ef4705bee963ffa887bb2865",
+    "W4386794445",
+    "287f4b599020d53634abbee6a6e58468d14ebbdc",
+    "W4387929411",
+    "W4403752129",
+    "W4393154152",
+    "bd702b0afa17c550a219ca13d45460585daf42d8",
+    "ccc69cce449b660fbbf00baef5f729ae4272b0a1",
+    "9fbde8d0315f52e598c5b4a1409ed2aee215ace9",
+    "W4319323461",
+    "dfd8433404441334338bdb2a7d4707f7bca00e14",
+    "ccb1ccc4deacc4fb18000f0e1ce24329548963ae",
+    "1b6e810ce0afd0dd093f789d2b2742d047e316d5",
+    "2717b53e017cef627c5711a6d71373f81ce667d0",
+    "fb09b581589e1195ff018179c6a11668587c6d64",
+    "W4362515116",
+    "W3177813494",
+    "4b1278b2266ce5009e70f2efe85ccff87350de9c",
+    "0f82929fcfc9958d442009a7d50e6794f024b7f1",
+    "W4389991792"
+  ],
+  "precision": 0.05,
+  "recall": 0.125,
+  "f1": 0.0714,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 76423.2,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Can you help me find research papers that explore the use of large vision-language models as agents to automatically play PC games?",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "large vision-language models agents",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "vision-language models play games",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "VLM agents gaming",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "multimodal agents PC games",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "autonomous agents video games",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Can you help me find research papers that explore the use of large vision-language models as agents to automatically play PC games?",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 74,
+      "relevant_delta": 0
+    },
+    {
+      "round": 3,
+      "query": "Can you help me find research papers that explore the use of large vision-language models as agents to automatically play PC games?",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 30,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 19:41:10"
+}

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="527.202pt" height="258.336pt" viewBox="0 0 527.202 258.336" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-31T21:19:24.601154</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 258.336 
+L 527.202 258.336 
+L 527.202 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 22.58406 39.548035 
+L 125.14446 39.548035 
+Q 128.221272 39.548035 128.221272 36.366261 
+L 128.221272 9.851478 
+Q 128.221272 6.669704 125.14446 6.669704 
+L 22.58406 6.669704 
+Q 19.507248 6.669704 19.507248 9.851478 
+L 19.507248 36.366261 
+Q 19.507248 39.548035 22.58406 39.548035 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #f1f5f9; stroke: #272727; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 22.58406 116.440904 
+L 109.7604 116.440904 
+Q 112.837212 116.440904 112.837212 113.25913 
+L 112.837212 65.532522 
+Q 112.837212 62.350748 109.7604 62.350748 
+L 22.58406 62.350748 
+Q 19.507248 62.350748 19.507248 65.532522 
+L 19.507248 113.25913 
+Q 19.507248 116.440904 22.58406 116.440904 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #f1f5f9; stroke: #272727; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 114.324413 89.395826 
+Q 125.144548 89.395826 134.734845 89.395826 
+" clip-path="url(#pabe9f3b3f3)" style="fill: none; stroke: #767676; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 130.734845 87.395826 
+L 134.734845 89.395826 
+L 130.734845 91.395826 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #767676; stroke: #767676; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 140.52852 116.440904 
+L 227.70486 116.440904 
+Q 230.781672 116.440904 230.781672 113.25913 
+L 230.781672 65.532522 
+Q 230.781672 62.350748 227.70486 62.350748 
+L 140.52852 62.350748 
+Q 137.451708 62.350748 137.451708 65.532522 
+L 137.451708 113.25913 
+Q 137.451708 116.440904 140.52852 116.440904 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #e7eefb; stroke: #0f4d92; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 232.268873 89.395826 
+Q 243.089008 89.395826 252.679305 89.395826 
+" clip-path="url(#pabe9f3b3f3)" style="fill: none; stroke: #767676; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 248.679305 87.395826 
+L 252.679305 89.395826 
+L 248.679305 91.395826 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #767676; stroke: #767676; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 258.47298 116.440904 
+L 350.77734 116.440904 
+Q 353.854152 116.440904 353.854152 113.25913 
+L 353.854152 65.532522 
+Q 353.854152 62.350748 350.77734 62.350748 
+L 258.47298 62.350748 
+Q 255.396168 62.350748 255.396168 65.532522 
+L 255.396168 113.25913 
+Q 255.396168 116.440904 258.47298 116.440904 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #e7eefb; stroke: #0f4d92; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 355.341353 89.395826 
+Q 366.161488 89.395826 375.751785 89.395826 
+" clip-path="url(#pabe9f3b3f3)" style="fill: none; stroke: #767676; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 371.751785 87.395826 
+L 375.751785 89.395826 
+L 371.751785 91.395826 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #767676; stroke: #767676; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 381.54546 116.440904 
+L 453.33774 116.440904 
+Q 456.414552 116.440904 456.414552 113.25913 
+L 456.414552 65.532522 
+Q 456.414552 62.350748 453.33774 62.350748 
+L 381.54546 62.350748 
+Q 378.468648 62.350748 378.468648 65.532522 
+L 378.468648 113.25913 
+Q 378.468648 116.440904 381.54546 116.440904 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #f1f5f9; stroke: #272727; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 457.898936 89.395826 
+Q 467.438735 89.395826 475.748697 89.395826 
+" clip-path="url(#pabe9f3b3f3)" style="fill: none; stroke: #767676; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 471.748697 87.395826 
+L 475.748697 89.395826 
+L 471.748697 91.395826 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #767676; stroke: #767676; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 453.33774 136.467981 
+Q 453.33774 147.725738 453.33774 157.753658 
+" clip-path="url(#pabe9f3b3f3)" style="fill: none; stroke: #767676; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 455.33774 153.753658 
+L 453.33774 157.753658 
+L 451.33774 153.753658 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #767676; stroke: #767676; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 381.54546 214.5456 
+L 478.97784 214.5456 
+Q 482.054652 214.5456 482.054652 211.363826 
+L 482.054652 163.637217 
+Q 482.054652 160.455443 478.97784 160.455443 
+L 381.54546 160.455443 
+Q 378.468648 160.455443 378.468648 163.637217 
+L 378.468648 211.363826 
+Q 378.468648 214.5456 381.54546 214.5456 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #e7eefb; stroke: #0f4d92; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 325.701247 187.500522 
+Q 314.881112 187.500522 305.290815 187.500522 
+" clip-path="url(#pabe9f3b3f3)" style="fill: none; stroke: #767676; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 309.290815 189.500522 
+L 305.290815 187.500522 
+L 309.290815 185.500522 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #767676; stroke: #767676; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 207.19278 214.5456 
+L 299.49714 214.5456 
+Q 302.573952 214.5456 302.573952 211.363826 
+L 302.573952 163.637217 
+Q 302.573952 160.455443 299.49714 160.455443 
+L 207.19278 160.455443 
+Q 204.115968 160.455443 204.115968 163.637217 
+L 204.115968 211.363826 
+Q 204.115968 214.5456 207.19278 214.5456 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #f1f5f9; stroke: #272727; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 110.324407 187.500522 
+Q 99.504272 187.500522 89.913975 187.500522 
+" clip-path="url(#pabe9f3b3f3)" style="fill: none; stroke: #767676; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 93.913975 189.500522 
+L 89.913975 187.500522 
+L 93.913975 185.500522 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #767676; stroke: #767676; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 22.58406 214.5456 
+L 84.1203 214.5456 
+Q 87.197112 214.5456 87.197112 211.363826 
+L 87.197112 163.637217 
+Q 87.197112 160.455443 84.1203 160.455443 
+L 22.58406 160.455443 
+Q 19.507248 160.455443 19.507248 163.637217 
+L 19.507248 211.363826 
+Q 19.507248 214.5456 22.58406 214.5456 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #f1f5f9; stroke: #272727; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 300.321946 159.999446 
+Q 262.318948 138.448147 225.38574 117.503521 
+" clip-path="url(#pabe9f3b3f3)" style="fill: none; stroke: #0f4d92; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 227.878601 121.216423 
+L 225.38574 117.503521 
+L 229.851778 117.736973 
+z
+" clip-path="url(#pabe9f3b3f3)" style="fill: #0f4d92; stroke: #0f4d92; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: middle; fill: #272727" x="263.601" y="18.341388" transform="rotate(-0 263.601 18.341388)">eZScholar 智能学术检索 Agent —— 先宽后窄检索闭环</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 6.5px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: middle; fill: #0f4d92" x="263.601" y="243.787475" transform="rotate(-0 263.601 243.787475)">蓝色模块 = 本项目创新点；灰线 = 检索闭环</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 7.5px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(51.36426 21.320706)">复杂学术查询</text>
+    <text style="font-size: 7.5px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(49.174026 29.913831)">(自然语言长句)</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(52.17223 83.952998)">查询解析</text>
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(37.29723 91.729123)">→ 结构化中间表示</text>
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(41.67223 99.514435)">约束/年限/方法</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(166.61669 83.95792)">子查询规划</text>
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(166.61669 91.716982)">联想词专名</text>
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(160.599971 99.460295)">5 个高优子查询</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(290.62516 84.71556)">多源召回</text>
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(290.340785 91.736998)">OpenAlex</text>
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(276.996488 98.758435)">+ Semantic Scholar</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(403.4416 88.164701)">词法粗筛</text>
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(407.343553 95.295076)">Top-40</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(412.76165 178.184944)">大语言模型</text>
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(416.26165 185.920381)">综合精排</text>
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(403.427041 193.680756)">证据链+约束覆盖</text>
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(416.26165 201.456881)">动态截断</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(239.34496 178.384006)">引文扩展</text>
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(225.278788 185.690256)">(Semantic Scholar /</text>
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(238.322851 193.559569)">开放引文)</text>
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(239.34496 201.235944)">多轮早停</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(35.85218 182.199881)">结构化推荐</text>
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(41.787961 189.750256)">F1 评测</text>
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; fill: #272727" transform="translate(35.85218 197.518506)">证据可溯源</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pabe9f3b3f3">
+   <rect x="7.2" y="7.2" width="512.802" height="243.936"/>
+  </clipPath>
+ </defs>
+</svg>

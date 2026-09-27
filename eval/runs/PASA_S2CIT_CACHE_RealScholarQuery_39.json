@@ -1,0 +1,33 @@
+{
+  "experiment_id": "PASA_S2CIT_CACHE",
+  "query_id": "RealScholarQuery_39",
+  "raw_query": "Help me search for the work related to the synthetic data of large language models. I want to know how to automatically generate large-scale, high-quality, diverse, difficult, and valuable long thought data for learning.",
+  "gold_ids": [
+    "title:deepseek-prover: advancing theorem proving in llms through large-scale synthetic data",
+    "title:mustard: mastering uniform synthesis of theorem and proof data",
+    "title_n:deepseekproveradvancingtheoremprovinginllmsthroughlargescalesyntheticdata",
+    "title_n:mustardmasteringuniformsynthesisoftheoremandproofdata"
+  ],
+  "predicted_ids": [],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 26928.3,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Help me search for the work related to the synthetic data of large language mode",
+      "api": "error",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 19:36:33"
+}

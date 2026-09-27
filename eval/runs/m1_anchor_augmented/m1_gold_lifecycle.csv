@@ -1,0 +1,10 @@
+query_id,canonical_id,title_n,first_seen_stage,first_seen_query,first_seen_rank,query_type,survived_prekeep,pre_rerank_rank,reranker_rank,final_rank,drop_stage,drop_reason
+RealScholarQuery_6,doi:10.18653/v1/2023.acl-long.557,interleavingretrievalwithchainofthoughtreasoningforknowledgeintensivemultistepquestions,regular_recall,HotPotQA benchmark LLM,24,anchor,False,,,,reranker_truncation,below_keep_threshold_or_topk
+RealScholarQuery_6,doi:10.18653/v1/2024.acl-long.717,holmeshyperrelationalknowledgegraphsformultihopquestionansweringusingllms,regular_recall,HotPotQA benchmark LLM,25,anchor,True,30,13,13,,
+RealScholarQuery_6,doi:10.18653/v1/2023.findings-emnlp.985,chatcottoolaugmentedchainofthoughtreasoningonchatbasedlargelanguagemodels,regular_recall,HotPotQA benchmark LLM,35,anchor,True,1,2,2,,
+RealScholarQuery_17,doi:10.18653/v1/2022.findings-emnlp.329,thinkingaboutgpt3incontextlearningforbiomedicaliethinkagain,regular_recall,GPT-3 in-context learning NER limitations,16,anchor,True,8,1,1,,
+RealScholarQuery_23,doi:10.1109/cvpr52733.2024.00618,instructvideoinstructingvideodiffusionmodelswithhumanfeedback,regular_recall,InstructVideo reward model,27,anchor,True,7,4,4,,
+RealScholarQuery_23,doi:10.48550/arxiv.2312.12490,instructvideoinstructingvideodiffusionmodelswithhumanfeedback,regular_recall,InstructVideo reward model,28,anchor,True,8,5,5,,
+RealScholarQuery_35,doi:10.48550/arxiv.2402.17764,theeraof1bitllmsalllargelanguagemodelsarein158bits,regular_recall,BitNet quantized LLM training,3,anchor,False,,,,reranker_truncation,below_keep_threshold_or_topk
+RealScholarQuery_43,doi:10.48550/arxiv.2403.16576,antigenspecificantibodydesignviadirectenergybasedpreferenceoptimization,regular_recall,DPO antibody design optimization,3,core,True,30,4,4,,
+RealScholarQuery_43,doi:10.48550/arxiv.2403.04187,preferenceoptimizationofproteinlanguagemodelsasamultiobjectivebinderdesignparadigm,regular_recall,DPO antibody design optimization,14,core,True,10,3,3,,

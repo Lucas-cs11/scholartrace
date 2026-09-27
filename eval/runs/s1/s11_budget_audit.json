@@ -1,0 +1,187 @@
+{
+  "verdict": "PASS",
+  "config_budget_max": 66,
+  "total_planned_followups": 66,
+  "total_executed_followups": 62,
+  "total_filtered_followups": 4,
+  "total_newly_discovered_papers": 749,
+  "total_final_round2_papers": 0,
+  "rows": [
+    {
+      "query_id": "RealScholarQuery_0",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 37,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_6",
+      "planned_followups": 3,
+      "executed_followups": 1,
+      "filtered_followups": 2,
+      "newly_discovered_papers": 16,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_8",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 24,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_14",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 33,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_15",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 40,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_17",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 50,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_20",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 37,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_21",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 37,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_22",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 14,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_23",
+      "planned_followups": 3,
+      "executed_followups": 2,
+      "filtered_followups": 1,
+      "newly_discovered_papers": 30,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_25",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 36,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_28",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 39,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_29",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 39,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_34",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 46,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_35",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 26,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_38",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 27,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_39",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 23,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_41",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 42,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_42",
+      "planned_followups": 3,
+      "executed_followups": 2,
+      "filtered_followups": 1,
+      "newly_discovered_papers": 21,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_43",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 42,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_47",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 51,
+      "final_round2_papers": 0
+    },
+    {
+      "query_id": "RealScholarQuery_48",
+      "planned_followups": 3,
+      "executed_followups": 3,
+      "filtered_followups": 0,
+      "newly_discovered_papers": 39,
+      "final_round2_papers": 0
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "experiment_id": "PASA_ASSOC_3",
+  "query_id": "RealScholarQuery_34",
+  "raw_query": "Show me research on 3d scene understanding leveraging progress on 3D AIGC foundation models.",
+  "gold_ids": [
+    "title:3d-virtfusion: synthetic 3d data augmentation through generative diffusion models and controllable editing",
+    "title:3d-vla: a 3d vision-language-action generative world model",
+    "title:bridging the domain gap: self-supervised 3d scene understanding with foundation models",
+    "title:conceptfusion: open-set multimodal 3d mapping",
+    "title:fmgs: foundation model embedded 3d gaussian splatting for holistic 3d scene understanding",
+    "title:lexicon3d: probing visual foundation models for complex 3d scene understanding",
+    "title:sceneverse: scaling 3d vision-language learning for grounded scene understanding",
+    "title_n:3dvirtfusionsynthetic3ddataaugmentationthroughgenerativediffusionmodelsandcontrollableediting",
+    "title_n:3dvlaa3dvisionlanguageactiongenerativeworldmodel",
+    "title_n:bridgingthedomaingapselfsupervised3dsceneunderstandingwithfoundationmodels",
+    "title_n:conceptfusionopensetmultimodal3dmapping",
+    "title_n:fmgsfoundationmodelembedded3dgaussiansplattingforholistic3dsceneunderstanding",
+    "title_n:lexicon3dprobingvisualfoundationmodelsforcomplex3dsceneunderstanding",
+    "title_n:sceneversescaling3dvisionlanguagelearningforgroundedsceneunderstanding"
+  ],
+  "predicted_ids": [
+    "W4385809408",
+    "W4366999256",
+    "W4387947390",
+    "W4365601249",
+    "W4402381574",
+    "W4376653674",
+    "W4390962970",
+    "W4402699251",
+    "W4391484075",
+    "W4383176139",
+    "W4409568306",
+    "W4412507263",
+    "W4377121531",
+    "W4386655647",
+    "W4406814982",
+    "W4407215835",
+    "W4389332140",
+    "W4412469951",
+    "W4406947263",
+    "W4401587065"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 23,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 50638.4,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Show me research on 3d scene understanding leveraging progress on 3D AIGC foundation models.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "Show me research on 3d scene understanding leveraging progress on 3D AIGC foundation models.",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Show me research on 3d scene understanding leveraging progress on 3D AIGC foundation models.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 41,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-24 12:53:36"
+}

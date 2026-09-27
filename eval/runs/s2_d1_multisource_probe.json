@@ -1,0 +1,168 @@
+{
+  "direction": "S2-D1 multisource probe",
+  "s2_limit": 20,
+  "n_queries": 22,
+  "n_subqueries": 89,
+  "stat": {
+    "n_gold": 184,
+    "in_OA": 22,
+    "found_by_s2": 22,
+    "new_by_s2": 13
+  },
+  "per_query": [
+    {
+      "qid": "RealScholarQuery_0",
+      "n_gold": 9,
+      "in_OA": 1,
+      "found_by_s2": 1,
+      "new_by_s2": 1
+    },
+    {
+      "qid": "RealScholarQuery_14",
+      "n_gold": 9,
+      "in_OA": 0,
+      "found_by_s2": 0,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_15",
+      "n_gold": 5,
+      "in_OA": 2,
+      "found_by_s2": 0,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_17",
+      "n_gold": 9,
+      "in_OA": 0,
+      "found_by_s2": 0,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_20",
+      "n_gold": 4,
+      "in_OA": 0,
+      "found_by_s2": 0,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_21",
+      "n_gold": 2,
+      "in_OA": 0,
+      "found_by_s2": 0,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_22",
+      "n_gold": 3,
+      "in_OA": 0,
+      "found_by_s2": 0,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_23",
+      "n_gold": 2,
+      "in_OA": 1,
+      "found_by_s2": 2,
+      "new_by_s2": 1
+    },
+    {
+      "qid": "RealScholarQuery_25",
+      "n_gold": 1,
+      "in_OA": 1,
+      "found_by_s2": 1,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_28",
+      "n_gold": 4,
+      "in_OA": 0,
+      "found_by_s2": 0,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_29",
+      "n_gold": 8,
+      "in_OA": 3,
+      "found_by_s2": 0,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_34",
+      "n_gold": 7,
+      "in_OA": 0,
+      "found_by_s2": 0,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_35",
+      "n_gold": 7,
+      "in_OA": 2,
+      "found_by_s2": 3,
+      "new_by_s2": 1
+    },
+    {
+      "qid": "RealScholarQuery_38",
+      "n_gold": 17,
+      "in_OA": 0,
+      "found_by_s2": 0,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_39",
+      "n_gold": 2,
+      "in_OA": 0,
+      "found_by_s2": 0,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_41",
+      "n_gold": 5,
+      "in_OA": 1,
+      "found_by_s2": 1,
+      "new_by_s2": 1
+    },
+    {
+      "qid": "RealScholarQuery_42",
+      "n_gold": 10,
+      "in_OA": 0,
+      "found_by_s2": 0,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_43",
+      "n_gold": 28,
+      "in_OA": 0,
+      "found_by_s2": 0,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_47",
+      "n_gold": 4,
+      "in_OA": 2,
+      "found_by_s2": 2,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_48",
+      "n_gold": 8,
+      "in_OA": 0,
+      "found_by_s2": 0,
+      "new_by_s2": 0
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "n_gold": 24,
+      "in_OA": 9,
+      "found_by_s2": 12,
+      "new_by_s2": 9
+    },
+    {
+      "qid": "RealScholarQuery_8",
+      "n_gold": 16,
+      "in_OA": 0,
+      "found_by_s2": 0,
+      "new_by_s2": 0
+    }
+  ]
+}

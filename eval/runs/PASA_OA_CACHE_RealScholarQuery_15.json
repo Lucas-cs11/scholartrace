@@ -1,0 +1,159 @@
+{
+  "experiment_id": "PASA_OA_CACHE",
+  "query_id": "RealScholarQuery_15",
+  "raw_query": "Provide papers claiming that reinforcement learning can negatively impact the performance of supervised fine-tuned LLMs.",
+  "gold_ids": [
+    "title:discovering language model behaviors with model-written evaluations",
+    "title:fundamental limitations of alignment in large language models",
+    "title:reward collapse in aligning large language models",
+    "title:understanding the effects of rlhf on llm generalisation and diversity",
+    "title:vanishing gradients in reinforcement finetuning of language models",
+    "title_n:discoveringlanguagemodelbehaviorswithmodelwrittenevaluations",
+    "title_n:fundamentallimitationsofalignmentinlargelanguagemodels",
+    "title_n:rewardcollapseinaligninglargelanguagemodels",
+    "title_n:understandingtheeffectsofrlhfonllmgeneralisationanddiversity",
+    "title_n:vanishinggradientsinreinforcementfinetuningoflanguagemodels"
+  ],
+  "predicted_ids": [
+    "W4417449944",
+    "W4414281281",
+    "W4411063470",
+    "W4386437475",
+    "W7161655712",
+    "W4391399751",
+    "W4391591760",
+    "W4402670694",
+    "W4387561082",
+    "W4404355604",
+    "W4405552797",
+    "W7154539106",
+    "W4392240262",
+    "W4390833079",
+    "W4409686497",
+    "W4367000428",
+    "W4362515116",
+    "W4404782801",
+    "W4407131581",
+    "W7163597624"
+  ],
+  "precision": 0.05,
+  "recall": 0.2,
+  "f1": 0.08,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 2965.8,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Provide papers claiming that reinforcement learning can negatively impact the performance of supervised fine-tuned LLMs.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "RL hurts supervised fine-tuning language model",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "reinforcement learning degrades fine-tuned LLM performance",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "RL unfine-tuning LLM",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "reinforcement learning negative impact supervised fine-tuned LLM",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "adversarial effects of RL on SFT language models",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "RL unfine-tuning",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "RL harms SFT LLM",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "negative transfer RL SFT",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "RL degrades instruction tuning",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "catastrophic forgetting RL SFT",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "RL interference supervised fine-tuning",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 18:17:24"
+}

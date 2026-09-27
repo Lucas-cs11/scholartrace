@@ -1,0 +1,10 @@
+# DEEP 模式：Round1 → SearchObservation → Round2 Planner → Follow-up Retrieval → Merge → Rerank → Results
+# Round2 使用冻结的 M5A Planner（不修改 prompt）
+mode: deep
+offline: true
+top_k: 20
+max_evidence: 8
+max_followup: 3
+budget_max_new_searches: 66
+recall_per_subquery: 20
+planner_version: m5a-planner-v1

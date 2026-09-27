@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B0",
+  "query_id": "q016",
+  "raw_query": "knowledge graph embedding by representing relations as translations in low-dimensional vector space, link prediction",
+  "gold_ids": [
+    "doi:10.5555/2987189.2987276",
+    "openalex:W2127795553",
+    "title:translating embeddings for modeling multi-relational data"
+  ],
+  "predicted_ids": [
+    "W2997897037",
+    "W2283196293",
+    "W2890216969",
+    "W2963688791",
+    "W3120491054",
+    "W2336384382",
+    "W3174905206",
+    "W3138149011",
+    "W2963203544",
+    "W3007807538",
+    "W2158028897",
+    "W2964007976",
+    "W2997837621",
+    "W3021393704",
+    "W3217681006",
+    "W1533230146",
+    "W2605234117",
+    "W2964116313",
+    "W2551361256",
+    "W3174206097"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 1,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 2669.0,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-20 20:26:55"
+}

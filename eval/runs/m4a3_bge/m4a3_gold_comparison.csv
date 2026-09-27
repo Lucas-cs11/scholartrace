@@ -1,0 +1,9 @@
+query_id,canonical_id,title_n,pre_rerank_rank,llm_rank,llm_selected,rrf_top20_rank,minilm_rank,bge_rank,bge_selected
+RealScholarQuery_15,doi:10.48550/arxiv.2310.06452,understandingtheeffectsofrlhfonllmgeneralisationanddiversity,9,8,1,68,5,2,1
+RealScholarQuery_47,doi:10.18653/v1/2025.naacl-long.318,finevalachinesefinancialdomainknowledgeevaluationbenchmarkforlargelanguagemodels,78,0,0,10,,80,0
+RealScholarQuery_47,doi:10.48550/arxiv.2308.09975,finevalachinesefinancialdomainknowledgeevaluationbenchmarkforlargelanguagemodels,77,0,0,8,6,3,1
+RealScholarQuery_6,doi:10.1145/3626772.3657760,imragmultiroundretrievalaugmentedgenerationthroughlearninginnermonologues,32,0,0,69,3,3,1
+RealScholarQuery_6,doi:10.18653/v1/2022.emnlp-main.142,learningtodecomposehypotheticalquestiondecompositionbasedoncomparabletexts,77,0,0,55,,30,0
+RealScholarQuery_6,doi:10.18653/v1/2023.emnlp-main.364,answeringquestionsbymetareasoningovermultiplechainsofthought,52,0,0,32,,52,0
+RealScholarQuery_6,doi:10.48550/arxiv.2210.01296,recitationaugmentedlanguagemodels,33,0,0,82,7,8,1
+RealScholarQuery_6,doi:10.48550/arxiv.2403.10131,raftadaptinglanguagemodeltodomainspecificrag,55,0,0,47,13,21,0

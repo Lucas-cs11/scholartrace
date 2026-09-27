@@ -1,0 +1,90 @@
+{
+  "experiment_id": "PASA_S2MS_CACHE",
+  "query_id": "RealScholarQuery_26",
+  "raw_query": "Scaling Laws for Fine-Grained Mixture of Experts.",
+  "gold_ids": [
+    "title:mixture of a million experts",
+    "title:scaling laws for fine-grained mixture of experts",
+    "title_n:mixtureofamillionexperts",
+    "title_n:scalinglawsforfinegrainedmixtureofexperts"
+  ],
+  "predicted_ids": [
+    "W4391801203",
+    "9548bacc4c7714151b674748dc86e2cc185a4955",
+    "2559ddde36d4a861ab54b881bbd15eb40918b159",
+    "fe100060a35c19a6c538e0453cdf3662ec015199",
+    "503163157398d2b90e1e9aa8d249ac28cf9a0a34",
+    "85dc0f90178b0f6aa4b3262e18c13cf8235c117f",
+    "W7117466219",
+    "335e3771b7cf6d65a7ac5774135be58d016adf92",
+    "aa2b7484510e3a228814c23a0a5a94c9367e14ae",
+    "217430d40cb54ddd29b6f5f13e78ad1899865ca5",
+    "78cb1717cdee3b324ce7236e347c1cf1dfeb906c",
+    "b1531bbddcf6205c749a09b330b4e5342f5ff88c",
+    "4a7bfee9af06ca1dbc8526d6d7a9c02b06109ef8",
+    "c091de48d8bbf933305932491625b1a6dd011aa7",
+    "fe5d8e5713dba7a111b1b67f211773958c3cbbe7",
+    "W4388855670",
+    "W7118219957",
+    "25067493e2a969217e6c8b8115462184390bb2bd",
+    "33b442cf5653c25b34f1adab52a0953ed92ffee0",
+    "W4200634402"
+  ],
+  "precision": 0.05,
+  "recall": 0.5,
+  "f1": 0.0909,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 17733.8,
+  "schema_valid": false,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Scaling Laws for Fine-Grained Mixture of Experts.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "Mixture of Experts scaling laws",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "fine-grained MoE",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "scaling laws mixture of experts",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "MoE scaling",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 18:37:08"
+}

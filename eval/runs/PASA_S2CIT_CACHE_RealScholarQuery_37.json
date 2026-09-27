@@ -1,0 +1,49 @@
+{
+  "experiment_id": "PASA_S2CIT_CACHE",
+  "query_id": "RealScholarQuery_37",
+  "raw_query": "Give me some papers showing that LLM agents can do schedule planning.",
+  "gold_ids": [
+    "title:aios: llm agent operating system",
+    "title:can we rely on llm agents to draft long-horizon plans? let's take travelplanner as an example",
+    "title:generative agents: interactive simulacra of human behavior",
+    "title:incorporating large language models into production systems for enhanced task automation and flexibility",
+    "title:large language models as commonsense knowledge for large-scale task planning",
+    "title:large language models for power scheduling: a user-centric approach",
+    "title:llms can schedule",
+    "title:reprompt: planning by automatic prompt engineering for large language models agents",
+    "title:robogpt: an intelligent agent of making embodied long-term decisions for daily instruction tasks",
+    "title:smart language agents in real-world planning",
+    "title_n:aiosllmagentoperatingsystem",
+    "title_n:canwerelyonllmagentstodraftlonghorizonplansletstaketravelplannerasanexample",
+    "title_n:generativeagentsinteractivesimulacraofhumanbehavior",
+    "title_n:incorporatinglargelanguagemodelsintoproductionsystemsforenhancedtaskautomationandflexibility",
+    "title_n:largelanguagemodelsascommonsenseknowledgeforlargescaletaskplanning",
+    "title_n:largelanguagemodelsforpowerschedulingausercentricapproach",
+    "title_n:llmscanschedule",
+    "title_n:repromptplanningbyautomaticpromptengineeringforlargelanguagemodelsagents",
+    "title_n:robogptanintelligentagentofmakingembodiedlongtermdecisionsfordailyinstructiontasks",
+    "title_n:smartlanguageagentsinrealworldplanning"
+  ],
+  "predicted_ids": [],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 11598.1,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Give me some papers showing that LLM agents can do schedule planning.",
+      "api": "error",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 19:35:49"
+}

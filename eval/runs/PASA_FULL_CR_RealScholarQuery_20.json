@@ -1,0 +1,86 @@
+{
+  "experiment_id": "PASA_FULL_CR",
+  "query_id": "RealScholarQuery_20",
+  "raw_query": "Find papers supporting the claim that knowledgeable LLMs have sufficient inductive capacity to analyze the relationships between multiple papers and systematically write a survey on them.",
+  "gold_ids": [
+    "title:explaining relationships among research papers",
+    "title:instruct large language models to generate scientific literature survey step by step",
+    "title:system for systematic literature review using multiple ai agents: concept and an empirical evaluation",
+    "title:vitality 2: reviewing academic literature using large language models",
+    "title_n:explainingrelationshipsamongresearchpapers",
+    "title_n:instructlargelanguagemodelstogeneratescientificliteraturesurveystepbystep",
+    "title_n:systemforsystematicliteraturereviewusingmultipleaiagentsconceptandanempiricalevaluation",
+    "title_n:vitality2reviewingacademicliteratureusinglargelanguagemodels"
+  ],
+  "predicted_ids": [
+    "doi:10.7717/peerj-cs.3882/fig-1",
+    "doi:10.1016/j.neunet.2025.108203",
+    "doi:10.24963/ijcai.2024/1200"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 26,
+  "llm_calls": 5,
+  "input_tokens": 5219,
+  "output_tokens": 2567,
+  "latency_ms": 61587.1,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Find papers supporting the claim that knowledgeable LLMs have sufficient inductive capacity to analyze the relationships between multiple papers and systematically write a survey on them.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 1405,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LLM survey generation",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "inductive capacity LLM",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LLM analyze multiple papers",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "automatic literature review LLM",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Find papers supporting the claim that knowledgeable LLMs have sufficient inductive capacity to analyze the relationships between multiple papers and systematically write a survey on them.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 19,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 16:15:49"
+}

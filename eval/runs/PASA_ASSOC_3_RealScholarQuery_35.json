@@ -1,0 +1,82 @@
+{
+  "experiment_id": "PASA_ASSOC_3",
+  "query_id": "RealScholarQuery_35",
+  "raw_query": "Give me papers about LLM quantized pretraining.",
+  "gold_ids": [
+    "title:exploring quantization for efficient pre-training of transformer language models",
+    "title:fp8-lm: training fp8 large language models",
+    "title:jetfire: efficient and accurate transformer pretraining with int8 data flow and per-block quantization",
+    "title:loqt: low-rank adapters for quantized pretraining",
+    "title:q-galore: quantized galore with int4 projection and layer-adaptive low-rank gradients",
+    "title:the era of 1-bit llms: all large language models are in 1.58 bits",
+    "title:training and inference of large language models using 8-bit floating point",
+    "title_n:exploringquantizationforefficientpretrainingoftransformerlanguagemodels",
+    "title_n:fp8lmtrainingfp8largelanguagemodels",
+    "title_n:jetfireefficientandaccuratetransformerpretrainingwithint8dataflowandperblockquantization",
+    "title_n:loqtlowrankadaptersforquantizedpretraining",
+    "title_n:qgalorequantizedgalorewithint4projectionandlayeradaptivelowrankgradients",
+    "title_n:theeraof1bitllmsalllargelanguagemodelsarein158bits",
+    "title_n:trainingandinferenceoflargelanguagemodelsusing8bitfloatingpoint"
+  ],
+  "predicted_ids": [
+    "W4379548477",
+    "W4409870977",
+    "W4389116614",
+    "W4377371819",
+    "W4402672034",
+    "W4415689913",
+    "W4402671506",
+    "W4402671722",
+    "W4400064518",
+    "W4392538467",
+    "W4402683789",
+    "W4387686975",
+    "W4385374425",
+    "W4321472314",
+    "W4402683730",
+    "W4361866125",
+    "W4308244910",
+    "W4392576636",
+    "W4392935324",
+    "W4384920109"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 23,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 51355.3,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Give me papers about LLM quantized pretraining.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "Give me papers about LLM quantized pretraining.",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Give me papers about LLM quantized pretraining.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 39,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-24 12:54:28"
+}

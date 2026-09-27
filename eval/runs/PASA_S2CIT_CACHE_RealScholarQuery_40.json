@@ -1,0 +1,39 @@
+{
+  "experiment_id": "PASA_S2CIT_CACHE",
+  "query_id": "RealScholarQuery_40",
+  "raw_query": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?.",
+  "gold_ids": [
+    "title:edgeqat: entropy and distribution guided quantization-aware training for the acceleration of lightweight llms on the edge",
+    "title:efficientqat: efficient quantization-aware training for large language models",
+    "title:llm-qat: data-free quantization aware training for large language models",
+    "title:low-rank quantization-aware training for llms",
+    "title:quantizing deep convolutional networks for efficient inference: a whitepaper",
+    "title_n:edgeqatentropyanddistributionguidedquantizationawaretrainingfortheaccelerationoflightweightllmsontheedge",
+    "title_n:efficientqatefficientquantizationawaretrainingforlargelanguagemodels",
+    "title_n:llmqatdatafreequantizationawaretrainingforlargelanguagemodels",
+    "title_n:lowrankquantizationawaretrainingforllms",
+    "title_n:quantizingdeepconvolutionalnetworksforefficientinferenceawhitepaper"
+  ],
+  "predicted_ids": [],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 21358.4,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Could you list research that demonstrates the advantages of Quantization-Aware T",
+      "api": "error",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 19:36:54"
+}

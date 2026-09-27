@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>研迹 ScholarTrace</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- ── 侧栏 ── -->
+  <aside class="sidebar">
+
+    <div class="sb-brand">
+      <a href="/" class="brand-link">
+        <span class="brand-zh">研迹</span>
+        <span class="brand-sep"></span>
+        <span class="brand-en">ScholarTrace</span>
+      </a>
+      <span class="online-pip" id="api-pip"></span>
+    </div>
+
+    <!-- 导航切换 -->
+    <nav class="sb-nav">
+      <button class="nav-btn active" id="nav-search" aria-pressed="true">
+        <svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+          <circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 3 3"/>
+        </svg>
+        <span class="nav-label">
+          <span class="nl-zh">查詢</span>
+          <span class="nl-en">Search</span>
+        </span>
+      </button>
+      <button class="nav-btn" id="nav-dash" aria-pressed="false">
+        <svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+          <rect x="2" y="2" width="6" height="6" rx="1.5"/>
+          <rect x="12" y="2" width="6" height="6" rx="1.5"/>
+          <rect x="2" y="12" width="6" height="6" rx="1.5"/>
+          <rect x="12" y="12" width="6" height="6" rx="1.5"/>
+        </svg>
+        <span class="nav-label">
+          <span class="nl-zh">儀表板</span>
+          <span class="nl-en">Dashboard</span>
+        </span>
+      </button>
+    </nav>
+
+    <hr class="sb-divider">
+
+    <div class="sb-section sb-grow" id="sb-history">
+      <p class="sb-heading">
+        <span class="sh-zh">近期查詢</span>
+        <span class="sh-en">Recent</span>
+      </p>
+      <div id="history-list" class="history-list">
+        <p class="hist-empty">尚無查詢記錄<br><em>No search history</em></p>
+      </div>
+    </div>
+
+    <div class="sb-foot">
+      <span class="sb-foot-txt">22 Q · 184 Gold</span>
+      <span class="audit-chip">AUDITED</span>
+    </div>
+
+  </aside>
+
+  <!-- ── 主区域 ── -->
+  <main class="main" id="main">
+
+    <!-- ── 查询视图 ── -->
+    <div id="view-search" class="view-panel">
+      <div class="main-inner" id="main-inner">
+
+        <div class="search-hero" id="search-hero">
+          <p class="hero-eyebrow">學術文獻深度查詢 · Academic Research Discovery</p>
+          <h1 class="hero-title">您想探索什麼研究課題？</h1>
+
+          <div class="search-box" id="search-box">
+            <textarea id="query" rows="3"
+              placeholder="輸入複雜學術查詢，例如：point cloud 3D deep learning classification ShapeNet benchmark…"></textarea>
+            <div class="search-bar">
+              <div class="bar-left">
+                <div class="mode-pill-wrap">
+                  <svg class="pill-icon" width="13" height="13" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+                    <circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 3 3"/>
+                  </svg>
+                  <select id="mode" aria-label="引擎模式">
+                    <option value="full">FULL — 全鏈路</option>
+                    <option value="b4">B4 — 快取控制</option>
+                    <option value="b3">B3 — LLM 重排</option>
+                    <option value="b2">B2 — 引文擴展</option>
+                    <option value="b1">B1 — 子查詢</option>
+                    <option value="b0">B0 — 詞法基線</option>
+                  </select>
+                </div>
+                <label class="synth-pill" id="synth-pill">
+                  <input type="checkbox" id="summarize" checked>
+                  <span class="sp-dot"></span>
+                  <span class="sp-text">深度歸納</span>
+                </label>
+              </div>
+              <button id="search-btn" aria-label="執行學術檢索">
+                <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+                  <circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 3 3"/>
+                </svg>
+                <span id="btn-label">檢索</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div id="pipeline" class="pipeline" hidden>
+          <div class="pipe-status-row">
+            <span id="pipe-status" class="pipe-status-txt">處理中…</span>
+          </div>
+          <div class="pipe-track-wrap">
+            <div class="pipe-track"><div class="pipe-fill" id="pipe-fill"></div></div>
+            <div class="pipe-nodes">
+              <div class="pipe-node" id="pn-0"><div class="pn-dot"></div><span>解析<em>Parse</em></span></div>
+              <div class="pipe-node" id="pn-1"><div class="pn-dot"></div><span>召回<em>Recall</em></span></div>
+              <div class="pipe-node" id="pn-2"><div class="pn-dot"></div><span>引文<em>Cite</em></span></div>
+              <div class="pipe-node" id="pn-3"><div class="pn-dot"></div><span>精排<em>Rerank</em></span></div>
+              <div class="pipe-node" id="pn-4"><div class="pn-dot"></div><span>歸納<em>Synth</em></span></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="telemetry" class="telemetry" hidden>
+          <span class="tel-item"><span class="tel-k">命中</span><span class="tel-v" id="tel-count">—</span></span>
+          <span class="tel-sep">·</span>
+          <span class="tel-item"><span class="tel-k">LLM</span><span class="tel-v" id="tel-llm">—</span></span>
+          <span class="tel-sep">·</span>
+          <span class="tel-item"><span class="tel-k">Tokens</span><span class="tel-v" id="tel-tokens">—</span></span>
+          <span class="tel-sep">·</span>
+          <span class="tel-item"><span class="tel-k">耗時</span><span class="tel-v" id="tel-latency">—</span></span>
+          <span class="tel-trace" id="tel-trace"></span>
+        </div>
+
+        <div id="summary-panel" class="summary-panel" hidden>
+          <p class="sum-q" id="query-summary"></p>
+          <div id="groups" class="sum-chips"></div>
+          <p class="sum-overall" id="overall"></p>
+        </div>
+
+        <div id="placeholder" class="placeholder">
+          <p class="ph-t">就緒 · Ready</p>
+          <p class="ph-b">輸入查詢並選擇引擎模式以啟動全鏈路文獻檢索</p>
+        </div>
+
+        <div id="results-wrap" class="results-wrap" hidden>
+          <div class="rw-header">
+            <span class="rw-zh">檢索文獻集</span>
+            <span class="rw-en">Search Results</span>
+            <span id="result-count" class="rw-count"></span>
+          </div>
+          <ol id="result-list" class="result-list"></ol>
+        </div>
+
+        <div id="graph-section" class="graph-section" hidden>
+          <div class="gs-head">
+            <span class="gs-zh">引證關聯網</span>
+            <span class="gs-en">Citation Network</span>
+            <span class="graph-legend">
+              <span class="leg-line solid"></span>引用
+              <span class="leg-line dashed"></span>被引
+            </span>
+          </div>
+          <div class="gs-body">
+            <svg id="graph-svg" width="100%" height="280"></svg>
+            <div id="graph-tip" class="graph-tip"></div>
+          </div>
+        </div>
+
+      </div>
+    </div><!-- /view-search -->
+
+    <!-- ── 仪表板视图 ── -->
+    <div id="view-dash" class="view-panel" hidden>
+      <div class="dash-inner">
+
+        <div class="dash-header">
+          <h2 class="dash-title">評測指標儀表板</h2>
+          <p class="dash-sub">Evaluation Metrics · RealScholar Corpus · <code>b3b570411ce2399c</code></p>
+        </div>
+
+        <!-- 核心评测指标 -->
+        <div class="dash-block">
+          <div class="db-head">
+            <span class="db-zh">核心評測指標</span>
+            <span class="db-en">Core Evaluation Metrics</span>
+          </div>
+          <div class="stat-grid">
+            <div class="stat-card featured">
+              <span class="stat-eye">FAST — F1 Score</span>
+              <span class="stat-num">0.0680</span>
+              <div class="stat-bar-wrap"><div class="stat-bar" style="width:45.3%"></div></div>
+              <span class="stat-note">全鏈路默認模式 · 離線基準</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-eye">DEEP — F1 Score</span>
+              <span class="stat-num">0.0641</span>
+              <div class="stat-bar-wrap"><div class="stat-bar" style="width:42.7%"></div></div>
+              <span class="stat-note">二階引文深度模式</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-eye">Gold 命中 · DEEP 最優</span>
+              <span class="stat-num">15<span class="stat-denom">/184</span></span>
+              <div class="stat-bar-wrap"><div class="stat-bar" style="width:8.2%"></div></div>
+              <span class="stat-note">FAST 命中 14 篇 · 覆蓋率 8.2%</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-eye">凍結查詢集</span>
+              <span class="stat-num">22</span>
+              <span class="stat-note">條評測查詢 · 184 Gold Papers</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-eye">結構驗證率</span>
+              <span class="stat-num">100<span class="stat-unit">%</span></span>
+              <span class="stat-note">FAST 233 篇 · DEEP 286 篇全通過</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 效能对比表 -->
+        <div class="dash-block">
+          <div class="db-head">
+            <span class="db-zh">效能對比</span>
+            <span class="db-en">Efficiency Comparison</span>
+          </div>
+          <div class="table-wrap">
+            <table class="eff-table">
+              <thead>
+                <tr>
+                  <th>指標</th>
+                  <th>FAST</th>
+                  <th>DEEP</th>
+                  <th>差異</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>LLM 調用總計</td>
+                  <td class="num-cell">74 次</td>
+                  <td class="num-cell">109 次</td>
+                  <td class="diff-cell worse">DEEP +47%</td>
+                </tr>
+                <tr>
+                  <td>LLM 調用 / 查詢</td>
+                  <td class="num-cell">3.4</td>
+                  <td class="num-cell">5.0</td>
+                  <td class="diff-cell worse">DEEP +47%</td>
+                </tr>
+                <tr>
+                  <td>Tokens / 查詢</td>
+                  <td class="num-cell">7,930</td>
+                  <td class="num-cell">11,834</td>
+                  <td class="diff-cell worse">DEEP +49%</td>
+                </tr>
+                <tr>
+                  <td>均値延遲</td>
+                  <td class="num-cell">14.1 s</td>
+                  <td class="num-cell">22.0 s</td>
+                  <td class="diff-cell worse">DEEP +56%</td>
+                </tr>
+                <tr>
+                  <td>P90 延遲</td>
+                  <td class="num-cell">24.2 s</td>
+                  <td class="num-cell">30.5 s</td>
+                  <td class="diff-cell worse">DEEP +26%</td>
+                </tr>
+                <tr>
+                  <td>候選文獻均値</td>
+                  <td class="num-cell">100.5</td>
+                  <td class="num-cell">100.5</td>
+                  <td class="diff-cell equal">相同</td>
+                </tr>
+                <tr>
+                  <td>最終輸出均値</td>
+                  <td class="num-cell">10.6 篇</td>
+                  <td class="num-cell">13.0 篇</td>
+                  <td class="diff-cell better">DEEP +23%</td>
+                </tr>
+                <tr>
+                  <td>HTTP 快取命中</td>
+                  <td class="num-cell">100%</td>
+                  <td class="num-cell">100%</td>
+                  <td class="diff-cell equal">離線重播</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 本次会话 -->
+        <div class="dash-block">
+          <div class="db-head">
+            <span class="db-zh">本次會話</span>
+            <span class="db-en">Session Statistics</span>
+          </div>
+          <div id="session-stats" class="session-grid">
+            <div class="sess-card">
+              <span class="sess-num" id="sess-queries">—</span>
+              <span class="sess-label">查詢次數<em>Queries</em></span>
+            </div>
+            <div class="sess-card">
+              <span class="sess-num" id="sess-papers">—</span>
+              <span class="sess-label">命中文獻<em>Papers Found</em></span>
+            </div>
+            <div class="sess-card">
+              <span class="sess-num" id="sess-mode">—</span>
+              <span class="sess-label">常用模式<em>Top Mode</em></span>
+            </div>
+          </div>
+          <div id="mode-breakdown" class="mode-breakdown"></div>
+        </div>
+
+        <!-- 系统通过门禁 -->
+        <div class="dash-block">
+          <div class="db-head">
+            <span class="db-zh">S2 門禁狀態</span>
+            <span class="db-en">Gate Status</span>
+          </div>
+          <div class="gate-grid">
+            <div class="gate-chip pass">CORPUS FROZEN</div>
+            <div class="gate-chip pass">METRIC SEMANTICS</div>
+            <div class="gate-chip pass">GOLD LEAKAGE</div>
+            <div class="gate-chip pass">TESTS 22/22</div>
+            <div class="gate-chip pass">FAST SCHEMA 100%</div>
+            <div class="gate-chip pass">DEEP SCHEMA 100%</div>
+            <div class="gate-chip pass">EFFICIENCY REPORT</div>
+            <div class="gate-chip pass">STRUCTURED OUTPUT</div>
+          </div>
+        </div>
+
+      </div>
+    </div><!-- /view-dash -->
+
+  </main>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

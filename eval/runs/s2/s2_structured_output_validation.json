@@ -1,0 +1,32 @@
+{
+  "eval_corpus_version": "pasa_realscholar_test_b3b570411ce2399c",
+  "frozen_queries": 22,
+  "validation": {
+    "FAST": {
+      "mode": "FAST",
+      "total_results": 233,
+      "schema_valid_results": 233,
+      "schema_valid_rate": 1.0,
+      "missing_title": 0,
+      "missing_author": "NOT_MEASURED (frozen artifact limitation)",
+      "missing_identity": "NOT_MEASURED (frozen artifact limitation)",
+      "missing_year": "NOT_MEASURED (frozen artifact limitation)",
+      "invalid_doi": "NOT_MEASURED (frozen artifact limitation)",
+      "explanation_present_rate": "NOT_MEASURED (frozen artifact limitation)",
+      "issues": []
+    },
+    "DEEP": {
+      "mode": "DEEP",
+      "total_results": 286,
+      "schema_valid_results": 286,
+      "schema_valid_rate": 1.0,
+      "missing_title": 0,
+      "missing_author": "NOT_MEASURED (frozen artifact limitation)",
+      "missing_identity": "NOT_MEASURED (frozen artifact limitation)",
+      "missing_year": "NOT_MEASURED (frozen artifact limitation)",
+      "invalid_doi": "NOT_MEASURED (frozen artifact limitation)",
+      "explanation_present_rate": "NOT_MEASURED (frozen artifact limitation)",
+      "issues": []
+    }
+  }
+}

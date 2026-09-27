@@ -1,0 +1,104 @@
+{
+  "experiment_id": "PASA_FULL",
+  "query_id": "RealScholarQuery_48",
+  "raw_query": "Papers that explore using large language models for mining factors in stock exchange analysis.",
+  "gold_ids": [
+    "title:alpha-gpt: human-ai interactive alpha mining for quantitative investment",
+    "title:automate strategy finding with llm in quant investment",
+    "title:background-aware multi-source fusion financial trend forecasting mechanism",
+    "title:can chatgpt forecast stock price movements? return predictability and large language models",
+    "title:finllama: financial sentiment classification for algorithmic trading applications",
+    "title:linking microblogging sentiments to stock price movement: an application of gpt-4",
+    "title:llmfactor: extracting profitable factors through prompts for explainable stock movement prediction",
+    "title:unveiling the potential of sentiment: can large language models predict chinese stock price movements?",
+    "title_n:alphagpthumanaiinteractivealphaminingforquantitativeinvestment",
+    "title_n:automatestrategyfindingwithllminquantinvestment",
+    "title_n:backgroundawaremultisourcefusionfinancialtrendforecastingmechanism",
+    "title_n:canchatgptforecaststockpricemovementsreturnpredictabilityandlargelanguagemodels",
+    "title_n:finllamafinancialsentimentclassificationforalgorithmictradingapplications",
+    "title_n:linkingmicrobloggingsentimentstostockpricemovementanapplicationofgpt4",
+    "title_n:llmfactorextractingprofitablefactorsthroughpromptsforexplainablestockmovementprediction",
+    "title_n:unveilingthepotentialofsentimentcanlargelanguagemodelspredictchinesestockpricemovements"
+  ],
+  "predicted_ids": [
+    "W4402683984",
+    "W4412876989",
+    "W4412590156",
+    "W4389519589",
+    "W4404350209",
+    "W4404369585",
+    "W4392859372",
+    "W4388994228",
+    "W4401545735",
+    "W4361866125",
+    "W4302028163",
+    "W770907932",
+    "W7143280918"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 26,
+  "llm_calls": 3,
+  "input_tokens": 5073,
+  "output_tokens": 1740,
+  "latency_ms": 81786.9,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Papers that explore using large language models for mining factors in stock exchange analysis.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LLM factor mining stock market",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "stock factor mining",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "large language models stock exchange analysis",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "language models financial factor extraction",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Papers that explore using large language models for mining factors in stock exchange analysis.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 56,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-24 10:01:47"
+}

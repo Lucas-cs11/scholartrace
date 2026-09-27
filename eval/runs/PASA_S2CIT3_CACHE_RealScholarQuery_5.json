@@ -1,0 +1,118 @@
+{
+  "experiment_id": "PASA_S2CIT3_CACHE",
+  "query_id": "RealScholarQuery_5",
+  "raw_query": "Papers that apply RLHF to address the hallucination problem in image and video description.",
+  "gold_ids": [
+    "title:aligning large multimodal models with factually augmented rlhf",
+    "title:aligning modalities in vision large language models via preference fine-tuning",
+    "title:dress: instructing large vision-language models to align and interact with humans via natural language feedback",
+    "title:enhancing image caption generation using reinforcement learning with human feedback",
+    "title:rlhf-v: towards trustworthy mllms via behavior alignment from fine-grained correctional human feedback",
+    "title:silkie: preference distillation for large visual language models",
+    "title:vigor: improving visual grounding of large vision language models with fine-grained reward modeling",
+    "title_n:aligninglargemultimodalmodelswithfactuallyaugmentedrlhf",
+    "title_n:aligningmodalitiesinvisionlargelanguagemodelsviapreferencefinetuning",
+    "title_n:dressinstructinglargevisionlanguagemodelstoalignandinteractwithhumansvianaturallanguagefeedback",
+    "title_n:enhancingimagecaptiongenerationusingreinforcementlearningwithhumanfeedback",
+    "title_n:rlhfvtowardstrustworthymllmsviabehavioralignmentfromfinegrainedcorrectionalhumanfeedback",
+    "title_n:silkiepreferencedistillationforlargevisuallanguagemodels",
+    "title_n:vigorimprovingvisualgroundingoflargevisionlanguagemodelswithfinegrainedrewardmodeling"
+  ],
+  "predicted_ids": [
+    "W4404792833",
+    "W4410745844",
+    "W3202965415",
+    "W4405458683",
+    "W2892087592",
+    "4921243268c81d0d6db99053a9d004852225a622",
+    "W3153712677",
+    "W4389520402",
+    "W4408862153",
+    "W2996984511",
+    "574c634e4bd28d16d9c8206ffac7ec7566b6b8ff",
+    "49b79d61ffc2db6dce8c2cd9cda06e1876ed8b4c",
+    "ea7d844f661def483e578c6324d3c85ae7bca4fe",
+    "fb1708cb3af4315b3e46ba832047a7ff03bf83cd",
+    "3573fc6368f62202c21cd20bb45a0be2f1d58069",
+    "388e0de75653e3d2bab5523469ece62035df8a26",
+    "W4386501849",
+    "W4412158322",
+    "W4391399751",
+    "W4414458686"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 48537.8,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Papers that apply RLHF to address the hallucination problem in image and video description.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "RLHF hallucination image description",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "RLHF hallucination video description",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "reinforcement learning from human feedback hallucination",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "image captioning hallucination",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "video captioning hallucination",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Papers that apply RLHF to address the hallucination problem in image and video description.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 148,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 19:44:59"
+}

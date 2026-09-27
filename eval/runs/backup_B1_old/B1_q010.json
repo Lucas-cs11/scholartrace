@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B1",
+  "query_id": "q010",
+  "raw_query": "self-supervised contrastive learning of speech representations for automatic speech recognition without transcriptions",
+  "gold_ids": [
+    "doi:10.48550/arxiv.2006.11477",
+    "openalex:W3099782249",
+    "title:wav2vec 2.0: a framework for self-supervised learning of speech representations"
+  ],
+  "predicted_ids": [
+    "W3206189675",
+    "W3198608154",
+    "W3096587983",
+    "W4226033575",
+    "W3041561163",
+    "W3205533980",
+    "W4224930323",
+    "W4226390724",
+    "W4223651314",
+    "W4281492411",
+    "W3162811262",
+    "W4319862442",
+    "W2770604845",
+    "W2020079054",
+    "W3169320628",
+    "W4287119707",
+    "W3114632476",
+    "W2975357369",
+    "W2128970689",
+    "W4387421789"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 4,
+  "llm_calls": 2,
+  "input_tokens": 828,
+  "output_tokens": 153,
+  "latency_ms": 5008.5,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-21 09:48:53"
+}

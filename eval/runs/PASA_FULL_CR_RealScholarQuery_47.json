@@ -1,0 +1,94 @@
+{
+  "experiment_id": "PASA_FULL_CR",
+  "query_id": "RealScholarQuery_47",
+  "raw_query": "How can LLM agents be evaluated and benchmarked for financial tasks? Note that I am referring to agents.",
+  "gold_ids": [
+    "title:financial knowledge large language model",
+    "title:finben: a holistic financial benchmark for large language models",
+    "title:fineval: a chinese financial domain knowledge evaluation benchmark for large language models",
+    "title:towards a realistic long-term benchmark for open-web research agents",
+    "title_n:financialknowledgelargelanguagemodel",
+    "title_n:finbenaholisticfinancialbenchmarkforlargelanguagemodels",
+    "title_n:finevalachinesefinancialdomainknowledgeevaluationbenchmarkforlargelanguagemodels",
+    "title_n:towardsarealisticlongtermbenchmarkforopenwebresearchagents"
+  ],
+  "predicted_ids": [
+    "doi:10.18653/v1/2026.findings-acl.1934",
+    "doi:10.1109/icce-taiwan66881.2025.11207858",
+    "doi:10.3905/jfds.2026.008",
+    "doi:10.21541/apjess.1812322",
+    "doi:10.3390/math14152695",
+    "doi:10.54691/7z458936",
+    "doi:10.22541/au.177499048.88707055/v1",
+    "doi:10.1109/southeastcon63549.2026.11476161",
+    "doi:10.36227/techrxiv.177222530.04005985/v1",
+    "doi:10.36227/techrxiv.176799772.28164151/v1",
+    "doi:10.21203/rs.3.rs-10026792/v1",
+    "doi:10.2139/ssrn.6830898",
+    "doi:10.1109/icdew71238.2026.00009",
+    "doi:10.2139/ssrn.4769124",
+    "doi:10.20944/preprints202606.2203.v1",
+    "doi:10.52710/cfs.951",
+    "doi:10.31235/osf.io/s37ax",
+    "doi:10.31219/osf.io/arvhx",
+    "doi:10.1145/3805760.3814931",
+    "doi:10.65109/rvab7186"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 14,
+  "llm_calls": 5,
+  "input_tokens": 5384,
+  "output_tokens": 2681,
+  "latency_ms": 45280.1,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "How can LLM agents be evaluated and benchmarked for financial tasks? Note that I am referring to agents.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 1270,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "financial agent benchmark",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LLM agent evaluation financial tasks",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LLM agents evaluation finance",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "agent benchmark finance LLM",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 16:43:05"
+}

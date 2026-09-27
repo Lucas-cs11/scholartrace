@@ -1,0 +1,148 @@
+{
+  "experiment_id": "PASA_S2TLDR_CACHE",
+  "query_id": "RealScholarQuery_47",
+  "raw_query": "How can LLM agents be evaluated and benchmarked for financial tasks? Note that I am referring to agents.",
+  "gold_ids": [
+    "title:financial knowledge large language model",
+    "title:finben: a holistic financial benchmark for large language models",
+    "title:fineval: a chinese financial domain knowledge evaluation benchmark for large language models",
+    "title:towards a realistic long-term benchmark for open-web research agents",
+    "title_n:financialknowledgelargelanguagemodel",
+    "title_n:finbenaholisticfinancialbenchmarkforlargelanguagemodels",
+    "title_n:finevalachinesefinancialdomainknowledgeevaluationbenchmarkforlargelanguagemodels",
+    "title_n:towardsarealisticlongtermbenchmarkforopenwebresearchagents"
+  ],
+  "predicted_ids": [
+    "W4401545735",
+    "ff312b6027d012403760c288fd6531145006cb9f",
+    "39b9a8c72599e2842307642b2d3902664e4b787e",
+    "794c30f6ea5d846b9a19457bb08ce24871e23f4c",
+    "18b1792f789f695b6a69229cd6a67cca99055307",
+    "1860c36e9d8fd7b61249077c84f8633ad521b3c1",
+    "ac4216307f49a28f0bf6405516bbf903ad9c1b11",
+    "a0f5fe3e514202f1b7021ab31dab26669c6d5acf",
+    "7897014ae2caeee70d65df37ba8e5ed2bb3c4aee",
+    "74e898dbf4a82980d600828f6ffcb6cd1c4d1522",
+    "W4414039849",
+    "60d168a660c89e1819e12b67a24534c7876000a7",
+    "0b41a6899c29a04e1217e6cc80a3d915ea18e2d8",
+    "42e87ad306a715f6000d0c1670a3e0951a162464",
+    "W4411700982",
+    "W2183940924",
+    "83b1949f9a4d1694548120c8dc632f29cd62aa82",
+    "5f4efbe3aae1d8f44ceab1da257ae685d6beb00b",
+    "fe6e201cbb8f05cd5035f74b156f227c5b580678",
+    "W7131418935"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 123504.9,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "How can LLM agents be evaluated and benchmarked for financial tasks? Note that I am referring to agents.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "financial LLM agent benchmark",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "agent evaluation finance",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LLM agents financial evaluation benchmark",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LLM agent financial tasks",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "FinAgent benchmark",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "TradingAgents",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 25,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "FinBen",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "FinEval",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 27,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "AgentBench finance",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "FinLLM agent evaluation",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 19:21:20"
+}

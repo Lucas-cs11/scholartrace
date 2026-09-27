@@ -1,0 +1,16 @@
+query_id,original_subquery_count,rescue_subquery_count,rescue_before_raw_gold,rescue_after_raw_gold,new_gold_papers,incremental_gold_per_call,core_new_gold,anchor_new_gold,discovery_new_gold
+RealScholarQuery_8,1,4,0,0,0,0.0,0,0,0
+RealScholarQuery_14,1,4,0,0,0,0.0,0,0,0
+RealScholarQuery_17,1,3,0,1,1,0.333,0,0,1
+RealScholarQuery_20,1,4,0,0,0,0.0,0,0,0
+RealScholarQuery_21,1,4,0,0,0,0.0,0,0,0
+RealScholarQuery_22,1,3,0,0,0,0.0,0,0,0
+RealScholarQuery_28,1,4,0,1,1,0.25,0,1,0
+RealScholarQuery_29,1,4,3,1,0,0.0,0,0,0
+RealScholarQuery_34,1,3,0,0,0,0.0,0,0,0
+RealScholarQuery_38,1,3,0,0,0,0.0,0,0,0
+RealScholarQuery_39,1,4,0,0,0,0.0,0,0,0
+RealScholarQuery_41,1,3,1,0,0,0.0,0,0,0
+RealScholarQuery_42,1,4,0,1,1,0.25,0,1,0
+RealScholarQuery_43,1,3,0,0,0,0.0,0,0,0
+RealScholarQuery_48,1,4,0,0,0,0.0,0,0,0

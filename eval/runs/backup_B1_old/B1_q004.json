@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B1",
+  "query_id": "q004",
+  "raw_query": "pre-trained bidirectional transformer encoder for natural language understanding fine-tuning BERT",
+  "gold_ids": [
+    "doi:10.18653/v1/n19-1423",
+    "openalex:W2963341956",
+    "title:bert: pre-training of deep bidirectional transformers for language understanding"
+  ],
+  "predicted_ids": [
+    "W3015851404",
+    "W3127238141",
+    "W3087291937",
+    "W3100110884",
+    "W2945260553",
+    "W2971274815",
+    "W3198685994",
+    "W2911489562",
+    "W3105966348",
+    "W2974875810",
+    "W4322766882",
+    "W3021636956",
+    "W2998230451",
+    "W3173482217",
+    "W4382246105",
+    "W2963854351",
+    "W3193647133",
+    "W3209287741",
+    "W2945824677",
+    "W4281689302"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 4,
+  "llm_calls": 2,
+  "input_tokens": 814,
+  "output_tokens": 141,
+  "latency_ms": 5044.3,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-21 09:48:22"
+}

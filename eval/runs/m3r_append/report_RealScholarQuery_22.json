@@ -1,0 +1,18 @@
+{
+  "experiment": "PASA_ASSOC_M3R_APPEND",
+  "query_id": "RealScholarQuery_22",
+  "append": true,
+  "f1": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "tp": 0,
+  "api_calls": 0,
+  "cache_hits": 4,
+  "llm_calls": 3,
+  "input_tokens": 4772,
+  "output_tokens": 1790,
+  "latency_ms": 13521.5,
+  "n_predicted": 5,
+  "raw_candidates": 66,
+  "rerank_pool_candidates": 40
+}

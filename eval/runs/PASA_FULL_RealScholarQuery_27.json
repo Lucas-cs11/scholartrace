@@ -1,0 +1,113 @@
+{
+  "experiment_id": "PASA_FULL",
+  "query_id": "RealScholarQuery_27",
+  "raw_query": "Show me research on rejection sampling finetuning.",
+  "gold_ids": [
+    "title:arithmetic control of llms for diverse user preferences: directional preference alignment with multi-objective rewards",
+    "title:breaking language barriers in multilingual mathematical reasoning: insights and observations",
+    "title:dart-math: difficulty-aware rejection tuning for mathematical problem-solving",
+    "title:let ai entertain you: increasing user engagement with generative ai and rejection sampling",
+    "title:rs-dpo: a hybrid rejection sampling and direct preference optimization method for alignment of large language models",
+    "title:scaling relationship on learning mathematical reasoning with large language models",
+    "title:self-play with execution feedback: improving instruction-following capabilities of large language models",
+    "title:statistical rejection sampling improves preference optimization",
+    "title:xwin-lm: strong and scalable alignment practice for llms",
+    "title_n:arithmeticcontrolofllmsfordiverseuserpreferencesdirectionalpreferencealignmentwithmultiobjectiverewards",
+    "title_n:breakinglanguagebarriersinmultilingualmathematicalreasoninginsightsandobservations",
+    "title_n:dartmathdifficultyawarerejectiontuningformathematicalproblemsolving",
+    "title_n:letaientertainyouincreasinguserengagementwithgenerativeaiandrejectionsampling",
+    "title_n:rsdpoahybridrejectionsamplinganddirectpreferenceoptimizationmethodforalignmentoflargelanguagemodels",
+    "title_n:scalingrelationshiponlearningmathematicalreasoningwithlargelanguagemodels",
+    "title_n:selfplaywithexecutionfeedbackimprovinginstructionfollowingcapabilitiesoflargelanguagemodels",
+    "title_n:statisticalrejectionsamplingimprovespreferenceoptimization",
+    "title_n:xwinlmstrongandscalablealignmentpracticeforllms"
+  ],
+  "predicted_ids": [
+    "W2569934227",
+    "W2138262447",
+    "W2897371726",
+    "W4401042987",
+    "W4386793209",
+    "W2588904962",
+    "W2605041430",
+    "W2168173277",
+    "W2028556838",
+    "W2607757577",
+    "W2204383650",
+    "W41222772",
+    "W1968177355",
+    "W4388289942",
+    "W3046368065",
+    "W2033057584",
+    "W1977691009",
+    "W2085649379",
+    "W2071365301",
+    "W1988734258"
+  ],
+  "precision": 0.1,
+  "recall": 0.2222,
+  "f1": 0.1379,
+  "api_calls": 26,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 26620.3,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Show me research on rejection sampling finetuning.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "rejection sampling",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "finetuning",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "rejection sampling finetuning",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "RLHF rejection sampling",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Show me research on rejection sampling finetuning.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 33,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-24 08:18:49"
+}

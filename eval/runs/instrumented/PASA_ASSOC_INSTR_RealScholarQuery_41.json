@@ -1,0 +1,61 @@
+{
+  "experiment_id": "PASA_ASSOC_INSTR",
+  "query_id": "RealScholarQuery_41",
+  "raw_query": "Using synthesis data for scaling up sft data.",
+  "gold_ids": [
+    "title:api-guided dataset synthesis to finetune large code models",
+    "title:common 7b language models already possess strong math capabilities",
+    "title:fullanno: a data engine for enhancing image comprehension of mllms",
+    "title:magpie: alignment data synthesis from scratch by prompting aligned llms with nothing",
+    "title:skywork-math: data scaling laws for mathematical reasoning in large language models -- the story goes on",
+    "title_n:apiguideddatasetsynthesistofinetunelargecodemodels",
+    "title_n:common7blanguagemodelsalreadypossessstrongmathcapabilities",
+    "title_n:fullannoadataengineforenhancingimagecomprehensionofmllms",
+    "title_n:magpiealignmentdatasynthesisfromscratchbypromptingalignedllmswithnothing",
+    "title_n:skyworkmathdatascalinglawsformathematicalreasoninginlargelanguagemodelsthestorygoeson"
+  ],
+  "predicted_ids": [
+    "W4399657778",
+    "W4322759378",
+    "W2789378330"
+  ],
+  "precision": 0.3333,
+  "recall": 0.2,
+  "f1": 0.25,
+  "api_calls": 22,
+  "llm_calls": 3,
+  "input_tokens": 4046,
+  "output_tokens": 1861,
+  "latency_ms": 151268.9,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Using synthesis data for scaling up sft data.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "Using synthesis data for scaling up sft data.",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Using synthesis data for scaling up sft data.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 59,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-24 12:00:00"
+}

@@ -1,0 +1,105 @@
+{
+  "experiment_id": "PASA_FULL_CR",
+  "query_id": "RealScholarQuery_49",
+  "raw_query": "Can you help me find research papers that explore the use of large vision-language models as agents to automatically play PC games?",
+  "gold_ids": [
+    "title:atari-gpt: investigating the capabilities of multimodal large language models as low-level policies for atari games",
+    "title:can vlms play action role-playing games? take black myth wukong as a study case",
+    "title:groot: learning to follow instructions by watching gameplay videos",
+    "title:jarvis-1: open-world multi-task agents with memory-augmented multimodal language models",
+    "title:octopus: embodied vision-language programmer from environmental feedback",
+    "title:steve-1: a generative model for text-to-behavior in minecraft",
+    "title:towards general computer control: a multimodal agent for red dead redemption ii as a case study",
+    "title:will gpt-4 run doom?",
+    "title_n:atarigptinvestigatingthecapabilitiesofmultimodallargelanguagemodelsaslowlevelpoliciesforatarigames",
+    "title_n:canvlmsplayactionroleplayinggamestakeblackmythwukongasastudycase",
+    "title_n:grootlearningtofollowinstructionsbywatchinggameplayvideos",
+    "title_n:jarvis1openworldmultitaskagentswithmemoryaugmentedmultimodallanguagemodels",
+    "title_n:octopusembodiedvisionlanguageprogrammerfromenvironmentalfeedback",
+    "title_n:steve1agenerativemodelfortexttobehaviorinminecraft",
+    "title_n:towardsgeneralcomputercontrolamultimodalagentforreddeadredemptioniiasacasestudy",
+    "title_n:willgpt4rundoom"
+  ],
+  "predicted_ids": [
+    "doi:10.18653/v1/2025.findings-acl.920",
+    "doi:10.52202/079017-2751",
+    "doi:10.1145/3649921.3650013",
+    "doi:10.1109/tg.2026.3716328",
+    "doi:10.1109/tg.2025.3614499"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 27,
+  "llm_calls": 5,
+  "input_tokens": 5194,
+  "output_tokens": 2554,
+  "latency_ms": 59492.9,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Can you help me find research papers that explore the use of large vision-language models as agents to automatically play PC games?",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 1318,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "large vision-language models agents",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "vision-language models play games",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "VLM agents gaming",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "multimodal agents PC games",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "autonomous agents video games",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Can you help me find research papers that explore the use of large vision-language models as agents to automatically play PC games?",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 24,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 16:44:55"
+}

@@ -1,0 +1,63 @@
+{
+  "experiment_id": "PASA_S2TLDR_CACHE",
+  "query_id": "RealScholarQuery_21",
+  "raw_query": "Search for papers related to large language models that demonstrate how the same prompt with different responses can improve the performance of the SFT model.",
+  "gold_ids": [
+    "title:curry-dpo: enhancing alignment using curriculum learning &amp;amp; ranked preferences",
+    "title:relative preference optimization: enhancing llm alignment through contrasting responses across identical and diverse prompts",
+    "title_n:currydpoenhancingalignmentusingcurriculumlearningampamprankedpreferences",
+    "title_n:relativepreferenceoptimizationenhancingllmalignmentthroughcontrastingresponsesacrossidenticalanddiverseprompts"
+  ],
+  "predicted_ids": [
+    "W4404792888",
+    "W4392782765",
+    "W4320165837",
+    "W4402669773",
+    "W4399357038",
+    "W1558112948",
+    "W4384389802",
+    "W4381572755",
+    "W4403601954",
+    "W4385645323",
+    "W4386711999",
+    "W1561558283",
+    "W4393065402",
+    "W4386184788",
+    "W2789599895",
+    "W4226146865",
+    "W2060654012",
+    "W2003600100",
+    "W2065077342",
+    "W2972683267"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 7590.8,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Search for papers related to large language models that demonstrate how the same prompt with different responses can improve the performance of the SFT model.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "Search for papers related to large language models that demonstrate how the same prompt with different responses can imp",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 19:10:48"
+}

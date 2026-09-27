@@ -1,0 +1,315 @@
+{
+  "fast": {
+    "original_question": "how can reinforcement learning with human feedback improve alignment of LLMs, and what are the key methods and benchmarks?",
+    "planner_version": "m5a-planner-v1",
+    "prompt_hash": "c914dc27fbff32d0",
+    "generated_queries": [
+      {
+        "query": "protein design antibody DPO",
+        "intent": "core",
+        "priority": 5,
+        "round": 1
+      },
+      {
+        "query": "AI for Science protein design",
+        "intent": "anchor",
+        "priority": 4,
+        "round": 1
+      },
+      {
+        "query": "direct preference optimization antibody engineering",
+        "intent": "discovery",
+        "priority": 3,
+        "round": 1
+      },
+      {
+        "query": "AI for Science papers, especially protein design and DPO of antibody design.",
+        "intent": "原始查询",
+        "priority": 1,
+        "round": 1
+      }
+    ],
+    "api_calls": 0,
+    "llm_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "returned_paper_count": 80,
+    "deduplicated_candidate_count": 80,
+    "round1_observation": {
+      "evidence_papers": [
+        {
+          "E": "E1",
+          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "abstract": "The human genome encodes the blueprint of life, but the function of the vast majority of its nearly three billion bases is unknown. The Encyclopedia of DNA Elements (ENCODE) project has systematically mapped regions of transcription, transcription factor association, chromatin structure and histone modification. These data enabled us to assign biochemical functions for 80% of the genome, in particular outside of the well-studied protein-coding regions. Many discovered candidate regulatory elemen",
+          "year": 2012,
+          "venue": "Nature",
+          "pre_rerank_rank": 1,
+          "source_query": "direct preference optimization antibody engineering"
+        },
+        {
+          "E": "E2",
+          "title": "The Dawn of the AI Co-Scientist: A Comprehensive Survey of Biomedical and Chemical Multimodal Agents and Their Applications",
+          "abstract": "Autonomous and multimodal AI agents have emerged as transformative tools in biomedical and biochemical research. These AI coscientists are capable of autonomously performing a range of complex tasks in the scientific research lifecycle, while interacting with diverse modalities (e.g., molecular structures, biomedical images, omics sequences, and structured clinical records). This survey presents the first systematic review of over 80 papers on multimodal agentic AI in biomedical and chemical res",
+          "year": 2025,
+          "venue": "",
+          "pre_rerank_rank": 2,
+          "source_query": "AI for Science papers, especially protein design and DPO of antibody design."
+        },
+        {
+          "E": "E3",
+          "title": "Pareto-Optimal Offline Reinforcement Learning via Smooth Tchebysheff Scalarization",
+          "abstract": "Large language models can be aligned with human preferences through offline reinforcement learning (RL) on small labeled datasets. While single-objective alignment is well-studied, many real-world applications demand the simultaneous optimization of multiple conflicting rewards, e.g. optimizing both catalytic activity and specificity in protein engineering, or helpfulness and harmlessness for chatbots. Prior work has largely relied on linear reward scalarization, but this approach provably fails",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "pre_rerank_rank": 3,
+          "source_query": "AI for Science papers, especially protein design and DPO of antibody design."
+        },
+        {
+          "E": "E4",
+          "title": "Viral and antibody dynamics of acute infection with SARS-CoV-2 omicron variant (B.1.1.529): a prospective cohort study from Shenzhen, China",
+          "abstract": "BACKGROUND: Elucidating viral dynamics within the host is important for designing public health measures against SARS-CoV-2, particularly during the early stages of infection when transmission potential rapidly increases. We aimed to analyse the viral and antibody dynamics of the omicron variant in relation to symptom onset or laboratory confirmation and replication dynamics throughout the infection course. METHODS: In this prospective cohort study, patients with laboratory-confirmed SARS-CoV-2 ",
+          "year": 2023,
+          "venue": "The Lancet Microbe",
+          "pre_rerank_rank": 4,
+          "source_query": "protein design antibody DPO"
+        },
+        {
+          "E": "E5",
+          "title": "High Titers of Low Affinity Antibodies in COVID-19 Patients Are Associated With Disease Severity",
+          "abstract": "Background: Almost 2 years from the beginning of the coronavirus disease 2019 (COVID-19) pandemic, there is still a lot unknown how the humoral response affects disease progression. In this study, we investigated humoral antibody responses against specific SARS-CoV2 proteins, their strength of binding, and their relationship with COVID severity and clinical information. Furthermore, we studied the interactions of the specific receptor-binding domain (RBD) in more depth by characterizing specific",
+          "year": 2022,
+          "venue": "Frontiers in Immunology",
+          "pre_rerank_rank": 5,
+          "source_query": "protein design antibody DPO"
+        },
+        {
+          "E": "E6",
+          "title": "BPC transcription factors and a Polycomb Group protein confine the expression of the ovule identity gene SEEDSTICK in Arabidopsis",
+          "abstract": "The BASIC PENTACYSTEINE (BPC) GAGA (C-box) binding proteins belong to a small plant transcription factor family. We previously reported that class I BPCs bind directly to C-boxes in the SEEDSTICK (STK) promoter and the mutagenesis of these cis-elements affects STK expression in the flower. The MADS-domain factor SHORT VEGETATIVE PHASE (SVP) is another key regulator of STK. Direct binding of SVP to CArG-boxes in the STK promoter are required to repress its expression during the first stages of fl",
+          "year": 2020,
+          "venue": "The Plant Journal",
+          "pre_rerank_rank": 6,
+          "source_query": "protein design antibody DPO"
+        },
+        {
+          "E": "E7",
+          "title": "Actin Binding of Human LIM and SH3 Protein Is Regulated by cGMP- and cAMP-dependent Protein Kinase Phosphorylation on Serine 146",
+          "abstract": "Various drugs that elevate cGMP levels and activate cGMP-dependent protein kinase (cGK) inhibit agonist-induced platelet activation. In the present study we identified the LIM and SH3 domain protein (LASP) that was recently cloned from human breast cancer cells (Tomasetto, C., Regnier, C., Moog-Lutz, C., Mattei, M. G., Chenard, M. P., Liderau, R., Basset, P., and Rio, M. C. (1995) Genomics 28, 367-376) as a novel substrate of cGK in human platelets. Recombinant human LASP was phosphorylated by c",
+          "year": 2003,
+          "venue": "Journal of Biological Chemistry",
+          "pre_rerank_rank": 7,
+          "source_query": "protein design antibody DPO"
+        },
+        {
+          "E": "E8",
+          "title": "Roles of the Four DNA Polymerases of the Crenarchaeon Sulfolobus solfataricus and Accessory Proteins in DNA Replication",
+          "abstract": "The hyperthermophilic crenarchaeon Sulfolobus solfataricus P2 encodes three B-family DNA polymerase genes, B1 (Dpo1), B2 (Dpo2), and B3 (Dpo3), and one Y-family DNA polymerase gene, Dpo4, which are related to eukaryotic counterparts. Both mRNAs and proteins of all four DNA polymerases were constitutively expressed in all growth phases. Dpo2 and Dpo3 possessed very low DNA polymerase and 3' to 5' exonuclease activities in vitro. Steady-state kinetic efficiencies (k(cat)/K(m)) for correct nucleoti",
+          "year": 2011,
+          "venue": "Journal of Biological Chemistry",
+          "pre_rerank_rank": 8,
+          "source_query": "protein design antibody DPO"
+        }
+      ],
+      "total_retrieved": 80,
+      "deduplicated_candidates": 80
+    },
+    "round2_decision": {
+      "continue_search": false,
+      "continue_reason": "fast mode：Round-1 → Rerank → Results",
+      "followups": []
+    },
+    "newly_discovered_papers": [],
+    "reranker_calls": 0,
+    "final_papers": [],
+    "total_latency_ms": 1423.5
+  },
+  "deep": {
+    "original_question": "how can reinforcement learning with human feedback improve alignment of LLMs, and what are the key methods and benchmarks?",
+    "planner_version": "m5a-planner-v1",
+    "prompt_hash": "c914dc27fbff32d0",
+    "generated_queries": [
+      {
+        "query": "protein design antibody DPO",
+        "intent": "core",
+        "priority": 5,
+        "round": 1
+      },
+      {
+        "query": "AI for Science protein design",
+        "intent": "anchor",
+        "priority": 4,
+        "round": 1
+      },
+      {
+        "query": "direct preference optimization antibody engineering",
+        "intent": "discovery",
+        "priority": 3,
+        "round": 1
+      },
+      {
+        "query": "AI for Science papers, especially protein design and DPO of antibody design.",
+        "intent": "原始查询",
+        "priority": 1,
+        "round": 1
+      }
+    ],
+    "api_calls": 0,
+    "llm_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "returned_paper_count": 80,
+    "deduplicated_candidate_count": 80,
+    "round1_observation": {
+      "evidence_papers": [
+        {
+          "E": "E1",
+          "title": "An integrated encyclopedia of DNA elements in the human genome",
+          "abstract": "The human genome encodes the blueprint of life, but the function of the vast majority of its nearly three billion bases is unknown. The Encyclopedia of DNA Elements (ENCODE) project has systematically mapped regions of transcription, transcription factor association, chromatin structure and histone modification. These data enabled us to assign biochemical functions for 80% of the genome, in particular outside of the well-studied protein-coding regions. Many discovered candidate regulatory elemen",
+          "year": 2012,
+          "venue": "Nature",
+          "pre_rerank_rank": 1,
+          "source_query": "direct preference optimization antibody engineering"
+        },
+        {
+          "E": "E2",
+          "title": "The Dawn of the AI Co-Scientist: A Comprehensive Survey of Biomedical and Chemical Multimodal Agents and Their Applications",
+          "abstract": "Autonomous and multimodal AI agents have emerged as transformative tools in biomedical and biochemical research. These AI coscientists are capable of autonomously performing a range of complex tasks in the scientific research lifecycle, while interacting with diverse modalities (e.g., molecular structures, biomedical images, omics sequences, and structured clinical records). This survey presents the first systematic review of over 80 papers on multimodal agentic AI in biomedical and chemical res",
+          "year": 2025,
+          "venue": "",
+          "pre_rerank_rank": 2,
+          "source_query": "AI for Science papers, especially protein design and DPO of antibody design."
+        },
+        {
+          "E": "E3",
+          "title": "Pareto-Optimal Offline Reinforcement Learning via Smooth Tchebysheff Scalarization",
+          "abstract": "Large language models can be aligned with human preferences through offline reinforcement learning (RL) on small labeled datasets. While single-objective alignment is well-studied, many real-world applications demand the simultaneous optimization of multiple conflicting rewards, e.g. optimizing both catalytic activity and specificity in protein engineering, or helpfulness and harmlessness for chatbots. Prior work has largely relied on linear reward scalarization, but this approach provably fails",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "pre_rerank_rank": 3,
+          "source_query": "AI for Science papers, especially protein design and DPO of antibody design."
+        },
+        {
+          "E": "E4",
+          "title": "Viral and antibody dynamics of acute infection with SARS-CoV-2 omicron variant (B.1.1.529): a prospective cohort study from Shenzhen, China",
+          "abstract": "BACKGROUND: Elucidating viral dynamics within the host is important for designing public health measures against SARS-CoV-2, particularly during the early stages of infection when transmission potential rapidly increases. We aimed to analyse the viral and antibody dynamics of the omicron variant in relation to symptom onset or laboratory confirmation and replication dynamics throughout the infection course. METHODS: In this prospective cohort study, patients with laboratory-confirmed SARS-CoV-2 ",
+          "year": 2023,
+          "venue": "The Lancet Microbe",
+          "pre_rerank_rank": 4,
+          "source_query": "protein design antibody DPO"
+        },
+        {
+          "E": "E5",
+          "title": "High Titers of Low Affinity Antibodies in COVID-19 Patients Are Associated With Disease Severity",
+          "abstract": "Background: Almost 2 years from the beginning of the coronavirus disease 2019 (COVID-19) pandemic, there is still a lot unknown how the humoral response affects disease progression. In this study, we investigated humoral antibody responses against specific SARS-CoV2 proteins, their strength of binding, and their relationship with COVID severity and clinical information. Furthermore, we studied the interactions of the specific receptor-binding domain (RBD) in more depth by characterizing specific",
+          "year": 2022,
+          "venue": "Frontiers in Immunology",
+          "pre_rerank_rank": 5,
+          "source_query": "protein design antibody DPO"
+        },
+        {
+          "E": "E6",
+          "title": "BPC transcription factors and a Polycomb Group protein confine the expression of the ovule identity gene SEEDSTICK in Arabidopsis",
+          "abstract": "The BASIC PENTACYSTEINE (BPC) GAGA (C-box) binding proteins belong to a small plant transcription factor family. We previously reported that class I BPCs bind directly to C-boxes in the SEEDSTICK (STK) promoter and the mutagenesis of these cis-elements affects STK expression in the flower. The MADS-domain factor SHORT VEGETATIVE PHASE (SVP) is another key regulator of STK. Direct binding of SVP to CArG-boxes in the STK promoter are required to repress its expression during the first stages of fl",
+          "year": 2020,
+          "venue": "The Plant Journal",
+          "pre_rerank_rank": 6,
+          "source_query": "protein design antibody DPO"
+        },
+        {
+          "E": "E7",
+          "title": "Actin Binding of Human LIM and SH3 Protein Is Regulated by cGMP- and cAMP-dependent Protein Kinase Phosphorylation on Serine 146",
+          "abstract": "Various drugs that elevate cGMP levels and activate cGMP-dependent protein kinase (cGK) inhibit agonist-induced platelet activation. In the present study we identified the LIM and SH3 domain protein (LASP) that was recently cloned from human breast cancer cells (Tomasetto, C., Regnier, C., Moog-Lutz, C., Mattei, M. G., Chenard, M. P., Liderau, R., Basset, P., and Rio, M. C. (1995) Genomics 28, 367-376) as a novel substrate of cGK in human platelets. Recombinant human LASP was phosphorylated by c",
+          "year": 2003,
+          "venue": "Journal of Biological Chemistry",
+          "pre_rerank_rank": 7,
+          "source_query": "protein design antibody DPO"
+        },
+        {
+          "E": "E8",
+          "title": "Roles of the Four DNA Polymerases of the Crenarchaeon Sulfolobus solfataricus and Accessory Proteins in DNA Replication",
+          "abstract": "The hyperthermophilic crenarchaeon Sulfolobus solfataricus P2 encodes three B-family DNA polymerase genes, B1 (Dpo1), B2 (Dpo2), and B3 (Dpo3), and one Y-family DNA polymerase gene, Dpo4, which are related to eukaryotic counterparts. Both mRNAs and proteins of all four DNA polymerases were constitutively expressed in all growth phases. Dpo2 and Dpo3 possessed very low DNA polymerase and 3' to 5' exonuclease activities in vitro. Steady-state kinetic efficiencies (k(cat)/K(m)) for correct nucleoti",
+          "year": 2011,
+          "venue": "Journal of Biological Chemistry",
+          "pre_rerank_rank": 8,
+          "source_query": "protein design antibody DPO"
+        }
+      ],
+      "total_retrieved": 80,
+      "deduplicated_candidates": 80
+    },
+    "round2_decision": {
+      "continue_search": true,
+      "continue_reason": "deep mode：深度研究模式执行 evidence-guided Round-2（future adaptive trigger 接口预留）",
+      "followups": [
+        {
+          "query": "direct preference optimization antibody design",
+          "source": "gap",
+          "reason": "To find papers specifically addressing DPO in antibody design, which is the core gap.",
+          "status": "executed",
+          "newly_discovered_papers": []
+        },
+        {
+          "query": "preference optimization protein engineering",
+          "source": "gap",
+          "reason": "To capture broader preference-based optimization methods in protein engineering, potentially including DPO.",
+          "status": "executed",
+          "newly_discovered_papers": []
+        },
+        {
+          "query": "benchmark dataset antibody design optimization",
+          "source": "gap",
+          "reason": "To identify benchmarks or datasets used for evaluating optimization methods in antibody design, which are missing from current evidence.",
+          "status": "executed",
+          "newly_discovered_papers": []
+        }
+      ]
+    },
+    "newly_discovered_papers": [
+      "doi:10.1038/nature12443",
+      "doi:10.48550/arxiv.2403.16576",
+      "doi:10.1038/s41577-019-0143-6",
+      "doi:10.1038/s41591-018-0042-6",
+      "doi:10.1016/j.chom.2021.03.005",
+      "doi:10.1038/nature10696",
+      "doi:10.1038/s41590-018-0235-7",
+      "doi:10.1038/s41580-019-0163-x",
+      "doi:10.1093/bib/bbz095",
+      "doi:10.1101/gr.191452.115",
+      "doi:10.1038/s41467-019-12281-8",
+      "doi:10.52202/079017-3840",
+      "doi:10.1172/jci25299",
+      "doi:10.1093/nar/gki524",
+      "doi:10.1038/s41592-019-0598-1",
+      "doi:10.1038/nbt.3300",
+      "doi:10.3390/ijms17020144",
+      "doi:10.1016/j.oneear.2019.10.018",
+      "doi:10.1007/s11831-021-09694-4",
+      "doi:10.1038/s41586-020-2077-3",
+      "doi:10.1002/pro.5560040401",
+      "doi:10.1038/s41589-020-0535-8",
+      "doi:10.1103/revmodphys.92.015004",
+      "doi:10.1042/bj20060874",
+      "doi:10.1161/hh0202.103644",
+      "doi:10.1073/pnas.96.22.12524",
+      "doi:10.1021/acscatal.3c02743",
+      "doi:10.1039/d0np00027b",
+      "doi:10.1038/s41592-021-01336-8",
+      "doi:10.1371/journal.pcbi.1002829",
+      "doi:10.1038/s41587-022-01582-x",
+      "doi:10.1186/s13059-018-1603-1",
+      "doi:10.1038/s41586-021-03653-6",
+      "doi:10.1101/2023.12.07.570727",
+      "doi:10.1038/s41467-021-21246-9",
+      "doi:10.1101/2021.10.04.463034",
+      "doi:10.1126/science.aax4380",
+      "doi:10.1371/journal.pcbi.1000644",
+      "doi:10.1101/2024.03.14.585103",
+      "doi:10.1038/s41467-023-38063-x",
+      "doi:10.1038/s41587-023-01763-2",
+      "doi:10.1093/nar/gky427"
+    ],
+    "reranker_calls": 0,
+    "final_papers": [],
+    "total_latency_ms": 2508.9
+  }
+}

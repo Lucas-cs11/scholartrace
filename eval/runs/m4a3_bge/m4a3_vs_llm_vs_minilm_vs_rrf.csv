@@ -1,0 +1,6 @@
+variant,selection,f1,final_gold,mrr@20,map@20,ndcg@5,gen_llm_calls
+M3-R LLM,variable-N (threshold),0.0664,16,0.369,0.12,0.207,77
+RRF,Top20,0.0241,7,,,,0
+MiniLM CE,matched LLM N,0.0598,14,0.184,0.051,0.099,0
+BGE v2-m3,matched LLM N,0.0588,15,0.1868,0.0603,0.1148,0
+BGE v2-m3,Top20 (辅助),0.0496,16,,,,0

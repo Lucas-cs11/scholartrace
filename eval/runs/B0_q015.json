@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B0",
+  "query_id": "q015",
+  "raw_query": "multi-agent deep reinforcement learning with centralized training and decentralized execution for cooperative tasks",
+  "gold_ids": [
+    "doi:10.48550/arxiv.1706.02275",
+    "openalex:W2623431351",
+    "title:multi-agent actor-critic for mixed cooperative-competitive environments"
+  ],
+  "predicted_ids": [
+    "W4366333679",
+    "W4379622577",
+    "W2964937097",
+    "W4287330971",
+    "W3176164341",
+    "W2965676832",
+    "W4386590671",
+    "W2920937129",
+    "W3083695346",
+    "W3167061096",
+    "W3093571944",
+    "W4304614160",
+    "W3209575760",
+    "W4287755265",
+    "W2604873668",
+    "W4306179383",
+    "W4390638728",
+    "W3093963693",
+    "W3156295478",
+    "W3090573937"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 1,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 2656.6,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-20 20:26:53"
+}

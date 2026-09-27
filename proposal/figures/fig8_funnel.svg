@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="431.065pt" height="212.295125pt" viewBox="0 0 431.065 212.295125" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-31T21:19:27.129613</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 212.295125 
+L 431.065 212.295125 
+L 431.065 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 33.265 181.566625 
+L 199.477766 181.566625 
+L 199.477766 20.790625 
+L 33.265 20.790625 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m3d27f20772" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m3d27f20772" x="57.115495" y="181.566625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: middle" x="57.115495" y="194.910375" transform="rotate(-0 57.115495 194.910375)">初始基线</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m3d27f20772" x="116.371383" y="181.566625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif" transform="translate(96.371383 194.966625)">追加联想词</text>
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif" transform="translate(108.371383 203.403625)">召回</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m3d27f20772" x="175.627271" y="181.566625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif" transform="translate(163.627271 194.949125)">提示词</text>
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif" transform="translate(167.627271 203.645625)">优化</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <defs>
+       <path id="m57420da420" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m57420da420" x="33.265" y="181.566625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: end" x="26.265" y="184.446625" transform="rotate(-0 26.265 184.446625)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m57420da420" x="33.265" y="154.770625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: end" x="26.265" y="157.650625" transform="rotate(-0 26.265 157.650625)">5</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m57420da420" x="33.265" y="127.974625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: end" x="26.265" y="130.854625" transform="rotate(-0 26.265 130.854625)">10</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m57420da420" x="33.265" y="101.178625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: end" x="26.265" y="104.058625" transform="rotate(-0 26.265 104.058625)">15</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m57420da420" x="33.265" y="74.382625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: end" x="26.265" y="77.262625" transform="rotate(-0 26.265 77.262625)">20</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m57420da420" x="33.265" y="47.586625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: end" x="26.265" y="50.466625" transform="rotate(-0 26.265 50.466625)">25</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m57420da420" x="33.265" y="20.790625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: end" x="26.265" y="23.670625" transform="rotate(-0 26.265 23.670625)">30</text>
+     </g>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: middle" x="13.6475" y="101.178625" transform="rotate(-90 13.6475 101.178625)">独立真值论文数</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 33.265 181.566625 
+L 33.265 20.790625 
+" style="fill: none; stroke: #000000; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 33.265 181.566625 
+L 199.477766 181.566625 
+" style="fill: none; stroke: #000000; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: start; fill: #272727" x="21.265" y="14.4" transform="rotate(-0 21.265 14.4)">a</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 40.820126 181.566625 
+L 73.410864 181.566625 
+L 73.410864 63.664225 
+L 40.820126 63.664225 
+z
+" clip-path="url(#p7430c6b784)" style="fill: #cfcece; stroke: #272727; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 100.076014 181.566625 
+L 132.666752 181.566625 
+L 132.666752 47.586625 
+L 100.076014 47.586625 
+z
+" clip-path="url(#p7430c6b784)" style="fill: #0f4d92; stroke: #272727; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 159.331902 181.566625 
+L 191.92264 181.566625 
+L 191.92264 42.227425 
+L 159.331902 42.227425 
+z
+" clip-path="url(#p7430c6b784)" style="fill: #0f4d92; stroke: #272727; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7.5px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: middle" x="57.115495" y="61.520545" transform="rotate(-0 57.115495 61.520545)">22</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7.5px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: middle" x="116.371383" y="45.442945" transform="rotate(-0 116.371383 45.442945)">25</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7.5px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: middle" x="175.627271" y="40.083745" transform="rotate(-0 175.627271 40.083745)">26</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: start; fill: #2e9e44" x="124.371383" y="45.586625" transform="rotate(-0 124.371383 45.586625)">+3</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: start; fill: #2e9e44" x="183.627271" y="40.227425" transform="rotate(-0 183.627271 40.227425)">+1</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: middle" x="116.371383" y="14.790625" transform="rotate(-0 116.371383 14.790625)">查询公式化优化</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 257.652234 181.566625 
+L 423.865 181.566625 
+L 423.865 20.790625 
+L 257.652234 20.790625 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_4">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m3d27f20772" x="290.391112" y="181.566625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: middle" x="290.391112" y="195.062875" transform="rotate(-0 290.391112 195.062875)">单轮检索</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m3d27f20772" x="391.126122" y="181.566625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif" transform="translate(375.126122 195.094125)">合并多轮</text>
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif" transform="translate(383.126122 203.982625)">检索</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_8">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m57420da420" x="257.652234" y="181.566625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: end" x="250.652234" y="184.446625" transform="rotate(-0 250.652234 184.446625)">0</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m57420da420" x="257.652234" y="154.770625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: end" x="250.652234" y="157.650625" transform="rotate(-0 250.652234 157.650625)">5</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m57420da420" x="257.652234" y="127.974625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: end" x="250.652234" y="130.854625" transform="rotate(-0 250.652234 130.854625)">10</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m57420da420" x="257.652234" y="101.178625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: end" x="250.652234" y="104.058625" transform="rotate(-0 250.652234 104.058625)">15</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m57420da420" x="257.652234" y="74.382625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: end" x="250.652234" y="77.262625" transform="rotate(-0 250.652234 77.262625)">20</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m57420da420" x="257.652234" y="47.586625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: end" x="250.652234" y="50.466625" transform="rotate(-0 250.652234 50.466625)">25</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m57420da420" x="257.652234" y="20.790625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: end" x="250.652234" y="23.670625" transform="rotate(-0 250.652234 23.670625)">30</text>
+     </g>
+    </g>
+    <g id="text_28">
+     <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: middle" x="238.034734" y="101.178625" transform="rotate(-90 238.034734 101.178625)">独立真值论文数</text>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 257.652234 181.566625 
+L 257.652234 20.790625 
+" style="fill: none; stroke: #000000; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 257.652234 181.566625 
+L 423.865 181.566625 
+" style="fill: none; stroke: #000000; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: start; fill: #272727" x="245.652234" y="14.4" transform="rotate(-0 245.652234 14.4)">b</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 265.20736 181.566625 
+L 315.574865 181.566625 
+L 315.574865 47.586625 
+L 265.20736 47.586625 
+z
+" clip-path="url(#pb50c1cbb5b)" style="fill: #0f4d92; stroke: #272727; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 365.942369 181.566625 
+L 416.309874 181.566625 
+L 416.309874 36.868225 
+L 365.942369 36.868225 
+z
+" clip-path="url(#pb50c1cbb5b)" style="fill: #2e9e44; stroke: #272727; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 7.5px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: middle" x="290.391112" y="45.442945" transform="rotate(-0 290.391112 45.442945)">25</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 7.5px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: middle" x="391.126122" y="34.724545" transform="rotate(-0 391.126122 34.724545)">27</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 7px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: middle; fill: #2e9e44" x="391.126122" y="24.104547" transform="rotate(-0 391.126122 24.104547)">+2 (2/22 查询)</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 8px; font-family: 'Songti SC', 'Times New Roman', 'STSong', 'SimSun', 'Source Han Serif SC', 'DejaVu Serif', serif; text-anchor: middle" x="340.758617" y="14.790625" transform="rotate(-0 340.758617 14.790625)">证据引导迭代检索</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7430c6b784">
+   <rect x="33.265" y="20.790625" width="166.212766" height="160.776"/>
+  </clipPath>
+  <clipPath id="pb50c1cbb5b">
+   <rect x="257.652234" y="20.790625" width="166.212766" height="160.776"/>
+  </clipPath>
+ </defs>
+</svg>

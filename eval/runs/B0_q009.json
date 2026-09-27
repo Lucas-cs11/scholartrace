@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B0",
+  "query_id": "q009",
+  "raw_query": "real-time object detection using a single convolutional neural network that predicts bounding boxes and class probabilities directly from full images",
+  "gold_ids": [
+    "doi:10.1109/cvpr.2016.91",
+    "openalex:W1483870316",
+    "title:you only look once: unified, real-time object detection"
+  ],
+  "predicted_ids": [
+    "W3093414282",
+    "W1483870316",
+    "W2798930779",
+    "W3033097971",
+    "W2789609993",
+    "W2613718673",
+    "W2953106684",
+    "W3035016091",
+    "W3157243312",
+    "W3134639409",
+    "W3011688396",
+    "W3038948729",
+    "W2772386856",
+    "W2946566846",
+    "W3034024180",
+    "W4297676427",
+    "W2788202095",
+    "W3168997536",
+    "W4393115925",
+    "W3118600296"
+  ],
+  "precision": 0.05,
+  "recall": 1.0,
+  "f1": 0.0952,
+  "api_calls": 1,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 3296.2,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-20 20:26:32"
+}

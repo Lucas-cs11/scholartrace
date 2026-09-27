@@ -1,0 +1,95 @@
+{
+  "experiment_id": "PASA_FULL_CR",
+  "query_id": "RealScholarQuery_35",
+  "raw_query": "Give me papers about LLM quantized pretraining.",
+  "gold_ids": [
+    "title:exploring quantization for efficient pre-training of transformer language models",
+    "title:fp8-lm: training fp8 large language models",
+    "title:jetfire: efficient and accurate transformer pretraining with int8 data flow and per-block quantization",
+    "title:loqt: low-rank adapters for quantized pretraining",
+    "title:q-galore: quantized galore with int4 projection and layer-adaptive low-rank gradients",
+    "title:the era of 1-bit llms: all large language models are in 1.58 bits",
+    "title:training and inference of large language models using 8-bit floating point",
+    "title_n:exploringquantizationforefficientpretrainingoftransformerlanguagemodels",
+    "title_n:fp8lmtrainingfp8largelanguagemodels",
+    "title_n:jetfireefficientandaccuratetransformerpretrainingwithint8dataflowandperblockquantization",
+    "title_n:loqtlowrankadaptersforquantizedpretraining",
+    "title_n:qgalorequantizedgalorewithint4projectionandlayeradaptivelowrankgradients",
+    "title_n:theeraof1bitllmsalllargelanguagemodelsarein158bits",
+    "title_n:trainingandinferenceoflargelanguagemodelsusing8bitfloatingpoint"
+  ],
+  "predicted_ids": [
+    "doi:10.52202/079017-3661",
+    "doi:10.1109/icdcs60910.2024.00036",
+    "doi:10.1145/3764727.3764731",
+    "doi:10.1016/j.inffus.2025.103415",
+    "doi:10.36227/techrxiv.174286524.45842767/v1",
+    "doi:10.2139/ssrn.7294110"
+  ],
+  "precision": 0.1667,
+  "recall": 0.1429,
+  "f1": 0.1538,
+  "api_calls": 22,
+  "llm_calls": 5,
+  "input_tokens": 5083,
+  "output_tokens": 2385,
+  "latency_ms": 123938.1,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Give me papers about LLM quantized pretraining.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 1182,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "quantized pretraining",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "large language model quantization",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LLM quantized pretraining",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "low-bit pretraining language model",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Give me papers about LLM quantized pretraining.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 11,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 16:32:15"
+}

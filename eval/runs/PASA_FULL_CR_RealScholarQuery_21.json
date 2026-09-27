@@ -1,0 +1,82 @@
+{
+  "experiment_id": "PASA_FULL_CR",
+  "query_id": "RealScholarQuery_21",
+  "raw_query": "Search for papers related to large language models that demonstrate how the same prompt with different responses can improve the performance of the SFT model.",
+  "gold_ids": [
+    "title:curry-dpo: enhancing alignment using curriculum learning &amp;amp; ranked preferences",
+    "title:relative preference optimization: enhancing llm alignment through contrasting responses across identical and diverse prompts",
+    "title_n:currydpoenhancingalignmentusingcurriculumlearningampamprankedpreferences",
+    "title_n:relativepreferenceoptimizationenhancingllmalignmentthroughcontrastingresponsesacrossidenticalanddiverseprompts"
+  ],
+  "predicted_ids": [
+    "doi:10.1109/fasta61401.2024.10595331",
+    "doi:10.21203/rs.3.rs-9096283/v1",
+    "doi:10.1109/ijcnn60899.2024.10651145"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 26,
+  "llm_calls": 5,
+  "input_tokens": 5262,
+  "output_tokens": 2713,
+  "latency_ms": 61982.1,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Search for papers related to large language models that demonstrate how the same prompt with different responses can improve the performance of the SFT model.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 1397,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "SFT model prompt diversity",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "same prompt multiple responses improve fine-tuning",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "large language models same prompt different responses SFT",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "large language models supervised fine-tuning",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Search for papers related to large language models that demonstrate how the same prompt with different responses can improve the performance of the SFT model.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 12,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 16:16:51"
+}

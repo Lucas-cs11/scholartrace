@@ -1,0 +1,6 @@
+variant,selection,f1,precision,recall,final_gold,gen_llm_calls
+M3-R LLM,LLM threshold,0.0664,,,16,77
+RRF,Top20,0.0241,,,7,0
+MiniLM CE,Top20,0.0503,,,17,0
+MiniLM CE,matched LLM N,0.0598,,,14,0
+MiniLM CE,score-gap,0.0425,,,8,0

@@ -1,0 +1,396 @@
+{
+  "direction": "S2-D1b attribution",
+  "B3_LEX_PREKEEP": 40,
+  "attribution": {
+    "A_lexical_excluded": 72,
+    "B_reranker_downgraded": 5
+  },
+  "total": 77,
+  "detail": [
+    {
+      "qid": "RealScholarQuery_0",
+      "gold": "When Less is More: Investigating Data Pruning for Pretrainin",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_10",
+      "gold": "Scaling rectified flow transformers for high-resolution imag",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_11",
+      "gold": "VLMo: Unified Vision-Language Pre-Training with   Mixture-of",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_12",
+      "gold": "DanceFormer: Music Conditioned 3D Dance Generation with Para",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_15",
+      "gold": "Understanding the Effects of RLHF on LLM Generalisation and ",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_15",
+      "gold": "Discovering Language Model Behaviors with Model-Written Eval",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_17",
+      "gold": "Large Language Model Is Not a Good Few-shot Information Extr",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_19",
+      "gold": "REMARK-LLM: A Robust and Efficient Watermarking Framework fo",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_19",
+      "gold": "Provable Robust Watermarking for AI-Generated Text",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_19",
+      "gold": "A Watermark for Large Language Models",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_19",
+      "gold": "Undetectable Watermarks for Language Models",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_19",
+      "gold": "Protecting Language Generation Models via Invisible Watermar",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_19",
+      "gold": "WaterMax: breaking the LLM watermark detectability-robustnes",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_19",
+      "gold": "Watermarking Conditional Text Generation for AI Detection: U",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_19",
+      "gold": "Towards Codable Watermarking for Injecting Multi-bits Inform",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_19",
+      "gold": "SemStamp: A Semantic Watermark with Paraphrastic Robustness ",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_19",
+      "gold": "Who wrote this code? watermarking for code generation.",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_2",
+      "gold": "VideoPoet: A Large Language Model for Zero-Shot Video Genera",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_22",
+      "gold": "Encouraging Divergent Thinking in Large Language Models thro",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_23",
+      "gold": "InstructVideo: Instructing Video Diffusion Models with Human",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_24",
+      "gold": "Learning to Translate in Real-time with Neural Machine Trans",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_25",
+      "gold": "Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_27",
+      "gold": "Xwin-LM: Strong and Scalable Alignment Practice for LLMs",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_29",
+      "gold": "Large Language Models for Mathematical Reasoning: Progresses",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_29",
+      "gold": "Lyra: Orchestrating Dual Correction in Automated Theorem Pro",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_29",
+      "gold": "InfiMM-WebMath-40B: Advancing Multimodal Pre-Training for En",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_29",
+      "gold": "Lean-STaR: Learning to Interleave Thinking and Proving",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_3",
+      "gold": "VATT: Transformers for Multimodal Self-Supervised Learning f",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_3",
+      "gold": "Video-LLaMA: An Instruction-tuned Audio-Visual Language Mode",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_3",
+      "gold": "VideoPoet: A Large Language Model for Zero-Shot Video Genera",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_3",
+      "gold": "Next-gpt: Any-to-any multimodal llm",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_30",
+      "gold": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_31",
+      "gold": "Diffusion Model Alignment Using Direct Preference Optimizati",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_31",
+      "gold": "Multi-Modal Hallucination Control by Visual Information Grou",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_35",
+      "gold": "The Era of 1-bit LLMs: All Large Language Models are in 1.58",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_35",
+      "gold": "LoQT: Low-Rank Adapters for Quantized Pretraining",
+      "stage": "B_reranker_downgraded"
+    },
+    {
+      "qid": "RealScholarQuery_36",
+      "gold": "EMO: Emote Portrait Alive -- Generating Expressive Portrait ",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_36",
+      "gold": "Deep Video Portraits",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_36",
+      "gold": "MarioNETte: Few-shot Face Reenactment Preserving Identity of",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_4",
+      "gold": "Improving alignment of dialogue agents via targeted human ju",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_40",
+      "gold": "Quantizing deep convolutional networks for efficient inferen",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_40",
+      "gold": "LLM-QAT: Data-Free Quantization Aware Training for Large Lan",
+      "stage": "B_reranker_downgraded"
+    },
+    {
+      "qid": "RealScholarQuery_40",
+      "gold": "EfficientQAT: Efficient Quantization-Aware Training for Larg",
+      "stage": "B_reranker_downgraded"
+    },
+    {
+      "qid": "RealScholarQuery_41",
+      "gold": "Magpie: Alignment Data Synthesis from Scratch by Prompting A",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_43",
+      "gold": "Antigen-Specific Antibody Design via Direct Energy-based Pre",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_44",
+      "gold": "Crypto-Nets: Neural Networks over Encrypted Data",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "gold": "Motion-Conditioned Diffusion Model for Controllable Video Sy",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "gold": "Panacea+: Panoramic and Controllable Video Generation for Au",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "gold": "TrailBlazer: Trajectory Control for Diffusion-Based Video Ge",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "gold": "Click to Move: Controlling Video Generation with Sparse Moti",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "gold": "Structure and Content-Guided Video Synthesis with Diffusion ",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "gold": "ControlVideo: Training-free Controllable Text-to-Video Gener",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "gold": "Animate Anyone: Consistent and Controllable Image-to-Video S",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "gold": "VideoComposer: Compositional Video Synthesis with Motion Con",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "gold": "Panacea: Panoramic and Controllable Video Generation for Aut",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "gold": "TrackGo: A Flexible and Efficient Method for Controllable Vi",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "gold": "Make It Move: Controllable Image-to-Video Generation with Te",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "gold": "Imagen Video: High Definition Video Generation with Diffusio",
+      "stage": "B_reranker_downgraded"
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "gold": "Follow Your Pose: Pose-Guided Text-to-Video Generation using",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "gold": "SparseCtrl: Adding Sparse Controls to Text-to-Video Diffusio",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "gold": "Motion-I2V: Consistent and Controllable Image-to-Video Gener",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_46",
+      "gold": "Describe, Explain, Plan and Select: Interactive Planning wit",
+      "stage": "B_reranker_downgraded"
+    },
+    {
+      "qid": "RealScholarQuery_46",
+      "gold": "Diffusion Policy: Visuomotor Policy Learning via Action Diff",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_46",
+      "gold": "Open-Ended Instructable Embodied Agents with Memory-Augmente",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_47",
+      "gold": "FinBen: A Holistic Financial Benchmark for Large Language Mo",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_47",
+      "gold": "FinEval: A Chinese Financial Domain Knowledge Evaluation Ben",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_5",
+      "gold": "Aligning Large Multimodal Models with Factually Augmented RL",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "Interleaving Retrieval with Chain-of-Thought Reasoning for  ",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "IM-RAG: Multi-Round Retrieval-Augmented Generation Through L",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "RAFT: Adapting Language Model to Domain Specific RAG",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "Recitation-Augmented Language Models",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "Learning to Decompose: Hypothetical Question Decomposition B",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "HOLMES: Hyper-Relational Knowledge Graphs for Multi-hop Ques",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "Few-shot reranking for multi-hop qa via language model promp",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "Chatcot: Tool-augmented chain-of-thought reasoning on chat-b",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "Answering questions by meta-reasoning over multiple chains o",
+      "stage": "A_lexical_excluded"
+    },
+    {
+      "qid": "RealScholarQuery_7",
+      "gold": "Dense-Captioning Events in Videos",
+      "stage": "A_lexical_excluded"
+    }
+  ]
+}

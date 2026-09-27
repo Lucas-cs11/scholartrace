@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B1",
+  "query_id": "q020",
+  "raw_query": "simple framework for contrastive learning of visual representations using data augmentation and temperature-scaled cross entropy loss",
+  "gold_ids": [
+    "doi:10.48550/arxiv.2002.05709",
+    "openalex:W3005680577",
+    "title:a simple framework for contrastive learning of visual representations"
+  ],
+  "predicted_ids": [
+    "W3005680577",
+    "W3034978746",
+    "W4221023051",
+    "W3091546937",
+    "W3158714121",
+    "W3137952714",
+    "W4386076409",
+    "W4386083008",
+    "W3082701951",
+    "W4286986228",
+    "W3139211892",
+    "W4214928119",
+    "W3022061250",
+    "W3126337491",
+    "W3156636935",
+    "W3161606033",
+    "W2954996726",
+    "W4385573131",
+    "W3096655658",
+    "W3176923149"
+  ],
+  "precision": 0.05,
+  "recall": 1.0,
+  "f1": 0.0952,
+  "api_calls": 4,
+  "llm_calls": 2,
+  "input_tokens": 848,
+  "output_tokens": 191,
+  "latency_ms": 6283.9,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-21 09:49:49"
+}

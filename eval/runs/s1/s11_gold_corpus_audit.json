@@ -1,0 +1,14 @@
+{
+  "data_source": "data/benchmarks/pasa/RealScholarQuery/test.jsonl",
+  "data_hash": "b3b570411ce2399c",
+  "corpus_fingerprint": "2184b6a5082ccc0f",
+  "total_queries": 50,
+  "frozen_22_queries": 22,
+  "query_gold_instances": 791,
+  "unique_gold_identity_keys": 1543,
+  "evaluator_total_gold_papers": 791,
+  "frozen_22_gold_papers": 184,
+  "challenges_v1_gold_instances": 20,
+  "historical_180_hypothesis": "challenges_v1.jsonl (20 queries) or different de-dup logic",
+  "s1_184_confirmed": false
+}

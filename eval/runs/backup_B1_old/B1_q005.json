@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B1",
+  "query_id": "q005",
+  "raw_query": "denoising diffusion probabilistic models for high-quality image generation, score-based generative modeling",
+  "gold_ids": [
+    "doi:10.48550/arxiv.2006.11239",
+    "openalex:W3036167779",
+    "title:denoising diffusion probabilistic models"
+  ],
+  "predicted_ids": [
+    "W4409883006",
+    "W4385272245",
+    "W4308614811",
+    "W4372336638",
+    "W4391971771",
+    "W4386272462",
+    "W4387360324",
+    "W4386426777",
+    "W4226158195",
+    "W3191805365",
+    "W3169386841",
+    "W3110257065",
+    "W4310092694",
+    "W3121345697",
+    "W4312497550",
+    "W4390872797",
+    "W3035384201",
+    "W4387789684",
+    "W4386362737",
+    "W4386072096"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 4,
+  "llm_calls": 2,
+  "input_tokens": 832,
+  "output_tokens": 145,
+  "latency_ms": 5214.9,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-21 09:48:27"
+}

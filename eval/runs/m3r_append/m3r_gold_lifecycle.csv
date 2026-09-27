@@ -1,0 +1,32 @@
+query_id,canonical_id,title_n,first_seen_stage,first_seen_query,first_seen_rank,query_type,source_kind,append,survived_prekeep,pre_rerank_rank,reranker_rank,final_rank,drop_stage,drop_reason
+RealScholarQuery_0,doi:10.48550/arxiv.2309.04564,whenlessismoreinvestigatingdatapruningforpretrainingllmsatscale,assoc_recall,data pruning LLM,123,,rich,False,True,79,2,2,,
+RealScholarQuery_6,doi:10.18653/v1/2023.acl-long.557,interleavingretrievalwithchainofthoughtreasoningforknowledgeintensivemultistepquestions,regular_recall,HotPotQA large language models,8,,rich,False,False,,,,reranker_truncation,below_keep_threshold_or_topk
+RealScholarQuery_6,doi:10.18653/v1/2024.acl-long.717,holmeshyperrelationalknowledgegraphsformultihopquestionansweringusingllms,assoc_recall,LLM HotPotQA benchmark,67,,rich,False,True,47,4,4,,
+RealScholarQuery_6,doi:10.18653/v1/2023.findings-emnlp.985,chatcottoolaugmentedchainofthoughtreasoningonchatbasedlargelanguagemodels,assoc_recall,LLM HotPotQA benchmark,78,,rich,False,True,2,2,2,,
+RealScholarQuery_6,doi:10.48550/arxiv.2212.10509,interleavingretrievalwithchainofthoughtreasoningforknowledgeintensivemultistepquestions,assoc_recall,chain-of-thought HotPotQA,78,,rich,False,True,51,5,5,,
+RealScholarQuery_6,doi:10.18653/v1/2023.emnlp-main.364,answeringquestionsbymetareasoningovermultiplechainsofthought,assoc_recall,chain-of-thought HotPotQA,79,,rich,False,True,52,,,reranker_truncation,below_keep_threshold_or_topk
+RealScholarQuery_6,doi:10.48550/arxiv.2403.10131,raftadaptinglanguagemodeltodomainspecificrag,assoc_recall,chain-of-thought HotPotQA,83,,rich,False,True,55,,,reranker_truncation,below_keep_threshold_or_topk
+RealScholarQuery_6,doi:10.48550/arxiv.2305.14323,chatcottoolaugmentedchainofthoughtreasoningonchatbasedlargelanguagemodels,assoc_recall,chain-of-thought HotPotQA,84,,rich,False,True,3,3,3,,
+RealScholarQuery_6,doi:10.1145/3626772.3657760,imragmultiroundretrievalaugmentedgenerationthroughlearninginnermonologues,assoc_recall,HotPotQA retrieval augmented,99,,rich,False,True,32,,,reranker_truncation,below_keep_threshold_or_topk
+RealScholarQuery_6,doi:10.48550/arxiv.2210.01296,recitationaugmentedlanguagemodels,assoc_recall,HotPotQA retrieval augmented,101,,rich,False,True,33,,,reranker_truncation,below_keep_threshold_or_topk
+RealScholarQuery_6,doi:10.18653/v1/2022.emnlp-main.142,learningtodecomposehypotheticalquestiondecompositionbasedoncomparabletexts,assoc_recall,Decomposed prompting HotPotQA,111,,rich,False,True,77,,,reranker_truncation,below_keep_threshold_or_topk
+RealScholarQuery_6,doi:10.18653/v1/2023.acl-long.885,fewshotrerankingformultihopqavialanguagemodelprompting,assoc_recall,HotPotQA few-shot,128,,rich,False,True,92,6,6,,
+RealScholarQuery_15,doi:10.48550/arxiv.2212.09251,discoveringlanguagemodelbehaviorswithmodelwrittenevaluations,regular_recall,RL hurts supervised fine-tuning language model,18,,rich,False,False,,,,reranker_truncation,below_keep_threshold_or_topk
+RealScholarQuery_15,doi:10.48550/arxiv.2310.06452,understandingtheeffectsofrlhfonllmgeneralisationanddiversity,assoc_recall,RL harms SFT LLM,94,,rich,False,True,9,8,8,,
+RealScholarQuery_17,doi:10.18653/v1/2023.findings-emnlp.710,largelanguagemodelisnotagoodfewshotinformationextractorbutagoodrerankerforhardsamples,regular_recall,ICL performance gap fine-tuned models IE tasks,41,discovery,rescue,True,True,16,1,1,,
+RealScholarQuery_23,doi:10.1109/cvpr52733.2024.00618,instructvideoinstructingvideodiffusionmodelswithhumanfeedback,assoc_recall,InstructVideo human feedback,74,,rich,False,True,11,1,1,,
+RealScholarQuery_23,doi:10.48550/arxiv.2312.12490,instructvideoinstructingvideodiffusionmodelswithhumanfeedback,assoc_recall,InstructVideo human feedback,75,,rich,False,True,12,2,2,,
+RealScholarQuery_25,doi:10.48550/arxiv.2312.17090,qalignteachinglmmsforvisualscoringviadiscretetextdefinedlevels,assoc_recall,Q-Align video aesthetics,79,,rich,False,True,48,3,3,,
+RealScholarQuery_28,doi:10.48550/arxiv.2401.03065,cruxevalabenchmarkforcodereasoningunderstandingandexecution,regular_recall,coding benchmark between MBPP and CodeContests,54,anchor,rescue,True,True,1,1,1,,
+RealScholarQuery_29,doi:10.48550/arxiv.2309.15806,lyraorchestratingdualcorrectioninautomatedtheoremproving,regular_recall,LLM theorem proving IMO,16,anchor,rescue,True,True,35,11,11,,
+RealScholarQuery_29,doi:10.48550/arxiv.2407.10040,leanstarlearningtointerleavethinkingandproving,regular_recall,Research on teaching llms to do math prove and solve IMO level math problems.,74,,rich,True,True,18,2,2,,
+RealScholarQuery_29,doi:10.48550/arxiv.2409.12568,infimmwebmath40badvancingmultimodalpretrainingforenhancedmathematicalreasoning,regular_recall,Research on teaching llms to do math prove and solve IMO level math problems.,79,,rich,True,False,,,,reranker_truncation,below_keep_threshold_or_topk
+RealScholarQuery_35,doi:10.48550/arxiv.2402.17764,theeraof1bitllmsalllargelanguagemodelsarein158bits,regular_recall,1-bit LLM,20,,rich,False,False,,,,reranker_truncation,below_keep_threshold_or_topk
+RealScholarQuery_35,doi:10.48550/arxiv.2405.16528,loqtlowrankadaptersforquantizedpretraining,assoc_recall,LoQT rank adapters,95,,rich,False,True,3,1,1,,
+RealScholarQuery_35,doi:10.52202/079017-3661,loqtlowrankadaptersforquantizedpretraining,assoc_recall,LoQT rank adapters,96,,rich,False,True,4,2,2,,
+RealScholarQuery_41,doi:10.48550/arxiv.2406.08464,magpiealignmentdatasynthesisfromscratchbypromptingalignedllmswithnothing,regular_recall,Using synthesis data for scaling up sft data.,58,,rich,True,True,1,1,1,,
+RealScholarQuery_42,doi:10.1109/cvpr.2019.00137,adaframeadaptiveframeselectionforfastvideorecognition,regular_recall,video frame sampling methods,36,anchor,rescue,True,True,25,1,1,,
+RealScholarQuery_47,doi:10.48550/arxiv.2402.12659,finbenaholisticfinancialbenchmarkforlargelanguagemodels,regular_recall,financial LLM agent benchmark,19,,rich,False,False,,,,reranker_truncation,below_keep_threshold_or_topk
+RealScholarQuery_47,doi:10.52202/079017-3033,finbenaholisticfinancialbenchmarkforlargelanguagemodels,assoc_recall,FinBen,90,,rich,False,True,59,6,6,,
+RealScholarQuery_47,doi:10.48550/arxiv.2308.09975,finevalachinesefinancialdomainknowledgeevaluationbenchmarkforlargelanguagemodels,assoc_recall,FinEval,108,,rich,False,True,77,,,reranker_truncation,below_keep_threshold_or_topk
+RealScholarQuery_47,doi:10.18653/v1/2025.naacl-long.318,finevalachinesefinancialdomainknowledgeevaluationbenchmarkforlargelanguagemodels,assoc_recall,FinEval,109,,rich,False,True,78,,,reranker_truncation,below_keep_threshold_or_topk

@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B1",
+  "query_id": "q011",
+  "raw_query": "lightweight graph convolution network for collaborative filtering recommendation systems",
+  "gold_ids": [
+    "doi:10.1145/3397271.3401063",
+    "openalex:W3004578093",
+    "title:lightgcn: simplifying and powering graph convolution network for recommendation"
+  ],
+  "predicted_ids": [
+    "W3197998683",
+    "W3004578093",
+    "W2998431760",
+    "W3153106544",
+    "W3210138510",
+    "W4406171687",
+    "W4409365211",
+    "W4408024519",
+    "W3003372423",
+    "W2965198005",
+    "W3094687928",
+    "W4324359913",
+    "W2811035854",
+    "W2913560138",
+    "W4387379288",
+    "W2948330780",
+    "W4379931881",
+    "W4407772885",
+    "W4365792059",
+    "W3036389516"
+  ],
+  "precision": 0.05,
+  "recall": 1.0,
+  "f1": 0.0952,
+  "api_calls": 4,
+  "llm_calls": 2,
+  "input_tokens": 813,
+  "output_tokens": 145,
+  "latency_ms": 4556.3,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-21 09:48:57"
+}

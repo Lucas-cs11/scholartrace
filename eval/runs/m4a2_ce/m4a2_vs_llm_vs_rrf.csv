@@ -1,0 +1,4 @@
+variant,queries,mean_f1,mean_precision,mean_recall,raw_unique_gold,pool_unique_gold,final_unique_gold,final_query_gold_instances,llm_reranker_calls,openalex_physical_http
+M3-R_LLM,22,0.0664,,,25,22,16,,77,
+M3-R_RRF,22,0.0241,,,25,22,7,,0,0
+M4A2_CE,22,0.0503,0.0386,0.1427,25,22,17,17,0,0

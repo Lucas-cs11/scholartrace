@@ -1,0 +1,55 @@
+query_id,gold_index,gold_title,run1,run2,run3,selection_freq,flips
+RealScholarQuery_0,0,When Less is More: Investigating Data Pruning for Pretraining LLMs at   Scale,1,1,1,3,False
+RealScholarQuery_0,1,How to Train Data-Efficient LLMs,0,0,0,0,False
+RealScholarQuery_0,2,Deduplicating Training Data Makes Language Models Better,0,0,0,0,False
+RealScholarQuery_0,3,AlpaGasus: Training A Better Alpaca with Fewer Data,0,0,0,0,False
+RealScholarQuery_0,4,Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes,0,0,0,0,False
+RealScholarQuery_0,5,LESS: Selecting Influential Data for Targeted Instruction Tuning,0,0,0,0,False
+RealScholarQuery_0,6,Automatic Document Selection for Efficient Encoder Pretraining,0,0,0,0,False
+RealScholarQuery_0,7,Farewell to aimless large-scale pretraining: Influential subset selection for language model,0,0,0,0,False
+RealScholarQuery_0,8,Babyllama-2: Ensemble-distilled models consistently outperform teachers with limited data.,0,0,0,0,False
+RealScholarQuery_15,0,Understanding the Effects of RLHF on LLM Generalisation and Diversity,1,1,1,3,False
+RealScholarQuery_15,1,Fundamental Limitations of Alignment in Large Language Models,0,0,0,0,False
+RealScholarQuery_15,2,Reward Collapse in Aligning Large Language Models,0,0,0,0,False
+RealScholarQuery_15,3,Discovering Language Model Behaviors with Model-Written Evaluations,0,0,0,0,False
+RealScholarQuery_15,4,Vanishing gradients in reinforcement finetuning of language models,0,0,0,0,False
+RealScholarQuery_23,0,Video Diffusion Alignment via Reward Gradients,0,0,0,0,False
+RealScholarQuery_23,1,InstructVideo: Instructing Video Diffusion Models with Human Feedback,1,1,1,3,False
+RealScholarQuery_25,0,"Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined
+  Levels",1,1,1,3,False
+RealScholarQuery_35,0,The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits,0,0,0,0,False
+RealScholarQuery_35,1,FP8-LM: Training FP8 Large Language Models,0,0,0,0,False
+RealScholarQuery_35,2,LoQT: Low-Rank Adapters for Quantized Pretraining,1,1,1,3,False
+RealScholarQuery_35,3,Exploring Quantization for Efficient Pre-Training of Transformer   Language Models,0,0,0,0,False
+RealScholarQuery_35,4,Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients,0,0,0,0,False
+RealScholarQuery_35,5,Jetfire: Efficient and Accurate Transformer Pretraining with INT8 Data Flow and Per-Block Quantization,0,0,0,0,False
+RealScholarQuery_35,6,Training and inference of large language models using 8-bit floating point,0,0,0,0,False
+RealScholarQuery_47,0,FinBen: A Holistic Financial Benchmark for Large Language Models,1,1,1,3,False
+RealScholarQuery_47,1,Financial Knowledge Large Language Model,0,0,0,0,False
+RealScholarQuery_47,2,Towards a Realistic Long-Term Benchmark for Open-Web Research Agents,0,0,0,0,False
+RealScholarQuery_47,3,FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Language Models,0,0,0,0,False
+RealScholarQuery_6,0,AutoPlan: Automatic Planning of Interactive Decision-Making Tasks With   Large Language Models,0,0,0,0,False
+RealScholarQuery_6,1,GenDec: A robust generative Question-decomposition method for Multi-hop   reasoning,0,0,0,0,False
+RealScholarQuery_6,2,Dr3: Ask Large Language Models Not to Give Off-Topic Answers in Open   Domain Multi-Hop Question Answering,0,0,0,0,False
+RealScholarQuery_6,3,ReAct: Synergizing Reasoning and Acting in Language Models,0,0,0,0,False
+RealScholarQuery_6,4,LongRAG: Enhancing Retrieval-Augmented Generation with Long-context LLMs,0,0,0,0,False
+RealScholarQuery_6,5,FireAct: Toward Language Agent Fine-tuning,0,0,0,0,False
+RealScholarQuery_6,6,MRKE: The Multi-hop Reasoning Evaluation of LLMs by Knowledge Edition,0,0,0,0,False
+RealScholarQuery_6,7,When Hindsight is Not 20/20: Testing Limits on Reflective Thinking in Large Language Models,0,0,0,0,False
+RealScholarQuery_6,8,GenSco: Can Question Decomposition based Passage Alignment improve Question Answering?,0,0,0,0,False
+RealScholarQuery_6,9,Interleaving Retrieval with Chain-of-Thought Reasoning for   Knowledge-Intensive Multi-Step Questions,1,1,1,3,False
+RealScholarQuery_6,10,IM-RAG: Multi-Round Retrieval-Augmented Generation Through Learning Inner Monologues,0,0,0,0,False
+RealScholarQuery_6,11,RAFT: Adapting Language Model to Domain Specific RAG,0,0,0,0,False
+RealScholarQuery_6,12,Recitation-Augmented Language Models,0,0,0,0,False
+RealScholarQuery_6,13,"Retrieve, Summarize, Plan: Advancing Multi-hop Question Answering with an Iterative Approach",0,0,0,0,False
+RealScholarQuery_6,14,Learning to Decompose: Hypothetical Question Decomposition Based on   Comparable Texts,0,0,0,0,False
+RealScholarQuery_6,15,Language Agent Tree Search Unifies Reasoning Acting and Planning in   Language Models,0,0,0,0,False
+RealScholarQuery_6,16,ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models,0,0,0,0,False
+RealScholarQuery_6,17,"Prompting Explicit and Implicit Knowledge for Multi-hop Question
+  Answering Based on Human Reading Process",0,0,0,0,False
+RealScholarQuery_6,18,Chain-of-Skills: A Configurable Model for Open-domain Question Answering,0,0,0,0,False
+RealScholarQuery_6,19,HOLMES: Hyper-Relational Knowledge Graphs for Multi-hop Question Answering using LLMs,1,1,1,3,False
+RealScholarQuery_6,20,Can Small Language Models Help Large Language Models Reason Better?: LM-Guided Chain-of-Thought,0,0,0,0,False
+RealScholarQuery_6,21,Few-shot reranking for multi-hop qa via language model prompting,1,1,1,3,False
+RealScholarQuery_6,22,Chatcot: Tool-augmented chain-of-thought reasoning on chat-based large language models,1,1,1,3,False
+RealScholarQuery_6,23,Answering questions by meta-reasoning over multiple chains of thought,0,0,0,0,False

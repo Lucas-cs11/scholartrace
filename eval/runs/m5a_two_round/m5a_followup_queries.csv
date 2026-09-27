@@ -1,0 +1,67 @@
+query_id,fuq_index,query,source,reason,status,executed
+RealScholarQuery_0,0,data quality over quantity language model pre-training,gap,"Targets the gap of empirical evidence on smaller datasets leading to better models, focusing on data quality.",keep,1
+RealScholarQuery_0,1,smaller dataset better performance LLM empirical study,gap,Directly searches for studies comparing dataset sizes and performance in LLMs.,keep,1
+RealScholarQuery_0,2,data pruning improves language model performance,entity,"Follows from Sheared LLaMA's pruning concept, but applied to data, to find evidence on data pruning benefits.",keep,1
+RealScholarQuery_14,0,LLM automatic literature review generation,gap,"Targets the specific task of automatically generating literature reviews using LLMs, which is a gap in the first round.",keep,1
+RealScholarQuery_14,1,LLM summarization multiple academic papers,gap,"Focuses on summarizing multiple scholarly documents, a key aspect of the original question not covered by round1 evidence.",keep,1
+RealScholarQuery_14,2,LLM agent survey writing scholarly documents,gap,"Combines LLM agents with survey writing for scholarly documents, addressing the core of the original question.",keep,1
+RealScholarQuery_15,0,reinforcement learning degrades supervised fine-tuning performance,gap,Targets the core gap: empirical evidence of RL harming SFT performance.,keep,1
+RealScholarQuery_15,1,RLHF catastrophic forgetting fine-tuned language model,entity,Explores mechanism of RL-induced forgetting in SFT models.,keep,1
+RealScholarQuery_15,2,RLAIF negative impact supervised fine-tuning,entity,Investigates whether RLAIF also degrades SFT performance.,keep,1
+RealScholarQuery_17,0,in-context learning limitations named entity recognition event extraction,gap,Targets uncovered aspects of NER and EE performance gap,keep,1
+RealScholarQuery_17,1,GPT-RE relation extraction in-context learning,entity,Follows up on entity GPT-RE from E1 to find related work,keep,1
+RealScholarQuery_17,2,large language models information extraction benchmark comparison,terminology,Seeks benchmark studies comparing ICL and fine-tuning across IE tasks,keep,1
+RealScholarQuery_20,0,inductive reasoning large language models,gap,"Target the specific capability of inductive reasoning in LLMs, which is central to the claim.",keep,1
+RealScholarQuery_20,1,knowledgeable LLM literature synthesis,gap,Focus on the knowledge aspect of LLMs and their ability to synthesize literature.,keep,1
+RealScholarQuery_20,2,LLM multi-document summarization survey,gap,"Address the relationship analysis between multiple papers, a key aspect of the claim.",keep,1
+RealScholarQuery_21,0,same prompt multiple responses SFT performance,gap,Directly targets the core gap of using multiple responses for the same prompt in SFT.,keep,1
+RealScholarQuery_21,1,response diversity supervised fine-tuning,gap,"Focuses on the concept of response diversity in SFT, which is not covered by round1 queries.",keep,1
+RealScholarQuery_21,2,DPO ORPO response diversity,entity,"Explores preference optimization methods that may leverage diverse responses, building on entities from E2.",keep,1
+RealScholarQuery_22,0,commonsense reasoning neural machine translation,gap,Targets the core gap of common sense reasoning in NMT.,keep,1
+RealScholarQuery_22,1,commonsense knowledge machine translation evaluation,gap,Addresses the evaluation aspect of commonsense-aware MT.,keep,1
+RealScholarQuery_22,2,neural machine translation commonsense benchmark,gap,Seeks benchmarks/datasets for commonsense in NMT.,keep,1
+RealScholarQuery_23,0,policy gradient diffusion video generation,gap,"To find papers using specific RL algorithms like policy gradient for video diffusion, which is not covered by round1 evidence.",dup_round1_similar,0
+RealScholarQuery_23,1,benchmark evaluation RL video diffusion,gap,"To identify benchmarks or evaluation protocols for RL-optimized video diffusion models, addressing the lack of evaluation coverage.",keep,1
+RealScholarQuery_23,2,Direct Preference Optimization video diffusion,terminology,"To explore the emerging terminology 'Direct Preference Optimization' as a specific RL method for video diffusion, as seen in E4.",keep,1
+RealScholarQuery_25,0,video aesthetic assessment benchmark,gap,To find datasets and benchmarks specifically for video aesthetics scoring.,keep,1
+RealScholarQuery_25,1,multimodal large language model aesthetic scoring,terminology,"To explore methods using multimodal LLMs for aesthetic scoring, which is a specific application.",keep,1
+RealScholarQuery_25,2,video quality assessment aesthetic score,entity,"To bridge video quality assessment and aesthetic scoring, as seen in LMM-VQA.",keep,1
+RealScholarQuery_28,0,intermediate difficulty code benchmark,gap,Target the gap of benchmarks explicitly designed for mid-level hardness.,keep,1
+RealScholarQuery_28,1,CRUXEval LiveCodeBench BigCodeBench difficulty comparison,entity,Use entities from round1 to find comparisons or discussions of difficulty levels.,keep,1
+RealScholarQuery_28,2,code generation benchmark pass@k evaluation,terminology,Explore evaluation conditions that might define mid-level hardness.,keep,1
+RealScholarQuery_29,0,IMO problems LLM evaluation benchmark,gap,"To find benchmarks specifically using IMO problems for evaluating LLMs, which is a gap in the current evidence.",keep,1
+RealScholarQuery_29,1,reinforcement learning theorem proving LLM,gap,"To explore training methods like reinforcement learning for improving LLM theorem proving, which is not covered in round1.",keep,1
+RealScholarQuery_29,2,Lean formal proof generation LLM,entity,"To target the formal proof generation aspect using Lean, which is a key entity from E7 and relevant to IMO-level proof solving.",keep,1
+RealScholarQuery_34,0,diffusion models 3D scene understanding,gap,To cover recent AIGC foundation models like diffusion models applied to 3D scene understanding.,keep,1
+RealScholarQuery_34,1,NeRF scene understanding benchmark,entity,To find benchmarks or datasets that evaluate 3D scene understanding using NeRF-based generative models.,keep,1
+RealScholarQuery_34,2,3D generative AI autonomous driving,gap,To address application contexts like autonomous driving where AIGC models are leveraged for 3D scene understanding.,keep,1
+RealScholarQuery_35,0,2-bit LLM pretraining,gap,Round 1 evidence focused on 4-bit and low-rank methods; 2-bit pretraining is a gap.,keep,1
+RealScholarQuery_35,1,quantized pretraining survey,gap,No survey or comprehensive overview was found in round 1; a survey would cover the field.,keep,1
+RealScholarQuery_35,2,quantization-aware pretraining hardware,gap,Hardware-specific aspects of quantized pretraining were not covered in round 1 evidence.,keep,1
+RealScholarQuery_38,0,statistical distribution image encoding,gap,"To find research explicitly on the statistical distributions of image encodings, which is the core of the original question but not directly covered.",keep,1
+RealScholarQuery_38,1,image encoding distribution comparison,gap,"To find comparative studies of different encoding distributions, addressing the uncovered aspect of comparative analysis.",keep,1
+RealScholarQuery_38,2,Fisher kernel visual vocabulary distribution,entity,"To explore the distributional aspects of Fisher kernels and visual vocabularies, which are relevant entities from E1 and may lead to more specific distribution-related research.",keep,1
+RealScholarQuery_39,0,chain-of-thought synthetic data generation LLM,gap,"Targets the gap of generating long thought data, which is a specific type of reasoning data.",keep,1
+RealScholarQuery_39,1,scaling synthetic reasoning data diversity difficulty,gap,"Addresses the need for large-scale, diverse, and difficult synthetic data for LLM training.",keep,1
+RealScholarQuery_39,2,prompt-based synthetic data generation reasoning,entity,Leverages the terminology 'prompt-based techniques' from E2 to explore methods for generating reasoning-focused data.,keep,1
+RealScholarQuery_41,0,synthetic data scaling laws language models,gap,"Addresses the gap of scaling laws for synthetic data in LLM training, building on E5's scaling laws concept.",keep,1
+RealScholarQuery_41,1,synthetic instruction data generation LLM,gap,"Targets methods for generating synthetic SFT data, extending E1's approach.",keep,1
+RealScholarQuery_41,2,data quality diversity synthetic SFT,gap,"Focuses on quality and diversity aspects of synthetic SFT data, a key uncovered aspect.",keep,1
+RealScholarQuery_42,0,frame selection action recognition video,gap,"Targets frame selection specifically for action recognition, a core video understanding task not explicitly covered.",keep,1
+RealScholarQuery_42,1,video frame sampling benchmark evaluation,gap,"Seeks benchmarks and evaluation methods for frame selection, addressing the lack of dataset/benchmark coverage.",keep,1
+RealScholarQuery_42,2,learned frame selection video understanding,entity,"Focuses on learned approaches (e.g., reinforcement learning, attention) for frame selection, building on entities like M-LLMs and RL.",dup_round1_similar,0
+RealScholarQuery_43,0,direct preference optimization antibody design,gap,"To find papers specifically addressing DPO in antibody design, which is the core gap.",keep,1
+RealScholarQuery_43,1,preference optimization protein engineering,gap,"To capture broader preference-based optimization methods in protein engineering, potentially including DPO.",keep,1
+RealScholarQuery_43,2,benchmark dataset antibody design optimization,gap,"To identify benchmarks or datasets used for evaluating optimization methods in antibody design, which are missing from current evidence.",keep,1
+RealScholarQuery_47,0,financial agent benchmark evaluation metrics,gap,To find papers that propose specific benchmarks and metrics for evaluating financial agents.,keep,1
+RealScholarQuery_47,1,FinRL benchmark trading agents,entity,"To explore FinRL as a benchmark for financial RL agents, which is a concrete entity from E2.",keep,1
+RealScholarQuery_47,2,financial decision-making multi-agent framework evaluation,entity,To find evaluation methods for multi-agent frameworks like FinHEAR in financial decision-making.,keep,1
+RealScholarQuery_48,0,large language models factor extraction stock market,gap,Targets the specific gap of using LLMs for factor mining in stock exchange analysis.,keep,1
+RealScholarQuery_48,1,LLM financial factor mining benchmark,gap,Seeks benchmarks or datasets for evaluating LLMs in financial factor mining.,keep,1
+RealScholarQuery_48,2,OPT FINBERT sentiment trading factors,entity,Leverages entities from E7 to explore LLM-based factor extraction in trading contexts.,keep,1
+RealScholarQuery_6,0,HotPotQA multi-hop reasoning LLM,gap,Target the specific dataset and task not covered in round 1.,dup_round1_similar,0
+RealScholarQuery_6,1,ChatCoT HotPotQA,entity,Entity from evidence likely evaluated on HotPotQA.,keep,1
+RealScholarQuery_6,2,large language models HotPotQA benchmark,terminology,Common terminology for dataset evaluation.,dup_round1_similar,0
+RealScholarQuery_8,0,reward shaping methods large language model agents,gap,Target the gap of general reward shaping methods for LLM agents beyond navigation.,keep,1
+RealScholarQuery_8,1,LLM-Coach reward shaping navigation,entity,Follow up on the specific entity LLM-Coach to find related works or extensions.,keep,1
+RealScholarQuery_8,2,RL4LLM reward design,terminology,Use the terminology RL4LLM to search for more specific reward design studies in RL-LLM integration.,keep,1

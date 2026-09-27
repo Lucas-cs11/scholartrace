@@ -1,0 +1,47 @@
+{
+  "experiment_id": "PASA_S2CIT_CACHE",
+  "query_id": "RealScholarQuery_27",
+  "raw_query": "Show me research on rejection sampling finetuning.",
+  "gold_ids": [
+    "title:arithmetic control of llms for diverse user preferences: directional preference alignment with multi-objective rewards",
+    "title:breaking language barriers in multilingual mathematical reasoning: insights and observations",
+    "title:dart-math: difficulty-aware rejection tuning for mathematical problem-solving",
+    "title:let ai entertain you: increasing user engagement with generative ai and rejection sampling",
+    "title:rs-dpo: a hybrid rejection sampling and direct preference optimization method for alignment of large language models",
+    "title:scaling relationship on learning mathematical reasoning with large language models",
+    "title:self-play with execution feedback: improving instruction-following capabilities of large language models",
+    "title:statistical rejection sampling improves preference optimization",
+    "title:xwin-lm: strong and scalable alignment practice for llms",
+    "title_n:arithmeticcontrolofllmsfordiverseuserpreferencesdirectionalpreferencealignmentwithmultiobjectiverewards",
+    "title_n:breakinglanguagebarriersinmultilingualmathematicalreasoninginsightsandobservations",
+    "title_n:dartmathdifficultyawarerejectiontuningformathematicalproblemsolving",
+    "title_n:letaientertainyouincreasinguserengagementwithgenerativeaiandrejectionsampling",
+    "title_n:rsdpoahybridrejectionsamplinganddirectpreferenceoptimizationmethodforalignmentoflargelanguagemodels",
+    "title_n:scalingrelationshiponlearningmathematicalreasoningwithlargelanguagemodels",
+    "title_n:selfplaywithexecutionfeedbackimprovinginstructionfollowingcapabilitiesoflargelanguagemodels",
+    "title_n:statisticalrejectionsamplingimprovespreferenceoptimization",
+    "title_n:xwinlmstrongandscalablealignmentpracticeforllms"
+  ],
+  "predicted_ids": [],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 11446.9,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Show me research on rejection sampling finetuning.",
+      "api": "error",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 19:33:09"
+}

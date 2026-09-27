@@ -1,0 +1,69 @@
+{
+  "experiment_id": "PASA_S2TLDR_CACHE",
+  "query_id": "RealScholarQuery_41",
+  "raw_query": "Using synthesis data for scaling up sft data.",
+  "gold_ids": [
+    "title:api-guided dataset synthesis to finetune large code models",
+    "title:common 7b language models already possess strong math capabilities",
+    "title:fullanno: a data engine for enhancing image comprehension of mllms",
+    "title:magpie: alignment data synthesis from scratch by prompting aligned llms with nothing",
+    "title:skywork-math: data scaling laws for mathematical reasoning in large language models -- the story goes on",
+    "title_n:apiguideddatasetsynthesistofinetunelargecodemodels",
+    "title_n:common7blanguagemodelsalreadypossessstrongmathcapabilities",
+    "title_n:fullannoadataengineforenhancingimagecomprehensionofmllms",
+    "title_n:magpiealignmentdatasynthesisfromscratchbypromptingalignedllmswithnothing",
+    "title_n:skyworkmathdatascalinglawsformathematicalreasoninginlargelanguagemodelsthestorygoeson"
+  ],
+  "predicted_ids": [
+    "W4399657778",
+    "W2789378330",
+    "W2034678951",
+    "W4322759378",
+    "W4406759447",
+    "W2101377821",
+    "W4401044057",
+    "W2084813257",
+    "W2097318329",
+    "W3187518773",
+    "W4390690464",
+    "W3011628670",
+    "W2083006984",
+    "W4362515116",
+    "W2116610800",
+    "W3108506878",
+    "W2903093482",
+    "W2142520301",
+    "W4327810158",
+    "W2971653617"
+  ],
+  "precision": 0.05,
+  "recall": 0.2,
+  "f1": 0.08,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 10702.2,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Using synthesis data for scaling up sft data.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "Using synthesis data for scaling up sft data.",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 19:17:48"
+}

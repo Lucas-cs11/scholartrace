@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B0",
+  "query_id": "q019",
+  "raw_query": "vision transformer that applies the transformer architecture directly to image patches for image classification without convolutions",
+  "gold_ids": [
+    "doi:10.48550/arxiv.2010.11929",
+    "openalex:W3094502228",
+    "title:an image is worth 16x16 words: transformers for image recognition at scale"
+  ],
+  "predicted_ids": [
+    "W4296068600",
+    "W3128592650",
+    "W4281257868",
+    "W4406330070",
+    "W3139434170",
+    "W3143373604",
+    "W3033210410",
+    "W4382998948",
+    "W3139773203",
+    "W3200870516",
+    "W4280496682",
+    "W4210247145",
+    "W3202406646",
+    "W4226182655",
+    "W3095867871",
+    "W4396973073",
+    "W3212516020",
+    "W3197957534",
+    "W3139049060",
+    "W4321497943"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 1,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 2951.9,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-20 20:27:04"
+}

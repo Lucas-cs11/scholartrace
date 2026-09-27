@@ -1,0 +1,74 @@
+{
+  "experiment_id": "PASA_ASSOC",
+  "query_id": "RealScholarQuery_22",
+  "raw_query": "Papers on solving common sense problems in machine translation.",
+  "gold_ids": [
+    "title:encouraging divergent thinking in large language models through multi-agent debate",
+    "title:few-shot learning with multilingual language models.",
+    "title:rethinking human-like translation strategy: integrating drift-diffusion model with large language models for machine translation",
+    "title_n:encouragingdivergentthinkinginlargelanguagemodelsthroughmultiagentdebate",
+    "title_n:fewshotlearningwithmultilinguallanguagemodels",
+    "title_n:rethinkinghumanliketranslationstrategyintegratingdriftdiffusionmodelwithlargelanguagemodelsformachinetranslation"
+  ],
+  "predicted_ids": [
+    "W2101454539",
+    "W2512924740",
+    "W2970279348",
+    "W2952020389",
+    "W2964303497",
+    "W3014596384",
+    "W2291288208",
+    "W2953303875",
+    "W2134295053",
+    "W4210916416",
+    "W4205539948",
+    "W3023211159",
+    "W2469230926",
+    "W2576683119",
+    "W3201073812",
+    "W2124026197",
+    "W1998943389",
+    "W3194620979",
+    "W2981731882",
+    "W2031489346"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 23,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 120880.1,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Papers on solving common sense problems in machine translation.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "Papers on solving common sense problems in machine translation.",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Papers on solving common sense problems in machine translation.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 56,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-24 11:09:56"
+}

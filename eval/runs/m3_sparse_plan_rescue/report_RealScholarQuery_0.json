@@ -1,0 +1,18 @@
+{
+  "experiment": "PASA_ASSOC_M3_SPARSE_RESCUE",
+  "query_id": "RealScholarQuery_0",
+  "rescue_query": false,
+  "f1": 0.1111,
+  "precision": 0.1111,
+  "recall": 0.1111,
+  "tp": 1,
+  "api_calls": 0,
+  "cache_hits": 11,
+  "llm_calls": 7,
+  "input_tokens": 12061,
+  "output_tokens": 4481,
+  "latency_ms": 29713.6,
+  "n_predicted": 9,
+  "raw_candidates": 145,
+  "rerank_pool_candidates": 92
+}

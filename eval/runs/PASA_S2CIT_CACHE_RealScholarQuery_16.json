@@ -1,0 +1,45 @@
+{
+  "experiment_id": "PASA_S2CIT_CACHE",
+  "query_id": "RealScholarQuery_16",
+  "raw_query": "Find papers on trigger-free document-level event extraction methods that do not use human-annotated triggers.",
+  "gold_ids": [
+    "title:coffee: a contrastive oracle-free framework for event extraction",
+    "title:doc2edag: an end-to-end document-level framework for chinese financial event extraction",
+    "title:document-level event extraction via heterogeneous graph-based interaction model with a tracker",
+    "title:document-level event extraction via human-like reading process",
+    "title:document-level multi-event extraction with event proxy nodes and hausdorff distance minimization",
+    "title:efficient document-level event extraction via pseudo-trigger-aware pruned complete graph",
+    "title:raat: relation-augmented attention transformer for relation modeling in document-level event extraction",
+    "title:trigger-free event detection via derangement reading comprehension",
+    "title_n:coffeeacontrastiveoraclefreeframeworkforeventextraction",
+    "title_n:doc2edaganendtoenddocumentlevelframeworkforchinesefinancialeventextraction",
+    "title_n:documentleveleventextractionviaheterogeneousgraphbasedinteractionmodelwithatracker",
+    "title_n:documentleveleventextractionviahumanlikereadingprocess",
+    "title_n:documentlevelmultieventextractionwitheventproxynodesandhausdorffdistanceminimization",
+    "title_n:efficientdocumentleveleventextractionviapseudotriggerawareprunedcompletegraph",
+    "title_n:raatrelationaugmentedattentiontransformerforrelationmodelingindocumentleveleventextraction",
+    "title_n:triggerfreeeventdetectionviaderangementreadingcomprehension"
+  ],
+  "predicted_ids": [],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 18145.4,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Find papers on trigger-free document-level event extraction methods that do not ",
+      "api": "error",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 19:28:44"
+}

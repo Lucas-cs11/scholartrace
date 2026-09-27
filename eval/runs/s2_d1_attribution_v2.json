@@ -1,0 +1,237 @@
+{
+  "direction": "S2-D1c precise attribution",
+  "B3_LEX_PREKEEP": 40,
+  "stat": {
+    "A_lexical_excluded": 13,
+    "MISS_NOT_RECALLED": 162,
+    "B_reranker_downgrade": 9
+  },
+  "total_gold_covered": 184,
+  "per_query": [
+    {
+      "qid": "RealScholarQuery_0",
+      "A_lexical_excluded": 1,
+      "MISS_NOT_RECALLED": 8
+    },
+    {
+      "qid": "RealScholarQuery_14",
+      "MISS_NOT_RECALLED": 9
+    },
+    {
+      "qid": "RealScholarQuery_15",
+      "B_reranker_downgrade": 1,
+      "MISS_NOT_RECALLED": 3,
+      "A_lexical_excluded": 1
+    },
+    {
+      "qid": "RealScholarQuery_17",
+      "MISS_NOT_RECALLED": 9
+    },
+    {
+      "qid": "RealScholarQuery_20",
+      "MISS_NOT_RECALLED": 4
+    },
+    {
+      "qid": "RealScholarQuery_21",
+      "MISS_NOT_RECALLED": 2
+    },
+    {
+      "qid": "RealScholarQuery_22",
+      "MISS_NOT_RECALLED": 3
+    },
+    {
+      "qid": "RealScholarQuery_23",
+      "MISS_NOT_RECALLED": 1,
+      "B_reranker_downgrade": 1
+    },
+    {
+      "qid": "RealScholarQuery_25",
+      "A_lexical_excluded": 1
+    },
+    {
+      "qid": "RealScholarQuery_28",
+      "MISS_NOT_RECALLED": 4
+    },
+    {
+      "qid": "RealScholarQuery_29",
+      "MISS_NOT_RECALLED": 5,
+      "B_reranker_downgrade": 3
+    },
+    {
+      "qid": "RealScholarQuery_34",
+      "MISS_NOT_RECALLED": 7
+    },
+    {
+      "qid": "RealScholarQuery_35",
+      "A_lexical_excluded": 1,
+      "MISS_NOT_RECALLED": 5,
+      "B_reranker_downgrade": 1
+    },
+    {
+      "qid": "RealScholarQuery_38",
+      "MISS_NOT_RECALLED": 17
+    },
+    {
+      "qid": "RealScholarQuery_39",
+      "MISS_NOT_RECALLED": 2
+    },
+    {
+      "qid": "RealScholarQuery_41",
+      "MISS_NOT_RECALLED": 4,
+      "B_reranker_downgrade": 1
+    },
+    {
+      "qid": "RealScholarQuery_42",
+      "MISS_NOT_RECALLED": 10
+    },
+    {
+      "qid": "RealScholarQuery_43",
+      "MISS_NOT_RECALLED": 28
+    },
+    {
+      "qid": "RealScholarQuery_47",
+      "B_reranker_downgrade": 1,
+      "MISS_NOT_RECALLED": 2,
+      "A_lexical_excluded": 1
+    },
+    {
+      "qid": "RealScholarQuery_48",
+      "MISS_NOT_RECALLED": 8
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "MISS_NOT_RECALLED": 15,
+      "A_lexical_excluded": 8,
+      "B_reranker_downgrade": 1
+    },
+    {
+      "qid": "RealScholarQuery_8",
+      "MISS_NOT_RECALLED": 16
+    }
+  ],
+  "detail": [
+    {
+      "qid": "RealScholarQuery_0",
+      "gold": "When Less is More: Investigating Data Pruning for Pretr",
+      "stage": "A_lexical_excluded",
+      "rank": 139
+    },
+    {
+      "qid": "RealScholarQuery_15",
+      "gold": "Understanding the Effects of RLHF on LLM Generalisation",
+      "stage": "B_reranker_downgrade"
+    },
+    {
+      "qid": "RealScholarQuery_15",
+      "gold": "Discovering Language Model Behaviors with Model-Written",
+      "stage": "A_lexical_excluded",
+      "rank": 118
+    },
+    {
+      "qid": "RealScholarQuery_23",
+      "gold": "InstructVideo: Instructing Video Diffusion Models with ",
+      "stage": "B_reranker_downgrade"
+    },
+    {
+      "qid": "RealScholarQuery_25",
+      "gold": "Q-Align: Teaching LMMs for Visual Scoring via Discrete ",
+      "stage": "A_lexical_excluded",
+      "rank": 125
+    },
+    {
+      "qid": "RealScholarQuery_29",
+      "gold": "Lyra: Orchestrating Dual Correction in Automated Theore",
+      "stage": "B_reranker_downgrade"
+    },
+    {
+      "qid": "RealScholarQuery_29",
+      "gold": "InfiMM-WebMath-40B: Advancing Multimodal Pre-Training f",
+      "stage": "B_reranker_downgrade"
+    },
+    {
+      "qid": "RealScholarQuery_29",
+      "gold": "Lean-STaR: Learning to Interleave Thinking and Proving",
+      "stage": "B_reranker_downgrade"
+    },
+    {
+      "qid": "RealScholarQuery_35",
+      "gold": "The Era of 1-bit LLMs: All Large Language Models are in",
+      "stage": "A_lexical_excluded",
+      "rank": 88
+    },
+    {
+      "qid": "RealScholarQuery_35",
+      "gold": "LoQT: Low-Rank Adapters for Quantized Pretraining",
+      "stage": "B_reranker_downgrade"
+    },
+    {
+      "qid": "RealScholarQuery_41",
+      "gold": "Magpie: Alignment Data Synthesis from Scratch by Prompt",
+      "stage": "B_reranker_downgrade"
+    },
+    {
+      "qid": "RealScholarQuery_47",
+      "gold": "FinBen: A Holistic Financial Benchmark for Large Langua",
+      "stage": "B_reranker_downgrade"
+    },
+    {
+      "qid": "RealScholarQuery_47",
+      "gold": "FinEval: A Chinese Financial Domain Knowledge Evaluatio",
+      "stage": "A_lexical_excluded",
+      "rank": 47
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "Interleaving Retrieval with Chain-of-Thought Reasoning ",
+      "stage": "A_lexical_excluded",
+      "rank": 86
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "IM-RAG: Multi-Round Retrieval-Augmented Generation Thro",
+      "stage": "A_lexical_excluded",
+      "rank": 78
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "RAFT: Adapting Language Model to Domain Specific RAG",
+      "stage": "A_lexical_excluded",
+      "rank": 72
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "Recitation-Augmented Language Models",
+      "stage": "A_lexical_excluded",
+      "rank": 51
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "Learning to Decompose: Hypothetical Question Decomposit",
+      "stage": "A_lexical_excluded",
+      "rank": 53
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "HOLMES: Hyper-Relational Knowledge Graphs for Multi-hop",
+      "stage": "A_lexical_excluded",
+      "rank": 105
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "Few-shot reranking for multi-hop qa via language model ",
+      "stage": "A_lexical_excluded",
+      "rank": 83
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "Chatcot: Tool-augmented chain-of-thought reasoning on c",
+      "stage": "B_reranker_downgrade"
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "gold": "Answering questions by meta-reasoning over multiple cha",
+      "stage": "A_lexical_excluded",
+      "rank": 108
+    }
+  ]
+}

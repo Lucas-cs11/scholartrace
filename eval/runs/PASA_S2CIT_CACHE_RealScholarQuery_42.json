@@ -1,0 +1,49 @@
+{
+  "experiment_id": "PASA_S2CIT_CACHE",
+  "query_id": "RealScholarQuery_42",
+  "raw_query": "Show me research on how to select frames when doing video understanding.",
+  "gold_ids": [
+    "title:adaframe: adaptive frame selection for fast video recognition",
+    "title:bubblenets: learning to select the guidance frame in video object segmentation by deep sorting frames",
+    "title:end-to-end video question answering with frame scoring mechanisms and adaptive sampling",
+    "title:frame attention networks for facial expression recognition in videos",
+    "title:key frame extraction with attention based deep neural networks",
+    "title:keyvideollm: towards large-scale video keyframe selection",
+    "title:koala: key frame-conditioned long video-llm",
+    "title:multi-agent reinforcement learning based frame sampling for effective untrimmed video recognition",
+    "title:online learnable keyframe extraction in videos and its application with semantic word vector in action recognition",
+    "title:unsupervised video summarization framework using keyframe extraction and video skimming",
+    "title_n:adaframeadaptiveframeselectionforfastvideorecognition",
+    "title_n:bubblenetslearningtoselecttheguidanceframeinvideoobjectsegmentationbydeepsortingframes",
+    "title_n:endtoendvideoquestionansweringwithframescoringmechanismsandadaptivesampling",
+    "title_n:frameattentionnetworksforfacialexpressionrecognitioninvideos",
+    "title_n:keyframeextractionwithattentionbaseddeepneuralnetworks",
+    "title_n:keyvideollmtowardslargescalevideokeyframeselection",
+    "title_n:koalakeyframeconditionedlongvideollm",
+    "title_n:multiagentreinforcementlearningbasedframesamplingforeffectiveuntrimmedvideorecognition",
+    "title_n:onlinelearnablekeyframeextractioninvideosanditsapplicationwithsemanticwordvectorinactionrecognition",
+    "title_n:unsupervisedvideosummarizationframeworkusingkeyframeextractionandvideoskimming"
+  ],
+  "predicted_ids": [],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 1704.9,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Show me research on how to select frames when doing video understanding.",
+      "api": "error",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 19:37:19"
+}

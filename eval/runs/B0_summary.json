@@ -1,0 +1,11 @@
+{
+  "experiment": "B0",
+  "queries": 20,
+  "mean_f1": 0.0095,
+  "mean_precision": 0.005,
+  "mean_recall": 0.1,
+  "total_api_calls": 20,
+  "total_tokens": 0,
+  "mean_latency_ms": 3265.7,
+  "queries_f1_ge_05": 0
+}

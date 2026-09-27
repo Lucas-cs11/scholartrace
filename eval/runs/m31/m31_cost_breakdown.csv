@@ -1,0 +1,4 @@
+variant,production_equiv_logical,physical_http_new,cached_reused,reranker_llm_calls
+B0,87,87,0,77
+M3-R_APPEND,141,0,52,95
+M3.1,145,48,10,95

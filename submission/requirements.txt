@@ -1,0 +1,15 @@
+# --- Core ---
+pydantic>=2.5,<3
+pydantic-settings>=2.1
+
+# --- HTTP / API ---
+httpx>=0.27
+tenacity>=8.2
+
+# --- Backend API (B5+) ---
+fastapi>=0.110
+uvicorn[standard]>=0.29
+
+# --- Dev/Test ---
+pytest>=8.0
+pytest-asyncio>=0.23

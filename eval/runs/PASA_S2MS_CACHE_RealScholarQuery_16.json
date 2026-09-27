@@ -1,0 +1,102 @@
+{
+  "experiment_id": "PASA_S2MS_CACHE",
+  "query_id": "RealScholarQuery_16",
+  "raw_query": "Find papers on trigger-free document-level event extraction methods that do not use human-annotated triggers.",
+  "gold_ids": [
+    "title:coffee: a contrastive oracle-free framework for event extraction",
+    "title:doc2edag: an end-to-end document-level framework for chinese financial event extraction",
+    "title:document-level event extraction via heterogeneous graph-based interaction model with a tracker",
+    "title:document-level event extraction via human-like reading process",
+    "title:document-level multi-event extraction with event proxy nodes and hausdorff distance minimization",
+    "title:efficient document-level event extraction via pseudo-trigger-aware pruned complete graph",
+    "title:raat: relation-augmented attention transformer for relation modeling in document-level event extraction",
+    "title:trigger-free event detection via derangement reading comprehension",
+    "title_n:coffeeacontrastiveoraclefreeframeworkforeventextraction",
+    "title_n:doc2edaganendtoenddocumentlevelframeworkforchinesefinancialeventextraction",
+    "title_n:documentleveleventextractionviaheterogeneousgraphbasedinteractionmodelwithatracker",
+    "title_n:documentleveleventextractionviahumanlikereadingprocess",
+    "title_n:documentlevelmultieventextractionwitheventproxynodesandhausdorffdistanceminimization",
+    "title_n:efficientdocumentleveleventextractionviapseudotriggerawareprunedcompletegraph",
+    "title_n:raatrelationaugmentedattentiontransformerforrelationmodelingindocumentleveleventextraction",
+    "title_n:triggerfreeeventdetectionviaderangementreadingcomprehension"
+  ],
+  "predicted_ids": [
+    "W4385482961",
+    "W4400526464",
+    "W4226439316",
+    "W2108743083",
+    "W3129047827",
+    "W3170759063",
+    "W2803884531",
+    "W4378906481",
+    "W3211727449",
+    "W3172947074",
+    "W4389519083",
+    "W3024298906",
+    "W4281750641",
+    "W4391614230",
+    "W3154063293",
+    "W3177448563",
+    "W3174691968",
+    "W2970684294",
+    "W2618285232",
+    "W3083346274"
+  ],
+  "precision": 0.2,
+  "recall": 0.5,
+  "f1": 0.2857,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 28056.8,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Find papers on trigger-free document-level event extraction methods that do not use human-annotated triggers.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "trigger-free document-level event extraction",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "event extraction without triggers",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "trigger-free event extraction",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "document-level event extraction",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 18:29:33"
+}

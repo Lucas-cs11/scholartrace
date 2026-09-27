@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B0",
+  "query_id": "q001",
+  "raw_query": "3D point cloud classification and segmentation with deep learning networks trained on ShapeNet",
+  "gold_ids": [
+    "doi:10.1109/cvpr.2017.16",
+    "openalex:W2560609797",
+    "title:pointnet: deep learning on point sets for 3d classification and segmentation"
+  ],
+  "predicted_ids": [
+    "W2950642167",
+    "W4363675912",
+    "W4297836999",
+    "W2770997764",
+    "W2976081675",
+    "W2606987267",
+    "W2900731076",
+    "W4306403150",
+    "W4397032511",
+    "W2995932445",
+    "W3011970623",
+    "W2997320365",
+    "W3174510152",
+    "W4386256198",
+    "W4378191150",
+    "W2955472583",
+    "W3042719542",
+    "W2805479641",
+    "W2963123724",
+    "W2997944991"
+  ],
+  "precision": 0.05,
+  "recall": 1.0,
+  "f1": 0.0952,
+  "api_calls": 1,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 3069.0,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-20 20:26:05"
+}

@@ -1,0 +1,4 @@
+query_type,executed_queries,new_unique_gold,incremental_gold_per_query
+core,21,2,0.095
+anchor,20,3,0.15
+discovery,40,2,0.05

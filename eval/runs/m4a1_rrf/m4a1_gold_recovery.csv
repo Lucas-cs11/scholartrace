@@ -1,0 +1,9 @@
+query_id,canonical_id,title_n,loss_stage,llm_sel_freq,llm_final_retained,rrf_top20_retained,rrf_rank,hit_count,best_single_query_rank
+RealScholarQuery_6,doi:10.18653/v1/2023.emnlp-main.364,answeringquestionsbymetareasoningovermultiplechainsofthought,LOST_RERANKER,0,no,no,32,1,6
+RealScholarQuery_6,doi:10.48550/arxiv.2403.10131,raftadaptinglanguagemodeltodomainspecificrag,LOST_RERANKER,0,no,no,47,1,10
+RealScholarQuery_6,doi:10.1145/3626772.3657760,imragmultiroundretrievalaugmentedgenerationthroughlearninginnermonologues,LOST_RERANKER,0,no,no,69,1,15
+RealScholarQuery_6,doi:10.48550/arxiv.2210.01296,recitationaugmentedlanguagemodels,LOST_RERANKER,0,no,no,82,1,17
+RealScholarQuery_6,doi:10.18653/v1/2022.emnlp-main.142,learningtodecomposehypotheticalquestiondecompositionbasedoncomparabletexts,LOST_RERANKER,0,no,no,55,1,12
+RealScholarQuery_15,doi:10.48550/arxiv.2310.06452,understandingtheeffectsofrlhfonllmgeneralisationanddiversity,LOST_RERANKER,3,yes,no,68,1,14
+RealScholarQuery_47,doi:10.48550/arxiv.2308.09975,finevalachinesefinancialdomainknowledgeevaluationbenchmarkforlargelanguagemodels,LOST_RERANKER,0,no,yes,8,2,1
+RealScholarQuery_47,doi:10.18653/v1/2025.naacl-long.318,finevalachinesefinancialdomainknowledgeevaluationbenchmarkforlargelanguagemodels,LOST_RERANKER,0,no,yes,10,2,2

@@ -1,0 +1,102 @@
+{
+  "summary": {
+    "mode": "deep",
+    "offline": false,
+    "eval_corpus_version": "pasa_realscholar_test_b3b570411ce2399c",
+    "queries_run": 5,
+    "ok": 2,
+    "failed": 3,
+    "failures": [
+      "RealScholarQuery_8",
+      "RealScholarQuery_14",
+      "RealScholarQuery_15"
+    ],
+    "precision": 0.075,
+    "recall": 0.0625,
+    "f1": 0.06818181818181818,
+    "total_final_unique_gold": 3,
+    "total_gold_papers": 33,
+    "mean_api_calls": 12.5,
+    "mean_llm_calls": 11.0,
+    "mean_tokens": 24124.0,
+    "mean_latency_ms": 79201.6,
+    "mean_retrieval_total_candidates": 164.0,
+    "mean_final_output_size": 13.0,
+    "invalid_empty_title_total": 0,
+    "round2_planned_queries_total": 6,
+    "round2_executed_queries_total": 4,
+    "round2_filtered_queries_total": 2,
+    "round2_newly_discovered_papers_total": 53,
+    "final_round2_papers_total": 6
+  },
+  "rows": [
+    {
+      "query_id": "RealScholarQuery_0",
+      "question": "Give me papers which show that using a smaller dataset in large language model pre-training can result in better models than using bigger datasets.",
+      "failed": false,
+      "error": "",
+      "api_calls": 14,
+      "llm_calls": 13,
+      "tokens": 28330,
+      "latency_ms": 90340.7,
+      "retrieval_total_candidates": 193,
+      "retrieval_deduplicated_candidates": 192,
+      "final_output_size": 6,
+      "final_unique_gold": 0,
+      "final_gold_instances": 0,
+      "total_gold_papers": 9,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "invalid_empty_title": 0,
+      "final_round2_papers": 2,
+      "round2_planned_queries": 3,
+      "round2_executed_queries": 3,
+      "round2_filtered_queries": 0,
+      "round2_newly_discovered_papers": 37
+    },
+    {
+      "query_id": "RealScholarQuery_6",
+      "question": "Papers that propose methods based on large language models and evaluate their performance through experiments on the HotPotQA dataset.",
+      "failed": false,
+      "error": "",
+      "api_calls": 11,
+      "llm_calls": 9,
+      "tokens": 19918,
+      "latency_ms": 68062.5,
+      "retrieval_total_candidates": 135,
+      "retrieval_deduplicated_candidates": 135,
+      "final_output_size": 20,
+      "final_unique_gold": 3,
+      "final_gold_instances": 3,
+      "total_gold_papers": 24,
+      "precision": 0.15,
+      "recall": 0.125,
+      "f1": 0.13636363636363635,
+      "invalid_empty_title": 0,
+      "final_round2_papers": 4,
+      "round2_planned_queries": 3,
+      "round2_executed_queries": 1,
+      "round2_filtered_queries": 2,
+      "round2_newly_discovered_papers": 16
+    },
+    {
+      "query_id": "RealScholarQuery_8",
+      "question": "Do you know some papers about using reward shaping methods to train large language model agent.",
+      "failed": true,
+      "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openalex.org/works?search=reward+shaping+tool+use&per-page=20&mailto=lujie.cs%40gmail.com'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "query_id": "RealScholarQuery_14",
+      "question": "Find papers that use LLMs or LLM-based agents to automatically write surveys or summaries for multiple scholarly documents.",
+      "failed": true,
+      "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openalex.org/works?search=LLM-based+agents+automatic+survey+writing&per-page=20&mailto=lujie.cs%40gmail.com'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "query_id": "RealScholarQuery_15",
+      "question": "Provide papers claiming that reinforcement learning can negatively impact the performance of supervised fine-tuned LLMs.",
+      "failed": true,
+      "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openalex.org/works?search=RL+degradation+fine-tuned+language+models&per-page=20&mailto=lujie.cs%40gmail.com'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    }
+  ]
+}

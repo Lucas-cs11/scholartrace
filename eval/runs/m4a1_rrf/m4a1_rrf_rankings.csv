@@ -1,0 +1,881 @@
+variant,query_id,rrf_rank,canonical_id,title,rrf_score,hit_count,best_rank
+M3-R_RRF,RealScholarQuery_0,1,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,0.099989,7,3
+M3-R_RRF,RealScholarQuery_0,2,doi:10.48550/arxiv.2302.13971,LLaMA: Open and Efficient Foundation Language Models,0.074862,5,3
+M3-R_RRF,RealScholarQuery_0,3,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,0.073281,5,5
+M3-R_RRF,RealScholarQuery_0,4,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,0.068892,5,8
+M3-R_RRF,RealScholarQuery_0,5,doi:10.1093/bioinformatics/btz682,BioBERT: a pre-trained biomedical language representation model for biomedical t,0.059973,4,2
+M3-R_RRF,RealScholarQuery_0,6,doi:10.48550/arxiv.2203.15556,Training Compute-Optimal Large Language Models,0.058762,4,1
+M3-R_RRF,RealScholarQuery_0,7,doi:10.48550/arxiv.2210.11416,Scaling Instruction-Finetuned Language Models,0.043136,3,6
+M3-R_RRF,RealScholarQuery_0,8,doi:10.18637/jss.v067.i01,Fitting Linear Mixed-Effects Models Using lme4,0.032522,2,1
+M3-R_RRF,RealScholarQuery_0,9,doi:10.48550/arxiv.2407.05040,"Code Less, Align More: Efficient LLM Fine-tuning for Code Generation with Data P",0.031258,2,3
+M3-R_RRF,RealScholarQuery_0,10,doi:10.48550/arxiv.1909.11942,ALBERT: A Lite BERT for Self-supervised Learning of Language\n Representations,0.027425,2,7
+M3-R_RRF,RealScholarQuery_0,11,doi:10.48550/arxiv.2206.07682,Emergent Abilities of Large Language Models,0.027047,2,12
+M3-R_RRF,RealScholarQuery_0,12,doi:10.1145/3605943,Recent Advances in Natural Language Processing via Large Pre-trained Language Mo,0.026357,2,13
+M3-R_RRF,RealScholarQuery_0,13,doi:10.48550/arxiv.2107.03374,Evaluating Large Language Models Trained on Code,0.026014,2,14
+M3-R_RRF,RealScholarQuery_0,14,doi:10.1038/s42256-023-00626-4,Parameter-efficient fine-tuning of large-scale pre-trained language models,0.025808,2,17
+M3-R_RRF,RealScholarQuery_0,15,doi:10.1038/s41586-025-09422-z,DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning,0.016393,1,1
+M3-R_RRF,RealScholarQuery_0,16,doi:10.48550/arxiv.2001.08361,Scaling Laws for Neural Language Models,0.016393,1,1
+M3-R_RRF,RealScholarQuery_0,17,doi:10.1145/3597503.3639187,Using an LLM to Help With Code Understanding,0.016129,1,2
+M3-R_RRF,RealScholarQuery_0,18,doi:10.1145/3626772.3657807,Data-efficient Fine-tuning for LLM-based Recommendation,0.016129,1,2
+M3-R_RRF,RealScholarQuery_0,19,doi:10.22331/q-2018-08-06-79,Quantum Computing in the NISQ era and beyond,0.016129,1,2
+M3-R_RRF,RealScholarQuery_0,20,doi:10.1109/tit.2003.809594,How much training is needed in multiple-antenna wireless links?,0.015873,1,3
+M3-R_RRF,RealScholarQuery_14,1,doi:10.1007/s11704-024-40231-1,A survey on large language model based autonomous agents,0.044306,3,1
+M3-R_RRF,RealScholarQuery_14,2,doi:10.1111/bjet.13370,Practical and ethical challenges of large language models in education: A system,0.043209,3,4
+M3-R_RRF,RealScholarQuery_14,3,doi:10.1007/s10462-024-10888-y,"Large language models (LLMs): survey, technical frameworks, and future challenge",0.031319,2,1
+M3-R_RRF,RealScholarQuery_14,4,doi:10.1109/access.2025.3533217,Exploring LLMs Applications in Law: A Literature Review on Current Legal NLP App,0.027444,2,10
+M3-R_RRF,RealScholarQuery_14,5,W7140346361,MemoNoveltyAgent: A Historical Research Memory-Aware Agent Workflow for Paper No,0.016393,1,1
+M3-R_RRF,RealScholarQuery_14,6,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,0.016129,1,2
+M3-R_RRF,RealScholarQuery_14,7,doi:10.1038/s41746-024-01157-x,The ethics of ChatGPT in medicine and healthcare: a systematic review on Large L,0.016129,1,2
+M3-R_RRF,RealScholarQuery_14,8,doi:10.3390/healthcare11060887,"ChatGPT Utility in Healthcare Education, Research, and Practice: Systematic Revi",0.016129,1,2
+M3-R_RRF,RealScholarQuery_14,9,doi:10.1145/3544548.3581388,Why Johnny Can’t Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts,0.015873,1,3
+M3-R_RRF,RealScholarQuery_14,10,doi:10.36227/techrxiv.23589741.v1,"A Survey on Large Language Models: Applications, Challenges, Limitations, and Pr",0.015873,1,3
+M3-R_RRF,RealScholarQuery_14,11,doi:10.18653/v1/2024.emnlp-main.486,Knowledge Conflicts for LLMs: A Survey,0.015625,1,4
+M3-R_RRF,RealScholarQuery_14,12,doi:10.1016/j.metrad.2023.100022,"A comprehensive survey of ChatGPT: Advancements, applications, prospects, and ch",0.015385,1,5
+M3-R_RRF,RealScholarQuery_14,13,doi:10.1039/d4sc03921a,A review of large language models and autonomous agents in chemistry,0.015385,1,5
+M3-R_RRF,RealScholarQuery_14,14,doi:10.2196/46885,"The Role of ChatGPT, Generative Language Models, and Artificial Intelligence in ",0.015385,1,5
+M3-R_RRF,RealScholarQuery_14,15,doi:10.48550/arxiv.2309.07864,The Rise and Potential of Large Language Model Based Agents: A Survey,0.015152,1,6
+M3-R_RRF,RealScholarQuery_14,16,doi:10.1145/3560815,"Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natu",0.014925,1,7
+M3-R_RRF,RealScholarQuery_14,17,doi:10.1002/asi.24750,ChatGPT and a new academic reality: Artificial Intelligence‐written research pap,0.014706,1,8
+M3-R_RRF,RealScholarQuery_14,18,doi:10.1145/3715754,Demystifying LLM-Based Software Engineering Agents,0.014706,1,8
+M3-R_RRF,RealScholarQuery_14,19,doi:10.1371/journal.pmed.1000100,The PRISMA Statement for Reporting Systematic Reviews and Meta-Analyses of Studi,0.014706,1,8
+M3-R_RRF,RealScholarQuery_14,20,doi:10.48550/arxiv.2311.05232,"A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challe",0.014493,1,9
+M3-R_RRF,RealScholarQuery_15,1,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,0.094433,6,1
+M3-R_RRF,RealScholarQuery_15,2,doi:10.4230/oasics.icpec.2025.4,Can Open Large Language Models Catch Vulnerabilities?,0.05933,4,2
+M3-R_RRF,RealScholarQuery_15,3,doi:10.18653/v1/2022.acl-long.125,Composable Sparse Fine-Tuning for Cross-Lingual Transfer,0.047139,3,2
+M3-R_RRF,RealScholarQuery_15,4,doi:10.1038/s41586-025-09422-z,DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning,0.046972,3,1
+M3-R_RRF,RealScholarQuery_15,5,doi:10.18653/v1/2024.emnlp-main.15,Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs,0.043326,3,6
+M3-R_RRF,RealScholarQuery_15,6,doi:10.1145/3743127,RLHF Deciphered: A Critical Analysis of Reinforcement Learning from Human Feedba,0.042787,3,5
+M3-R_RRF,RealScholarQuery_15,7,doi:10.1613/jair.1.15960,The RL/LLM Taxonomy Tree: Reviewing Synergies Between Reinforcement Learning and,0.041895,3,9
+M3-R_RRF,RealScholarQuery_15,8,doi:10.48550/arxiv.2502.01225,The dark deep side of DeepSeek: Fine-tuning attacks against the safety alignment,0.032522,2,1
+M3-R_RRF,RealScholarQuery_15,9,doi:10.48550/arxiv.2402.03300,BioXP-0.5B: Explainable Medical-AI via RL-GRPO,0.032018,2,1
+M3-R_RRF,RealScholarQuery_15,10,doi:10.48550/arxiv.2305.14314,QLoRA: Efficient Finetuning of Quantized LLMs,0.031754,2,2
+M3-R_RRF,RealScholarQuery_15,11,doi:10.48550/arxiv.2308.10792,Instruction Tuning for Large Language Models: A Survey,0.030835,2,2
+M3-R_RRF,RealScholarQuery_15,12,W7161655712,Reference-Free Reinforcement Learning Fine-Tuning for MT: A Seq2Seq Perspective,0.030798,2,3
+M3-R_RRF,RealScholarQuery_15,13,doi:10.48550/arxiv.2604.19060,Reinforcement Learning Improves LLM Accuracy and Reasoning in Disease Classifica,0.030777,2,4
+M3-R_RRF,RealScholarQuery_15,14,doi:10.48550/arxiv.2204.05862,Training a Helpful and Harmless Assistant with Reinforcement Learning from Human,0.030769,2,5
+M3-R_RRF,RealScholarQuery_15,15,W7154539106,ExecTune: Effective Steering of Black-Box LLMs with Guide Models,0.029958,2,3
+M3-R_RRF,RealScholarQuery_15,16,doi:10.1038/s41746-026-02685-4,Reinforcement learning improves LLM accuracy and reasoning in disease classifica,0.02967,2,5
+M3-R_RRF,RealScholarQuery_15,17,doi:10.48550/arxiv.2211.15006,Fine-tuning language models to find agreement among humans with diverse preferen,0.029551,2,1
+M3-R_RRF,RealScholarQuery_15,18,W7155452288,Reinforcement Learning Improves LLM Accuracy and Reasoning in Disease Classifica,0.02904,2,6
+M3-R_RRF,RealScholarQuery_15,19,W7163597624,Reasoning over Grammar: Can Synthetic Linguistic Reasoning Traces Enhance Low-Re,0.028992,2,8
+M3-R_RRF,RealScholarQuery_15,20,doi:10.18653/v1/2024.emnlp-main.444,Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?,0.028778,2,9
+M3-R_RRF,RealScholarQuery_17,1,doi:10.18653/v1/2023.emnlp-main.214,GPT-RE: In-context Learning for Relation Extraction using Large Language Models,0.031754,2,2
+M3-R_RRF,RealScholarQuery_17,2,doi:10.1007/s11704-024-40555-y,Large language models for generative information extraction: a survey,0.030415,2,2
+M3-R_RRF,RealScholarQuery_17,3,doi:10.48550/arxiv.2308.10792,Instruction Tuning for Large Language Models: A Survey,0.030159,2,3
+M3-R_RRF,RealScholarQuery_17,4,doi:10.48550/arxiv.2305.03047,Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Hum,0.027072,2,11
+M3-R_RRF,RealScholarQuery_17,5,doi:10.1145/3649506,Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,0.016129,1,2
+M3-R_RRF,RealScholarQuery_17,6,doi:10.18653/v1/2024.emnlp-main.15,Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs,0.015873,1,3
+M3-R_RRF,RealScholarQuery_17,7,doi:10.1093/bib/bbac282,BioRED: a rich biomedical relation extraction dataset,0.015625,1,4
+M3-R_RRF,RealScholarQuery_17,8,doi:10.1093/jamia/ocz063,A study of deep learning approaches for medication and adverse drug event extrac,0.015385,1,5
+M3-R_RRF,RealScholarQuery_17,9,doi:10.48550/arxiv.2303.16199,LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention,0.015385,1,5
+M3-R_RRF,RealScholarQuery_17,10,doi:10.18653/v1/2023.findings-emnlp.710,"Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Re",0.015152,1,6
+M3-R_RRF,RealScholarQuery_17,11,doi:10.48550/arxiv.1910.10683,Exploring the Limits of Transfer Learning with a Unified Text-to-Text\n Transfor,0.015152,1,6
+M3-R_RRF,RealScholarQuery_17,12,doi:10.1093/jamia/ocz101,Adverse drug events and medication relation extraction in electronic health reco,0.014925,1,7
+M3-R_RRF,RealScholarQuery_17,13,doi:10.48550/arxiv.2304.01852,Summary of ChatGPT-Related Research and Perspective Towards the Future of Large ,0.014925,1,7
+M3-R_RRF,RealScholarQuery_17,14,doi:10.48550/arxiv.2403.05530,Gemini 1.5: Unlocking multimodal understanding across millions of tokens of cont,0.014925,1,7
+M3-R_RRF,RealScholarQuery_17,15,doi:10.1613/jair.1.12228,A Survey on the Explainability of Supervised Machine Learning,0.014706,1,8
+M3-R_RRF,RealScholarQuery_17,16,doi:10.18653/v1/2020.emnlp-main.133,Two are Better than One: Joint Entity and Relation Extraction with Table-Sequenc,0.014493,1,9
+M3-R_RRF,RealScholarQuery_17,17,doi:10.48550/arxiv.2305.14450,An Empirical Study on Information Extraction using Large Language Models,0.014493,1,9
+M3-R_RRF,RealScholarQuery_17,18,doi:10.1186/s40537-014-0007-7,Deep learning applications and challenges in big data analytics,0.014286,1,10
+M3-R_RRF,RealScholarQuery_17,19,doi:10.1007/s10462-024-10896-y,Towards trustworthy LLMs: a review on debiasing and dehallucinating in large lan,0.014085,1,11
+M3-R_RRF,RealScholarQuery_17,20,doi:10.1063/5.0021106,Data-driven materials research enabled by natural language processing and inform,0.014085,1,11
+M3-R_RRF,RealScholarQuery_20,1,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,0.0456,3,1
+M3-R_RRF,RealScholarQuery_20,2,doi:10.1007/s11704-024-40231-1,A survey on large language model based autonomous agents,0.044798,3,1
+M3-R_RRF,RealScholarQuery_20,3,doi:10.1007/s10462-024-10888-y,"Large language models (LLMs): survey, technical frameworks, and future challenge",0.043371,3,2
+M3-R_RRF,RealScholarQuery_20,4,doi:10.48550/arxiv.2107.03374,Evaluating Large Language Models Trained on Code,0.02895,2,2
+M3-R_RRF,RealScholarQuery_20,5,doi:10.1145/3626235,Diffusion Models: A Comprehensive Survey of Methods and Applications,0.02886,2,3
+M3-R_RRF,RealScholarQuery_20,6,doi:10.48550/arxiv.2309.07864,The Rise and Potential of Large Language Model Based Agents: A Survey,0.026334,2,14
+M3-R_RRF,RealScholarQuery_20,7,doi:10.48550/arxiv.2310.19736,Evaluating Large Language Models: A Comprehensive Survey,0.016393,1,1
+M3-R_RRF,RealScholarQuery_20,8,doi:10.1038/s41746-024-01157-x,The ethics of ChatGPT in medicine and healthcare: a systematic review on Large L,0.015873,1,3
+M3-R_RRF,RealScholarQuery_20,9,doi:10.1145/3544548.3581388,Why Johnny Can’t Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts,0.015873,1,3
+M3-R_RRF,RealScholarQuery_20,10,doi:10.48550/arxiv.2309.10371,Generative AI vs. AGI: The Cognitive Strengths and Weaknesses of Modern LLMs,0.015873,1,3
+M3-R_RRF,RealScholarQuery_20,11,doi:10.1111/bjet.13370,Practical and ethical challenges of large language models in education: A system,0.015625,1,4
+M3-R_RRF,RealScholarQuery_20,12,doi:10.1145/3236009,A survey of methods for explaining black box models,0.015625,1,4
+M3-R_RRF,RealScholarQuery_20,13,doi:10.1145/2523813,A survey on concept drift adaptation,0.015385,1,5
+M3-R_RRF,RealScholarQuery_20,14,doi:10.48550/arxiv.2304.13712,Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,0.015385,1,5
+M3-R_RRF,RealScholarQuery_20,15,doi:10.1145/3560815,"Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natu",0.015152,1,6
+M3-R_RRF,RealScholarQuery_20,16,doi:10.1145/3649506,Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,0.015152,1,6
+M3-R_RRF,RealScholarQuery_20,17,doi:10.36227/techrxiv.23589741.v1,"A Survey on Large Language Models: Applications, Challenges, Limitations, and Pr",0.015152,1,6
+M3-R_RRF,RealScholarQuery_20,18,W2962727772,Automatic differentiation in machine learning: a survey,0.014925,1,7
+M3-R_RRF,RealScholarQuery_20,19,doi:10.18653/v1/2023.findings-acl.67,Towards Reasoning in Large Language Models: A Survey,0.014925,1,7
+M3-R_RRF,RealScholarQuery_20,20,doi:10.1016/j.jclinepi.2025.111746,"Large language models for conducting systematic reviews: on the rise, but not ye",0.014706,1,8
+M3-R_RRF,RealScholarQuery_21,1,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,0.048916,3,1
+M3-R_RRF,RealScholarQuery_21,2,doi:10.48550/arxiv.2308.10792,Instruction Tuning for Large Language Models: A Survey,0.039696,3,12
+M3-R_RRF,RealScholarQuery_21,3,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,0.032266,2,1
+M3-R_RRF,RealScholarQuery_21,4,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,0.031025,2,3
+M3-R_RRF,RealScholarQuery_21,5,doi:10.48550/arxiv.2310.14735,Unleashing the potential of prompt engineering for large language models,0.029437,2,6
+M3-R_RRF,RealScholarQuery_21,6,doi:10.18653/v1/2024.sicon-1.2,Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politen,0.028309,2,6
+M3-R_RRF,RealScholarQuery_21,7,doi:10.18653/v1/2024.findings-acl.624,InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Lan,0.027526,2,8
+M3-R_RRF,RealScholarQuery_21,8,doi:10.1145/3560815,"Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natu",0.016393,1,1
+M3-R_RRF,RealScholarQuery_21,9,doi:10.48550/arxiv.2307.06435,A Comprehensive Overview of Large Language Models,0.016129,1,2
+M3-R_RRF,RealScholarQuery_21,10,doi:10.48550/arxiv.2302.04761,Toolformer: Language Models Can Teach Themselves to Use Tools,0.015873,1,3
+M3-R_RRF,RealScholarQuery_21,11,W1561558283,The Future of the Internet--And How to Stop It,0.015625,1,4
+M3-R_RRF,RealScholarQuery_21,12,doi:10.48550/arxiv.2305.03047,Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Hum,0.015625,1,4
+M3-R_RRF,RealScholarQuery_21,13,doi:10.1007/s43681-023-00289-2,Auditing large language models: a three-layered approach,0.015385,1,5
+M3-R_RRF,RealScholarQuery_21,14,doi:10.1007/s10916-024-02045-3,The Breakthrough of Large Language Models Release for Medical Applications: 1-Ye,0.015152,1,6
+M3-R_RRF,RealScholarQuery_21,15,doi:10.1038/s41746-024-01029-4,Prompt engineering in consistency and reliability with the evidence-based guidel,0.014925,1,7
+M3-R_RRF,RealScholarQuery_21,16,doi:10.48550/arxiv.2401.02954,DeepSeek LLM: Scaling Open-Source Language Models with Longtermism,0.014925,1,7
+M3-R_RRF,RealScholarQuery_21,17,doi:10.1371/journal.pone.0306621,The political preferences of LLMs,0.014706,1,8
+M3-R_RRF,RealScholarQuery_21,18,doi:10.18653/v1/2024.findings-emnlp.888,When ”A Helpful Assistant” Is Not Really Helpful: Personas in System Prompts Do ,0.014493,1,9
+M3-R_RRF,RealScholarQuery_21,19,doi:10.4230/oasics.icpec.2025.4,Can Open Large Language Models Catch Vulnerabilities?,0.014493,1,9
+M3-R_RRF,RealScholarQuery_21,20,doi:10.18653/v1/2024.findings-acl.156,The Language Barrier: Dissecting Safety Challenges of LLMs in Multilingual Conte,0.014286,1,10
+M3-R_RRF,RealScholarQuery_22,1,doi:10.1609/aaai.v35i7.16792,(Comet-) Atomic 2020: On Symbolic and Neural Commonsense Knowledge Graphs,0.031746,2,3
+M3-R_RRF,RealScholarQuery_22,2,doi:10.1109/tnnls.2021.3070843,"A Survey on Knowledge Graphs: Representation, Acquisition, and Applications",0.031514,2,2
+M3-R_RRF,RealScholarQuery_22,3,doi:10.1107/s0907444910007493,Features and development of Coot,0.031319,2,1
+M3-R_RRF,RealScholarQuery_22,4,doi:10.1093/rfs/hhaa009,Empirical Asset Pricing via Machine Learning,0.030214,2,2
+M3-R_RRF,RealScholarQuery_22,5,doi:10.18653/v1/w16-2301,Findings of the 2016 Conference on Machine Translation,0.029324,2,4
+M3-R_RRF,RealScholarQuery_22,6,doi:10.18653/v1/p19-1472,HellaSwag: Can a Machine Really Finish Your Sentence?,0.026585,2,11
+M3-R_RRF,RealScholarQuery_22,7,doi:10.1038/s42254-021-00314-5,Physics-informed machine learning,0.016393,1,1
+M3-R_RRF,RealScholarQuery_22,8,doi:10.1609/aaai.v33i01.33013027,ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning,0.016393,1,1
+M3-R_RRF,RealScholarQuery_22,9,doi:10.1038/nature23474,Quantum machine learning,0.016129,1,2
+M3-R_RRF,RealScholarQuery_22,10,doi:10.1038/s41586-018-0337-2,Machine learning for molecular and materials science,0.015873,1,3
+M3-R_RRF,RealScholarQuery_22,11,doi:10.2307/1511637,Wicked Problems in Design Thinking,0.015873,1,3
+M3-R_RRF,RealScholarQuery_22,12,doi:10.1007/s42979-021-00592-x,"Machine Learning: Algorithms, Real-World Applications and Research Directions",0.015625,1,4
+M3-R_RRF,RealScholarQuery_22,13,doi:10.1146/annurev-fluid-010719-060214,Machine Learning for Fluid Mechanics,0.015385,1,5
+M3-R_RRF,RealScholarQuery_22,14,doi:10.1609/aaai.v31i1.11164,ConceptNet 5.5: An Open Multilingual Graph of General Knowledge,0.015152,1,6
+M3-R_RRF,RealScholarQuery_22,15,doi:10.3115/1219840.1219873,A hierarchical phrase-based model for statistical machine translation,0.015152,1,6
+M3-R_RRF,RealScholarQuery_22,16,doi:10.3390/electronics8080832,Machine Learning Interpretability: A Survey on Methods and Metrics,0.014925,1,7
+M3-R_RRF,RealScholarQuery_22,17,doi:10.1145/365153.365168,ELIZA—a computer program for the study of natural language communication between,0.014706,1,8
+M3-R_RRF,RealScholarQuery_22,18,doi:10.1016/j.neucom.2019.10.118,"A comprehensive survey on support vector machine classification: Applications, c",0.014493,1,9
+M3-R_RRF,RealScholarQuery_22,19,doi:10.18653/v1/d19-1243,Cosmos QA: Machine Reading Comprehension with Contextual Commonsense Reasoning,0.014493,1,9
+M3-R_RRF,RealScholarQuery_22,20,doi:10.1109/tkde.2021.3079836,Informed Machine Learning - A Taxonomy and Survey of Integrating Prior Knowledge,0.014286,1,10
+M3-R_RRF,RealScholarQuery_23,1,doi:10.1145/3626235,Diffusion Models: A Comprehensive Survey of Methods and Applications,0.03125,2,4
+M3-R_RRF,RealScholarQuery_23,2,doi:10.52202/085713-2750,Improving Video Generation with Human Feedback,0.030536,2,5
+M3-R_RRF,RealScholarQuery_23,3,doi:10.1093/nsr/nwae348,Opportunities and challenges of diffusion models for generative AI,0.02837,2,10
+M3-R_RRF,RealScholarQuery_23,4,doi:10.1038/s42256-023-00762-x,Inverse design of nonlinear mechanical metamaterials via video denoising diffusi,0.027778,2,12
+M3-R_RRF,RealScholarQuery_23,5,doi:10.1007/s10462-022-10176-7,Deep learning for video object segmentation: a review,0.025974,2,17
+M3-R_RRF,RealScholarQuery_23,6,doi:10.1109/tcss.2024.3384627,Unsupervised Video Summarization Based on the Diffusion Model of Feature Fusion,0.025641,2,18
+M3-R_RRF,RealScholarQuery_23,7,doi:10.1038/npp.2009.129,The Reward Circuit: Linking Primate Anatomy and Human Imaging,0.016393,1,1
+M3-R_RRF,RealScholarQuery_23,8,doi:10.1109/cvpr52733.2024.00618,InstructVideo: Instructing Video Diffusion Models with Human Feedback,0.016393,1,1
+M3-R_RRF,RealScholarQuery_23,9,doi:10.1145/3394486.3403384,Jointly Learning to Recommend and Advertise,0.016393,1,1
+M3-R_RRF,RealScholarQuery_23,10,doi:10.1609/aaai.v35i2.16234,Temporal ROI Align for Video Object Recognition,0.016393,1,1
+M3-R_RRF,RealScholarQuery_23,11,doi:10.1609/aaai.v40i15.38285,VQ-Insight: Teaching VLMs for AI-Generated Video Quality Understanding via Progr,0.016393,1,1
+M3-R_RRF,RealScholarQuery_23,12,doi:10.48550/arxiv.2305.13840,Control-A-Video: Controllable Text-to-Video Diffusion Models with Motion Prior a,0.016393,1,1
+M3-R_RRF,RealScholarQuery_23,13,W7202005942,Sample-Adaptive Latent Rewards for Uncertainty-Guided Diffusion Post-Training,0.016129,1,2
+M3-R_RRF,RealScholarQuery_23,14,doi:10.1109/cvpr52729.2023.02161,Align Your Latents: High-Resolution Video Synthesis with Latent Diffusion Models,0.016129,1,2
+M3-R_RRF,RealScholarQuery_23,15,doi:10.1523/jneurosci.1902-05.2005,The Ventral Pallidum and Hedonic Reward: Neurochemical Maps of Sucrose “Liking” ,0.016129,1,2
+M3-R_RRF,RealScholarQuery_23,16,doi:10.3390/jsan14030052,Data-Driven Approaches for Efficient Vehicle Driving Analysis: A Survey,0.016129,1,2
+M3-R_RRF,RealScholarQuery_23,17,doi:10.48550/arxiv.2312.12490,InstructVideo: Instructing Video Diffusion Models with Human Feedback,0.016129,1,2
+M3-R_RRF,RealScholarQuery_23,18,W7139147337,LatSearch: Latent Reward-Guided Search for Faster Inference-Time Scaling in Vide,0.015873,1,3
+M3-R_RRF,RealScholarQuery_23,19,doi:10.1523/jneurosci.4205-06.2007,Opioid Limbic Circuit for Reward: Interaction between Hedonic Hotspots of Nucleu,0.015873,1,3
+M3-R_RRF,RealScholarQuery_23,20,doi:10.18653/v1/2024.emnlp-main.127,VideoScore: Building Automatic Metrics to Simulate Fine-grained Human Feedback f,0.015873,1,3
+M3-R_RRF,RealScholarQuery_25,1,doi:10.1109/iccv51070.2023.01843,Exploring Video Quality Assessment on User Generated Contents from Aesthetic and,0.078991,5,1
+M3-R_RRF,RealScholarQuery_25,2,doi:10.48550/arxiv.2307.06942,InternVid: A Large-scale Video-Text Dataset for Multimodal Understanding and Gen,0.030366,2,3
+M3-R_RRF,RealScholarQuery_25,3,doi:10.1609/aaai.v38i5.28226,T2I-Adapter: Learning Adapters to Dig Out More Controllable Ability for Text-to-,0.029214,2,1
+M3-R_RRF,RealScholarQuery_25,4,doi:10.2196/59505,"Multimodal Large Language Models in Health Care: Applications, Challenges, and F",0.029214,2,1
+M3-R_RRF,RealScholarQuery_25,5,doi:10.1145/3581783.3611969,AesCLIP: Multi-Attribute Contrastive Learning for Image Aesthetics Assessment,0.028372,2,5
+M3-R_RRF,RealScholarQuery_25,6,doi:10.48550/arxiv.2312.17090,Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels,0.027799,2,10
+M3-R_RRF,RealScholarQuery_25,7,doi:10.7557/23.6003,"Video Game Genre, Evolution and Innovation",0.027444,2,10
+M3-R_RRF,RealScholarQuery_25,8,doi:10.1109/cvpr.2012.6247954,AVA: A large-scale database for aesthetic visual analysis,0.016393,1,1
+M3-R_RRF,RealScholarQuery_25,9,doi:10.1177/15554120221149532,The Beautiful Rule: Thinking the Aesthetics of Game Rules,0.016393,1,1
+M3-R_RRF,RealScholarQuery_25,10,doi:10.3389/fncom.2017.00102,Computational and Experimental Approaches to Visual Aesthetics,0.016393,1,1
+M3-R_RRF,RealScholarQuery_25,11,doi:10.35534/rad.0202004,"Platformed Inheritance: Digital Re-mediation, Intangible Cultural Heritage, and ",0.016393,1,1
+M3-R_RRF,RealScholarQuery_25,12,doi:10.1038/s41591-022-01981-2,Multimodal biomedical AI,0.016129,1,2
+M3-R_RRF,RealScholarQuery_25,13,doi:10.1101/gr.092759.109,Circos: An information aesthetic for comparative genomics,0.016129,1,2
+M3-R_RRF,RealScholarQuery_25,14,doi:10.1109/cvpr.2019.00960,Effective Aesthetics Prediction With Multi-Level Spatially Pooled Features,0.016129,1,2
+M3-R_RRF,RealScholarQuery_25,15,doi:10.1109/cvpr52729.2023.00668,Positive-Augmented Contrastive Learning for Image and Video Captioning Evaluatio,0.016129,1,2
+M3-R_RRF,RealScholarQuery_25,16,doi:10.1109/cvpr52733.2024.00698,VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Mode,0.016129,1,2
+M3-R_RRF,RealScholarQuery_25,17,doi:10.1145/290747.290754,QoS impact on user perception and understanding of multimedia video clips,0.016129,1,2
+M3-R_RRF,RealScholarQuery_25,18,doi:10.22214/ijraset.2019.2021,Survey: Deep Learning for Video Aesthetics,0.016129,1,2
+M3-R_RRF,RealScholarQuery_25,19,doi:10.52152/heranca.v6i1.769,THE RELATIONSHIP BETWEEN THE HISTORICAL DEVELOPMENT OF MUSTARD GARDEN SHAN SHUI ,0.016129,1,2
+M3-R_RRF,RealScholarQuery_25,20,W1519529295,Learning plan networks in conversational video games,0.015873,1,3
+M3-R_RRF,RealScholarQuery_28,1,doi:10.48550/arxiv.2207.10397,CodeT: Code Generation with Generated Tests,0.031025,2,3
+M3-R_RRF,RealScholarQuery_28,2,doi:10.48550/arxiv.2107.03374,Evaluating Large Language Models Trained on Code,0.030835,2,2
+M3-R_RRF,RealScholarQuery_28,3,doi:10.48550/arxiv.2406.00515,A Survey on Large Language Models for Code Generation,0.029857,2,6
+M3-R_RRF,RealScholarQuery_28,4,doi:10.48550/arxiv.2406.15877,BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Compl,0.027206,2,8
+M3-R_RRF,RealScholarQuery_28,5,doi:10.48550/arxiv.2210.14868,Multi-lingual Evaluation of Code Generation Models,0.026519,2,13
+M3-R_RRF,RealScholarQuery_28,6,doi:10.1145/3580305.3599790,CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Benchmarking,0.016393,1,1
+M3-R_RRF,RealScholarQuery_28,7,doi:10.48550/arxiv.2308.12950,Code Llama: Open Foundation Models for Code,0.016393,1,1
+M3-R_RRF,RealScholarQuery_28,8,doi:10.1088/0953-8984/14/11/301,"First-principles simulation: ideas, illustrations and the CASTEP code",0.016129,1,2
+M3-R_RRF,RealScholarQuery_28,9,doi:10.48550/arxiv.2305.01210,Is Your Code Generated by ChatGPT Really Correct? Rigorous Evaluation of Large L,0.016129,1,2
+M3-R_RRF,RealScholarQuery_28,10,doi:10.1145/3697010,An Empirical Study of the Non-Determinism of ChatGPT in Code Generation,0.015873,1,3
+M3-R_RRF,RealScholarQuery_28,11,doi:10.18653/v1/w19-5006,Transfer Learning in Biomedical Natural Language Processing: An Evaluation of BE,0.015873,1,3
+M3-R_RRF,RealScholarQuery_28,12,doi:10.1038/srep42717,"SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medic",0.015625,1,4
+M3-R_RRF,RealScholarQuery_28,13,doi:10.1145/3597503.3639219,Evaluating Large Language Models in Class-Level Code Generation,0.015625,1,4
+M3-R_RRF,RealScholarQuery_28,14,doi:10.1145/3690635,Structured Chain-of-Thought Prompting for Code Generation,0.015625,1,4
+M3-R_RRF,RealScholarQuery_28,15,doi:10.1186/1471-2105-5-113,MUSCLE: a multiple sequence alignment method with reduced time and space complex,0.015385,1,5
+M3-R_RRF,RealScholarQuery_28,16,doi:10.48550/arxiv.2203.13474,CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis,0.015385,1,5
+M3-R_RRF,RealScholarQuery_28,17,doi:10.1002/qua.24481,Jaguar: A high‐performance quantum chemistry software program with strengths in ,0.015152,1,6
+M3-R_RRF,RealScholarQuery_28,18,doi:10.1145/3715727,COFFE: A Code Efficiency Benchmark for Code Generation,0.014925,1,7
+M3-R_RRF,RealScholarQuery_28,19,doi:10.18653/v1/2024.acl-long.737,CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real,0.014925,1,7
+M3-R_RRF,RealScholarQuery_28,20,doi:10.48550/arxiv.2308.02828,An Empirical Study of the Non-determinism of ChatGPT in Code Generation,0.014493,1,9
+M3-R_RRF,RealScholarQuery_29,1,doi:10.48550/arxiv.2309.15806,Lyra: Orchestrating Dual Correction in Automated Theorem Proving,0.042925,3,8
+M3-R_RRF,RealScholarQuery_29,2,doi:10.48550/arxiv.2303.12712,Sparks of Artificial General Intelligence: Early experiments with GPT-4,0.032787,2,1
+M3-R_RRF,RealScholarQuery_29,3,doi:10.1145/3770084,A Survey on LLM-based Code Generation for Low-Resource and Domain-Specific Progr,0.032258,2,2
+M3-R_RRF,RealScholarQuery_29,4,doi:10.18653/v1/2024.emnlp-main.667,TheoremLlama: Transforming General-Purpose LLMs into Lean4 Experts,0.030777,2,4
+M3-R_RRF,RealScholarQuery_29,5,doi:10.48550/arxiv.2310.00656,LEGO-Prover: Neural Theorem Proving with Growing Libraries,0.03055,2,4
+M3-R_RRF,RealScholarQuery_29,6,doi:10.1371/journal.pdig.0000877,Retrieval augmented generation for large language models in healthcare: A system,0.030159,2,3
+M3-R_RRF,RealScholarQuery_29,7,doi:10.48550/arxiv.2404.09939,A Survey on Deep Learning for Theorem Proving,0.029211,2,7
+M3-R_RRF,RealScholarQuery_29,8,doi:10.1038/s41586-025-09833-y,Olympiad-level formal mathematical reasoning with reinforcement learning,0.029199,2,8
+M3-R_RRF,RealScholarQuery_29,9,doi:10.18653/v1/2025.acl-long.1310,From Informal to Formal – Incorporating and Evaluating LLMs on Natural Language ,0.028898,2,5
+M3-R_RRF,RealScholarQuery_29,10,doi:10.48550/arxiv.2510.04721,BrokenMath: A Benchmark for Sycophancy in Theorem Proving with LLMs,0.028718,2,5
+M3-R_RRF,RealScholarQuery_29,11,doi:10.3390/bdcc10010038,Thinking Machines: Mathematical Reasoning in the Age of LLMs,0.028382,2,9
+M3-R_RRF,RealScholarQuery_29,12,doi:10.48550/arxiv.2109.00110,MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics,0.028039,2,8
+M3-R_RRF,RealScholarQuery_29,13,doi:10.18653/v1/2025.naacl-long.172,LLM The Genius Paradox: A Linguistic and Math Expert’s Struggle with Simple Word,0.026357,2,13
+M3-R_RRF,RealScholarQuery_29,14,doi:10.48550/arxiv.2410.07985,Omni-MATH: A Universal Olympiad Level Mathematic Benchmark For Large Language Mo,0.016393,1,1
+M3-R_RRF,RealScholarQuery_29,15,doi:10.3390/app14020744,Can Neural Networks Do Arithmetic? A Survey on the Elementary Numerical Skills o,0.016129,1,2
+M3-R_RRF,RealScholarQuery_29,16,doi:10.48550/arxiv.2302.13971,LLaMA: Open and Efficient Foundation Language Models,0.016129,1,2
+M3-R_RRF,RealScholarQuery_29,17,doi:10.1145/3729218,"A Survey of Reasoning with Foundation Models: Concepts, Methodologies, and Outlo",0.015625,1,4
+M3-R_RRF,RealScholarQuery_29,18,doi:10.48550/arxiv.2205.10893,Thor: Wielding Hammers to Integrate Language Models and Automated Theorem Prover,0.015625,1,4
+M3-R_RRF,RealScholarQuery_29,19,doi:10.48550/arxiv.2504.09037,"A Survey of Frontiers in LLM Reasoning: Inference Scaling, Learning to Reason, a",0.015385,1,5
+M3-R_RRF,RealScholarQuery_29,20,doi:10.1109/tpami.2025.3637037,From System 1 to System 2: A Survey of Reasoning Large Language Models,0.015152,1,6
+M3-R_RRF,RealScholarQuery_34,1,doi:10.1007/s44267-023-00019-6,Advances in deep concealed scene understanding,0.045343,3,1
+M3-R_RRF,RealScholarQuery_34,2,doi:10.3390/fi15080260,"The Power of Generative AI: A Review of Requirements, Models, Input–Output Forma",0.044989,3,2
+M3-R_RRF,RealScholarQuery_34,3,doi:10.48550/arxiv.1610.07584,Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversa,0.032522,2,1
+M3-R_RRF,RealScholarQuery_34,4,doi:10.48550/arxiv.2304.06488,"One Small Step for Generative AI, One Giant Leap for AGI: A Complete Survey on C",0.031054,2,2
+M3-R_RRF,RealScholarQuery_34,5,doi:10.3389/fcomp.2024.1417016,Explore the driving factors of designers’ AIGC usage behavior based on SOR frame,0.029762,2,3
+M3-R_RRF,RealScholarQuery_34,6,doi:10.1007/s44212-024-00060-w,Leveraging generative AI for urban digital twins: a scoping review on the autono,0.026743,2,11
+M3-R_RRF,RealScholarQuery_34,7,doi:10.1109/cvpr.2011.5995641,A generative model for 3D urban scene understanding from movable platforms,0.016393,1,1
+M3-R_RRF,RealScholarQuery_34,8,doi:10.1109/tpami.2013.185,3D Traffic Scene Understanding From Movable Platforms,0.015873,1,3
+M3-R_RRF,RealScholarQuery_34,9,doi:10.1111/1748-8583.12524,Human resource management in the age of generative artificial intelligence: Pers,0.015873,1,3
+M3-R_RRF,RealScholarQuery_34,10,doi:10.1109/ojcs.2023.3300321,"A Survey on ChatGPT: AI–Generated Contents, Challenges, and Solutions",0.015625,1,4
+M3-R_RRF,RealScholarQuery_34,11,doi:10.48550/arxiv.1506.05751,Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks,0.015625,1,4
+M3-R_RRF,RealScholarQuery_34,12,doi:10.48550/arxiv.2007.02442,GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis,0.015385,1,5
+M3-R_RRF,RealScholarQuery_34,13,doi:10.48550/arxiv.2305.06131,Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era,0.015385,1,5
+M3-R_RRF,RealScholarQuery_34,14,doi:10.48550/arxiv.2305.08196,A Comprehensive Survey on Segment Anything Model for Vision and Beyond,0.015385,1,5
+M3-R_RRF,RealScholarQuery_34,15,doi:10.1109/tpami.2024.3362475,SpectralGPT: Spectral Remote Sensing Foundation Model,0.015152,1,6
+M3-R_RRF,RealScholarQuery_34,16,doi:10.1145/3728633,AI-Generated Content (AIGC) for Various Data Modalities: A Survey,0.015152,1,6
+M3-R_RRF,RealScholarQuery_34,17,doi:10.1109/access.2018.2886133,Indoor Scene Understanding in 2.5/3D for Autonomous Agents: A Survey,0.014925,1,7
+M3-R_RRF,RealScholarQuery_34,18,doi:10.48550/arxiv.1603.08575,"Attend, Infer, Repeat: Fast Scene Understanding with Generative Models",0.014925,1,7
+M3-R_RRF,RealScholarQuery_34,19,doi:10.1109/cvpr52729.2023.01607,"Diffusion-based Generation, Optimization, and Planning in 3D Scenes",0.014706,1,8
+M3-R_RRF,RealScholarQuery_34,20,doi:10.48550/arxiv.2303.16129,Unleashing the Power of Edge-Cloud Generative AI in Mobile Networks: A Survey of,0.014706,1,8
+M3-R_RRF,RealScholarQuery_35,1,doi:10.48550/arxiv.2305.14314,QLoRA: Efficient Finetuning of Quantized LLMs,0.065309,4,1
+M3-R_RRF,RealScholarQuery_35,2,doi:10.18653/v1/2024.findings-acl.26,LLM-QAT: Data-Free Quantization Aware Training for Large Language Models,0.062256,4,1
+M3-R_RRF,RealScholarQuery_35,3,doi:10.18653/v1/2023.emnlp-main.39,LLM-FP4: 4-Bit Floating-Point Quantized Transformers,0.056294,4,6
+M3-R_RRF,RealScholarQuery_35,4,doi:10.48550/arxiv.2402.05445,Accurate LoRA-Finetuning Quantization of LLMs via Information Retention,0.041553,3,8
+M3-R_RRF,RealScholarQuery_35,5,doi:10.48550/arxiv.2107.03374,Evaluating Large Language Models Trained on Code,0.03055,2,4
+M3-R_RRF,RealScholarQuery_35,6,doi:10.1109/icdcs60910.2024.00036,Efficient Pretraining and Finetuning of Quantized LLMs with Low-Rank Structure,0.030159,2,3
+M3-R_RRF,RealScholarQuery_35,7,doi:10.1145/3583780.3615017,Prompt Distillation for Efficient LLM-based Recommendation,0.029274,2,5
+M3-R_RRF,RealScholarQuery_35,8,doi:10.48550/arxiv.2305.17888,LLM-QAT: Data-Free Quantization Aware Training for Large Language Models,0.02895,2,2
+M3-R_RRF,RealScholarQuery_35,9,doi:10.1145/3624725,The Science of Detecting LLM-Generated Text,0.028624,2,7
+M3-R_RRF,RealScholarQuery_35,10,doi:10.48550/arxiv.2306.01116,The RefinedWeb Dataset for Falcon LLM: Outperforming Curated Corpora with Web Da,0.027652,2,6
+M3-R_RRF,RealScholarQuery_35,11,doi:10.1145/3637528.3671573,FederatedScope-LLM: A Comprehensive Package for Fine-tuning Large Language Model,0.026014,2,14
+M3-R_RRF,RealScholarQuery_35,12,doi:10.18637/jss.v076.i01,Stan : A Probabilistic Programming Language,0.016393,1,1
+M3-R_RRF,RealScholarQuery_35,13,doi:10.48550/arxiv.2405.16528,LoQT: Low-Rank Adapters for Quantized Pretraining,0.016393,1,1
+M3-R_RRF,RealScholarQuery_35,14,W3127829048,Degree-Quant: Quantization-Aware Training for Graph Neural Networks,0.016129,1,2
+M3-R_RRF,RealScholarQuery_35,15,doi:10.18653/v1/2025.findings-acl.694,Continual Quantization-Aware Pre-Training: When to transition from 16-bit to 1.5,0.016129,1,2
+M3-R_RRF,RealScholarQuery_35,16,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,0.016129,1,2
+M3-R_RRF,RealScholarQuery_35,17,doi:10.52202/079017-3661,LoQT: Low-Rank Adapters for Quantized Pretraining,0.016129,1,2
+M3-R_RRF,RealScholarQuery_35,18,doi:10.1016/j.neunet.2022.09.015,Quantization-aware training for low precision photonic neural networks,0.015873,1,3
+M3-R_RRF,RealScholarQuery_35,19,doi:10.18653/v1/2024.acl-long.678,LLM in a flash: Efficient Large Language Model Inference with Limited Memory,0.015873,1,3
+M3-R_RRF,RealScholarQuery_35,20,doi:10.36227/techrxiv.174613328.82961968/v1,Low-Rank Adaptation for Scalable Large Language Models: A Comprehensive Survey,0.015873,1,3
+M3-R_RRF,RealScholarQuery_38,1,doi:10.1016/j.media.2017.07.005,A survey on deep learning in medical image analysis,0.048139,3,1
+M3-R_RRF,RealScholarQuery_38,2,doi:10.48550/arxiv.1409.1556,Very Deep Convolutional Networks for Large-Scale Image Recognition,0.047228,3,1
+M3-R_RRF,RealScholarQuery_38,3,doi:10.1109/tmi.2014.2377694,The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS),0.043034,3,2
+M3-R_RRF,RealScholarQuery_38,4,doi:10.1002/(sici)1522-2594(199911)42:5<952::aid-mrm16>3.0.co;2-s,SENSE: Sensitivity encoding for fast MRI,0.031754,2,2
+M3-R_RRF,RealScholarQuery_38,5,doi:10.1186/s40537-019-0197-0,A survey on Image Data Augmentation for Deep Learning,0.030769,2,5
+M3-R_RRF,RealScholarQuery_38,6,doi:10.1145/3528223.3530127,Instant neural graphics primitives with a multiresolution hash encoding,0.029644,2,6
+M3-R_RRF,RealScholarQuery_38,7,doi:10.1109/34.244676,High confidence visual recognition of persons by a test of statistical independe,0.016393,1,1
+M3-R_RRF,RealScholarQuery_38,8,doi:10.1585/pfr.15.2402039,Radiation Resistant Camera System for Monitoring Deuterium Plasma Discharges in ,0.016393,1,1
+M3-R_RRF,RealScholarQuery_38,9,doi:10.1023/a:1026543900054,The Earth Mover's Distance as a Metric for Image Retrieval,0.016129,1,2
+M3-R_RRF,RealScholarQuery_38,10,doi:10.1016/j.jalz.2018.02.018,NIA‐AA Research Framework: Toward a biological definition of Alzheimer's disease,0.015873,1,3
+M3-R_RRF,RealScholarQuery_38,11,doi:10.1007/978-3-030-01219-9_11,Multimodal Unsupervised Image-to-Image Translation,0.015625,1,4
+M3-R_RRF,RealScholarQuery_38,12,doi:10.1111/cgf.13409,Assessing Effects of Task and Data Distribution on the Effectiveness of Visual E,0.015625,1,4
+M3-R_RRF,RealScholarQuery_38,13,doi:10.1002/mrm.1910030602,RARE imaging: A fast imaging method for clinical MR,0.015152,1,6
+M3-R_RRF,RealScholarQuery_38,14,doi:10.1523/jneurosci.19-06-01895.1999,Differential Distribution of Three Members of a Gene Family Encoding Low Voltage,0.015152,1,6
+M3-R_RRF,RealScholarQuery_38,15,doi:10.7717/peerj.453,scikit-image: image processing in Python,0.015152,1,6
+M3-R_RRF,RealScholarQuery_38,16,doi:10.1038/242190a0,Image Formation by Induced Local Interactions: Examples Employing Nuclear Magnet,0.014925,1,7
+M3-R_RRF,RealScholarQuery_38,17,doi:10.1080/014311698215748,"Review article Multisensor image fusion in remote sensing: Concepts, methods and",0.014925,1,7
+M3-R_RRF,RealScholarQuery_38,18,doi:10.1109/tpami.2006.244,Face Description with Local Binary Patterns: Application to Face Recognition,0.014706,1,8
+M3-R_RRF,RealScholarQuery_38,19,doi:10.1037//0021-843x.95.1.15,Attentional bias in emotional disorders.,0.014493,1,9
+M3-R_RRF,RealScholarQuery_38,20,doi:10.1364/ol.25.000887,Optical encryption by double-random phase encoding in the fractional Fourier dom,0.014286,1,10
+M3-R_RRF,RealScholarQuery_39,1,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,0.047651,3,1
+M3-R_RRF,RealScholarQuery_39,2,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,0.044979,3,2
+M3-R_RRF,RealScholarQuery_39,3,doi:10.1007/s10462-024-10888-y,"Large language models (LLMs): survey, technical frameworks, and future challenge",0.042532,3,8
+M3-R_RRF,RealScholarQuery_39,4,doi:10.1145/3544548.3580688,Evaluating Large Language Models in Generating Synthetic HCI Research Data: a Ca,0.04152,3,9
+M3-R_RRF,RealScholarQuery_39,5,doi:10.4230/lipics.cosit.2022.18,AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Con,0.032787,2,1
+M3-R_RRF,RealScholarQuery_39,6,doi:10.1145/3637528.3671470,A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models,0.032018,2,1
+M3-R_RRF,RealScholarQuery_39,7,doi:10.1145/3649506,Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,0.031746,2,3
+M3-R_RRF,RealScholarQuery_39,8,doi:10.18653/v1/2024.findings-acl.658,"On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey",0.030622,2,2
+M3-R_RRF,RealScholarQuery_39,9,doi:10.48550/arxiv.2107.03374,Evaluating Large Language Models Trained on Code,0.030622,2,2
+M3-R_RRF,RealScholarQuery_39,10,doi:10.48550/arxiv.2312.10997,Retrieval-Augmented Generation for Large Language Models: A Survey,0.029469,2,5
+M3-R_RRF,RealScholarQuery_39,11,doi:10.18653/v1/2024.findings-acl.738,MM-LLMs: Recent Advances in MultiModal Large Language Models,0.027222,2,12
+M3-R_RRF,RealScholarQuery_39,12,doi:10.48550/arxiv.2301.12597,BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and,0.026686,2,13
+M3-R_RRF,RealScholarQuery_39,13,doi:10.3390/app14052074,"A Review of Current Trends, Techniques, and Challenges in Large Language Models ",0.026389,2,12
+M3-R_RRF,RealScholarQuery_39,14,doi:10.48550/arxiv.2211.04325,Will we run out of data? Limits of LLM scaling based on human-generated data,0.025158,2,19
+M3-R_RRF,RealScholarQuery_39,15,doi:10.1093/pan/mps028,Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for,0.016129,1,2
+M3-R_RRF,RealScholarQuery_39,16,doi:10.1186/s13742-015-0047-8,Second-generation PLINK: rising to the challenge of larger and richer datasets,0.016129,1,2
+M3-R_RRF,RealScholarQuery_39,17,doi:10.1016/j.lindif.2023.102274,ChatGPT for good? On opportunities and challenges of large language models for e,0.015873,1,3
+M3-R_RRF,RealScholarQuery_39,18,doi:10.18653/v1/2023.emnlp-main.647,Synthetic Data Generation with Large Language Models for Text Classification: Po,0.015625,1,4
+M3-R_RRF,RealScholarQuery_39,19,doi:10.4230/oasics.icpec.2025.4,Can Open Large Language Models Catch Vulnerabilities?,0.015625,1,4
+M3-R_RRF,RealScholarQuery_39,20,doi:10.5281/zenodo.570441,Using Language Models for Information Retrieval,0.015385,1,5
+M3-R_RRF,RealScholarQuery_41,1,doi:10.1186/s40537-021-00492-0,Text Data Augmentation for Deep Learning,0.030886,2,1
+M3-R_RRF,RealScholarQuery_41,2,doi:10.48550/arxiv.2302.13007,AugGPT: Leveraging ChatGPT for Text Data Augmentation,0.028259,2,7
+M3-R_RRF,RealScholarQuery_41,3,doi:10.48550/arxiv.2308.10792,Instruction Tuning for Large Language Models: A Survey,0.027619,2,10
+M3-R_RRF,RealScholarQuery_41,4,doi:10.1038/s41586-024-08328-6,Accurate predictions on small data with a tabular foundation model,0.027598,2,11
+M3-R_RRF,RealScholarQuery_41,5,doi:10.1371/journal.pone.0008768,3′-End Sequencing for Expression Quantification (3SEQ) from Archival Tumor Sampl,0.025158,2,19
+M3-R_RRF,RealScholarQuery_41,6,doi:10.1073/pnas.1800069115,Facile bottom-up synthesis of partially oxidized black phosphorus nanosheets as ,0.016393,1,1
+M3-R_RRF,RealScholarQuery_41,7,doi:10.1145/331499.331504,Data clustering,0.016393,1,1
+M3-R_RRF,RealScholarQuery_41,8,doi:10.1186/s40537-019-0197-0,A survey on Image Data Augmentation for Deep Learning,0.016129,1,2
+M3-R_RRF,RealScholarQuery_41,9,doi:10.1007/s10994-019-05855-6,A survey on semi-supervised learning,0.015873,1,3
+M3-R_RRF,RealScholarQuery_41,10,doi:10.1002/14651858.cd005652.pub2,Psychological therapies for people with borderline personality disorder,0.015625,1,4
+M3-R_RRF,RealScholarQuery_41,11,doi:10.1007/s13278-024-01325-7,Data augmentation using instruction-tuned models improves emotion analysis in tw,0.015625,1,4
+M3-R_RRF,RealScholarQuery_41,12,doi:10.1109/access.2020.2982224,A State-of-the-Art Review on Image Synthesis With Generative Adversarial Network,0.015385,1,5
+M3-R_RRF,RealScholarQuery_41,13,doi:10.1145/3626772.3657775,GraphGPT: Graph Instruction Tuning for Large Language Models,0.015385,1,5
+M3-R_RRF,RealScholarQuery_41,14,doi:10.48550/arxiv.2304.08485,Visual Instruction Tuning,0.015385,1,5
+M3-R_RRF,RealScholarQuery_41,15,doi:10.1109/lsp.2021.3125264,Synthetic-to-Real Domain Adaptation Joint Spatial Feature Transform for Stereo M,0.015152,1,6
+M3-R_RRF,RealScholarQuery_41,16,doi:10.1111/1467-9868.00082,The EM Algorithm—an Old Folk-song Sung to a Fast New Tune,0.015152,1,6
+M3-R_RRF,RealScholarQuery_41,17,doi:10.1007/978-3-030-01261-8_12,Domain Adaptation Through Synthesis for Unsupervised Person Re-identification,0.014925,1,7
+M3-R_RRF,RealScholarQuery_41,18,doi:10.1371/journal.pone.0051260,A Space-For-Time (SFT) Substitution Approach to Studying Historical Phenological,0.014925,1,7
+M3-R_RRF,RealScholarQuery_41,19,doi:10.48550/arxiv.2301.13688,The Flan Collection: Designing Data and Methods for Effective Instruction Tuning,0.014925,1,7
+M3-R_RRF,RealScholarQuery_41,20,doi:10.1093/jxb/ert205,"TaMYB13-1, a R2R3 MYB transcription factor, regulates the fructan synthetic path",0.014706,1,8
+M3-R_RRF,RealScholarQuery_42,1,doi:10.48550/arxiv.1906.03327,HowTo100M: Learning a Text-Video Embedding by Watching Hundred Million\n Narrate,0.044651,3,3
+M3-R_RRF,RealScholarQuery_42,2,doi:10.17645/mac.v1i1.70,Understanding Social Media Logic,0.031545,2,1
+M3-R_RRF,RealScholarQuery_42,3,doi:10.1109/cvpr.1997.609414,Video skimming and characterization through the combination of image and languag,0.030331,2,4
+M3-R_RRF,RealScholarQuery_42,4,doi:10.1609/aaai.v35i2.16235,SMART Frame Selection for Action Recognition,0.028992,2,8
+M3-R_RRF,RealScholarQuery_42,5,doi:10.1109/tcsvt.2021.3101953,Overview of the Versatile Video Coding (VVC) Standard and its Applications,0.028139,2,6
+M3-R_RRF,RealScholarQuery_42,6,doi:10.1109/tpami.2016.2522418,Person Re-Identification by Discriminative Selection in Video Ranking,0.027425,2,7
+M3-R_RRF,RealScholarQuery_42,7,doi:10.1109/iccv.2017.37,Video Frame Interpolation via Adaptive Separable Convolution,0.016393,1,1
+M3-R_RRF,RealScholarQuery_42,8,doi:10.1016/j.ijinfomgt.2023.102642,Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ,0.016129,1,2
+M3-R_RRF,RealScholarQuery_42,9,doi:10.1109/cvpr52734.2025.01279,M-LLM Based Video Frame Selection for Efficient Video Understanding,0.016129,1,2
+M3-R_RRF,RealScholarQuery_42,10,doi:10.1109/tmi.2016.2593957,EndoNet: A Deep Architecture for Recognition Tasks on Laparoscopic Videos,0.016129,1,2
+M3-R_RRF,RealScholarQuery_42,11,doi:10.1109/cvpr.2019.00382,Depth-Aware Video Frame Interpolation,0.015873,1,3
+M3-R_RRF,RealScholarQuery_42,12,doi:10.1145/3359174,Reliability and Inter-rater Reliability in Qualitative Research,0.015873,1,3
+M3-R_RRF,RealScholarQuery_42,13,doi:10.1016/j.jarmac.2017.07.008,Beyond misinformation: Understanding and coping with the “post-truth” era.,0.015625,1,4
+M3-R_RRF,RealScholarQuery_42,14,doi:10.1007/s10796-017-9810-y,"Advances in Social Media Research: Past, Present and Future",0.015152,1,6
+M3-R_RRF,RealScholarQuery_42,15,doi:10.1109/tpami.2007.60,Space-Time Completion of Video,0.015152,1,6
+M3-R_RRF,RealScholarQuery_42,16,doi:10.1109/cvpr42600.2020.00342,TDAN: Temporally-Deformable Alignment Network for Video Super-Resolution,0.014925,1,7
+M3-R_RRF,RealScholarQuery_42,17,doi:10.5860/choice.47-5462,"Show sold separately: promos, spoilers, and other media paratexts",0.014925,1,7
+M3-R_RRF,RealScholarQuery_42,18,doi:10.1145/3077136.3080776,Personalized Key Frame Recommendation,0.014706,1,8
+M3-R_RRF,RealScholarQuery_42,19,doi:10.1111/2041-210x.12584,"BORIS : a free, versatile open‐source event‐logging software for video/audio cod",0.014493,1,9
+M3-R_RRF,RealScholarQuery_42,20,doi:10.1007/978-3-030-01216-8_43,ECO: Efficient Convolutional Network for Online Video Understanding,0.014286,1,10
+M3-R_RRF,RealScholarQuery_43,1,doi:10.1038/s41586-021-03819-2,Highly accurate protein structure prediction with AlphaFold,0.016393,1,1
+M3-R_RRF,RealScholarQuery_43,2,doi:10.1371/journal.pntd.0003171,Evaluation of Commercially Available Diagnostic Tests for the Detection of Dengu,0.016393,1,1
+M3-R_RRF,RealScholarQuery_43,3,doi:10.3390/antib8040055,Antibody Structure and Function: The Basis for Engineering Therapeutics,0.016393,1,1
+M3-R_RRF,RealScholarQuery_43,4,doi:10.1073/pnas.95.4.1466,Membrane targeting of cGMP-dependent protein kinase is required for cystic fibro,0.016129,1,2
+M3-R_RRF,RealScholarQuery_43,5,doi:10.3389/fimmu.2013.00302,The Structural Basis of Antibody-Antigen Recognition,0.016129,1,2
+M3-R_RRF,RealScholarQuery_43,6,doi:10.1038/s41571-023-00783-w,Optimizing the safety of antibody–drug conjugates for patients with solid tumour,0.015873,1,3
+M3-R_RRF,RealScholarQuery_43,7,doi:10.1038/s44387-025-00066-y,Flow matching meets biology and life science: a survey,0.015873,1,3
+M3-R_RRF,RealScholarQuery_43,8,doi:10.1074/jbc.m209009200,Actin Binding of Human LIM and SH3 Protein Is Regulated by cGMP- and cAMP-depend,0.015873,1,3
+M3-R_RRF,RealScholarQuery_43,9,doi:10.1093/nar/gks1094,"STRING v9.1: protein-protein interaction networks, with increased coverage and i",0.015873,1,3
+M3-R_RRF,RealScholarQuery_43,10,doi:10.1007/s13238-017-0433-3,Glycosylation engineering of therapeutic IgG antibodies: challenges for the safe,0.015625,1,4
+M3-R_RRF,RealScholarQuery_43,11,doi:10.1016/s2666-5247(23)00139-8,Viral and antibody dynamics of acute infection with SARS-CoV-2 omicron variant (,0.015625,1,4
+M3-R_RRF,RealScholarQuery_43,12,doi:10.1016/j.medidd.2025.100213,Generative AI for drug discovery and protein design: the next frontier in AI-dri,0.015385,1,5
+M3-R_RRF,RealScholarQuery_43,13,doi:10.1080/19420862.2025.2528902,Artificial intelligence-driven computational methods for antibody design and opt,0.015385,1,5
+M3-R_RRF,RealScholarQuery_43,14,doi:10.48550/arxiv.2507.17731,Flow Matching Meets Biology and Life Science: A Survey,0.015385,1,5
+M3-R_RRF,RealScholarQuery_43,15,doi:10.1126/science.add2187,Robust deep learning–based protein sequence design using ProteinMPNN,0.014925,1,7
+M3-R_RRF,RealScholarQuery_43,16,doi:10.36227/techrxiv.176057860.08604810/v1,The Dawn of the AI Co-Scientist: A Comprehensive Survey of Biomedical and Chemic,0.014925,1,7
+M3-R_RRF,RealScholarQuery_43,17,doi:10.1038/s41586-018-0337-2,Machine learning for molecular and materials science,0.014706,1,8
+M3-R_RRF,RealScholarQuery_43,18,doi:10.1038/s42003-021-01813-y,Limited window for donation of convalescent plasma with high live-virus neutrali,0.014706,1,8
+M3-R_RRF,RealScholarQuery_43,19,doi:10.3390/polym8020042,Application of Collagen Scaffold in Tissue Engineering: Recent Advances and New ,0.014706,1,8
+M3-R_RRF,RealScholarQuery_43,20,doi:10.1038/s41586-023-06127-z,Algorithm for optimized mRNA design improves stability and immunogenicity,0.014493,1,9
+M3-R_RRF,RealScholarQuery_47,1,doi:10.1145/3711896.3736570,Evaluation and Benchmarking of LLM Agents: A Survey,0.061165,4,1
+M3-R_RRF,RealScholarQuery_47,2,doi:10.18653/v1/2025.acl-long.126,INVESTORBENCH: A Benchmark for Financial Decision-Making Tasks with LLM-based Ag,0.048652,3,1
+M3-R_RRF,RealScholarQuery_47,3,doi:10.1145/3688399,Designing Heterogeneous LLM Agents for Financial Sentiment Analysis,0.04693,3,1
+M3-R_RRF,RealScholarQuery_47,4,doi:10.18653/v1/2025.findings-emnlp.972,"Large Language Model Agents in Finance: A Survey Bridging Research, Practice, an",0.042241,3,5
+M3-R_RRF,RealScholarQuery_47,5,doi:10.1038/s41598-024-60210-7,A multimodal approach to cross-lingual sentiment analysis with ensemble of trans,0.041873,3,10
+M3-R_RRF,RealScholarQuery_47,6,doi:10.1016/j.plrev.2024.10.013,LLMs and generative agent-based models for complex systems research,0.040911,3,13
+M3-R_RRF,RealScholarQuery_47,7,doi:10.48550/arxiv.2501.10963,Open FinLLM Leaderboard: Towards Financial AI Readiness,0.031025,2,3
+M3-R_RRF,RealScholarQuery_47,8,doi:10.48550/arxiv.2308.09975,FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Lan,0.030886,2,1
+M3-R_RRF,RealScholarQuery_47,9,doi:10.1007/978-981-95-3346-6_34,FinTeam: A Multi-agent Collaborative Intelligence System for Comprehensive Finan,0.029851,2,7
+M3-R_RRF,RealScholarQuery_47,10,doi:10.18653/v1/2025.naacl-long.318,FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Lan,0.02895,2,2
+M3-R_RRF,RealScholarQuery_47,11,doi:10.48550/arxiv.2310.15205,DISC-FinLLM: A Chinese Financial Large Language Model based on Multiple Experts ,0.02895,2,2
+M3-R_RRF,RealScholarQuery_47,12,doi:10.1145/3802463.3802475,Large Language Model Agent in Financial Trading: A Survey,0.02837,2,10
+M3-R_RRF,RealScholarQuery_47,13,doi:10.1007/s10462-025-11403-7,Datasets for large language models: a comprehensive survey,0.027072,2,11
+M3-R_RRF,RealScholarQuery_47,14,doi:10.48550/arxiv.2406.11903,"A Survey of Large Language Models for Financial Applications: Progress, Prospect",0.026547,2,12
+M3-R_RRF,RealScholarQuery_47,15,doi:10.1007/s10462-025-11422-4,"Agentic AI: a comprehensive survey of architectures, applications, and future di",0.016393,1,1
+M3-R_RRF,RealScholarQuery_47,16,doi:10.1145/3637528.3671801,"A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified",0.016393,1,1
+M3-R_RRF,RealScholarQuery_47,17,doi:10.48550/arxiv.2408.11878,Open-FinLLMs: Open Multimodal Large Language Models for Financial Applications,0.016393,1,1
+M3-R_RRF,RealScholarQuery_47,18,doi:10.48550/arxiv.2412.20138,TradingAgents: Multi-Agents LLM Financial Trading Framework,0.016393,1,1
+M3-R_RRF,RealScholarQuery_47,19,doi:10.7326/0003-4819-128-12_part_2-199806151-00003,Guidelines for the Use of Antiretroviral Agents in HIV-Infected Adults and Adole,0.016393,1,1
+M3-R_RRF,RealScholarQuery_47,20,doi:10.1057/s41599-024-03611-3,Large language models empowered agent-based modeling and simulation: a survey an,0.016129,1,2
+M3-R_RRF,RealScholarQuery_48,1,doi:10.1162/coli_a_00502,Can Large Language Models Transform Computational Social Science?,0.047907,3,1
+M3-R_RRF,RealScholarQuery_48,2,doi:10.3390/asi4010009,A Survey of Forex and Stock Price Prediction Using Deep Learning,0.042978,3,6
+M3-R_RRF,RealScholarQuery_48,3,doi:10.1007/s10462-018-09679-z,Machine Learning and Deep Learning frameworks and libraries for large-scale data,0.032522,2,1
+M3-R_RRF,RealScholarQuery_48,4,doi:10.1145/3531146.3533088,Taxonomy of Risks posed by Language Models,0.031746,2,3
+M3-R_RRF,RealScholarQuery_48,5,doi:10.1057/s41599-024-03611-3,Large language models empowered agent-based modeling and simulation: a survey an,0.02904,2,6
+M3-R_RRF,RealScholarQuery_48,6,doi:10.5815/ijisa.2017.07.03,Predicting Stock Market Behavior using Data Mining Technique and News Sentiment ,0.02901,2,7
+M3-R_RRF,RealScholarQuery_48,7,doi:10.3390/ijfs7020026,Stock Market Analysis: A Review and Taxonomy of Prediction Techniques,0.028814,2,7
+M3-R_RRF,RealScholarQuery_48,8,doi:10.3390/su8010043,Designing the Business Models for Circular Economy—Towards the Conceptual Framew,0.028039,2,8
+M3-R_RRF,RealScholarQuery_48,9,doi:10.1016/j.eswa.2022.116659,Machine learning techniques and data for stock market forecasting: A literature ,0.026686,2,13
+M3-R_RRF,RealScholarQuery_48,10,doi:10.1016/j.lindif.2023.102274,ChatGPT for good? On opportunities and challenges of large language models for e,0.016393,1,1
+M3-R_RRF,RealScholarQuery_48,11,doi:10.1145/3637528.3671470,A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models,0.016393,1,1
+M3-R_RRF,RealScholarQuery_48,12,doi:10.3390/su10103765,Genetic Algorithm-Optimized Long Short-Term Memory Network for Stock Market Pred,0.016393,1,1
+M3-R_RRF,RealScholarQuery_48,13,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,0.016129,1,2
+M3-R_RRF,RealScholarQuery_48,14,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,0.015873,1,3
+M3-R_RRF,RealScholarQuery_48,15,doi:10.1109/access.2024.3365742,"A Review on Large Language Models: Architectures, Applications, Taxonomies, Open",0.015873,1,3
+M3-R_RRF,RealScholarQuery_48,16,doi:10.18653/v1/2023.emnlp-industry.69,Harnessing LLMs for Temporal Data - A Study on Explainable Financial Time Series,0.015625,1,4
+M3-R_RRF,RealScholarQuery_48,17,doi:10.1016/s0140-6736(20)30752-2,"Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a ",0.015385,1,5
+M3-R_RRF,RealScholarQuery_48,18,doi:10.1109/access.2020.3030226,Stock Market Forecasting Using Deep Learning and Technical Analysis: A Systemati,0.015385,1,5
+M3-R_RRF,RealScholarQuery_48,19,doi:10.3390/math13030487,LLM-Augmented Linear Transformer–CNN for Enhanced Stock Price Prediction,0.015152,1,6
+M3-R_RRF,RealScholarQuery_48,20,doi:10.1016/s1474-4422(21)00252-0,"Global, regional, and national burden of stroke and its risk factors, 1990–2019:",0.014925,1,7
+M3-R_RRF,RealScholarQuery_6,1,doi:10.18653/v1/2023.emnlp-main.322,Query Rewriting in Retrieval-Augmented Large Language Models,0.05829,4,3
+M3-R_RRF,RealScholarQuery_6,2,doi:10.18653/v1/2023.emnlp-main.397,HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Mo,0.04595,3,3
+M3-R_RRF,RealScholarQuery_6,3,doi:10.18653/v1/2022.acl-long.551,LinkBERT: Pretraining Language Models with Document Links,0.044656,3,3
+M3-R_RRF,RealScholarQuery_6,4,doi:10.5753/jbcs.2025.5801,Pt-HotpotQA: Evaluating Multi-Hop Question Answering on Original and Portuguese-,0.042817,3,3
+M3-R_RRF,RealScholarQuery_6,5,doi:10.18653/v1/2022.emnlp-main.174,Iteratively Prompt Pre-trained Language Models for Chain of Thought,0.030798,2,3
+M3-R_RRF,RealScholarQuery_6,6,doi:10.18653/v1/p19-1613,Multi-hop Reading Comprehension through Question Decomposition and Rescoring,0.030769,2,5
+M3-R_RRF,RealScholarQuery_6,7,doi:10.1007/s10462-024-10896-y,Towards trustworthy LLMs: a review on debiasing and dehallucinating in large lan,0.029857,2,6
+M3-R_RRF,RealScholarQuery_6,8,doi:10.48550/arxiv.2302.04023,"A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Halluc",0.02971,2,4
+M3-R_RRF,RealScholarQuery_6,9,doi:10.18653/v1/2023.findings-emnlp.620,Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Gen,0.029514,2,4
+M3-R_RRF,RealScholarQuery_6,10,doi:10.1145/3591300,Prompting Is Programming: A Query Language for Large Language Models,0.029324,2,4
+M3-R_RRF,RealScholarQuery_6,11,doi:10.48550/arxiv.2203.05115,Internet-augmented language models through few-shot prompting for open-domain qu,0.028992,2,8
+M3-R_RRF,RealScholarQuery_6,12,doi:10.18653/v1/2024.naacl-long.389,Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models throug,0.028665,2,6
+M3-R_RRF,RealScholarQuery_6,13,doi:10.18653/v1/2023.findings-emnlp.985,ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language ,0.028629,2,2
+M3-R_RRF,RealScholarQuery_6,14,doi:10.1145/3583780.3614949,Large Language Models as Zero-Shot Conversational Recommenders,0.027826,2,9
+M3-R_RRF,RealScholarQuery_6,15,doi:10.18653/v1/2023.acl-long.307,Evaluating Open-Domain Question Answering in the Era of Large Language Models,0.027619,2,10
+M3-R_RRF,RealScholarQuery_6,16,doi:10.48550/arxiv.2306.13304,ToolQA: A Dataset for LLM Question Answering with External Tools,0.027047,2,12
+M3-R_RRF,RealScholarQuery_6,17,doi:10.1038/s41591-024-03423-7,Toward expert-level medical question answering with large language models,0.016393,1,1
+M3-R_RRF,RealScholarQuery_6,18,doi:10.18653/v1/2021.acl-long.248,Few-NERD: A Few-shot Named Entity Recognition Dataset,0.016393,1,1
+M3-R_RRF,RealScholarQuery_6,19,doi:10.48550/arxiv.2210.02406,Decomposed Prompting: A Modular Approach for Solving Complex Tasks,0.016393,1,1
+M3-R_RRF,RealScholarQuery_6,20,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,0.016129,1,2
+M3-R_RRF,RealScholarQuery_8,1,doi:10.1007/s11704-024-40231-1,A survey on large language model based autonomous agents,0.080918,5,1
+M3-R_RRF,RealScholarQuery_8,2,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,0.065309,4,1
+M3-R_RRF,RealScholarQuery_8,3,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,0.06326,4,2
+M3-R_RRF,RealScholarQuery_8,4,doi:10.48550/arxiv.2309.07864,The Rise and Potential of Large Language Model Based Agents: A Survey,0.056588,4,6
+M3-R_RRF,RealScholarQuery_8,5,doi:10.1007/s10462-021-09996-w,Multi-agent deep reinforcement learning: a survey,0.056098,4,4
+M3-R_RRF,RealScholarQuery_8,6,doi:10.1145/3605943,Recent Advances in Natural Language Processing via Large Pre-trained Language Mo,0.046409,3,3
+M3-R_RRF,RealScholarQuery_8,7,doi:10.1038/s43856-023-00370-1,The future landscape of large language models in medicine,0.044137,3,6
+M3-R_RRF,RealScholarQuery_8,8,doi:10.1039/d4sc03921a,A review of large language models and autonomous agents in chemistry,0.042725,3,7
+M3-R_RRF,RealScholarQuery_8,9,doi:10.1007/s10462-024-10888-y,"Large language models (LLMs): survey, technical frameworks, and future challenge",0.04242,3,3
+M3-R_RRF,RealScholarQuery_8,10,doi:10.18653/v1/d18-1362,Multi-Hop Knowledge Graph Reasoning with Reward Shaping,0.041445,3,7
+M3-R_RRF,RealScholarQuery_8,11,doi:10.4230/oasics.icpec.2025.4,Can Open Large Language Models Catch Vulnerabilities?,0.029857,2,6
+M3-R_RRF,RealScholarQuery_8,12,doi:10.1002/asi.24750,ChatGPT and a new academic reality: Artificial Intelligence‐written research pap,0.029274,2,5
+M3-R_RRF,RealScholarQuery_8,13,doi:10.1609/aaai.v32i1.11492,Emergence of Grounded Compositional Language in Multi-Agent Populations,0.029083,2,5
+M3-R_RRF,RealScholarQuery_8,14,doi:10.1145/3490099.3511105,Wordcraft: Story Writing With Large Language Models,0.02901,2,7
+M3-R_RRF,RealScholarQuery_8,15,doi:10.36227/techrxiv.23589741.v1,"A Survey on Large Language Models: Applications, Challenges, Limitations, and Pr",0.028039,2,8
+M3-R_RRF,RealScholarQuery_8,16,doi:10.48550/arxiv.2308.11432,A Survey on Large Language Model based Autonomous Agents,0.025833,2,15
+M3-R_RRF,RealScholarQuery_8,17,doi:10.1016/j.arcontrol.2020.09.001,All you need to know about model predictive control for buildings,0.015625,1,4
+M3-R_RRF,RealScholarQuery_8,18,doi:10.1109/icaisisas64483.2025.11051677,LLM Coach: Reward Shaping for Reinforcement Learning-Based Navigation Agent,0.015625,1,4
+M3-R_RRF,RealScholarQuery_8,19,doi:10.1515/9781400829453,The Theory of Incentives: The Principal-Agent Model,0.015625,1,4
+M3-R_RRF,RealScholarQuery_8,20,doi:10.1038/s42256-024-00832-8,Augmenting large language models with chemistry tools,0.014706,1,8
+M3.1_RRF,RealScholarQuery_0,1,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,0.099989,7,3
+M3.1_RRF,RealScholarQuery_0,2,doi:10.48550/arxiv.2302.13971,LLaMA: Open and Efficient Foundation Language Models,0.074862,5,3
+M3.1_RRF,RealScholarQuery_0,3,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,0.073281,5,5
+M3.1_RRF,RealScholarQuery_0,4,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,0.068892,5,8
+M3.1_RRF,RealScholarQuery_0,5,doi:10.1093/bioinformatics/btz682,BioBERT: a pre-trained biomedical language representation model for biomedical t,0.059973,4,2
+M3.1_RRF,RealScholarQuery_0,6,doi:10.48550/arxiv.2203.15556,Training Compute-Optimal Large Language Models,0.058762,4,1
+M3.1_RRF,RealScholarQuery_0,7,doi:10.48550/arxiv.2210.11416,Scaling Instruction-Finetuned Language Models,0.043136,3,6
+M3.1_RRF,RealScholarQuery_0,8,doi:10.18637/jss.v067.i01,Fitting Linear Mixed-Effects Models Using lme4,0.032522,2,1
+M3.1_RRF,RealScholarQuery_0,9,doi:10.48550/arxiv.2407.05040,"Code Less, Align More: Efficient LLM Fine-tuning for Code Generation with Data P",0.031258,2,3
+M3.1_RRF,RealScholarQuery_0,10,doi:10.48550/arxiv.1909.11942,ALBERT: A Lite BERT for Self-supervised Learning of Language\n Representations,0.027425,2,7
+M3.1_RRF,RealScholarQuery_0,11,doi:10.48550/arxiv.2206.07682,Emergent Abilities of Large Language Models,0.027047,2,12
+M3.1_RRF,RealScholarQuery_0,12,doi:10.1145/3605943,Recent Advances in Natural Language Processing via Large Pre-trained Language Mo,0.026357,2,13
+M3.1_RRF,RealScholarQuery_0,13,doi:10.48550/arxiv.2107.03374,Evaluating Large Language Models Trained on Code,0.026014,2,14
+M3.1_RRF,RealScholarQuery_0,14,doi:10.1038/s42256-023-00626-4,Parameter-efficient fine-tuning of large-scale pre-trained language models,0.025808,2,17
+M3.1_RRF,RealScholarQuery_0,15,doi:10.1038/s41586-025-09422-z,DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning,0.016393,1,1
+M3.1_RRF,RealScholarQuery_0,16,doi:10.48550/arxiv.2001.08361,Scaling Laws for Neural Language Models,0.016393,1,1
+M3.1_RRF,RealScholarQuery_0,17,doi:10.1145/3597503.3639187,Using an LLM to Help With Code Understanding,0.016129,1,2
+M3.1_RRF,RealScholarQuery_0,18,doi:10.1145/3626772.3657807,Data-efficient Fine-tuning for LLM-based Recommendation,0.016129,1,2
+M3.1_RRF,RealScholarQuery_0,19,doi:10.22331/q-2018-08-06-79,Quantum Computing in the NISQ era and beyond,0.016129,1,2
+M3.1_RRF,RealScholarQuery_0,20,doi:10.1109/tit.2003.809594,How much training is needed in multiple-antenna wireless links?,0.015873,1,3
+M3.1_RRF,RealScholarQuery_14,1,doi:10.1007/s11704-024-40231-1,A survey on large language model based autonomous agents,0.044436,3,1
+M3.1_RRF,RealScholarQuery_14,2,doi:10.1007/s10462-024-10888-y,"Large language models (LLMs): survey, technical frameworks, and future challenge",0.04422,3,1
+M3.1_RRF,RealScholarQuery_14,3,doi:10.1111/bjet.13370,Practical and ethical challenges of large language models in education: A system,0.041972,3,7
+M3.1_RRF,RealScholarQuery_14,4,doi:10.48550/arxiv.2305.14314,QLoRA: Efficient Finetuning of Quantized LLMs,0.032002,2,2
+M3.1_RRF,RealScholarQuery_14,5,doi:10.1038/s41746-024-01157-x,The ethics of ChatGPT in medicine and healthcare: a systematic review on Large L,0.031514,2,2
+M3.1_RRF,RealScholarQuery_14,6,doi:10.1039/d4sc03921a,A review of large language models and autonomous agents in chemistry,0.026014,2,14
+M3.1_RRF,RealScholarQuery_14,7,W7140346361,MemoNoveltyAgent: A Historical Research Memory-Aware Agent Workflow for Paper No,0.016393,1,1
+M3.1_RRF,RealScholarQuery_14,8,doi:10.3390/healthcare11060887,"ChatGPT Utility in Healthcare Education, Research, and Practice: Systematic Revi",0.016393,1,1
+M3.1_RRF,RealScholarQuery_14,9,doi:10.1007/s10515-025-00588-4,Automated summarization of software documents: an LLM-based multi-agent approach,0.015625,1,4
+M3.1_RRF,RealScholarQuery_14,10,doi:10.18653/v1/2024.emnlp-main.486,Knowledge Conflicts for LLMs: A Survey,0.015625,1,4
+M3.1_RRF,RealScholarQuery_14,11,doi:10.48550/arxiv.2309.07864,The Rise and Potential of Large Language Model Based Agents: A Survey,0.015385,1,5
+M3.1_RRF,RealScholarQuery_14,12,doi:10.1145/3605764.3623985,Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applicatio,0.015152,1,6
+M3.1_RRF,RealScholarQuery_14,13,doi:10.1145/3649506,Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,0.015152,1,6
+M3.1_RRF,RealScholarQuery_14,14,doi:10.1609/aaai.v38i17.29889,Knowledge Graph Prompting for Multi-Document Question Answering,0.014925,1,7
+M3.1_RRF,RealScholarQuery_14,15,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,0.014493,1,9
+M3.1_RRF,RealScholarQuery_14,16,doi:10.1038/s41746-024-01258-7,A framework for human evaluation of large language models in healthcare derived ,0.014286,1,10
+M3.1_RRF,RealScholarQuery_14,17,doi:10.18653/v1/2024.findings-acl.738,MM-LLMs: Recent Advances in MultiModal Large Language Models,0.014286,1,10
+M3.1_RRF,RealScholarQuery_14,18,doi:10.4324/9781003640219,A Beginner's Guide to Structural Equation Modeling,0.014286,1,10
+M3.1_RRF,RealScholarQuery_14,19,doi:10.48550/arxiv.2306.03314,Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents,0.014085,1,11
+M3.1_RRF,RealScholarQuery_14,20,doi:10.1017/s0140525x0999094x,The myth of language universals: Language diversity and its importance for cogni,0.013889,1,12
+M3.1_RRF,RealScholarQuery_15,1,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,0.094433,6,1
+M3.1_RRF,RealScholarQuery_15,2,doi:10.4230/oasics.icpec.2025.4,Can Open Large Language Models Catch Vulnerabilities?,0.05933,4,2
+M3.1_RRF,RealScholarQuery_15,3,doi:10.18653/v1/2022.acl-long.125,Composable Sparse Fine-Tuning for Cross-Lingual Transfer,0.047139,3,2
+M3.1_RRF,RealScholarQuery_15,4,doi:10.1038/s41586-025-09422-z,DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning,0.046972,3,1
+M3.1_RRF,RealScholarQuery_15,5,doi:10.18653/v1/2024.emnlp-main.15,Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs,0.043326,3,6
+M3.1_RRF,RealScholarQuery_15,6,doi:10.1145/3743127,RLHF Deciphered: A Critical Analysis of Reinforcement Learning from Human Feedba,0.042787,3,5
+M3.1_RRF,RealScholarQuery_15,7,doi:10.1613/jair.1.15960,The RL/LLM Taxonomy Tree: Reviewing Synergies Between Reinforcement Learning and,0.041895,3,9
+M3.1_RRF,RealScholarQuery_15,8,doi:10.48550/arxiv.2502.01225,The dark deep side of DeepSeek: Fine-tuning attacks against the safety alignment,0.032522,2,1
+M3.1_RRF,RealScholarQuery_15,9,doi:10.48550/arxiv.2402.03300,BioXP-0.5B: Explainable Medical-AI via RL-GRPO,0.032018,2,1
+M3.1_RRF,RealScholarQuery_15,10,doi:10.48550/arxiv.2305.14314,QLoRA: Efficient Finetuning of Quantized LLMs,0.031754,2,2
+M3.1_RRF,RealScholarQuery_15,11,doi:10.48550/arxiv.2308.10792,Instruction Tuning for Large Language Models: A Survey,0.030835,2,2
+M3.1_RRF,RealScholarQuery_15,12,W7161655712,Reference-Free Reinforcement Learning Fine-Tuning for MT: A Seq2Seq Perspective,0.030798,2,3
+M3.1_RRF,RealScholarQuery_15,13,doi:10.48550/arxiv.2604.19060,Reinforcement Learning Improves LLM Accuracy and Reasoning in Disease Classifica,0.030777,2,4
+M3.1_RRF,RealScholarQuery_15,14,doi:10.48550/arxiv.2204.05862,Training a Helpful and Harmless Assistant with Reinforcement Learning from Human,0.030769,2,5
+M3.1_RRF,RealScholarQuery_15,15,W7154539106,ExecTune: Effective Steering of Black-Box LLMs with Guide Models,0.029958,2,3
+M3.1_RRF,RealScholarQuery_15,16,doi:10.1038/s41746-026-02685-4,Reinforcement learning improves LLM accuracy and reasoning in disease classifica,0.02967,2,5
+M3.1_RRF,RealScholarQuery_15,17,doi:10.48550/arxiv.2211.15006,Fine-tuning language models to find agreement among humans with diverse preferen,0.029551,2,1
+M3.1_RRF,RealScholarQuery_15,18,W7155452288,Reinforcement Learning Improves LLM Accuracy and Reasoning in Disease Classifica,0.02904,2,6
+M3.1_RRF,RealScholarQuery_15,19,W7163597624,Reasoning over Grammar: Can Synthetic Linguistic Reasoning Traces Enhance Low-Re,0.028992,2,8
+M3.1_RRF,RealScholarQuery_15,20,doi:10.18653/v1/2024.emnlp-main.444,Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?,0.028778,2,9
+M3.1_RRF,RealScholarQuery_17,1,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,0.029907,2,1
+M3.1_RRF,RealScholarQuery_17,2,doi:10.18653/v1/2023.emnlp-main.214,GPT-RE: In-context Learning for Relation Extraction using Large Language Models,0.016393,1,1
+M3.1_RRF,RealScholarQuery_17,3,doi:10.1007/s11704-024-40555-y,Large language models for generative information extraction: a survey,0.016129,1,2
+M3.1_RRF,RealScholarQuery_17,4,doi:10.1145/3649506,Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,0.016129,1,2
+M3.1_RRF,RealScholarQuery_17,5,doi:10.18653/v1/2024.emnlp-main.15,Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs,0.015873,1,3
+M3.1_RRF,RealScholarQuery_17,6,doi:10.48550/arxiv.2204.14198,Flamingo: a Visual Language Model for Few-Shot Learning,0.015873,1,3
+M3.1_RRF,RealScholarQuery_17,7,doi:10.48550/arxiv.2302.10205,ChatIE: Zero-Shot Information Extraction via Chatting with ChatGPT,0.015873,1,3
+M3.1_RRF,RealScholarQuery_17,8,doi:10.1039/d4cs00913d,From text to insight: large language models for chemical data extraction,0.015625,1,4
+M3.1_RRF,RealScholarQuery_17,9,doi:10.1038/s42256-023-00626-4,Parameter-efficient fine-tuning of large-scale pre-trained language models,0.015385,1,5
+M3.1_RRF,RealScholarQuery_17,10,doi:10.48550/arxiv.2303.16199,LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention,0.015385,1,5
+M3.1_RRF,RealScholarQuery_17,11,doi:10.18653/v1/2024.findings-emnlp.590,C-ICL: Contrastive In-context Learning for Information Extraction,0.014925,1,7
+M3.1_RRF,RealScholarQuery_17,12,doi:10.48550/arxiv.2403.05530,Gemini 1.5: Unlocking multimodal understanding across millions of tokens of cont,0.014925,1,7
+M3.1_RRF,RealScholarQuery_17,13,doi:10.1038/s41746-024-01126-4,An in-depth evaluation of federated learning on biomedical natural language proc,0.014706,1,8
+M3.1_RRF,RealScholarQuery_17,14,doi:10.1109/access.2024.3365742,"A Review on Large Language Models: Architectures, Applications, Taxonomies, Open",0.014493,1,9
+M3.1_RRF,RealScholarQuery_17,15,doi:10.1038/s41746-024-01219-0,A scoping review of large language model based approaches for information extrac,0.014286,1,10
+M3.1_RRF,RealScholarQuery_17,16,doi:10.48550/arxiv.1909.11942,ALBERT: A Lite BERT for Self-supervised Learning of Language\n Representations,0.014286,1,10
+M3.1_RRF,RealScholarQuery_17,17,doi:10.1007/s10462-024-10896-y,Towards trustworthy LLMs: a review on debiasing and dehallucinating in large lan,0.014085,1,11
+M3.1_RRF,RealScholarQuery_17,18,doi:10.1145/3605943,Recent Advances in Natural Language Processing via Large Pre-trained Language Mo,0.014085,1,11
+M3.1_RRF,RealScholarQuery_17,19,doi:10.1186/s40537-014-0007-7,Deep learning applications and challenges in big data analytics,0.013889,1,12
+M3.1_RRF,RealScholarQuery_17,20,doi:10.48550/arxiv.2301.12597,BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and,0.013889,1,12
+M3.1_RRF,RealScholarQuery_20,1,doi:10.1007/s10462-024-10888-y,"Large language models (LLMs): survey, technical frameworks, and future challenge",0.031281,2,2
+M3.1_RRF,RealScholarQuery_20,2,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,0.03101,2,4
+M3.1_RRF,RealScholarQuery_20,3,doi:10.1007/s11704-024-40231-1,A survey on large language model based autonomous agents,0.030777,2,4
+M3.1_RRF,RealScholarQuery_20,4,doi:10.48550/arxiv.2310.19736,Evaluating Large Language Models: A Comprehensive Survey,0.030282,2,1
+M3.1_RRF,RealScholarQuery_20,5,doi:10.48550/arxiv.2107.03374,Evaluating Large Language Models Trained on Code,0.027212,2,13
+M3.1_RRF,RealScholarQuery_20,6,doi:10.1145/3649506,Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,0.016393,1,1
+M3.1_RRF,RealScholarQuery_20,7,doi:10.1145/3637528.3671470,A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models,0.016129,1,2
+M3.1_RRF,RealScholarQuery_20,8,doi:10.1177/0969733017724354,What is ‘moral distress’? A narrative synthesis of the literature,0.015873,1,3
+M3.1_RRF,RealScholarQuery_20,9,doi:10.48550/arxiv.2307.03109,A Survey on Evaluation of Large Language Models,0.015873,1,3
+M3.1_RRF,RealScholarQuery_20,10,doi:10.48550/arxiv.2309.10371,Generative AI vs. AGI: The Cognitive Strengths and Weaknesses of Modern LLMs,0.015873,1,3
+M3.1_RRF,RealScholarQuery_20,11,doi:10.1136/fmch-2020-000351,What is the meaning of health literacy? A systematic review and qualitative synt,0.015625,1,4
+M3.1_RRF,RealScholarQuery_20,12,doi:10.48550/arxiv.2309.07864,The Rise and Potential of Large Language Model Based Agents: A Survey,0.015625,1,4
+M3.1_RRF,RealScholarQuery_20,13,doi:10.1007/s44163-024-00175-8,A survey on augmenting knowledge graphs (KGs) with large language models (LLMs):,0.015385,1,5
+M3.1_RRF,RealScholarQuery_20,14,doi:10.1080/13683500.2017.1417359,New realities: a systematic literature review on virtual reality and augmented r,0.015385,1,5
+M3.1_RRF,RealScholarQuery_20,15,doi:10.1145/3544548.3581388,Why Johnny Can’t Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts,0.014925,1,7
+M3.1_RRF,RealScholarQuery_20,16,doi:10.17705/1cais.03706,A Framework for Guiding and Evaluating Literature Reviews,0.014925,1,7
+M3.1_RRF,RealScholarQuery_20,17,doi:10.3390/ai6100260,From Illusion to Insight: A Taxonomic Survey of Hallucination Mitigation Techniq,0.014706,1,8
+M3.1_RRF,RealScholarQuery_20,18,doi:10.48550/arxiv.2401.08092,A Survey of Resource-efficient LLM and Multimodal Foundation Models,0.014706,1,8
+M3.1_RRF,RealScholarQuery_20,19,doi:10.1145/3560815,"Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natu",0.014493,1,9
+M3.1_RRF,RealScholarQuery_20,20,doi:10.1007/s10462-025-11320-9,Artificial intelligence for secure and sustainable industrial control systems - ,0.014286,1,10
+M3.1_RRF,RealScholarQuery_21,1,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,0.04432,3,2
+M3.1_RRF,RealScholarQuery_21,2,doi:10.48550/arxiv.2305.03047,Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Hum,0.042374,3,6
+M3.1_RRF,RealScholarQuery_21,3,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,0.032787,2,1
+M3.1_RRF,RealScholarQuery_21,4,doi:10.1145/3560815,"Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natu",0.031099,2,1
+M3.1_RRF,RealScholarQuery_21,5,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,0.030536,2,5
+M3.1_RRF,RealScholarQuery_21,6,doi:10.48550/arxiv.2307.06435,A Comprehensive Overview of Large Language Models,0.029643,2,2
+M3.1_RRF,RealScholarQuery_21,7,doi:10.1016/j.mcpdig.2024.11.005,Fine-Tuning Large Language Models for Specialized Use Cases,0.028778,2,9
+M3.1_RRF,RealScholarQuery_21,8,doi:10.18653/v1/2023.emnlp-main.67,Large Language Models Can Self-Improve,0.015873,1,3
+M3.1_RRF,RealScholarQuery_21,9,doi:10.3390/app14052074,"A Review of Current Trends, Techniques, and Challenges in Large Language Models ",0.015873,1,3
+M3.1_RRF,RealScholarQuery_21,10,doi:10.48550/arxiv.2302.04761,Toolformer: Language Models Can Teach Themselves to Use Tools,0.015873,1,3
+M3.1_RRF,RealScholarQuery_21,11,W1561558283,The Future of the Internet--And How to Stop It,0.015625,1,4
+M3.1_RRF,RealScholarQuery_21,12,doi:10.1038/s41746-024-01029-4,Prompt engineering in consistency and reliability with the evidence-based guidel,0.015625,1,4
+M3.1_RRF,RealScholarQuery_21,13,doi:10.1007/s43681-023-00289-2,Auditing large language models: a three-layered approach,0.015385,1,5
+M3.1_RRF,RealScholarQuery_21,14,doi:10.7759/cureus.40895,ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (L,0.015385,1,5
+M3.1_RRF,RealScholarQuery_21,15,doi:10.1007/s10916-024-02045-3,The Breakthrough of Large Language Models Release for Medical Applications: 1-Ye,0.015152,1,6
+M3.1_RRF,RealScholarQuery_21,16,doi:10.1038/s41598-024-64827-6,OpenMedLM: prompt engineering can out-perform fine-tuning in medical question-an,0.015152,1,6
+M3.1_RRF,RealScholarQuery_21,17,doi:10.18653/v1/2023.emnlp-main.319,LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Lan,0.014925,1,7
+M3.1_RRF,RealScholarQuery_21,18,doi:10.48550/arxiv.2303.16199,LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention,0.014925,1,7
+M3.1_RRF,RealScholarQuery_21,19,doi:10.1016/j.infsof.2024.107523,Fine-tuning and prompt engineering for large language models-based code review a,0.014706,1,8
+M3.1_RRF,RealScholarQuery_21,20,doi:10.18653/v1/2023.emnlp-demo.49,Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understa,0.014706,1,8
+M3.1_RRF,RealScholarQuery_22,1,doi:10.18653/v1/w16-2301,Findings of the 2016 Conference on Machine Translation,0.031754,2,2
+M3.1_RRF,RealScholarQuery_22,2,doi:10.3390/electronics8080832,Machine Learning Interpretability: A Survey on Methods and Metrics,0.030798,2,3
+M3.1_RRF,RealScholarQuery_22,3,doi:10.18653/v1/w19-5301,Findings of the 2019 Conference on Machine Translation (WMT19),0.030159,2,3
+M3.1_RRF,RealScholarQuery_22,4,doi:10.1016/j.neucom.2019.10.118,"A comprehensive survey on support vector machine classification: Applications, c",0.029644,2,6
+M3.1_RRF,RealScholarQuery_22,5,doi:10.1007/s10994-021-05946-3,Aleatoric and epistemic uncertainty in machine learning: an introduction to conc,0.028577,2,9
+M3.1_RRF,RealScholarQuery_22,6,doi:10.1109/tsp.2017.2690524,Tensor Decomposition for Signal Processing and Machine Learning,0.028405,2,8
+M3.1_RRF,RealScholarQuery_22,7,doi:10.1109/access.2020.2983149,A Survey of Autonomous Driving: Common Practices and Emerging Technologies,0.027778,2,12
+M3.1_RRF,RealScholarQuery_22,8,doi:10.1016/j.eng.2019.12.014,"Progress in Neural NLP: Modeling, Learning, and Reasoning",0.027619,2,10
+M3.1_RRF,RealScholarQuery_22,9,doi:10.1093/rfs/hhaa009,Empirical Asset Pricing via Machine Learning,0.016129,1,2
+M3.1_RRF,RealScholarQuery_22,10,doi:10.2307/1511637,Wicked Problems in Design Thinking,0.015873,1,3
+M3.1_RRF,RealScholarQuery_22,11,doi:10.1214/009053607000000677,Kernel methods in machine learning,0.015625,1,4
+M3.1_RRF,RealScholarQuery_22,12,doi:10.1145/79173.79176,Cyc: toward programs with common sense,0.015385,1,5
+M3.1_RRF,RealScholarQuery_22,13,doi:10.18653/v1/w17-4717,Findings of the 2017 Conference on Machine Translation (WMT17),0.015152,1,6
+M3.1_RRF,RealScholarQuery_22,14,doi:10.18653/v1/2020.acl-main.705,Distilling Knowledge Learned in BERT for Text Generation,0.014925,1,7
+M3.1_RRF,RealScholarQuery_22,15,doi:10.1609/aaai.v32i1.11575,Machine-Translated Knowledge Transfer for Commonsense Causal Reasoning,0.014706,1,8
+M3.1_RRF,RealScholarQuery_22,16,doi:10.18653/v1/w17-4702,Improving Word Sense Disambiguation in Neural Machine Translation with Sense Emb,0.014706,1,8
+M3.1_RRF,RealScholarQuery_22,17,doi:10.18653/v1/2023.acl-long.866,"Revisiting Commonsense Reasoning in Machine Translation: Training, Evaluation an",0.014493,1,9
+M3.1_RRF,RealScholarQuery_22,18,doi:10.18653/v1/s18-1119,SemEval-2018 Task 11: Machine Comprehension Using Commonsense Knowledge,0.014493,1,9
+M3.1_RRF,RealScholarQuery_22,19,doi:10.18653/v1/w18-2708,Document-Level Adaptation for Neural Machine Translation,0.014493,1,9
+M3.1_RRF,RealScholarQuery_22,20,doi:10.48550/arxiv.1711.00043,Unsupervised Machine Translation Using Monolingual Corpora Only,0.014286,1,10
+M3.1_RRF,RealScholarQuery_23,1,doi:10.1145/3626235,Diffusion Models: A Comprehensive Survey of Methods and Applications,0.03125,2,4
+M3.1_RRF,RealScholarQuery_23,2,doi:10.52202/085713-2750,Improving Video Generation with Human Feedback,0.030536,2,5
+M3.1_RRF,RealScholarQuery_23,3,doi:10.1093/nsr/nwae348,Opportunities and challenges of diffusion models for generative AI,0.02837,2,10
+M3.1_RRF,RealScholarQuery_23,4,doi:10.1038/s42256-023-00762-x,Inverse design of nonlinear mechanical metamaterials via video denoising diffusi,0.027778,2,12
+M3.1_RRF,RealScholarQuery_23,5,doi:10.1007/s10462-022-10176-7,Deep learning for video object segmentation: a review,0.025974,2,17
+M3.1_RRF,RealScholarQuery_23,6,doi:10.1109/tcss.2024.3384627,Unsupervised Video Summarization Based on the Diffusion Model of Feature Fusion,0.025641,2,18
+M3.1_RRF,RealScholarQuery_23,7,doi:10.1038/npp.2009.129,The Reward Circuit: Linking Primate Anatomy and Human Imaging,0.016393,1,1
+M3.1_RRF,RealScholarQuery_23,8,doi:10.1109/cvpr52733.2024.00618,InstructVideo: Instructing Video Diffusion Models with Human Feedback,0.016393,1,1
+M3.1_RRF,RealScholarQuery_23,9,doi:10.1145/3394486.3403384,Jointly Learning to Recommend and Advertise,0.016393,1,1
+M3.1_RRF,RealScholarQuery_23,10,doi:10.1609/aaai.v35i2.16234,Temporal ROI Align for Video Object Recognition,0.016393,1,1
+M3.1_RRF,RealScholarQuery_23,11,doi:10.1609/aaai.v40i15.38285,VQ-Insight: Teaching VLMs for AI-Generated Video Quality Understanding via Progr,0.016393,1,1
+M3.1_RRF,RealScholarQuery_23,12,doi:10.48550/arxiv.2305.13840,Control-A-Video: Controllable Text-to-Video Diffusion Models with Motion Prior a,0.016393,1,1
+M3.1_RRF,RealScholarQuery_23,13,W7202005942,Sample-Adaptive Latent Rewards for Uncertainty-Guided Diffusion Post-Training,0.016129,1,2
+M3.1_RRF,RealScholarQuery_23,14,doi:10.1109/cvpr52729.2023.02161,Align Your Latents: High-Resolution Video Synthesis with Latent Diffusion Models,0.016129,1,2
+M3.1_RRF,RealScholarQuery_23,15,doi:10.1523/jneurosci.1902-05.2005,The Ventral Pallidum and Hedonic Reward: Neurochemical Maps of Sucrose “Liking” ,0.016129,1,2
+M3.1_RRF,RealScholarQuery_23,16,doi:10.3390/jsan14030052,Data-Driven Approaches for Efficient Vehicle Driving Analysis: A Survey,0.016129,1,2
+M3.1_RRF,RealScholarQuery_23,17,doi:10.48550/arxiv.2312.12490,InstructVideo: Instructing Video Diffusion Models with Human Feedback,0.016129,1,2
+M3.1_RRF,RealScholarQuery_23,18,W7139147337,LatSearch: Latent Reward-Guided Search for Faster Inference-Time Scaling in Vide,0.015873,1,3
+M3.1_RRF,RealScholarQuery_23,19,doi:10.1523/jneurosci.4205-06.2007,Opioid Limbic Circuit for Reward: Interaction between Hedonic Hotspots of Nucleu,0.015873,1,3
+M3.1_RRF,RealScholarQuery_23,20,doi:10.18653/v1/2024.emnlp-main.127,VideoScore: Building Automatic Metrics to Simulate Fine-grained Human Feedback f,0.015873,1,3
+M3.1_RRF,RealScholarQuery_25,1,doi:10.1109/iccv51070.2023.01843,Exploring Video Quality Assessment on User Generated Contents from Aesthetic and,0.078991,5,1
+M3.1_RRF,RealScholarQuery_25,2,doi:10.48550/arxiv.2307.06942,InternVid: A Large-scale Video-Text Dataset for Multimodal Understanding and Gen,0.030366,2,3
+M3.1_RRF,RealScholarQuery_25,3,doi:10.1609/aaai.v38i5.28226,T2I-Adapter: Learning Adapters to Dig Out More Controllable Ability for Text-to-,0.029214,2,1
+M3.1_RRF,RealScholarQuery_25,4,doi:10.2196/59505,"Multimodal Large Language Models in Health Care: Applications, Challenges, and F",0.029214,2,1
+M3.1_RRF,RealScholarQuery_25,5,doi:10.1145/3581783.3611969,AesCLIP: Multi-Attribute Contrastive Learning for Image Aesthetics Assessment,0.028372,2,5
+M3.1_RRF,RealScholarQuery_25,6,doi:10.48550/arxiv.2312.17090,Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels,0.027799,2,10
+M3.1_RRF,RealScholarQuery_25,7,doi:10.7557/23.6003,"Video Game Genre, Evolution and Innovation",0.027444,2,10
+M3.1_RRF,RealScholarQuery_25,8,doi:10.1109/cvpr.2012.6247954,AVA: A large-scale database for aesthetic visual analysis,0.016393,1,1
+M3.1_RRF,RealScholarQuery_25,9,doi:10.1177/15554120221149532,The Beautiful Rule: Thinking the Aesthetics of Game Rules,0.016393,1,1
+M3.1_RRF,RealScholarQuery_25,10,doi:10.3389/fncom.2017.00102,Computational and Experimental Approaches to Visual Aesthetics,0.016393,1,1
+M3.1_RRF,RealScholarQuery_25,11,doi:10.35534/rad.0202004,"Platformed Inheritance: Digital Re-mediation, Intangible Cultural Heritage, and ",0.016393,1,1
+M3.1_RRF,RealScholarQuery_25,12,doi:10.1038/s41591-022-01981-2,Multimodal biomedical AI,0.016129,1,2
+M3.1_RRF,RealScholarQuery_25,13,doi:10.1101/gr.092759.109,Circos: An information aesthetic for comparative genomics,0.016129,1,2
+M3.1_RRF,RealScholarQuery_25,14,doi:10.1109/cvpr.2019.00960,Effective Aesthetics Prediction With Multi-Level Spatially Pooled Features,0.016129,1,2
+M3.1_RRF,RealScholarQuery_25,15,doi:10.1109/cvpr52729.2023.00668,Positive-Augmented Contrastive Learning for Image and Video Captioning Evaluatio,0.016129,1,2
+M3.1_RRF,RealScholarQuery_25,16,doi:10.1109/cvpr52733.2024.00698,VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Mode,0.016129,1,2
+M3.1_RRF,RealScholarQuery_25,17,doi:10.1145/290747.290754,QoS impact on user perception and understanding of multimedia video clips,0.016129,1,2
+M3.1_RRF,RealScholarQuery_25,18,doi:10.22214/ijraset.2019.2021,Survey: Deep Learning for Video Aesthetics,0.016129,1,2
+M3.1_RRF,RealScholarQuery_25,19,doi:10.52152/heranca.v6i1.769,THE RELATIONSHIP BETWEEN THE HISTORICAL DEVELOPMENT OF MUSTARD GARDEN SHAN SHUI ,0.016129,1,2
+M3.1_RRF,RealScholarQuery_25,20,W1519529295,Learning plan networks in conversational video games,0.015873,1,3
+M3.1_RRF,RealScholarQuery_28,1,doi:10.1088/1361-648x/ab51ff,Wannier90 as a community code: new features and applications,0.028898,2,5
+M3.1_RRF,RealScholarQuery_28,2,doi:10.1145/3690635,Structured Chain-of-Thought Prompting for Code Generation,0.028043,2,5
+M3.1_RRF,RealScholarQuery_28,3,doi:10.1145/3580305.3599790,CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Benchmarking,0.016393,1,1
+M3.1_RRF,RealScholarQuery_28,4,doi:10.1609/aaai.v32i1.11671,FiLM: Visual Reasoning with a General Conditioning Layer,0.016393,1,1
+M3.1_RRF,RealScholarQuery_28,5,doi:10.48550/arxiv.2208.05950,Interactive Code Generation via Test-Driven User-Intent Formalization,0.016129,1,2
+M3.1_RRF,RealScholarQuery_28,6,doi:10.48550/arxiv.2303.05510,Planning with Large Language Models for Code Generation,0.016129,1,2
+M3.1_RRF,RealScholarQuery_28,7,doi:10.1088/0953-8984/14/11/301,"First-principles simulation: ideas, illustrations and the CASTEP code",0.015873,1,3
+M3.1_RRF,RealScholarQuery_28,8,doi:10.48550/arxiv.2303.11366,Reflexion: Language Agents with Verbal Reinforcement Learning,0.015873,1,3
+M3.1_RRF,RealScholarQuery_28,9,doi:10.48550/arxiv.2203.13474,CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis,0.015625,1,4
+M3.1_RRF,RealScholarQuery_28,10,doi:10.52202/085713-5564,"CPRet: A Dataset, Benchmark, and Model for Retrieval in Competitive Programming",0.015385,1,5
+M3.1_RRF,RealScholarQuery_28,11,doi:10.1093/bioinformatics/btr373,GeneNetWeaver: in silico benchmark generation and performance profiling of netwo,0.015152,1,6
+M3.1_RRF,RealScholarQuery_28,12,doi:10.1145/3649825,CYCLE: Learning to Self-Refine the Code Generation,0.015152,1,6
+M3.1_RRF,RealScholarQuery_28,13,doi:10.18653/v1/2022.findings-acl.177,ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical,0.015152,1,6
+M3.1_RRF,RealScholarQuery_28,14,doi:10.48550/arxiv.2305.13504,Neural Machine Translation for Code Generation,0.015152,1,6
+M3.1_RRF,RealScholarQuery_28,15,doi:10.48550/arxiv.2306.11644,Textbooks Are All You Need,0.014925,1,7
+M3.1_RRF,RealScholarQuery_28,16,doi:10.48550/arxiv.2404.03543,CodeEditorBench: Evaluating Code Editing Capability of Large Language Models,0.014925,1,7
+M3.1_RRF,RealScholarQuery_28,17,W7163777674,Where Do Large Language Models Fail on Competitive Programming? A Taxonomy of Fa,0.014706,1,8
+M3.1_RRF,RealScholarQuery_28,18,doi:10.1371/journal.pgen.1000529,A Flexible and Accurate Genotype Imputation Method for the Next Generation of Ge,0.014706,1,8
+M3.1_RRF,RealScholarQuery_28,19,doi:10.18653/v1/2023.findings-acl.29,A Systematic Study and Comprehensive Evaluation of ChatGPT on Benchmark Datasets,0.014706,1,8
+M3.1_RRF,RealScholarQuery_28,20,doi:10.18653/v1/2023.ijcnlp-main.45,"A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Halluc",0.014706,1,8
+M3.1_RRF,RealScholarQuery_29,1,doi:10.48550/arxiv.2303.12712,Sparks of Artificial General Intelligence: Early experiments with GPT-4,0.031545,2,1
+M3.1_RRF,RealScholarQuery_29,2,doi:10.1371/journal.pdig.0000877,Retrieval augmented generation for large language models in healthcare: A system,0.029762,2,3
+M3.1_RRF,RealScholarQuery_29,3,doi:10.1145/3770084,A Survey on LLM-based Code Generation for Low-Resource and Domain-Specific Progr,0.029287,2,2
+M3.1_RRF,RealScholarQuery_29,4,doi:10.18653/v1/2024.emnlp-main.667,TheoremLlama: Transforming General-Purpose LLMs into Lean4 Experts,0.027885,2,5
+M3.1_RRF,RealScholarQuery_29,5,doi:10.1038/s41586-025-09422-z,DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning,0.016393,1,1
+M3.1_RRF,RealScholarQuery_29,6,doi:10.4230/lipics.itp.2023.19,Exploiting Generative AI to Scale up Intelligent Tutoring Systems,0.016393,1,1
+M3.1_RRF,RealScholarQuery_29,7,doi:10.48550/arxiv.2410.07985,Omni-MATH: A Universal Olympiad Level Mathematic Benchmark For Large Language Mo,0.016393,1,1
+M3.1_RRF,RealScholarQuery_29,8,doi:10.1007/s10462-024-10888-y,"Large language models (LLMs): survey, technical frameworks, and future challenge",0.016129,1,2
+M3.1_RRF,RealScholarQuery_29,9,doi:10.3390/app14020744,Can Neural Networks Do Arithmetic? A Survey on the Elementary Numerical Skills o,0.016129,1,2
+M3.1_RRF,RealScholarQuery_29,10,doi:10.18653/v1/2023.ijcnlp-main.45,"A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Halluc",0.015873,1,3
+M3.1_RRF,RealScholarQuery_29,11,doi:10.2196/56764,Large Language Models and User Trust: Consequence of Self-Referential Learning L,0.015625,1,4
+M3.1_RRF,RealScholarQuery_29,12,doi:10.1186/s42400-025-00361-w,When LLMs meet cybersecurity: a systematic literature review,0.015385,1,5
+M3.1_RRF,RealScholarQuery_29,13,doi:10.48550/arxiv.2504.09037,"A Survey of Frontiers in LLM Reasoning: Inference Scaling, Learning to Reason, a",0.015385,1,5
+M3.1_RRF,RealScholarQuery_29,14,doi:10.1109/tpami.2025.3637037,From System 1 to System 2: A Survey of Reasoning Large Language Models,0.015152,1,6
+M3.1_RRF,RealScholarQuery_29,15,doi:10.1609/aaai.v39i23.34679,GNS: Solving Plane Geometry Problems by Neural-Symbolic Reasoning with Multi-Mod,0.015152,1,6
+M3.1_RRF,RealScholarQuery_29,16,doi:10.18653/v1/2025.naacl-long.172,LLM The Genius Paradox: A Linguistic and Math Expert’s Struggle with Simple Word,0.014925,1,7
+M3.1_RRF,RealScholarQuery_29,17,doi:10.48550/arxiv.2302.13971,LLaMA: Open and Efficient Foundation Language Models,0.014925,1,7
+M3.1_RRF,RealScholarQuery_29,18,doi:10.1111/bjet.13370,Practical and ethical challenges of large language models in education: A system,0.014706,1,8
+M3.1_RRF,RealScholarQuery_29,19,doi:10.18653/v1/2025.acl-long.1310,From Informal to Formal – Incorporating and Evaluating LLMs on Natural Language ,0.014706,1,8
+M3.1_RRF,RealScholarQuery_29,20,doi:10.48550/arxiv.2206.14858,Solving Quantitative Reasoning Problems with Language Models,0.014706,1,8
+M3.1_RRF,RealScholarQuery_34,1,doi:10.1007/s44267-023-00019-6,Advances in deep concealed scene understanding,0.032522,2,1
+M3.1_RRF,RealScholarQuery_34,2,doi:10.3390/fi15080260,"The Power of Generative AI: A Review of Requirements, Models, Input–Output Forma",0.032002,2,2
+M3.1_RRF,RealScholarQuery_34,3,doi:10.48550/arxiv.2304.06488,"One Small Step for Generative AI, One Giant Leap for AGI: A Complete Survey on C",0.031054,2,2
+M3.1_RRF,RealScholarQuery_34,4,doi:10.1007/s11704-024-40231-1,A survey on large language model based autonomous agents,0.030536,2,5
+M3.1_RRF,RealScholarQuery_34,5,doi:10.3389/fcomp.2024.1417016,Explore the driving factors of designers’ AIGC usage behavior based on SOR frame,0.029762,2,3
+M3.1_RRF,RealScholarQuery_34,6,doi:10.1145/3729419,Security and Privacy Challenges of AIGC in Metaverse: A Comprehensive Survey,0.028783,2,4
+M3.1_RRF,RealScholarQuery_34,7,doi:10.1146/annurev-statistics-010814-020120,Learning Deep Generative Models,0.016393,1,1
+M3.1_RRF,RealScholarQuery_34,8,doi:10.48550/arxiv.2304.06632,AI-Generated Content (AIGC): A Survey,0.016393,1,1
+M3.1_RRF,RealScholarQuery_34,9,doi:10.1145/3326362,Dynamic Graph CNN for Learning on Point Clouds,0.016129,1,2
+M3.1_RRF,RealScholarQuery_34,10,doi:10.48550/arxiv.2111.11432,Florence: A New Foundation Model for Computer Vision,0.015873,1,3
+M3.1_RRF,RealScholarQuery_34,11,doi:10.1109/ojcs.2023.3300321,"A Survey on ChatGPT: AI–Generated Contents, Challenges, and Solutions",0.015625,1,4
+M3.1_RRF,RealScholarQuery_34,12,doi:10.48550/arxiv.2305.06131,Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era,0.015385,1,5
+M3.1_RRF,RealScholarQuery_34,13,doi:10.48550/arxiv.2305.08196,A Comprehensive Survey on Segment Anything Model for Vision and Beyond,0.015385,1,5
+M3.1_RRF,RealScholarQuery_34,14,doi:10.1145/3728633,AI-Generated Content (AIGC) for Various Data Modalities: A Survey,0.015152,1,6
+M3.1_RRF,RealScholarQuery_34,15,doi:10.1609/aaai.v37i2.25335,Superpoint Transformer for 3D Scene Instance Segmentation,0.014706,1,8
+M3.1_RRF,RealScholarQuery_34,16,doi:10.3390/app9102110,A Survey on Deep Learning-Driven Remote Sensing Image Scene Understanding: Scene,0.014706,1,8
+M3.1_RRF,RealScholarQuery_34,17,doi:10.48550/arxiv.2303.16129,Unleashing the Power of Edge-Cloud Generative AI in Mobile Networks: A Survey of,0.014706,1,8
+M3.1_RRF,RealScholarQuery_34,18,doi:10.1007/s11280-024-01276-1,When large language models meet personalization: perspectives of challenges and ,0.014493,1,9
+M3.1_RRF,RealScholarQuery_34,19,doi:10.5244/c.26.128,Data-Driven Scene Understanding from 3D Models,0.014493,1,9
+M3.1_RRF,RealScholarQuery_34,20,doi:10.32604/cmc.2024.052618,Evolution and Prospects of Foundation Models: From Large Language Models to Larg,0.014286,1,10
+M3.1_RRF,RealScholarQuery_35,1,doi:10.48550/arxiv.2305.14314,QLoRA: Efficient Finetuning of Quantized LLMs,0.065309,4,1
+M3.1_RRF,RealScholarQuery_35,2,doi:10.18653/v1/2024.findings-acl.26,LLM-QAT: Data-Free Quantization Aware Training for Large Language Models,0.062256,4,1
+M3.1_RRF,RealScholarQuery_35,3,doi:10.18653/v1/2023.emnlp-main.39,LLM-FP4: 4-Bit Floating-Point Quantized Transformers,0.056294,4,6
+M3.1_RRF,RealScholarQuery_35,4,doi:10.48550/arxiv.2402.05445,Accurate LoRA-Finetuning Quantization of LLMs via Information Retention,0.041553,3,8
+M3.1_RRF,RealScholarQuery_35,5,doi:10.48550/arxiv.2107.03374,Evaluating Large Language Models Trained on Code,0.03055,2,4
+M3.1_RRF,RealScholarQuery_35,6,doi:10.1109/icdcs60910.2024.00036,Efficient Pretraining and Finetuning of Quantized LLMs with Low-Rank Structure,0.030159,2,3
+M3.1_RRF,RealScholarQuery_35,7,doi:10.1145/3583780.3615017,Prompt Distillation for Efficient LLM-based Recommendation,0.029274,2,5
+M3.1_RRF,RealScholarQuery_35,8,doi:10.48550/arxiv.2305.17888,LLM-QAT: Data-Free Quantization Aware Training for Large Language Models,0.02895,2,2
+M3.1_RRF,RealScholarQuery_35,9,doi:10.1145/3624725,The Science of Detecting LLM-Generated Text,0.028624,2,7
+M3.1_RRF,RealScholarQuery_35,10,doi:10.48550/arxiv.2306.01116,The RefinedWeb Dataset for Falcon LLM: Outperforming Curated Corpora with Web Da,0.027652,2,6
+M3.1_RRF,RealScholarQuery_35,11,doi:10.1145/3637528.3671573,FederatedScope-LLM: A Comprehensive Package for Fine-tuning Large Language Model,0.026014,2,14
+M3.1_RRF,RealScholarQuery_35,12,doi:10.18637/jss.v076.i01,Stan : A Probabilistic Programming Language,0.016393,1,1
+M3.1_RRF,RealScholarQuery_35,13,doi:10.48550/arxiv.2405.16528,LoQT: Low-Rank Adapters for Quantized Pretraining,0.016393,1,1
+M3.1_RRF,RealScholarQuery_35,14,W3127829048,Degree-Quant: Quantization-Aware Training for Graph Neural Networks,0.016129,1,2
+M3.1_RRF,RealScholarQuery_35,15,doi:10.18653/v1/2025.findings-acl.694,Continual Quantization-Aware Pre-Training: When to transition from 16-bit to 1.5,0.016129,1,2
+M3.1_RRF,RealScholarQuery_35,16,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,0.016129,1,2
+M3.1_RRF,RealScholarQuery_35,17,doi:10.52202/079017-3661,LoQT: Low-Rank Adapters for Quantized Pretraining,0.016129,1,2
+M3.1_RRF,RealScholarQuery_35,18,doi:10.1016/j.neunet.2022.09.015,Quantization-aware training for low precision photonic neural networks,0.015873,1,3
+M3.1_RRF,RealScholarQuery_35,19,doi:10.18653/v1/2024.acl-long.678,LLM in a flash: Efficient Large Language Model Inference with Limited Memory,0.015873,1,3
+M3.1_RRF,RealScholarQuery_35,20,doi:10.36227/techrxiv.174613328.82961968/v1,Low-Rank Adaptation for Scalable Large Language Models: A Comprehensive Survey,0.015873,1,3
+M3.1_RRF,RealScholarQuery_38,1,doi:10.1016/j.media.2017.07.005,A survey on deep learning in medical image analysis,0.064285,4,1
+M3.1_RRF,RealScholarQuery_38,2,doi:10.1109/tmi.2014.2377694,The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS),0.057011,4,2
+M3.1_RRF,RealScholarQuery_38,3,doi:10.48550/arxiv.1409.1556,Very Deep Convolutional Networks for Large-Scale Image Recognition,0.048172,3,1
+M3.1_RRF,RealScholarQuery_38,4,doi:10.1186/s40537-019-0197-0,A survey on Image Data Augmentation for Deep Learning,0.032002,2,2
+M3.1_RRF,RealScholarQuery_38,5,doi:10.1145/3528223.3530127,Instant neural graphics primitives with a multiresolution hash encoding,0.029958,2,3
+M3.1_RRF,RealScholarQuery_38,6,doi:10.1186/s12859-017-1934-z,ImageJ2: ImageJ for the next generation of scientific image data,0.027598,2,11
+M3.1_RRF,RealScholarQuery_38,7,doi:10.1109/tpami.2016.2644615,SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation,0.026671,2,14
+M3.1_RRF,RealScholarQuery_38,8,doi:10.1109/34.244676,High confidence visual recognition of persons by a test of statistical independe,0.016393,1,1
+M3.1_RRF,RealScholarQuery_38,9,doi:10.1007/978-3-030-01219-9_11,Multimodal Unsupervised Image-to-Image Translation,0.015873,1,3
+M3.1_RRF,RealScholarQuery_38,10,doi:10.1016/j.jalz.2018.02.018,NIA‐AA Research Framework: Toward a biological definition of Alzheimer's disease,0.015873,1,3
+M3.1_RRF,RealScholarQuery_38,11,doi:10.1002/(sici)1522-2594(199911)42:5<952::aid-mrm16>3.0.co;2-s,SENSE: Sensitivity encoding for fast MRI,0.015625,1,4
+M3.1_RRF,RealScholarQuery_38,12,doi:10.1016/j.mri.2012.05.001,3D Slicer as an image computing platform for the Quantitative Imaging Network,0.015625,1,4
+M3.1_RRF,RealScholarQuery_38,13,doi:10.1111/j.1365-2966.2005.09655.x,The cosmological simulation code gadget-2,0.015385,1,5
+M3.1_RRF,RealScholarQuery_38,14,doi:10.1186/gb-2006-7-10-r100,CellProfiler: image analysis software for identifying and quantifying cell pheno,0.015385,1,5
+M3.1_RRF,RealScholarQuery_38,15,doi:10.7717/peerj.453,scikit-image: image processing in Python,0.015385,1,5
+M3.1_RRF,RealScholarQuery_38,16,doi:10.1371/journal.pone.0061217,phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Mic,0.015152,1,6
+M3.1_RRF,RealScholarQuery_38,17,doi:10.1523/jneurosci.19-06-01895.1999,Differential Distribution of Three Members of a Gene Family Encoding Low Voltage,0.015152,1,6
+M3.1_RRF,RealScholarQuery_38,18,doi:10.1080/014311698215748,"Review article Multisensor image fusion in remote sensing: Concepts, methods and",0.014925,1,7
+M3.1_RRF,RealScholarQuery_38,19,doi:10.1098/rspb.1980.0020,Theory of edge detection,0.014925,1,7
+M3.1_RRF,RealScholarQuery_38,20,doi:10.1109/tip.2007.911828,Sparse Representation for Color Image Restoration,0.014493,1,9
+M3.1_RRF,RealScholarQuery_39,1,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,0.047403,3,1
+M3.1_RRF,RealScholarQuery_39,2,doi:10.48550/arxiv.2312.10997,Retrieval-Augmented Generation for Large Language Models: A Survey,0.04445,3,3
+M3.1_RRF,RealScholarQuery_39,3,doi:10.1186/s40537-019-0197-0,A survey on Image Data Augmentation for Deep Learning,0.031319,2,1
+M3.1_RRF,RealScholarQuery_39,4,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,0.031281,2,2
+M3.1_RRF,RealScholarQuery_39,5,doi:10.48550/arxiv.2107.03374,Evaluating Large Language Models Trained on Code,0.030622,2,2
+M3.1_RRF,RealScholarQuery_39,6,doi:10.4230/oasics.icpec.2025.4,Can Open Large Language Models Catch Vulnerabilities?,0.028125,2,4
+M3.1_RRF,RealScholarQuery_39,7,doi:10.1007/s10462-024-10888-y,"Large language models (LLMs): survey, technical frameworks, and future challenge",0.027651,2,9
+M3.1_RRF,RealScholarQuery_39,8,doi:10.1038/s42256-024-00832-8,Augmenting large language models with chemistry tools,0.026786,2,10
+M3.1_RRF,RealScholarQuery_39,9,doi:10.1186/s13742-015-0047-8,Second-generation PLINK: rising to the challenge of larger and richer datasets,0.016129,1,2
+M3.1_RRF,RealScholarQuery_39,10,doi:10.1016/j.lindif.2023.102274,ChatGPT for good? On opportunities and challenges of large language models for e,0.015873,1,3
+M3.1_RRF,RealScholarQuery_39,11,doi:10.1145/3637528.3671470,A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models,0.015873,1,3
+M3.1_RRF,RealScholarQuery_39,12,doi:10.1145/3501385.3543957,Automatic Generation of Programming Exercises and Code Explanations Using Large ,0.015625,1,4
+M3.1_RRF,RealScholarQuery_39,13,doi:10.18653/v1/2023.emnlp-main.647,Synthetic Data Generation with Large Language Models for Text Classification: Po,0.015625,1,4
+M3.1_RRF,RealScholarQuery_39,14,doi:10.1017/s0140525x0999094x,The myth of language universals: Language diversity and its importance for cogni,0.015385,1,5
+M3.1_RRF,RealScholarQuery_39,15,doi:10.1145/3649506,Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,0.015385,1,5
+M3.1_RRF,RealScholarQuery_39,16,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,0.014706,1,8
+M3.1_RRF,RealScholarQuery_39,17,doi:10.1109/access.2025.3589503,Synthetic Data Generation Using Large Language Models: Advances in Text and Code,0.014706,1,8
+M3.1_RRF,RealScholarQuery_39,18,doi:10.1109/access.2021.3094201,Yolo V4 for Advanced Traffic Sign Recognition With Synthetic Training Data Gener,0.014493,1,9
+M3.1_RRF,RealScholarQuery_39,19,doi:10.1109/access.2024.3358206,Socially Aware Synthetic Data Generation for Suicidal Ideation Detection Using L,0.014286,1,10
+M3.1_RRF,RealScholarQuery_39,20,doi:10.1109/tnnls.2021.3136503,DeepSMOTE: Fusing Deep Learning and SMOTE for Imbalanced Data,0.013889,1,12
+M3.1_RRF,RealScholarQuery_41,1,doi:10.48550/arxiv.2302.13007,AugGPT: Leveraging ChatGPT for Text Data Augmentation,0.031319,2,1
+M3.1_RRF,RealScholarQuery_41,2,doi:10.48550/arxiv.2210.11416,Scaling Instruction-Finetuned Language Models,0.029514,2,4
+M3.1_RRF,RealScholarQuery_41,3,doi:10.1186/s40537-021-00492-0,Text Data Augmentation for Deep Learning,0.029199,2,8
+M3.1_RRF,RealScholarQuery_41,4,doi:10.48550/arxiv.2308.10792,Instruction Tuning for Large Language Models: A Survey,0.028898,2,5
+M3.1_RRF,RealScholarQuery_41,5,doi:10.1038/s41586-024-08328-6,Accurate predictions on small data with a tabular foundation model,0.028006,2,9
+M3.1_RRF,RealScholarQuery_41,6,doi:10.7759/cureus.40895,ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (L,0.027072,2,11
+M3.1_RRF,RealScholarQuery_41,7,doi:10.1073/pnas.1800069115,Facile bottom-up synthesis of partially oxidized black phosphorus nanosheets as ,0.016393,1,1
+M3.1_RRF,RealScholarQuery_41,8,doi:10.1145/331499.331504,Data clustering,0.016393,1,1
+M3.1_RRF,RealScholarQuery_41,9,doi:10.38124/ijisrt/ijisrt24may1483,Intelligent Clinical Documentation: Harnessing Generative AI for Patient-Centric,0.016393,1,1
+M3.1_RRF,RealScholarQuery_41,10,doi:10.1186/s40537-019-0197-0,A survey on Image Data Augmentation for Deep Learning,0.016129,1,2
+M3.1_RRF,RealScholarQuery_41,11,doi:10.1007/s10994-019-05855-6,A survey on semi-supervised learning,0.015873,1,3
+M3.1_RRF,RealScholarQuery_41,12,doi:10.1002/14651858.cd005652.pub2,Psychological therapies for people with borderline personality disorder,0.015625,1,4
+M3.1_RRF,RealScholarQuery_41,13,doi:10.1007/s00521-025-11666-9,A survey on retrieval-augmentation generation (RAG) models for healthcare applic,0.015625,1,4
+M3.1_RRF,RealScholarQuery_41,14,doi:10.1101/gr.089532.108,ABySS: A parallel assembler for short read sequence data,0.015385,1,5
+M3.1_RRF,RealScholarQuery_41,15,doi:10.48550/arxiv.2404.07503,Best Practices and Lessons Learned on Synthetic Data,0.015152,1,6
+M3.1_RRF,RealScholarQuery_41,16,doi:10.1007/978-3-030-01261-8_12,Domain Adaptation Through Synthesis for Unsupervised Person Re-identification,0.014925,1,7
+M3.1_RRF,RealScholarQuery_41,17,doi:10.18653/v1/2024.kallm-1.12,Fine-tuning Language Models for Triple Extraction with Data Augmentation,0.014925,1,7
+M3.1_RRF,RealScholarQuery_41,18,doi:10.1111/j.1365-313x.2011.04737.x,TaMYB13 is a transcriptional activator of fructosyltransferase genes involved in,0.014706,1,8
+M3.1_RRF,RealScholarQuery_41,19,doi:10.18653/v1/2024.emnlp-main.1196,Synthetic Knowledge Ingestion: Towards Knowledge Refinement and Injection for En,0.014706,1,8
+M3.1_RRF,RealScholarQuery_41,20,doi:10.48550/arxiv.2410.12896,A Survey on Data Synthesis and Augmentation for Large Language Models,0.014493,1,9
+M3.1_RRF,RealScholarQuery_42,1,doi:10.17645/mac.v1i1.70,Understanding Social Media Logic,0.031545,2,1
+M3.1_RRF,RealScholarQuery_42,2,doi:10.48550/arxiv.1906.03327,HowTo100M: Learning a Text-Video Embedding by Watching Hundred Million\n Narrate,0.031025,2,3
+M3.1_RRF,RealScholarQuery_42,3,doi:10.1109/cvpr.1997.609414,Video skimming and characterization through the combination of image and languag,0.030331,2,4
+M3.1_RRF,RealScholarQuery_42,4,doi:10.1145/319463.319654,Video Manga,0.029572,2,3
+M3.1_RRF,RealScholarQuery_42,5,doi:10.1109/tpami.2016.2522418,Person Re-Identification by Discriminative Selection in Video Ranking,0.02901,2,7
+M3.1_RRF,RealScholarQuery_42,6,doi:10.1609/aaai.v35i2.16235,SMART Frame Selection for Action Recognition,0.027799,2,10
+M3.1_RRF,RealScholarQuery_42,7,doi:10.1109/tsmc.2018.2830099,Efficient Deep CNN-Based Fire Detection and Localization in Video Surveillance A,0.027242,2,11
+M3.1_RRF,RealScholarQuery_42,8,doi:10.1609/aaai.v31i1.11212,An End-to-End Spatio-Temporal Attention Model for Human Action Recognition from ,0.026491,2,15
+M3.1_RRF,RealScholarQuery_42,9,doi:10.1016/j.ijinfomgt.2023.102642,Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ,0.016129,1,2
+M3.1_RRF,RealScholarQuery_42,10,doi:10.1109/cvpr52734.2025.01279,M-LLM Based Video Frame Selection for Efficient Video Understanding,0.016129,1,2
+M3.1_RRF,RealScholarQuery_42,11,doi:10.1109/cvpr.2011.5995407,Action recognition by dense trajectories,0.015873,1,3
+M3.1_RRF,RealScholarQuery_42,12,doi:10.1145/3359174,Reliability and Inter-rater Reliability in Qualitative Research,0.015873,1,3
+M3.1_RRF,RealScholarQuery_42,13,doi:10.1016/j.jarmac.2017.07.008,Beyond misinformation: Understanding and coping with the “post-truth” era.,0.015625,1,4
+M3.1_RRF,RealScholarQuery_42,14,doi:10.1109/tmi.2016.2593957,EndoNet: A Deep Architecture for Recognition Tasks on Laparoscopic Videos,0.015385,1,5
+M3.1_RRF,RealScholarQuery_42,15,doi:10.1007/s10796-017-9810-y,"Advances in Social Media Research: Past, Present and Future",0.015152,1,6
+M3.1_RRF,RealScholarQuery_42,16,doi:10.1109/cicn.2011.15,A Study on Keyframe Extraction Methods for Video Summary,0.015152,1,6
+M3.1_RRF,RealScholarQuery_42,17,doi:10.1109/cvpr.2015.7299176,Modeling video evolution for action recognition,0.015152,1,6
+M3.1_RRF,RealScholarQuery_42,18,doi:10.1007/s00521-021-06322-x,A novel keyframe extraction method for video classification using deep neural ne,0.014925,1,7
+M3.1_RRF,RealScholarQuery_42,19,doi:10.5860/choice.47-5462,"Show sold separately: promos, spoilers, and other media paratexts",0.014925,1,7
+M3.1_RRF,RealScholarQuery_42,20,doi:10.1109/tpami.2008.129,Video Event Recognition Using Kernel Methods with Multilevel Temporal Alignment,0.014706,1,8
+M3.1_RRF,RealScholarQuery_43,1,doi:10.1186/s12929-019-0592-z,Development of therapeutic antibodies for the treatment of diseases,0.016393,1,1
+M3.1_RRF,RealScholarQuery_43,2,doi:10.1371/journal.pntd.0003171,Evaluation of Commercially Available Diagnostic Tests for the Detection of Dengu,0.016393,1,1
+M3.1_RRF,RealScholarQuery_43,3,doi:10.1073/pnas.95.4.1466,Membrane targeting of cGMP-dependent protein kinase is required for cystic fibro,0.016129,1,2
+M3.1_RRF,RealScholarQuery_43,4,doi:10.1074/mcp.m113.035600,Analysis of the Human Tissue-specific Expression by Genome-wide Integration of T,0.016129,1,2
+M3.1_RRF,RealScholarQuery_43,5,doi:10.1038/s44387-025-00066-y,Flow matching meets biology and life science: a survey,0.015873,1,3
+M3.1_RRF,RealScholarQuery_43,6,doi:10.1074/jbc.m209009200,Actin Binding of Human LIM and SH3 Protein Is Regulated by cGMP- and cAMP-depend,0.015873,1,3
+M3.1_RRF,RealScholarQuery_43,7,doi:10.1210/er.2003-0027,Vascular Endothelial Growth Factor: Basic Science and Clinical Progress,0.015873,1,3
+M3.1_RRF,RealScholarQuery_43,8,doi:10.1016/s2666-5247(23)00139-8,Viral and antibody dynamics of acute infection with SARS-CoV-2 omicron variant (,0.015625,1,4
+M3.1_RRF,RealScholarQuery_43,9,doi:10.1080/19420862.2025.2528902,Artificial intelligence-driven computational methods for antibody design and opt,0.015385,1,5
+M3.1_RRF,RealScholarQuery_43,10,doi:10.48550/arxiv.2507.17731,Flow Matching Meets Biology and Life Science: A Survey,0.015385,1,5
+M3.1_RRF,RealScholarQuery_43,11,doi:10.1002/pro.5560060807,Bayesian statistical analysis of protein side‐chain rotamer preferences,0.014925,1,7
+M3.1_RRF,RealScholarQuery_43,12,doi:10.36227/techrxiv.176057860.08604810/v1,The Dawn of the AI Co-Scientist: A Comprehensive Survey of Biomedical and Chemic,0.014925,1,7
+M3.1_RRF,RealScholarQuery_43,13,doi:10.1038/s42003-021-01813-y,Limited window for donation of convalescent plasma with high live-virus neutrali,0.014706,1,8
+M3.1_RRF,RealScholarQuery_43,14,doi:10.1145/3514228,Integrating Scientific Knowledge with Machine Learning for Engineering and Envir,0.014706,1,8
+M3.1_RRF,RealScholarQuery_43,15,doi:10.1186/s13012-024-01357-9,Generative AI in healthcare: an implementation science informed translational pa,0.014706,1,8
+M3.1_RRF,RealScholarQuery_43,16,doi:10.1146/annurev-biochem-062917-012034,Directed Evolution of Protein Catalysts,0.014493,1,9
+M3.1_RRF,RealScholarQuery_43,17,doi:10.3389/fimmu.2013.00302,The Structural Basis of Antibody-Antigen Recognition,0.014493,1,9
+M3.1_RRF,RealScholarQuery_43,18,doi:10.1002/prot.22488,Improved prediction of protein side‐chain conformations with SCWRL4,0.014286,1,10
+M3.1_RRF,RealScholarQuery_43,19,doi:10.1126/science.add2187,Robust deep learning–based protein sequence design using ProteinMPNN,0.014286,1,10
+M3.1_RRF,RealScholarQuery_43,20,doi:10.1371/journal.pone.0036705,Role of the Polarity Protein Scribble for Podocyte Differentiation and Maintenan,0.014286,1,10
+M3.1_RRF,RealScholarQuery_47,1,doi:10.1145/3711896.3736570,Evaluation and Benchmarking of LLM Agents: A Survey,0.061165,4,1
+M3.1_RRF,RealScholarQuery_47,2,doi:10.18653/v1/2025.acl-long.126,INVESTORBENCH: A Benchmark for Financial Decision-Making Tasks with LLM-based Ag,0.048652,3,1
+M3.1_RRF,RealScholarQuery_47,3,doi:10.1145/3688399,Designing Heterogeneous LLM Agents for Financial Sentiment Analysis,0.04693,3,1
+M3.1_RRF,RealScholarQuery_47,4,doi:10.18653/v1/2025.findings-emnlp.972,"Large Language Model Agents in Finance: A Survey Bridging Research, Practice, an",0.042241,3,5
+M3.1_RRF,RealScholarQuery_47,5,doi:10.1038/s41598-024-60210-7,A multimodal approach to cross-lingual sentiment analysis with ensemble of trans,0.041873,3,10
+M3.1_RRF,RealScholarQuery_47,6,doi:10.1016/j.plrev.2024.10.013,LLMs and generative agent-based models for complex systems research,0.040911,3,13
+M3.1_RRF,RealScholarQuery_47,7,doi:10.48550/arxiv.2501.10963,Open FinLLM Leaderboard: Towards Financial AI Readiness,0.031025,2,3
+M3.1_RRF,RealScholarQuery_47,8,doi:10.48550/arxiv.2308.09975,FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Lan,0.030886,2,1
+M3.1_RRF,RealScholarQuery_47,9,doi:10.1007/978-981-95-3346-6_34,FinTeam: A Multi-agent Collaborative Intelligence System for Comprehensive Finan,0.029851,2,7
+M3.1_RRF,RealScholarQuery_47,10,doi:10.18653/v1/2025.naacl-long.318,FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Lan,0.02895,2,2
+M3.1_RRF,RealScholarQuery_47,11,doi:10.48550/arxiv.2310.15205,DISC-FinLLM: A Chinese Financial Large Language Model based on Multiple Experts ,0.02895,2,2
+M3.1_RRF,RealScholarQuery_47,12,doi:10.1145/3802463.3802475,Large Language Model Agent in Financial Trading: A Survey,0.02837,2,10
+M3.1_RRF,RealScholarQuery_47,13,doi:10.1007/s10462-025-11403-7,Datasets for large language models: a comprehensive survey,0.027072,2,11
+M3.1_RRF,RealScholarQuery_47,14,doi:10.48550/arxiv.2406.11903,"A Survey of Large Language Models for Financial Applications: Progress, Prospect",0.026547,2,12
+M3.1_RRF,RealScholarQuery_47,15,doi:10.1007/s10462-025-11422-4,"Agentic AI: a comprehensive survey of architectures, applications, and future di",0.016393,1,1
+M3.1_RRF,RealScholarQuery_47,16,doi:10.1145/3637528.3671801,"A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified",0.016393,1,1
+M3.1_RRF,RealScholarQuery_47,17,doi:10.48550/arxiv.2408.11878,Open-FinLLMs: Open Multimodal Large Language Models for Financial Applications,0.016393,1,1
+M3.1_RRF,RealScholarQuery_47,18,doi:10.48550/arxiv.2412.20138,TradingAgents: Multi-Agents LLM Financial Trading Framework,0.016393,1,1
+M3.1_RRF,RealScholarQuery_47,19,doi:10.7326/0003-4819-128-12_part_2-199806151-00003,Guidelines for the Use of Antiretroviral Agents in HIV-Infected Adults and Adole,0.016393,1,1
+M3.1_RRF,RealScholarQuery_47,20,doi:10.1057/s41599-024-03611-3,Large language models empowered agent-based modeling and simulation: a survey an,0.016129,1,2
+M3.1_RRF,RealScholarQuery_48,1,doi:10.1162/coli_a_00502,Can Large Language Models Transform Computational Social Science?,0.032266,2,1
+M3.1_RRF,RealScholarQuery_48,2,doi:10.1057/s41599-024-03611-3,Large language models empowered agent-based modeling and simulation: a survey an,0.027047,2,12
+M3.1_RRF,RealScholarQuery_48,3,doi:10.1145/3688399,Designing Heterogeneous LLM Agents for Financial Sentiment Analysis,0.016129,1,2
+M3.1_RRF,RealScholarQuery_48,4,doi:10.1145/3677052.3698694,AI in Investment Analysis: LLMs for Equity Stock Ratings,0.014925,1,7
+M3.1_RRF,RealScholarQuery_48,5,doi:10.48550/arxiv.2307.12701,Leveraging Large Language Models (LLMs) for Process Mining (Technical Report),0.014706,1,8
+M3.1_RRF,RealScholarQuery_48,6,doi:10.3390/asi4010009,A Survey of Forex and Stock Price Prediction Using Deep Learning,0.014493,1,9
+M3.1_RRF,RealScholarQuery_48,7,doi:10.56726/irjmets45213,Contribution and performance of ChatGPT and other Large Language Models (LLM) fo,0.014286,1,10
+M3.1_RRF,RealScholarQuery_48,8,doi:10.1016/j.frl.2024.105227,Sentiment trading with large language models,0.013889,1,12
+M3.1_RRF,RealScholarQuery_48,9,doi:10.3389/frai.2020.00042,Using Topic Modeling Methods for Short-Text Data: A Comparative Analysis,0.013699,1,13
+M3.1_RRF,RealScholarQuery_48,10,doi:10.3389/fpubh.2023.1273253,Medical image analysis using deep learning algorithms,0.013514,1,14
+M3.1_RRF,RealScholarQuery_48,11,doi:10.1145/3637528.3671451,Foundation Models for Time Series Analysis: A Tutorial and Survey,0.0125,1,20
+M3.1_RRF,RealScholarQuery_48,12,doi:10.1002/asi.24750,ChatGPT and a new academic reality: Artificial Intelligence‐written research pap,0.0,0,-1
+M3.1_RRF,RealScholarQuery_48,13,doi:10.1007/s11704-024-40231-1,A survey on large language model based autonomous agents,0.0,0,-1
+M3.1_RRF,RealScholarQuery_48,14,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,0.0,0,-1
+M3.1_RRF,RealScholarQuery_48,15,doi:10.1016/s1474-4422(21)00252-0,"Global, regional, and national burden of stroke and its risk factors, 1990–2019:",0.0,0,-1
+M3.1_RRF,RealScholarQuery_48,16,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,0.0,0,-1
+M3.1_RRF,RealScholarQuery_48,17,doi:10.1038/s41746-023-00958-w,A study of generative large language model for medical research and healthcare,0.0,0,-1
+M3.1_RRF,RealScholarQuery_48,18,doi:10.1109/access.2018.2886367,A Numerical-Based Attention Method for Stock Market Prediction With Dual Informa,0.0,0,-1
+M3.1_RRF,RealScholarQuery_48,19,doi:10.1109/access.2024.3365742,"A Review on Large Language Models: Architectures, Applications, Taxonomies, Open",0.0,0,-1
+M3.1_RRF,RealScholarQuery_48,20,doi:10.1109/docs63458.2024.10704454,Harnessing Earnings Reports for Stock Predictions: A QLoRA-Enhanced LLM Approach,0.0,0,-1
+M3.1_RRF,RealScholarQuery_6,1,doi:10.18653/v1/2023.emnlp-main.322,Query Rewriting in Retrieval-Augmented Large Language Models,0.05829,4,3
+M3.1_RRF,RealScholarQuery_6,2,doi:10.18653/v1/2023.emnlp-main.397,HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Mo,0.04595,3,3
+M3.1_RRF,RealScholarQuery_6,3,doi:10.18653/v1/2022.acl-long.551,LinkBERT: Pretraining Language Models with Document Links,0.044656,3,3
+M3.1_RRF,RealScholarQuery_6,4,doi:10.5753/jbcs.2025.5801,Pt-HotpotQA: Evaluating Multi-Hop Question Answering on Original and Portuguese-,0.042817,3,3
+M3.1_RRF,RealScholarQuery_6,5,doi:10.18653/v1/2022.emnlp-main.174,Iteratively Prompt Pre-trained Language Models for Chain of Thought,0.030798,2,3
+M3.1_RRF,RealScholarQuery_6,6,doi:10.18653/v1/p19-1613,Multi-hop Reading Comprehension through Question Decomposition and Rescoring,0.030769,2,5
+M3.1_RRF,RealScholarQuery_6,7,doi:10.1007/s10462-024-10896-y,Towards trustworthy LLMs: a review on debiasing and dehallucinating in large lan,0.029857,2,6
+M3.1_RRF,RealScholarQuery_6,8,doi:10.48550/arxiv.2302.04023,"A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Halluc",0.02971,2,4
+M3.1_RRF,RealScholarQuery_6,9,doi:10.18653/v1/2023.findings-emnlp.620,Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Gen,0.029514,2,4
+M3.1_RRF,RealScholarQuery_6,10,doi:10.1145/3591300,Prompting Is Programming: A Query Language for Large Language Models,0.029324,2,4
+M3.1_RRF,RealScholarQuery_6,11,doi:10.48550/arxiv.2203.05115,Internet-augmented language models through few-shot prompting for open-domain qu,0.028992,2,8
+M3.1_RRF,RealScholarQuery_6,12,doi:10.18653/v1/2024.naacl-long.389,Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models throug,0.028665,2,6
+M3.1_RRF,RealScholarQuery_6,13,doi:10.18653/v1/2023.findings-emnlp.985,ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language ,0.028629,2,2
+M3.1_RRF,RealScholarQuery_6,14,doi:10.1145/3583780.3614949,Large Language Models as Zero-Shot Conversational Recommenders,0.027826,2,9
+M3.1_RRF,RealScholarQuery_6,15,doi:10.18653/v1/2023.acl-long.307,Evaluating Open-Domain Question Answering in the Era of Large Language Models,0.027619,2,10
+M3.1_RRF,RealScholarQuery_6,16,doi:10.48550/arxiv.2306.13304,ToolQA: A Dataset for LLM Question Answering with External Tools,0.027047,2,12
+M3.1_RRF,RealScholarQuery_6,17,doi:10.1038/s41591-024-03423-7,Toward expert-level medical question answering with large language models,0.016393,1,1
+M3.1_RRF,RealScholarQuery_6,18,doi:10.18653/v1/2021.acl-long.248,Few-NERD: A Few-shot Named Entity Recognition Dataset,0.016393,1,1
+M3.1_RRF,RealScholarQuery_6,19,doi:10.48550/arxiv.2210.02406,Decomposed Prompting: A Modular Approach for Solving Complex Tasks,0.016393,1,1
+M3.1_RRF,RealScholarQuery_6,20,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,0.016129,1,2
+M3.1_RRF,RealScholarQuery_8,1,doi:10.1007/s11704-024-40231-1,A survey on large language model based autonomous agents,0.065045,4,1
+M3.1_RRF,RealScholarQuery_8,2,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,0.065045,4,1
+M3.1_RRF,RealScholarQuery_8,3,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,0.062779,4,2
+M3.1_RRF,RealScholarQuery_8,4,doi:10.1038/s43856-023-00370-1,The future landscape of large language models in medicine,0.054864,4,6
+M3.1_RRF,RealScholarQuery_8,5,doi:10.1145/3605943,Recent Advances in Natural Language Processing via Large Pre-trained Language Mo,0.045964,3,3
+M3.1_RRF,RealScholarQuery_8,6,doi:10.1039/d4sc03921a,A review of large language models and autonomous agents in chemistry,0.042198,3,7
+M3.1_RRF,RealScholarQuery_8,7,doi:10.48550/arxiv.2309.07864,The Rise and Potential of Large Language Model Based Agents: A Survey,0.042112,3,9
+M3.1_RRF,RealScholarQuery_8,8,doi:10.1007/s10462-024-10888-y,"Large language models (LLMs): survey, technical frameworks, and future challenge",0.041699,3,6
+M3.1_RRF,RealScholarQuery_8,9,doi:10.1007/s10462-021-09996-w,Multi-agent deep reinforcement learning: a survey,0.039742,3,11
+M3.1_RRF,RealScholarQuery_8,10,doi:10.1145/3743127,RLHF Deciphered: A Critical Analysis of Reinforcement Learning from Human Feedba,0.030579,2,3
+M3.1_RRF,RealScholarQuery_8,11,doi:10.4230/oasics.icpec.2025.4,Can Open Large Language Models Catch Vulnerabilities?,0.029857,2,6
+M3.1_RRF,RealScholarQuery_8,12,doi:10.1002/asi.24750,ChatGPT and a new academic reality: Artificial Intelligence‐written research pap,0.029274,2,5
+M3.1_RRF,RealScholarQuery_8,13,doi:10.1145/3490099.3511105,Wordcraft: Story Writing With Large Language Models,0.02901,2,7
+M3.1_RRF,RealScholarQuery_8,14,doi:10.1609/aaai.v32i1.11492,Emergence of Grounded Compositional Language in Multi-Agent Populations,0.028624,2,7
+M3.1_RRF,RealScholarQuery_8,15,doi:10.18653/v1/d18-1362,Multi-Hop Knowledge Graph Reasoning with Reward Shaping,0.028259,2,7
+M3.1_RRF,RealScholarQuery_8,16,doi:10.36227/techrxiv.23589741.v1,"A Survey on Large Language Models: Applications, Challenges, Limitations, and Pr",0.028039,2,8
+M3.1_RRF,RealScholarQuery_8,17,doi:10.1016/j.arcontrol.2020.09.001,All you need to know about model predictive control for buildings,0.015625,1,4
+M3.1_RRF,RealScholarQuery_8,18,doi:10.1109/icaisisas64483.2025.11051677,LLM Coach: Reward Shaping for Reinforcement Learning-Based Navigation Agent,0.015625,1,4
+M3.1_RRF,RealScholarQuery_8,19,doi:10.1109/tnnls.2024.3497992,"Survey on Large Language Model-Enhanced Reinforcement Learning: Concept, Taxonom",0.015385,1,5
+M3.1_RRF,RealScholarQuery_8,20,doi:10.1515/9781400829453,The Theory of Incentives: The Principal-Agent Model,0.015385,1,5

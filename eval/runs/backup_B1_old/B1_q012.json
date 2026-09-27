@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B1",
+  "query_id": "q012",
+  "raw_query": "network compression by pruning and weight sharing quantization for efficient inference on resource-constrained devices",
+  "gold_ids": [
+    "doi:10.48550/arxiv.1510.00149",
+    "openalex:W2119144962",
+    "title:deep compression: compressing deep neural networks with pruning, trained quantization and huffman coding"
+  ],
+  "predicted_ids": [
+    "W4406650295",
+    "W2903711666",
+    "W3097642927",
+    "W4391900182",
+    "W2588860837",
+    "W2971533524",
+    "W4312910656",
+    "W2546536770",
+    "W3140491875",
+    "W2949941638",
+    "W2119144962",
+    "W2893550440",
+    "W2805933112",
+    "W2950656546",
+    "W3215698464",
+    "W3137147200",
+    "W2994881943",
+    "W4287363917",
+    "W2964233199",
+    "W2737100304"
+  ],
+  "precision": 0.05,
+  "recall": 1.0,
+  "f1": 0.0952,
+  "api_calls": 5,
+  "llm_calls": 2,
+  "input_tokens": 833,
+  "output_tokens": 199,
+  "latency_ms": 6022.6,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-21 09:49:04"
+}

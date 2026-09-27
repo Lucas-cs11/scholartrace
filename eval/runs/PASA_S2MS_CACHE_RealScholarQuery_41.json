@@ -1,0 +1,69 @@
+{
+  "experiment_id": "PASA_S2MS_CACHE",
+  "query_id": "RealScholarQuery_41",
+  "raw_query": "Using synthesis data for scaling up sft data.",
+  "gold_ids": [
+    "title:api-guided dataset synthesis to finetune large code models",
+    "title:common 7b language models already possess strong math capabilities",
+    "title:fullanno: a data engine for enhancing image comprehension of mllms",
+    "title:magpie: alignment data synthesis from scratch by prompting aligned llms with nothing",
+    "title:skywork-math: data scaling laws for mathematical reasoning in large language models -- the story goes on",
+    "title_n:apiguideddatasetsynthesistofinetunelargecodemodels",
+    "title_n:common7blanguagemodelsalreadypossessstrongmathcapabilities",
+    "title_n:fullannoadataengineforenhancingimagecomprehensionofmllms",
+    "title_n:magpiealignmentdatasynthesisfromscratchbypromptingalignedllmswithnothing",
+    "title_n:skyworkmathdatascalinglawsformathematicalreasoninginlargelanguagemodelsthestorygoeson"
+  ],
+  "predicted_ids": [
+    "d7fad9becda3a8fd26b376417cd17bff194350a7",
+    "bfe1057e5bdd2ed6d7b5564cf644a7a11fb8387a",
+    "bb2f0d2c174a6577b3a1ccd179fa2707cff52a4b",
+    "46c3dfaf6f665162c44a31b5a4217028c83af737",
+    "89772d0d4084f99da2de57a0cf2f33256538196e",
+    "W4399657778",
+    "bb58d09f0913ecf52d422a21b1d0e4a282a9ee68",
+    "79ba718c57ef13190138f7a61fe1d32322ebe296",
+    "W2789378330",
+    "94c82c25d8943fea9461d804257ee16c9d672548",
+    "dfe3647f6dee3c2407264ddcf24fd2ef47b351a2",
+    "06861ed353d89122778e240a27642882514afabb",
+    "1cb03e591a40ac7b850c7781a6603c45cb561e43",
+    "42443b912f81c497ae8054fc061118cb9973c9b5",
+    "2ee66319688188eefe15a122952e21e8003a2a55",
+    "6508e62ee67ecb48fc1534f7f8cf2f687ae68bab",
+    "0d55cdd3ce07305d3584f70daa4fc74157486660",
+    "73baaa703293b6aecee389ea56c0136a307da894",
+    "d28d332e00c256fa57da70ffb692828596adf196",
+    "7f70199177fe1a217d56ccc5c3a78e7e9c38d04b"
+  ],
+  "precision": 0.1,
+  "recall": 0.4,
+  "f1": 0.16,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 45503.6,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Using synthesis data for scaling up sft data.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "Using synthesis data for scaling up sft data.",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 18:49:13"
+}

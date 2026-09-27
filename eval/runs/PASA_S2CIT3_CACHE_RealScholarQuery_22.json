@@ -1,0 +1,35 @@
+{
+  "experiment_id": "PASA_S2CIT3_CACHE",
+  "query_id": "RealScholarQuery_22",
+  "raw_query": "Papers on solving common sense problems in machine translation.",
+  "gold_ids": [
+    "title:encouraging divergent thinking in large language models through multi-agent debate",
+    "title:few-shot learning with multilingual language models.",
+    "title:rethinking human-like translation strategy: integrating drift-diffusion model with large language models for machine translation",
+    "title_n:encouragingdivergentthinkinginlargelanguagemodelsthroughmultiagentdebate",
+    "title_n:fewshotlearningwithmultilinguallanguagemodels",
+    "title_n:rethinkinghumanliketranslationstrategyintegratingdriftdiffusionmodelwithlargelanguagemodelsformachinetranslation"
+  ],
+  "predicted_ids": [],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 26484.9,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Papers on solving common sense problems in machine translation.",
+      "api": "error",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 19:51:01"
+}

@@ -1,0 +1,111 @@
+{
+  "experiment_id": "PASA_FULL_CR",
+  "query_id": "RealScholarQuery_48",
+  "raw_query": "Papers that explore using large language models for mining factors in stock exchange analysis.",
+  "gold_ids": [
+    "title:alpha-gpt: human-ai interactive alpha mining for quantitative investment",
+    "title:automate strategy finding with llm in quant investment",
+    "title:background-aware multi-source fusion financial trend forecasting mechanism",
+    "title:can chatgpt forecast stock price movements? return predictability and large language models",
+    "title:finllama: financial sentiment classification for algorithmic trading applications",
+    "title:linking microblogging sentiments to stock price movement: an application of gpt-4",
+    "title:llmfactor: extracting profitable factors through prompts for explainable stock movement prediction",
+    "title:unveiling the potential of sentiment: can large language models predict chinese stock price movements?",
+    "title_n:alphagpthumanaiinteractivealphaminingforquantitativeinvestment",
+    "title_n:automatestrategyfindingwithllminquantinvestment",
+    "title_n:backgroundawaremultisourcefusionfinancialtrendforecastingmechanism",
+    "title_n:canchatgptforecaststockpricemovementsreturnpredictabilityandlargelanguagemodels",
+    "title_n:finllamafinancialsentimentclassificationforalgorithmictradingapplications",
+    "title_n:linkingmicrobloggingsentimentstostockpricemovementanapplicationofgpt4",
+    "title_n:llmfactorextractingprofitablefactorsthroughpromptsforexplainablestockmovementprediction",
+    "title_n:unveilingthepotentialofsentimentcanlargelanguagemodelspredictchinesestockpricemovements"
+  ],
+  "predicted_ids": [
+    "doi:10.1145/3768292.3770377",
+    "doi:10.1109/ikt65497.2024.10892779",
+    "doi:10.2139/ssrn.6970578",
+    "doi:10.17549/gbfr.2026.31.2.1",
+    "doi:10.2139/ssrn.5508485",
+    "doi:10.2139/ssrn.4947135",
+    "doi:10.2139/ssrn.4412788",
+    "doi:10.4018/979-8-3693-6690-5.ch006",
+    "doi:10.22541/au.174230727.76810330/v1",
+    "doi:10.2139/ssrn.6612061",
+    "doi:10.2139/ssrn.6446182",
+    "doi:10.2139/ssrn.4511658",
+    "doi:10.2139/ssrn.5166656",
+    "doi:10.2139/ssrn.4905637",
+    "doi:10.2139/ssrn.4568964",
+    "doi:10.2139/ssrn.4993835",
+    "doi:10.54097/7am6vk38",
+    "doi:10.56726/irjmets49682",
+    "doi:10.1109/iccp68926.2025.11427136",
+    "doi:10.5220/0014306600004052"
+  ],
+  "precision": 0.05,
+  "recall": 0.125,
+  "f1": 0.0714,
+  "api_calls": 26,
+  "llm_calls": 5,
+  "input_tokens": 5189,
+  "output_tokens": 2350,
+  "latency_ms": 51362.7,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Papers that explore using large language models for mining factors in stock exchange analysis.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 1188,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LLM factor mining stock market",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "stock factor mining",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "large language models stock exchange analysis",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "language models financial factor extraction",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Papers that explore using large language models for mining factors in stock exchange analysis.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 37,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 16:43:56"
+}

@@ -1,0 +1,102 @@
+{
+  "experiment_id": "PASA_FULL_CR",
+  "query_id": "RealScholarQuery_13",
+  "raw_query": "Provide papers demonstrating that the self-correction of LLMs does not enhance their performance.",
+  "gold_ids": [
+    "title:a closer look at the self-verification abilities of large language models in logical reasoning",
+    "title:are you sure? challenging llms leads to performance drops in the flipflop experiment",
+    "title:can large language models really improve by self-critiquing their own plans?",
+    "title:gpt-4 doesn't know it's wrong: an analysis of iterative prompting for reasoning problems",
+    "title:is self-repair a silver bullet for code generation?",
+    "title:large language models cannot self-correct reasoning yet",
+    "title:on the intrinsic self-correction capability of llms: uncertainty and latent concept",
+    "title:on the self-verification limitations of large language models on reasoning and planning tasks",
+    "title:pride and prejudice: llm amplifies self-bias in self-refinement",
+    "title:self-[in]correct: llms struggle with discriminating self-generated responses",
+    "title:the counterfeit conundrum: can code language models grasp the nuances of their incorrect generations?",
+    "title:when can llms actually correct their own mistakes? a critical survey of self-correction of llms",
+    "title_n:acloserlookattheselfverificationabilitiesoflargelanguagemodelsinlogicalreasoning",
+    "title_n:areyousurechallengingllmsleadstoperformancedropsintheflipflopexperiment",
+    "title_n:canlargelanguagemodelsreallyimprovebyselfcritiquingtheirownplans",
+    "title_n:gpt4doesntknowitswrongananalysisofiterativepromptingforreasoningproblems",
+    "title_n:isselfrepairasilverbulletforcodegeneration",
+    "title_n:largelanguagemodelscannotselfcorrectreasoningyet",
+    "title_n:ontheintrinsicselfcorrectioncapabilityofllmsuncertaintyandlatentconcept",
+    "title_n:ontheselfverificationlimitationsoflargelanguagemodelsonreasoningandplanningtasks",
+    "title_n:prideandprejudicellmamplifiesselfbiasinselfrefinement",
+    "title_n:selfincorrectllmsstrugglewithdiscriminatingselfgeneratedresponses",
+    "title_n:thecounterfeitconundrumcancodelanguagemodelsgraspthenuancesoftheirincorrectgenerations",
+    "title_n:whencanllmsactuallycorrecttheirownmistakesacriticalsurveyofselfcorrectionofllms"
+  ],
+  "predicted_ids": [
+    "doi:10.1051/itmconf/20268801025",
+    "doi:10.66857/jirt.v3i2.51",
+    "doi:10.32473/flairs.39.1.141807"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 25,
+  "llm_calls": 3,
+  "input_tokens": 4298,
+  "output_tokens": 2260,
+  "latency_ms": 106594.3,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Provide papers demonstrating that the self-correction of LLMs does not enhance their performance.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "self-correction LLM",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "self-correction does not improve",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LLM self-correction performance",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "large language model self-correction failure",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Provide papers demonstrating that the self-correction of LLMs does not enhance their performance.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 25,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 16:09:06"
+}

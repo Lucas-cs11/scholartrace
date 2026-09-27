@@ -1,0 +1,6 @@
+metric,m3r_baseline,m5a,delta
+raw unique Gold,25,27,2
+round2 incremental Gold,0,2,2
+queries with retrieval gain,0,2,2
+executed follow-up queries,0,62,62
+new physical HTTP (experiment),0,62,62

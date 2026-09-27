@@ -1,0 +1,163 @@
+{
+  "experiment_id": "PASA_S2TLDR_CACHE",
+  "query_id": "RealScholarQuery_35",
+  "raw_query": "Give me papers about LLM quantized pretraining.",
+  "gold_ids": [
+    "title:exploring quantization for efficient pre-training of transformer language models",
+    "title:fp8-lm: training fp8 large language models",
+    "title:jetfire: efficient and accurate transformer pretraining with int8 data flow and per-block quantization",
+    "title:loqt: low-rank adapters for quantized pretraining",
+    "title:q-galore: quantized galore with int4 projection and layer-adaptive low-rank gradients",
+    "title:the era of 1-bit llms: all large language models are in 1.58 bits",
+    "title:training and inference of large language models using 8-bit floating point",
+    "title_n:exploringquantizationforefficientpretrainingoftransformerlanguagemodels",
+    "title_n:fp8lmtrainingfp8largelanguagemodels",
+    "title_n:jetfireefficientandaccuratetransformerpretrainingwithint8dataflowandperblockquantization",
+    "title_n:loqtlowrankadaptersforquantizedpretraining",
+    "title_n:qgalorequantizedgalorewithint4projectionandlayeradaptivelowrankgradients",
+    "title_n:theeraof1bitllmsalllargelanguagemodelsarein158bits",
+    "title_n:trainingandinferenceoflargelanguagemodelsusing8bitfloatingpoint"
+  ],
+  "predicted_ids": [
+    "1a0260cf86b873ee22aeb8b68c87d8d3606bf1ab",
+    "51db4c39dc0bdf5c95c8bbe89bf4211b48d0b4df",
+    "W4379548477",
+    "W4401753310",
+    "6c023575ed5579cb4d56d7ccc0826d1d038f1f9e",
+    "df8403066aa74d8278cab13a0a6f9f133410668d",
+    "69a1fa7bc3d0b8f006419bbf859cc0ca9bfe889a",
+    "16428ded7b294a677a3aae781a42a42057d273d1",
+    "08b5f37a71c548e6546d0f849ac8010038f5b08e",
+    "22ec795e6ca65a2b94485aa43619677536639a86",
+    "0b14c539fd7ec57cbac78141c4f902ea5cc065ba",
+    "2c5e2a6e45ec763f45ef947dcb70bfe443eed366",
+    "a49f5b8d9c2731697163fe45a52f3ec9ba0e18eb",
+    "W4399115726",
+    "W4412208861",
+    "W4414290345",
+    "W4390832893",
+    "a3ad3960fb67c9b1b9497757d737a1b3b36121c9",
+    "W4389519530",
+    "4843a71eea96646cec2fcb3437f2d292c2f9520d"
+  ],
+  "precision": 0.05,
+  "recall": 0.1429,
+  "f1": 0.0741,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 29690.1,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Give me papers about LLM quantized pretraining.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "BitNet",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "1-bit LLM",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "quantized pretraining",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LLM quantized pretraining",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "low-bit LLM pretraining",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "BitNet 1.58 bits",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "1-bit LLM",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LoQT rank adapters",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 32,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "quantization-aware training",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "low-bit language model",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "QAT LLM",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 19:16:37"
+}

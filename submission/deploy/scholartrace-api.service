@@ -1,0 +1,17 @@
+# ScholarTrace Contest API systemd 服务模板。
+# 安装：sudo cp deploy/scholartrace-api.service /etc/systemd/system/
+#       sudo systemctl daemon-reload && sudo systemctl enable --now scholartrace-api
+[Unit]
+Description=ScholarTrace Contest API (FastAPI + Research Engine)
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/scholartrace-contest
+EnvironmentFile=/home/ubuntu/scholartrace-contest/.env
+ExecStart=/home/ubuntu/scholartrace-contest/.venv/bin/python -m uvicorn api.main:app --host 0.0.0.0 --port 8100 --workers 1
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

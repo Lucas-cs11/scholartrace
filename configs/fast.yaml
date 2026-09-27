@@ -1,0 +1,9 @@
+# FAST 模式：Round1 → Rerank → Results（不执行 evidence-guided Round 2）
+mode: fast
+offline: true
+top_k: 20
+max_evidence: 8
+max_followup: 0
+budget_max_new_searches: 0
+recall_per_subquery: 20
+planner_version: m5a-planner-v1

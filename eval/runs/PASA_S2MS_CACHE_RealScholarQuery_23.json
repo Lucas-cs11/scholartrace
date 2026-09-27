@@ -1,0 +1,153 @@
+{
+  "experiment_id": "PASA_S2MS_CACHE",
+  "query_id": "RealScholarQuery_23",
+  "raw_query": "Show me papers utilizing reinforcement learning to optimize diffusion models for video generation.",
+  "gold_ids": [
+    "title:instructvideo: instructing video diffusion models with human feedback",
+    "title:video diffusion alignment via reward gradients",
+    "title_n:instructvideoinstructingvideodiffusionmodelswithhumanfeedback",
+    "title_n:videodiffusionalignmentviarewardgradients"
+  ],
+  "predicted_ids": [
+    "W4378506819",
+    "W4400025074",
+    "W4378464471",
+    "W7172172170",
+    "W7138428164",
+    "W4386071957",
+    "W4389571962",
+    "W4382203549",
+    "W4403792184",
+    "W7125911856",
+    "W4402727910",
+    "W4390091526",
+    "W7139147337",
+    "W4417328281",
+    "W7163595082",
+    "W7161452108",
+    "W3154596443",
+    "W4403087461",
+    "W2963390684",
+    "W4417095633"
+  ],
+  "precision": 0.05,
+  "recall": 0.5,
+  "f1": 0.0909,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 70409.3,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Show me papers utilizing reinforcement learning to optimize diffusion models for video generation.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "reinforcement learning diffusion video generation",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "diffusion policy video generation",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "reward optimization diffusion video",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "RL diffusion video",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "video diffusion reinforcement learning",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "InstructVideo human feedback",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "video diffusion reward gradients",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "Align-A-Video",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "RewardNet video generation",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 3,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "Diffusion-RL video",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "VideoReward diffusion",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 18,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 18:35:30"
+}

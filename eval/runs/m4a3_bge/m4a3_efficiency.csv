@@ -1,0 +1,2 @@
+model,n_params,device,model_load_s,pass1_infer_s,pass2_infer_s,total_infer_s,pairs,pairs_per_sec,mean_query_latency_s,gen_llm_calls,openalex_http,peak_rss_mb,peak_rss_note
+BAAI/bge-reranker-v2-m3,567755777,cpu,8.9,1143.0,919.6,2062.6,1310,1.1,51.95,0,0,935.1,model_load=8.9s=打分进程缓存加载（run.log 实测）；续跑进程重连 HF 镜像 56.8s。peak_rss 为本进程（续跑加载模型+后处理）峰值；打分进程 ps 观测 ≈1.5GB

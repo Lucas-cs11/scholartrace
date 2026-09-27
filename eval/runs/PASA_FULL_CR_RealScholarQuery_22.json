@@ -1,0 +1,87 @@
+{
+  "experiment_id": "PASA_FULL_CR",
+  "query_id": "RealScholarQuery_22",
+  "raw_query": "Papers on solving common sense problems in machine translation.",
+  "gold_ids": [
+    "title:encouraging divergent thinking in large language models through multi-agent debate",
+    "title:few-shot learning with multilingual language models.",
+    "title:rethinking human-like translation strategy: integrating drift-diffusion model with large language models for machine translation",
+    "title_n:encouragingdivergentthinkinginlargelanguagemodelsthroughmultiagentdebate",
+    "title_n:fewshotlearningwithmultilinguallanguagemodels",
+    "title_n:rethinkinghumanliketranslationstrategyintegratingdriftdiffusionmodelwithlargelanguagemodelsformachinetranslation"
+  ],
+  "predicted_ids": [
+    "doi:10.18653/v1/2020.findings-emnlp.327",
+    "doi:10.18653/v1/w17-4702",
+    "doi:10.18653/v1/w18-6304",
+    "doi:10.14711/thesis-b1029221",
+    "doi:10.18653/v1/w17-4701",
+    "doi:10.3115/1118794.1118801",
+    "doi:10.51415/10321/5570",
+    "doi:10.1007/s10590-015-9168-1",
+    "doi:10.59350/d1re7-bwb75",
+    "doi:10.59350/9x80h-ys736",
+    "doi:10.1075/ts.6.2.06for",
+    "doi:10.1007/978-94-007-6886-4_20",
+    "doi:10.21236/ada131423",
+    "doi:10.1007/978-3-031-37499-9_5",
+    "doi:10.7312/taub90714-005"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 25,
+  "llm_calls": 5,
+  "input_tokens": 4729,
+  "output_tokens": 2220,
+  "latency_ms": 55820.6,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Papers on solving common sense problems in machine translation.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 1134,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "machine translation common sense",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "common sense reasoning machine translation",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "neural machine translation commonsense",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Papers on solving common sense problems in machine translation.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 23,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 16:17:47"
+}

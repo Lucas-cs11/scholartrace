@@ -1,0 +1,98 @@
+{
+  "experiment_id": "PASA_S2MS_CACHE",
+  "query_id": "RealScholarQuery_30",
+  "raw_query": "I would like to find some research papers about test time training topic, in LLM research area.",
+  "gold_ids": [
+    "title:efficient test-time adaptation of vision-language models",
+    "title:medadapter: efficient test-time adaptation of large language models towards medical reasoning",
+    "title:on the test-time zero-shot generalization of vision-language models: do we really need prompt learning?",
+    "title:self-refine: iterative refinement with self-feedback",
+    "title:test-time training on graphs with large language models (llms)",
+    "title:test-time training on nearest neighbors for large language models",
+    "title_n:efficienttesttimeadaptationofvisionlanguagemodels",
+    "title_n:medadapterefficienttesttimeadaptationoflargelanguagemodelstowardsmedicalreasoning",
+    "title_n:onthetesttimezeroshotgeneralizationofvisionlanguagemodelsdowereallyneedpromptlearning",
+    "title_n:selfrefineiterativerefinementwithselffeedback",
+    "title_n:testtimetrainingongraphswithlargelanguagemodelsllms",
+    "title_n:testtimetrainingonnearestneighborsforlargelanguagemodels"
+  ],
+  "predicted_ids": [
+    "bfebacaba0e5e929e1eefe3fa7413ab372ec372a",
+    "18f3aa92e274708e542fc1a425fbe6a9eee4c9ac",
+    "feac701797be018483f6eb2286c1169c03d6b019",
+    "5cefa535552f48727ea58819480058c3a7eafc70",
+    "5aee6464412cb5a3967a07aa93b655cde66d9383",
+    "3008be7598614b60f81742bc80a47d63d1c604b7",
+    "7d3ed6f660cf63236092ff3b3a95187b9f463330",
+    "c081ead0ce870dae8237cd4d8fa031a2b195acf2",
+    "7edebc6a07456938db2e4c3ab171a2df293ee121",
+    "d47284b820ea7711aca9396c6cb3c87bee2e5f63",
+    "9d6c091893370b7b6d3bea5451bd5cdc7a030b0a",
+    "800cca00c8a5aa12bbdcc42e65569b5e3b737c76",
+    "8292083dd8f6ae898ea0ee54a6b97997d1a51c9d",
+    "8351277f821b8a6faaa37a6baecd64c16b1a23f8",
+    "d31592af1d2c9316426680262ba516a830bc3f16",
+    "2652ea3ec9d96b61f7d1cdab8ce1637c7ecc3336",
+    "c039d5c73107dcc6fd61bbec2a1363a8cb8634af",
+    "cddf14e5b97090111d3fa814c9aec60e2bf24b8a",
+    "648dc50901fab935138bdc16025ad326d0ce9254",
+    "20d2c5e77cb14ae18347a600213789d18a212c7c"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 24689.4,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "I would like to find some research papers about test time training topic, in LLM research area.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "test time training",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "test-time training LLM",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LLM test time training",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "test time adaptation language model",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 40,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-31 18:38:11"
+}

@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B1",
+  "query_id": "q008",
+  "raw_query": "model-agnostic meta-learning for few-shot learning, fast adaptation across tasks via gradient-based meta-learning",
+  "gold_ids": [
+    "doi:10.5555/3305890.3305953",
+    "openalex:W2604763608",
+    "title:model-agnostic meta-learning for fast adaptation of deep networks"
+  ],
+  "predicted_ids": [
+    "W4379659755",
+    "W4399432515",
+    "W3093655779",
+    "W2604763608",
+    "W2951775809",
+    "W3173582509",
+    "W3044376627",
+    "W2976335444",
+    "W3036045183",
+    "W4405495003",
+    "W3202188231",
+    "W2970144620",
+    "W2964121937",
+    "W2805481182",
+    "W3205249428",
+    "W3125493368",
+    "W2742093937",
+    "W4220759197",
+    "W2787035179",
+    "W4387581117"
+  ],
+  "precision": 0.05,
+  "recall": 1.0,
+  "f1": 0.0952,
+  "api_calls": 4,
+  "llm_calls": 2,
+  "input_tokens": 835,
+  "output_tokens": 144,
+  "latency_ms": 4514.6,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-21 09:48:43"
+}

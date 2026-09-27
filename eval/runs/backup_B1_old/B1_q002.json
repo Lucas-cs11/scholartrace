@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B1",
+  "query_id": "q002",
+  "raw_query": "deep reinforcement learning agent that achieves human-level control playing Atari games from raw pixels",
+  "gold_ids": [
+    "doi:10.1038/nature14236",
+    "openalex:W2145339207",
+    "title:human-level control through deep reinforcement learning"
+  ],
+  "predicted_ids": [
+    "W2481567506",
+    "W1757796397",
+    "W2522489477",
+    "W2996896271",
+    "W2626804490",
+    "W2342662072",
+    "W2963641140",
+    "W4386285856",
+    "W2145339207",
+    "W2920362155",
+    "W2973229164",
+    "W2749928749",
+    "W2754517384",
+    "W2561776174",
+    "W2362143032",
+    "W779494576",
+    "W2746553466",
+    "W2155968351",
+    "W2962834855",
+    "W2173564293"
+  ],
+  "precision": 0.05,
+  "recall": 1.0,
+  "f1": 0.0952,
+  "api_calls": 3,
+  "llm_calls": 2,
+  "input_tokens": 828,
+  "output_tokens": 139,
+  "latency_ms": 4958.1,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-21 09:48:12"
+}

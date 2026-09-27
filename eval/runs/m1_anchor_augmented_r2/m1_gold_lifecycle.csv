@@ -1,0 +1,8 @@
+query_id,canonical_id,title_n,first_seen_stage,first_seen_query,first_seen_rank,query_type,survived_prekeep,pre_rerank_rank,reranker_rank,final_rank,drop_stage,drop_reason
+RealScholarQuery_6,doi:10.18653/v1/2023.acl-long.557,interleavingretrievalwithchainofthoughtreasoningforknowledgeintensivemultistepquestions,regular_recall,large language models HotPotQA,8,core,True,23,2,2,,
+RealScholarQuery_34,doi:10.15607/rss.2023.xix.066,conceptfusionopensetmultimodal3dmapping,regular_recall,leveraging 3D generation for scene parsing,54,discovery,True,40,6,6,,
+RealScholarQuery_35,doi:10.48550/arxiv.2402.17764,theeraof1bitllmsalllargelanguagemodelsarein158bits,regular_recall,BitNet scaling 1-bit transformers,1,discovery,False,,,,reranker_truncation,below_keep_threshold_or_topk
+RealScholarQuery_38,doi:10.1109/tip.2023.3263099,learnedimagecompressionwithgaussianlaplacianlogisticmixturemodelandconcatenatedresidualmodules,regular_recall,Learned Image Compression,48,anchor,True,23,4,4,,
+RealScholarQuery_42,doi:10.1109/iccv.2019.00632,multiagentreinforcementlearningbasedframesamplingforeffectiveuntrimmedvideorecognition,regular_recall,TSN frame sampling,69,anchor,True,9,4,4,,
+RealScholarQuery_43,doi:10.48550/arxiv.2403.16576,antigenspecificantibodydesignviadirectenergybasedpreferenceoptimization,regular_recall,DPO antibody design,12,anchor,True,24,6,6,,
+RealScholarQuery_47,doi:10.48550/arxiv.2402.12659,finbenaholisticfinancialbenchmarkforlargelanguagemodels,regular_recall,LLM agent financial task benchmark,16,core,True,15,3,3,,

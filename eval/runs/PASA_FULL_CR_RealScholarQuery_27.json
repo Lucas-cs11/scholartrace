@@ -1,0 +1,89 @@
+{
+  "experiment_id": "PASA_FULL_CR",
+  "query_id": "RealScholarQuery_27",
+  "raw_query": "Show me research on rejection sampling finetuning.",
+  "gold_ids": [
+    "title:arithmetic control of llms for diverse user preferences: directional preference alignment with multi-objective rewards",
+    "title:breaking language barriers in multilingual mathematical reasoning: insights and observations",
+    "title:dart-math: difficulty-aware rejection tuning for mathematical problem-solving",
+    "title:let ai entertain you: increasing user engagement with generative ai and rejection sampling",
+    "title:rs-dpo: a hybrid rejection sampling and direct preference optimization method for alignment of large language models",
+    "title:scaling relationship on learning mathematical reasoning with large language models",
+    "title:self-play with execution feedback: improving instruction-following capabilities of large language models",
+    "title:statistical rejection sampling improves preference optimization",
+    "title:xwin-lm: strong and scalable alignment practice for llms",
+    "title_n:arithmeticcontrolofllmsfordiverseuserpreferencesdirectionalpreferencealignmentwithmultiobjectiverewards",
+    "title_n:breakinglanguagebarriersinmultilingualmathematicalreasoninginsightsandobservations",
+    "title_n:dartmathdifficultyawarerejectiontuningformathematicalproblemsolving",
+    "title_n:letaientertainyouincreasinguserengagementwithgenerativeaiandrejectionsampling",
+    "title_n:rsdpoahybridrejectionsamplinganddirectpreferenceoptimizationmethodforalignmentoflargelanguagemodels",
+    "title_n:scalingrelationshiponlearningmathematicalreasoningwithlargelanguagemodels",
+    "title_n:selfplaywithexecutionfeedbackimprovinginstructionfollowingcapabilitiesoflargelanguagemodels",
+    "title_n:statisticalrejectionsamplingimprovespreferenceoptimization",
+    "title_n:xwinlmstrongandscalablealignmentpracticeforllms"
+  ],
+  "predicted_ids": [
+    "doi:10.1214/24-ps29",
+    "doi:10.1016/j.spl.2005.01.002",
+    "doi:10.52202/075280-1612",
+    "doi:10.1007/978-3-319-72634-2_4",
+    "doi:10.1109/mlsp.2019.8918852"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 14,
+  "llm_calls": 5,
+  "input_tokens": 4821,
+  "output_tokens": 2393,
+  "latency_ms": 53474.5,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Show me research on rejection sampling finetuning.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 1139,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "rejection sampling",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "finetuning",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "rejection sampling finetuning",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "RLHF rejection sampling",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 16:23:04"
+}

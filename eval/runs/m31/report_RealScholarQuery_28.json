@@ -1,0 +1,18 @@
+{
+  "experiment": "PASA_ASSOC_M31_PLANNER_REV",
+  "query_id": "RealScholarQuery_28",
+  "append": true,
+  "f1": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "tp": 0,
+  "api_calls": 3,
+  "cache_hits": 2,
+  "llm_calls": 3,
+  "input_tokens": 5250,
+  "output_tokens": 1903,
+  "latency_ms": 16246.1,
+  "n_predicted": 4,
+  "raw_candidates": 76,
+  "rerank_pool_candidates": 40
+}

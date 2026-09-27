@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B1",
+  "query_id": "q018",
+  "raw_query": "eliciting reasoning in large language models through step-by-step chain-of-thought prompting for arithmetic commonsense and symbolic tasks",
+  "gold_ids": [
+    "doi:10.48550/arxiv.2201.11903",
+    "openalex:W7133224126",
+    "title:chain-of-thought prompting elicits reasoning in large language models"
+  ],
+  "predicted_ids": [
+    "W4375957723",
+    "W4321855256",
+    "W4402671980",
+    "W4304194220",
+    "W4402672041",
+    "W4221161695",
+    "W4327810433",
+    "W4385570088",
+    "W4319165821",
+    "W4281483047",
+    "W4402671211",
+    "W4402684228",
+    "W4389518664",
+    "W4309953112",
+    "W4385571271",
+    "W4303648904",
+    "W4319460874",
+    "W4415915064",
+    "W7133224126",
+    "W4401996408"
+  ],
+  "precision": 0.05,
+  "recall": 1.0,
+  "f1": 0.0952,
+  "api_calls": 5,
+  "llm_calls": 2,
+  "input_tokens": 869,
+  "output_tokens": 249,
+  "latency_ms": 6044.6,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-21 09:49:36"
+}

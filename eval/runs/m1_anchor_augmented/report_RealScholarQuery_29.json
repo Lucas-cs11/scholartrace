@@ -1,0 +1,16 @@
+{
+  "experiment": "PASA_ASSOC_M1_ANCHOR",
+  "query_id": "RealScholarQuery_29",
+  "f1": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "tp": 0,
+  "api_calls": 5,
+  "llm_calls": 3,
+  "input_tokens": 5296,
+  "output_tokens": 1830,
+  "latency_ms": 20760.9,
+  "n_predicted": 18,
+  "raw_candidates": 88,
+  "rerank_pool_candidates": 40
+}

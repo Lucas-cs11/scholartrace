@@ -1,0 +1,46 @@
+{
+  "overall": "FAIL",
+  "audits": {
+    "No .env files": {
+      "passed": false,
+      "issues": [
+        ".env.bak",
+        ".env"
+      ]
+    },
+    "No hardcoded API keys": {
+      "passed": true,
+      "issues": []
+    },
+    "No Gold in production imports": {
+      "passed": true,
+      "issues": []
+    },
+    "No absolute local paths": {
+      "passed": true,
+      "issues": []
+    },
+    "Required configs exist": {
+      "passed": true,
+      "issues": []
+    },
+    "README exists": {
+      "passed": true,
+      "issues": []
+    },
+    "Schemas exist": {
+      "passed": true,
+      "issues": []
+    },
+    "Corpus fingerprint exists": {
+      "passed": true,
+      "issues": []
+    },
+    "Tests pass": {
+      "passed": false,
+      "issues": [
+        "Tests failed: ==================== short test summary info ============================\nERROR tests/test_analyze.py\n!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n1 error in 0.43s\n"
+      ]
+    }
+  }
+}

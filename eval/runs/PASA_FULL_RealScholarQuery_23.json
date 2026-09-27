@@ -1,0 +1,99 @@
+{
+  "experiment_id": "PASA_FULL",
+  "query_id": "RealScholarQuery_23",
+  "raw_query": "Show me papers utilizing reinforcement learning to optimize diffusion models for video generation.",
+  "gold_ids": [
+    "title:instructvideo: instructing video diffusion models with human feedback",
+    "title:video diffusion alignment via reward gradients",
+    "title_n:instructvideoinstructingvideodiffusionmodelswithhumanfeedback",
+    "title_n:videodiffusionalignmentviarewardgradients"
+  ],
+  "predicted_ids": [
+    "W3031106453",
+    "W4386075767",
+    "W4390873135",
+    "W4386076323",
+    "W4312122037",
+    "W4386065764",
+    "W4403716358",
+    "W4388093548",
+    "W4388428086",
+    "W4309957684",
+    "W4396817538",
+    "W4378464471",
+    "W4303440777",
+    "W4309800375",
+    "W2930108284",
+    "W4292283966",
+    "W4386071957",
+    "W4387156659",
+    "W4404562994",
+    "W4389571962"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 26,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 31404.4,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Show me papers utilizing reinforcement learning to optimize diffusion models for video generation.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "reinforcement learning diffusion models",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "diffusion policy optimization",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "diffusion models video generation",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "video diffusion reinforcement learning",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Show me papers utilizing reinforcement learning to optimize diffusion models for video generation.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 62,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-24 08:16:47"
+}

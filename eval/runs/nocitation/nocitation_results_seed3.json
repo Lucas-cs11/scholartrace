@@ -1,0 +1,41 @@
+{
+  "experiment": "PASA_ASSOC_NO_CIT",
+  "results": [
+    {
+      "query_id": "RealScholarQuery_0",
+      "f1": 0.1429,
+      "precision": 0.2,
+      "recall": 0.1111,
+      "api_calls": 10,
+      "llm_calls": 7,
+      "latency_ms": 27199.0,
+      "n_predicted": 5,
+      "raw_candidates": 145,
+      "rerank_pool_candidates": 92
+    },
+    {
+      "query_id": "RealScholarQuery_15",
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "api_calls": 11,
+      "llm_calls": 7,
+      "latency_ms": 28140.8,
+      "n_predicted": 7,
+      "raw_candidates": 162,
+      "rerank_pool_candidates": 99
+    },
+    {
+      "query_id": "RealScholarQuery_29",
+      "f1": 0.2857,
+      "precision": 0.2308,
+      "recall": 0.375,
+      "api_calls": 1,
+      "llm_calls": 2,
+      "latency_ms": 6470.6,
+      "n_predicted": 13,
+      "raw_candidates": 20,
+      "rerank_pool_candidates": 20
+    }
+  ]
+}

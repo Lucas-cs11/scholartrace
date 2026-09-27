@@ -1,0 +1,113 @@
+{
+  "experiment_id": "PASA_FULL_CR",
+  "query_id": "RealScholarQuery_37",
+  "raw_query": "Give me some papers showing that LLM agents can do schedule planning.",
+  "gold_ids": [
+    "title:aios: llm agent operating system",
+    "title:can we rely on llm agents to draft long-horizon plans? let's take travelplanner as an example",
+    "title:generative agents: interactive simulacra of human behavior",
+    "title:incorporating large language models into production systems for enhanced task automation and flexibility",
+    "title:large language models as commonsense knowledge for large-scale task planning",
+    "title:large language models for power scheduling: a user-centric approach",
+    "title:llms can schedule",
+    "title:reprompt: planning by automatic prompt engineering for large language models agents",
+    "title:robogpt: an intelligent agent of making embodied long-term decisions for daily instruction tasks",
+    "title:smart language agents in real-world planning",
+    "title_n:aiosllmagentoperatingsystem",
+    "title_n:canwerelyonllmagentstodraftlonghorizonplansletstaketravelplannerasanexample",
+    "title_n:generativeagentsinteractivesimulacraofhumanbehavior",
+    "title_n:incorporatinglargelanguagemodelsintoproductionsystemsforenhancedtaskautomationandflexibility",
+    "title_n:largelanguagemodelsascommonsenseknowledgeforlargescaletaskplanning",
+    "title_n:largelanguagemodelsforpowerschedulingausercentricapproach",
+    "title_n:llmscanschedule",
+    "title_n:repromptplanningbyautomaticpromptengineeringforlargelanguagemodelsagents",
+    "title_n:robogptanintelligentagentofmakingembodiedlongtermdecisionsfordailyinstructiontasks",
+    "title_n:smartlanguageagentsinrealworldplanning"
+  ],
+  "predicted_ids": [
+    "doi:10.2139/ssrn.6502119",
+    "doi:10.1016/j.eswa.2026.133777",
+    "doi:10.2139/ssrn.6506799",
+    "doi:10.21203/rs.3.rs-6756215/v1",
+    "doi:10.1109/icar65334.2025.11338680",
+    "doi:10.20944/preprints202603.0362.v1",
+    "doi:10.2139/ssrn.7150298",
+    "doi:10.21203/rs.3.rs-10232223/v1",
+    "doi:10.52842/conf.caadria.2025.1.223",
+    "doi:10.71465/ajbd3639",
+    "doi:10.1109/tvcg.2024.3496112/mm2",
+    "doi:10.1109/tvcg.2024.3496112/mm1",
+    "doi:10.52202/085713-3181",
+    "doi:10.18653/v1/2024.emnlp-industry.37",
+    "doi:10.5573/ieie.2026.63.5.120",
+    "doi:10.65109/exaj9853",
+    "doi:10.48047/jocaaa.2025.34.12.64",
+    "doi:10.1109/access.2026.3714775"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 18,
+  "llm_calls": 5,
+  "input_tokens": 5016,
+  "output_tokens": 2809,
+  "latency_ms": 49226.0,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Give me some papers showing that LLM agents can do schedule planning.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 1234,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "language model planning",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LLM agents schedule planning",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "LLM agent task scheduling",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "large language model agents planning",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Give me some papers showing that LLM agents can do schedule planning.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 4,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 16:34:08"
+}

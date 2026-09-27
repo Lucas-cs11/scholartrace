@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B0",
+  "query_id": "q014",
+  "raw_query": "image caption generation using an attention-based encoder-decoder that attends to salient image regions when generating words",
+  "gold_ids": [
+    "doi:10.48550/arxiv.1502.03044",
+    "openalex:W1514535095",
+    "title:show, attend and tell: neural image caption generation with visual attention"
+  ],
+  "predicted_ids": [
+    "W4319594886",
+    "W4213157969",
+    "W3034144331",
+    "W4213189167",
+    "W4313407632",
+    "W3000154564",
+    "W3192731655",
+    "W2946349183",
+    "W2753232960",
+    "W2920981979",
+    "W4362598957",
+    "W3216130706",
+    "W2604729005",
+    "W2968549119",
+    "W3112404983",
+    "W2973586224",
+    "W3208647617",
+    "W2962935746",
+    "W2951590222",
+    "W2979924880"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 1,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 3027.5,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-20 20:26:50"
+}

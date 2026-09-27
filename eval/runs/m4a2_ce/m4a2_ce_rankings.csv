@@ -1,0 +1,441 @@
+query_id,ce_rank,canonical_id,title,ce_score,pre_rerank_rank,has_abstract,input_token_count,was_truncated
+RealScholarQuery_0,1,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,3.63912296295166,4,True,328,False
+RealScholarQuery_0,2,doi:10.48550/arxiv.2310.06694,Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning,2.8230886459350586,7,True,359,False
+RealScholarQuery_0,3,doi:10.48550/arxiv.2309.04564,When Less is More: Investigating Data Pruning for Pretraining LLMs at Scale,2.7178003787994385,79,True,320,False
+RealScholarQuery_0,4,doi:10.48550/arxiv.2305.11627,LLM-Pruner: On the Structural Pruning of Large Language Models,2.2227888107299805,14,True,351,False
+RealScholarQuery_0,5,doi:10.48550/arxiv.2306.01116,The RefinedWeb Dataset for Falcon LLM: Outperforming Curated Corpora with Web Da,2.1318142414093018,80,True,272,False
+RealScholarQuery_0,6,doi:10.1038/s41746-021-00455-y,Med-BERT: pretrained contextualized embeddings on large-scale structured electro,2.101567029953003,27,True,385,False
+RealScholarQuery_0,7,doi:10.48550/arxiv.2404.06395,MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training,1.9957005977630615,18,True,390,False
+RealScholarQuery_0,8,doi:10.1038/s42256-023-00626-4,Parameter-efficient fine-tuning of large-scale pre-trained language models,1.9570770263671875,6,True,342,False
+RealScholarQuery_0,9,doi:10.48550/arxiv.2401.00448,Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling La,1.722213625907898,10,True,273,False
+RealScholarQuery_0,10,doi:10.48550/arxiv.2206.07682,Emergent Abilities of Large Language Models,1.7190130949020386,30,True,145,False
+RealScholarQuery_0,11,doi:10.18653/v1/2020.acl-main.249,Weight Poisoning Attacks on Pretrained Models,1.5640528202056885,37,True,249,False
+RealScholarQuery_0,12,doi:10.48550/arxiv.2304.03208,Cerebras-GPT: Open Compute-Optimal Language Models Trained on the Cerebras Wafer,1.543861985206604,22,True,311,False
+RealScholarQuery_0,13,doi:10.48550/arxiv.2301.12597,BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and,1.289226770401001,1,True,289,False
+RealScholarQuery_0,14,doi:10.48550/arxiv.1909.11942,ALBERT: A Lite BERT for Self-supervised Learning of Language\n Representations,1.1368441581726074,26,True,273,False
+RealScholarQuery_0,15,doi:10.48550/arxiv.2211.00635,Two-stage LLM Fine-tuning with Less Specialization and More Generalization,1.0984485149383545,77,True,425,False
+RealScholarQuery_0,16,doi:10.48550/arxiv.2210.11416,Scaling Instruction-Finetuned Language Models,1.0124393701553345,35,True,317,False
+RealScholarQuery_0,17,doi:10.3390/app14052074,"A Review of Current Trends, Techniques, and Challenges in Large Language Models ",0.8793783783912659,3,True,354,False
+RealScholarQuery_0,18,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,0.6447720527648926,11,True,410,False
+RealScholarQuery_0,19,doi:10.48550/arxiv.2203.15556,Training Compute-Optimal Large Language Models,0.5267527103424072,13,True,317,False
+RealScholarQuery_0,20,doi:10.48550/arxiv.2401.02954,DeepSeek LLM: Scaling Open-Source Language Models with Longtermism,0.4864135980606079,31,True,291,False
+RealScholarQuery_14,1,doi:10.1093/jamia/ocaf063,The emergence of large language models as tools in literature reviews: a large l,3.3122849464416504,25,True,434,False
+RealScholarQuery_14,2,doi:10.48550/arxiv.2308.11432,A Survey on Large Language Model based Autonomous Agents,1.557384967803955,5,True,314,False
+RealScholarQuery_14,3,doi:10.1145/3715754,Demystifying LLM-Based Software Engineering Agents,1.4957852363586426,1,True,512,True
+RealScholarQuery_14,4,doi:10.48550/arxiv.2309.07864,The Rise and Potential of Large Language Model Based Agents: A Survey,1.1348227262496948,3,True,409,False
+RealScholarQuery_14,5,doi:10.1111/bjet.13370,Practical and ethical challenges of large language models in education: A system,0.9306067228317261,21,True,512,True
+RealScholarQuery_14,6,doi:10.1039/d4sc03921a,A review of large language models and autonomous agents in chemistry,0.8218600749969482,17,True,273,False
+RealScholarQuery_14,7,doi:10.1007/s11704-024-40231-1,A survey on large language model based autonomous agents,0.698868453502655,4,True,247,False
+RealScholarQuery_14,8,doi:10.1145/3711896.3736570,Evaluation and Benchmarking of LLM Agents: A Survey,0.6446472406387329,6,True,254,False
+RealScholarQuery_14,9,doi:10.36227/techrxiv.23589741.v1,"A Survey on Large Language Models: Applications, Challenges, Limitations, and Pr",0.5577356815338135,37,True,468,False
+RealScholarQuery_14,10,doi:10.1145/3706598.3713726,Understanding the LLM-ification of CHI: Unpacking the Impact of LLMs at CHI thro,0.10229690372943878,2,True,271,False
+RealScholarQuery_14,11,doi:10.1109/access.2025.3533217,Exploring LLMs Applications in Law: A Literature Review on Current Legal NLP App,0.039151448756456375,11,True,394,False
+RealScholarQuery_14,12,doi:10.1093/bib/bbad493,Opportunities and challenges for ChatGPT and large language models in biomedicin,-0.2472708821296692,10,True,349,False
+RealScholarQuery_14,13,doi:10.1186/s13040-023-00339-9,ChatGPT and large language models in academia: opportunities and challenges,-0.44040587544441223,27,True,242,False
+RealScholarQuery_14,14,doi:10.48550/arxiv.2401.01313,A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language ,-0.5088764429092407,29,True,409,False
+RealScholarQuery_14,15,doi:10.3390/healthcare11060887,"ChatGPT Utility in Healthcare Education, Research, and Practice: Systematic Revi",-0.5600537061691284,24,True,512,True
+RealScholarQuery_14,16,doi:10.1007/s10462-024-10888-y,"Large language models (LLMs): survey, technical frameworks, and future challenge",-0.8277605772018433,28,True,249,False
+RealScholarQuery_14,17,doi:10.1057/s41599-024-03611-3,Large language models empowered agent-based modeling and simulation: a survey an,-0.9846979379653931,8,True,319,False
+RealScholarQuery_14,18,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,-1.0260493755340576,34,True,405,False
+RealScholarQuery_14,19,doi:10.1038/s41746-024-01157-x,The ethics of ChatGPT in medicine and healthcare: a systematic review on Large L,-1.2593272924423218,15,True,366,False
+RealScholarQuery_14,20,doi:10.48550/arxiv.2312.10997,Retrieval-Augmented Generation for Large Language Models: A Survey,-1.2959680557250977,36,True,282,False
+RealScholarQuery_15,1,doi:10.48550/arxiv.2512.12690,Reassessing the Role of Supervised Fine-Tuning: An Empirical Study in VLM Reason,3.906804323196411,1,True,350,False
+RealScholarQuery_15,2,doi:10.48550/arxiv.2604.19060,Reinforcement Learning Improves LLM Accuracy and Reasoning in Disease Classifica,3.7976698875427246,35,True,143,False
+RealScholarQuery_15,3,doi:10.1038/s41746-026-02685-4,Reinforcement learning improves LLM accuracy and reasoning in disease classifica,3.7976698875427246,36,True,143,False
+RealScholarQuery_15,4,W7155452288,Reinforcement Learning Improves LLM Accuracy and Reasoning in Disease Classifica,3.7976698875427246,37,True,143,False
+RealScholarQuery_15,5,doi:10.48550/arxiv.2310.06452,Understanding the Effects of RLHF on LLM Generalisation and Diversity,2.9246790409088135,9,True,362,False
+RealScholarQuery_15,6,doi:10.34218/ijaiml_04_01_008,FROM COMPLEXITY TO CLARITY: ONE-STEP PREFERENCE OPTIMIZATION FOR HIGH-PERFORMANC,2.340081214904785,15,True,317,False
+RealScholarQuery_15,7,W7162893776,Mechanistic origins of catastrophic forgetting: why RL preserves circuits better,2.336865186691284,39,True,296,False
+RealScholarQuery_15,8,doi:10.48550/arxiv.2605.28860,Mechanistic origins of catastrophic forgetting: why RL preserves circuits better,2.336865186691284,40,True,296,False
+RealScholarQuery_15,9,doi:10.18653/v1/2024.findings-acl.156,The Language Barrier: Dissecting Safety Challenges of LLMs in Multilingual Conte,1.7789702415466309,8,True,298,False
+RealScholarQuery_15,10,doi:10.48550/arxiv.2410.15483,Understanding Forgetting in LLM Supervised Fine-Tuning and Preference Learning -,1.706896185874939,10,True,276,False
+RealScholarQuery_15,11,doi:10.18653/v1/2024.emnlp-main.444,Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?,1.4500041007995605,18,True,285,False
+RealScholarQuery_15,12,doi:10.48550/arxiv.2602.06485,AgentCPM-Explore: Realizing Long-Horizon Deep Exploration for Edge-Scale Agents,1.4135514497756958,82,True,386,False
+RealScholarQuery_15,13,doi:10.48550/arxiv.2309.00267,RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedb,1.3884904384613037,4,True,296,False
+RealScholarQuery_15,14,doi:10.1145/3735633,Continual Learning of Large Language Models: A Comprehensive Survey,1.0772310495376587,22,True,438,False
+RealScholarQuery_15,15,doi:10.18653/v1/2023.findings-emnlp.754,SteerLM: Attribute Conditioned SFT as an (User-Steerable) Alternative to RLHF,0.9204338788986206,46,True,310,False
+RealScholarQuery_15,16,W7161655712,Reference-Free Reinforcement Learning Fine-Tuning for MT: A Seq2Seq Perspective,0.7269152402877808,5,True,258,False
+RealScholarQuery_15,17,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,0.67061448097229,17,True,320,False
+RealScholarQuery_15,18,doi:10.1038/s41586-025-09422-z,DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning,0.41974249482154846,2,True,256,False
+RealScholarQuery_15,19,doi:10.18653/v1/2024.emnlp-main.976,Don’t Forget Your Reward Values: Language Model Alignment via Value-based Calibr,0.30684226751327515,84,True,201,False
+RealScholarQuery_15,20,doi:10.1007/s42001-024-00345-9,Open-source LLMs for text annotation: a practical guide for model setting and fi,0.16242584586143494,11,True,290,False
+RealScholarQuery_17,1,doi:10.18653/v1/2023.emnlp-main.214,GPT-RE: In-context Learning for Relation Extraction using Large Language Models,4.095211982727051,1,True,189,False
+RealScholarQuery_17,2,doi:10.48550/arxiv.2305.03047,Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Hum,3.2232933044433594,4,True,468,False
+RealScholarQuery_17,3,doi:10.18653/v1/2023.findings-emnlp.710,"Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Re",2.140564203262329,16,True,331,False
+RealScholarQuery_17,4,doi:10.48550/arxiv.2305.14450,An Empirical Study on Information Extraction using Large Language Models,1.496488094329834,10,True,287,False
+RealScholarQuery_17,5,doi:10.48550/arxiv.2304.01852,Summary of ChatGPT-Related Research and Perspective Towards the Future of Large ,1.1967931985855103,2,True,276,False
+RealScholarQuery_17,6,doi:10.48550/arxiv.2308.10792,Instruction Tuning for Large Language Models: A Survey,0.8175133466720581,38,True,335,False
+RealScholarQuery_17,7,doi:10.18653/v1/2024.emnlp-main.15,Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs,0.42972394824028015,26,True,258,False
+RealScholarQuery_17,8,doi:10.48550/arxiv.2312.05934,Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs,0.42972394824028015,27,True,258,False
+RealScholarQuery_17,9,doi:10.48550/arxiv.2312.17617,Large Language Models for Generative Information Extraction: A Survey,0.40182703733444214,5,True,269,False
+RealScholarQuery_17,10,doi:10.48550/arxiv.2302.14691,Investigating the Effectiveness of Task-Agnostic Prefix Prompt for Instruction F,-0.013978451490402222,40,True,300,False
+RealScholarQuery_17,11,doi:10.48550/arxiv.2401.08406,"RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture",-0.36561352014541626,31,True,446,False
+RealScholarQuery_17,12,doi:10.1145/3649506,Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,-0.6189520359039307,3,True,398,False
+RealScholarQuery_17,13,doi:10.1002/aisy.202400429,Large Language Model‐Based Chatbots in Higher Education,-0.6245006918907166,39,True,341,False
+RealScholarQuery_17,14,doi:10.48550/arxiv.2201.08531,Black-box Prompt Learning for Pre-trained Language Models,-0.6980886459350586,33,True,390,False
+RealScholarQuery_17,15,doi:10.1007/s11704-024-40555-y,Large language models for generative information extraction: a survey,-0.7121262550354004,9,True,241,False
+RealScholarQuery_17,16,doi:10.48550/arxiv.2311.10372,"A Survey of Large Language Models for Code: Evolution, Benchmarking, and Future ",-0.7640138864517212,11,True,421,False
+RealScholarQuery_17,17,doi:10.1007/s10462-024-10896-y,Towards trustworthy LLMs: a review on debiasing and dehallucinating in large lan,-1.0933462381362915,17,True,283,False
+RealScholarQuery_17,18,doi:10.1080/0144929x.2024.2394886,The promise and challenges of generative AI in education,-1.194828748703003,6,True,309,False
+RealScholarQuery_17,19,doi:10.48550/arxiv.2303.16199,LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention,-1.5965057611465454,21,True,347,False
+RealScholarQuery_17,20,doi:10.48550/arxiv.1909.11942,ALBERT: A Lite BERT for Self-supervised Learning of Language\n Representations,-2.103292465209961,13,True,242,False
+RealScholarQuery_20,1,doi:10.48550/arxiv.2310.19736,Evaluating Large Language Models: A Comprehensive Survey,-0.2842087745666504,28,True,369,False
+RealScholarQuery_20,2,doi:10.36227/techrxiv.23589741.v1,"A Survey on Large Language Models: Applications, Challenges, Limitations, and Pr",-0.5405145883560181,4,True,474,False
+RealScholarQuery_20,3,doi:10.2196/53787,The Role of Large Language Models in Transforming Emergency Medicine: Scoping Re,-1.1083416938781738,33,True,512,True
+RealScholarQuery_20,4,doi:10.3390/ai6100260,From Illusion to Insight: A Taxonomic Survey of Hallucination Mitigation Techniq,-1.1655733585357666,17,True,274,False
+RealScholarQuery_20,5,doi:10.18653/v1/2023.findings-acl.67,Towards Reasoning in Large Language Models: A Survey,-2.046644926071167,34,True,206,False
+RealScholarQuery_20,6,doi:10.1111/bjet.13370,Practical and ethical challenges of large language models in education: A system,-2.173633098602295,26,True,512,True
+RealScholarQuery_20,7,doi:10.48550/arxiv.2404.14809,"A Survey of Large Language Models on Generative Graph Analytics: Query, Learning",-2.3119826316833496,10,True,436,False
+RealScholarQuery_20,8,doi:10.1007/s44163-024-00175-8,A survey on augmenting knowledge graphs (KGs) with large language models (LLMs):,-2.481092929840088,11,True,257,False
+RealScholarQuery_20,9,doi:10.48550/arxiv.2402.06196,Large Language Models: A Survey,-2.651956081390381,35,True,265,False
+RealScholarQuery_20,10,doi:10.1038/s43856-024-00717-2,Current applications and challenges in large language models for patient care: a,-3.0205442905426025,32,True,420,False
+RealScholarQuery_20,11,doi:10.48550/arxiv.2304.13712,Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,-3.027824878692627,2,True,381,False
+RealScholarQuery_20,12,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,-3.315586566925049,37,True,332,False
+RealScholarQuery_20,13,doi:10.1016/j.jclinepi.2025.111746,"Large language models for conducting systematic reviews: on the rise, but not ye",-3.455441474914551,6,True,512,True
+RealScholarQuery_20,14,doi:10.1038/s41746-024-01157-x,The ethics of ChatGPT in medicine and healthcare: a systematic review on Large L,-3.549299716949463,1,True,372,False
+RealScholarQuery_20,15,doi:10.18653/v1/2024.findings-acl.658,"On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey",-3.5809645652770996,8,True,195,False
+RealScholarQuery_20,16,doi:10.48550/arxiv.2301.00234,A Survey on In-context Learning,-3.6642513275146484,19,True,228,False
+RealScholarQuery_20,17,doi:10.1109/access.2024.3365742,"A Review on Large Language Models: Architectures, Applications, Taxonomies, Open",-3.960763931274414,16,True,427,False
+RealScholarQuery_20,18,doi:10.48550/arxiv.2307.03109,A Survey on Evaluation of Large Language Models,-4.011833190917969,15,True,360,False
+RealScholarQuery_20,19,doi:10.1145/3649506,Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,-4.03026819229126,3,True,389,False
+RealScholarQuery_20,20,doi:10.1007/s11704-024-40231-1,A survey on large language model based autonomous agents,-4.149912357330322,14,True,253,False
+RealScholarQuery_21,1,doi:10.3390/app15031430,Optimizing Large Language Models: A Deep Dive into Effective Prompt Engineering ,3.8603994846343994,8,True,512,True
+RealScholarQuery_21,2,doi:10.18653/v1/2024.findings-emnlp.888,When ”A Helpful Assistant” Is Not Really Helpful: Personas in System Prompts Do ,3.775723457336426,3,True,357,False
+RealScholarQuery_21,3,doi:10.48550/arxiv.2304.05302,RRHF: Rank Responses to Align Language Models with Human Feedback without tears,3.107889413833618,4,True,376,False
+RealScholarQuery_21,4,doi:10.1609/aaai.v38i17.29907,Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model th,2.927277088165283,5,True,368,False
+RealScholarQuery_21,5,doi:10.18653/v1/2024.findings-acl.156,The Language Barrier: Dissecting Safety Challenges of LLMs in Multilingual Conte,2.3415865898132324,11,True,307,False
+RealScholarQuery_21,6,doi:10.48550/arxiv.2304.07327,OpenAssistant Conversations -- Democratizing Large Language Model Alignment,2.3302478790283203,38,True,286,False
+RealScholarQuery_21,7,doi:10.48550/arxiv.2305.03047,Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Hum,2.3218722343444824,6,True,455,False
+RealScholarQuery_21,8,doi:10.48550/arxiv.2302.11520,Guiding Large Language Models via Directional Stimulus Prompting,2.154655933380127,21,True,385,False
+RealScholarQuery_21,9,doi:10.1038/s41746-024-01029-4,Prompt engineering in consistency and reliability with the evidence-based guidel,1.9567313194274902,9,True,318,False
+RealScholarQuery_21,10,doi:10.48550/arxiv.2310.14735,Unleashing the potential of prompt engineering for large language models,1.908401608467102,1,True,336,False
+RealScholarQuery_21,11,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,1.801195502281189,26,True,407,False
+RealScholarQuery_21,12,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,1.7517154216766357,13,True,325,False
+RealScholarQuery_21,13,doi:10.1038/s41524-025-01564-y,Fine-tuning large language models for domain adaptation: exploration of training,1.200261116027832,2,True,512,True
+RealScholarQuery_21,14,doi:10.48550/arxiv.2308.10792,Instruction Tuning for Large Language Models: A Survey,0.9488794803619385,18,True,322,False
+RealScholarQuery_21,15,doi:10.18653/v1/2024.sicon-1.2,Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politen,0.5536994934082031,16,True,225,False
+RealScholarQuery_21,16,doi:10.48550/arxiv.2402.14531,Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politen,0.5536994934082031,17,True,225,False
+RealScholarQuery_21,17,doi:10.1371/journal.pone.0306621,The political preferences of LLMs,0.2742200791835785,25,True,282,False
+RealScholarQuery_21,18,doi:10.48550/arxiv.2310.06452,Understanding the Effects of RLHF on LLM Generalisation and Diversity,0.19600793719291687,37,True,370,False
+RealScholarQuery_21,19,doi:10.3389/frai.2025.1622292,Survey and analysis of hallucinations in large language models: attribution to p,0.0009450167417526245,7,True,369,False
+RealScholarQuery_21,20,doi:10.1038/s41746-024-01283-6,Evaluation and mitigation of cognitive biases in medical language models,-0.3210096061229706,30,True,260,False
+RealScholarQuery_22,1,doi:10.3115/1220575.1220672,Word-sense disambiguation for machine translation,3.4459309577941895,1,True,213,False
+RealScholarQuery_22,2,doi:10.18653/v1/w16-2301,Findings of the 2016 Conference on Machine Translation,0.6625717878341675,3,True,142,False
+RealScholarQuery_22,3,doi:10.18653/v1/w19-5301,Findings of the 2019 Conference on Machine Translation (WMT19),-0.8723524808883667,4,True,122,False
+RealScholarQuery_22,4,doi:10.3115/1219840.1219888,Word sense disambiguation vs. statistical machine translation,-1.9341728687286377,2,True,143,False
+RealScholarQuery_22,5,doi:10.1007/s10994-021-05946-3,Aleatoric and epistemic uncertainty in machine learning: an introduction to conc,-4.5132646560668945,8,True,194,False
+RealScholarQuery_22,6,doi:10.1109/tkde.2021.3079836,Informed Machine Learning - A Taxonomy and Survey of Integrating Prior Knowledge,-5.493354797363281,12,True,202,False
+RealScholarQuery_22,7,doi:10.3115/1219840.1219873,A hierarchical phrase-based model for statistical machine translation,-6.15854549407959,9,True,140,False
+RealScholarQuery_22,8,doi:10.18653/v1/s18-1119,SemEval-2018 Task 11: Machine Comprehension Using Commonsense Knowledge,-6.50681209564209,21,True,146,False
+RealScholarQuery_22,9,doi:10.1093/rfs/hhaa009,Empirical Asset Pricing via Machine Learning,-6.591653823852539,18,True,160,False
+RealScholarQuery_22,10,doi:10.1146/annurev-fluid-010719-060214,Machine Learning for Fluid Mechanics,-6.6722412109375,32,True,203,False
+RealScholarQuery_22,11,doi:10.1017/s0962492919000059,Solving inverse problems using data-driven models,-6.678886890411377,6,True,121,False
+RealScholarQuery_22,12,doi:10.18653/v1/d19-1243,Cosmos QA: Machine Reading Comprehension with Contextual Commonsense Reasoning,-6.782508373260498,28,True,82,False
+RealScholarQuery_22,13,doi:10.1214/009053607000000677,Kernel methods in machine learning,-6.856119155883789,5,True,134,False
+RealScholarQuery_22,14,doi:10.1109/comst.2015.2444095,"Internet of Things: A Survey on Enabling Technologies, Protocols, and Applicatio",-7.744867324829102,15,True,351,False
+RealScholarQuery_22,15,doi:10.1038/s41586-018-0337-2,Machine learning for molecular and materials science,-8.047623634338379,38,False,20,False
+RealScholarQuery_22,16,doi:10.3390/electronics8080832,Machine Learning Interpretability: A Survey on Methods and Metrics,-8.16628646850586,7,True,272,False
+RealScholarQuery_22,17,doi:10.1109/access.2020.2983149,A Survey of Autonomous Driving: Common Practices and Emerging Technologies,-8.16929817199707,14,True,177,False
+RealScholarQuery_22,18,doi:10.1038/s42254-021-00314-5,Physics-informed machine learning,-8.296323776245117,36,False,18,False
+RealScholarQuery_22,19,doi:10.1038/s41524-019-0221-0,Recent advances and applications of machine learning in solid-state materials sc,-8.303616523742676,11,True,259,False
+RealScholarQuery_22,20,doi:10.1007/s42979-021-00592-x,"Machine Learning: Algorithms, Real-World Applications and Research Directions",-8.357950210571289,39,False,25,False
+RealScholarQuery_23,1,doi:10.48550/arxiv.2412.15159,OnlineVPO: Align Video Diffusion Model with Online Video-Centric Preference Opti,4.99702262878418,21,True,362,False
+RealScholarQuery_23,2,doi:10.48550/arxiv.2305.13301,Training Diffusion Models with Reinforcement Learning,4.321612358093262,3,True,252,False
+RealScholarQuery_23,3,doi:10.48550/arxiv.2305.13840,Control-A-Video: Controllable Text-to-Video Diffusion Models with Motion Prior a,4.125761032104492,1,True,307,False
+RealScholarQuery_23,4,doi:10.1145/3664647.3681047,FIND: Fine-tuning Initial Noise Distribution with Policy Optimization for Diffus,3.764892816543579,9,True,339,False
+RealScholarQuery_23,5,doi:10.52202/085713-2750,Improving Video Generation with Human Feedback,3.65809965133667,27,True,289,False
+RealScholarQuery_23,6,doi:10.1109/cvpr52733.2024.00618,InstructVideo: Instructing Video Diffusion Models with Human Feedback,3.322920799255371,11,True,340,False
+RealScholarQuery_23,7,doi:10.48550/arxiv.2312.12490,InstructVideo: Instructing Video Diffusion Models with Human Feedback,3.2936551570892334,12,True,323,False
+RealScholarQuery_23,8,doi:10.48550/arxiv.2510.21615,Epipolar Geometry Improves Video Generation Models,3.1242592334747314,14,True,251,False
+RealScholarQuery_23,9,doi:10.48550/arxiv.2302.01877,AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners,3.1201047897338867,32,True,309,False
+RealScholarQuery_23,10,W7172172170,Temporal Concentration from Rollout Errors: Implicit Preference Optimization for,2.9396724700927734,4,True,358,False
+RealScholarQuery_23,11,doi:10.1609/aaai.v37i8.26094,VIDM: Video Implicit Diffusion Models,2.928323745727539,8,True,194,False
+RealScholarQuery_23,12,doi:10.1007/s44336-025-00030-z,Integrating reinforcement learning with visual generative models: foundations an,2.841946601867676,10,True,252,False
+RealScholarQuery_23,13,doi:10.1109/cvpr52729.2023.02161,Align Your Latents: High-Resolution Video Synthesis with Latent Diffusion Models,2.8255929946899414,6,True,387,False
+RealScholarQuery_23,14,doi:10.1109/tcss.2024.3384627,Unsupervised Video Summarization Based on the Diffusion Model of Feature Fusion,2.7249364852905273,37,True,327,False
+RealScholarQuery_23,15,W7144391223,VGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward,2.6212985515594482,22,True,360,False
+RealScholarQuery_23,16,W7161452108,PhyMotion: Structured 3D Motion Reward for Physics-Grounded Human Video Generati,2.4441325664520264,16,True,389,False
+RealScholarQuery_23,17,W7139147337,LatSearch: Latent Reward-Guided Search for Faster Inference-Time Scaling in Vide,2.4264283180236816,13,True,401,False
+RealScholarQuery_23,18,doi:10.1609/aaai.v40i15.38285,VQ-Insight: Teaching VLMs for AI-Generated Video Quality Understanding via Progr,1.3413996696472168,5,True,298,False
+RealScholarQuery_23,19,W7202005942,Sample-Adaptive Latent Rewards for Uncertainty-Guided Diffusion Post-Training,1.0155432224273682,34,True,391,False
+RealScholarQuery_23,20,W7127542688,PISCES: Annotation-free Text-to-Video Post-Training via Optimal Transport-Aligne,0.9124471545219421,35,True,431,False
+RealScholarQuery_25,1,doi:10.1109/tcsvt.2025.3571788,LMM-VQA: Advancing Video Quality Assessment With Large Multimodal Models,4.377144813537598,1,True,443,False
+RealScholarQuery_25,2,doi:10.1109/tmm.2019.2960656,Deep Multimodality Learning for UAV Video Aesthetic Quality Assessment,2.4021453857421875,23,True,237,False
+RealScholarQuery_25,3,doi:10.1145/3581783.3611969,AesCLIP: Multi-Attribute Contrastive Learning for Image Aesthetics Assessment,2.289870262145996,14,True,328,False
+RealScholarQuery_25,4,doi:10.48550/arxiv.2312.17090,Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels,2.115262031555176,48,True,281,False
+RealScholarQuery_25,5,doi:10.1109/cvpr52733.2024.00698,VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Mode,1.6871674060821533,4,True,294,False
+RealScholarQuery_25,6,doi:10.48550/arxiv.2307.06942,InternVid: A Large-scale Video-Text Dataset for Multimodal Understanding and Gen,1.4135427474975586,2,True,286,False
+RealScholarQuery_25,7,doi:10.1109/mcom.001.2300575,Large AI Model Empowered Multimodal Semantic Communications,0.9829369783401489,5,True,297,False
+RealScholarQuery_25,8,doi:10.48550/arxiv.2312.14125,VideoPoet: A Large Language Model for Zero-Shot Video Generation,0.8009724020957947,7,True,224,False
+RealScholarQuery_25,9,doi:10.48550/arxiv.2303.14302,VILA: Learning Image Aesthetics from User Comments with Vision-Language Pretrain,0.6256606578826904,37,True,318,False
+RealScholarQuery_25,10,doi:10.1109/icip.2016.7532791,Video aesthetic quality assessment using kernel Support Vector Machine with isot,0.47097349166870117,13,True,197,False
+RealScholarQuery_25,11,doi:10.1109/tmm.2022.3183394,Multimodal-Based and Aesthetic-Guided Narrative Video Summarization,0.4033341109752655,11,True,251,False
+RealScholarQuery_25,12,doi:10.2196/59505,"Multimodal Large Language Models in Health Care: Applications, Challenges, and F",0.3564493954181671,3,True,376,False
+RealScholarQuery_25,13,doi:10.48550/arxiv.2403.05530,Gemini 1.5: Unlocking multimodal understanding across millions of tokens of cont,0.22599247097969055,20,True,386,False
+RealScholarQuery_25,14,doi:10.1109/cvpr.2019.00960,Effective Aesthetics Prediction With Multi-Level Spatially Pooled Features,0.030351854860782623,98,True,232,False
+RealScholarQuery_25,15,doi:10.48550/arxiv.1904.01382,Effective Aesthetics Prediction with Multi-level Spatially Pooled Features,0.030351854860782623,105,True,232,False
+RealScholarQuery_25,16,doi:10.3390/math9121437,Multi-Output Learning Based on Multimodal GCN and Co-Attention for Image Aesthet,-0.4068825840950012,10,True,327,False
+RealScholarQuery_25,17,doi:10.1049/iet-ipr.2019.1300,Measuring photography aesthetics with deep CNNs,-0.5966179370880127,52,True,270,False
+RealScholarQuery_25,18,doi:10.1111/exsy.13526,Identifying professional photographers through image quality and aesthetics in F,-1.0308709144592285,21,True,294,False
+RealScholarQuery_25,19,doi:10.1109/taffc.2015.2400151,Consensus Analysis and Modeling of Visual Aesthetic Perception,-1.3294669389724731,93,True,193,False
+RealScholarQuery_25,20,doi:10.1109/tnnls.2018.2851077,From Deterministic to Generative: Multimodal Stochastic RNNs for Video Captionin,-1.341275691986084,6,True,314,False
+RealScholarQuery_28,1,doi:10.48550/arxiv.2210.14868,Multi-lingual Evaluation of Code Generation Models,-0.5325763821601868,17,True,294,False
+RealScholarQuery_28,2,doi:10.48550/arxiv.2403.07974,LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Mode,-0.9167672991752625,4,True,304,False
+RealScholarQuery_28,3,doi:10.48550/arxiv.2305.01210,Is Your Code Generated by ChatGPT Really Correct? Rigorous Evaluation of Large L,-2.656146287918091,8,True,475,False
+RealScholarQuery_28,4,doi:10.1145/3597503.3639219,Evaluating Large Language Models in Class-Level Code Generation,-2.7810516357421875,18,True,183,False
+RealScholarQuery_28,5,doi:10.48550/arxiv.2401.03065,"CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution",-3.821981906890869,1,True,301,False
+RealScholarQuery_28,6,doi:10.1145/3690635,Structured Chain-of-Thought Prompting for Code Generation,-4.392858505249023,26,True,400,False
+RealScholarQuery_28,7,doi:10.48550/arxiv.2207.10397,CodeT: Code Generation with Generated Tests,-4.961586952209473,5,True,367,False
+RealScholarQuery_28,8,doi:10.1145/3580305.3599790,CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Benchmarking,-5.016840934753418,3,True,326,False
+RealScholarQuery_28,9,doi:10.1145/3697010,An Empirical Study of the Non-Determinism of ChatGPT in Code Generation,-5.559079170227051,22,True,414,False
+RealScholarQuery_28,10,doi:10.48550/arxiv.2303.03004,xCodeEval: A Large Scale Multilingual Multitask Benchmark for Code Understanding,-5.603763580322266,2,True,415,False
+RealScholarQuery_28,11,doi:10.48550/arxiv.2406.00515,A Survey on Large Language Models for Code Generation,-5.797741413116455,15,True,390,False
+RealScholarQuery_28,12,doi:10.18653/v1/2025.findings-naacl.285,CodeSim: Multi-Agent Code Generation and Problem Solving through Simulation-Driv,-6.157442092895508,20,True,383,False
+RealScholarQuery_28,13,doi:10.1145/3770084,A Survey on LLM-based Code Generation for Low-Resource and Domain-Specific Progr,-6.336025238037109,9,True,512,True
+RealScholarQuery_28,14,doi:10.48550/arxiv.2308.12950,Code Llama: Open Foundation Models for Code,-6.986241340637207,37,True,310,False
+RealScholarQuery_28,15,doi:10.48550/arxiv.2308.02828,An Empirical Study of the Non-determinism of ChatGPT in Code Generation,-7.46106481552124,27,True,379,False
+RealScholarQuery_28,16,doi:10.1145/3661167.3661221,A Performance Study of LLM-Generated Code on Leetcode,-7.989842891693115,29,True,234,False
+RealScholarQuery_28,17,doi:10.18653/v1/w19-5006,Transfer Learning in Biomedical Natural Language Processing: An Evaluation of BE,-8.057221412658691,13,True,205,False
+RealScholarQuery_28,18,doi:10.18653/v1/2024.acl-long.737,CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real,-8.118857383728027,6,True,349,False
+RealScholarQuery_28,19,doi:10.48550/arxiv.2406.15877,BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Compl,-8.267463684082031,7,True,367,False
+RealScholarQuery_28,20,doi:10.48550/arxiv.2312.02120,Magicoder: Empowering Code Generation with OSS-Instruct,-8.549112319946289,23,True,313,False
+RealScholarQuery_29,1,doi:10.32388/mlaotg,From Informal to Formal – Incorporating and Evaluating LLMs on Natural Language ,4.33209228515625,1,True,295,False
+RealScholarQuery_29,2,doi:10.48550/arxiv.2408.11172,SubgoalXL: Subgoal-based Expert Learning for Theorem Proving,3.930755615234375,36,True,366,False
+RealScholarQuery_29,3,doi:10.48550/arxiv.2501.16207,From Informal to Formal -- Incorporating and Evaluating LLMs on Natural Language,3.686018705368042,2,True,237,False
+RealScholarQuery_29,4,doi:10.48550/arxiv.2406.03847,Lean Workbook: A large-scale Lean problem set formalized from natural language m,3.6430373191833496,7,True,238,False
+RealScholarQuery_29,5,doi:10.48550/arxiv.2304.09102,Solving Math Word Problems by Combining Language Models With Symbolic Solvers,1.897720456123352,4,True,266,False
+RealScholarQuery_29,6,doi:10.48550/arxiv.2502.07640,Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving,1.855309009552002,24,True,512,True
+RealScholarQuery_29,7,doi:10.48550/arxiv.2309.15806,Lyra: Orchestrating Dual Correction in Automated Theorem Proving,1.8214619159698486,35,True,363,False
+RealScholarQuery_29,8,doi:10.48550/arxiv.2410.07985,Omni-MATH: A Universal Olympiad Level Mathematic Benchmark For Large Language Mo,1.7948870658874512,5,True,284,False
+RealScholarQuery_29,9,doi:10.1609/aaai.v39i23.34679,GNS: Solving Plane Geometry Problems by Neural-Symbolic Reasoning with Multi-Mod,0.372821182012558,3,True,347,False
+RealScholarQuery_29,10,doi:10.48550/arxiv.2310.00656,LEGO-Prover: Neural Theorem Proving with Growing Libraries,-0.4172964096069336,33,True,414,False
+RealScholarQuery_29,11,doi:10.18653/v1/2024.emnlp-main.667,TheoremLlama: Transforming General-Purpose LLMs into Lean4 Experts,-0.49053487181663513,30,True,374,False
+RealScholarQuery_29,12,doi:10.48550/arxiv.2510.04721,BrokenMath: A Benchmark for Sycophancy in Theorem Proving with LLMs,-0.5647813081741333,20,True,352,False
+RealScholarQuery_29,13,doi:10.48550/arxiv.2303.12712,Sparks of Artificial General Intelligence: Early experiments with GPT-4,-1.1119705438613892,28,True,376,False
+RealScholarQuery_29,14,doi:10.48550/arxiv.2502.03544,Gold-medalist Performance in Solving Olympiad Geometry with AlphaGeometry2,-1.171283483505249,40,True,346,False
+RealScholarQuery_29,15,doi:10.48550/arxiv.2504.09037,"A Survey of Frontiers in LLM Reasoning: Inference Scaling, Learning to Reason, a",-1.5366181135177612,10,True,370,False
+RealScholarQuery_29,16,doi:10.3390/bdcc10010038,Thinking Machines: Mathematical Reasoning in the Age of LLMs,-1.5987908840179443,32,True,294,False
+RealScholarQuery_29,17,doi:10.48550/arxiv.2109.00110,MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics,-2.314764976501465,31,True,144,False
+RealScholarQuery_29,18,doi:10.1038/s42256-025-01164-x,Proposing and solving olympiad geometry with guided tree search,-2.348384380340576,15,True,366,False
+RealScholarQuery_29,19,doi:10.18653/v1/2025.naacl-long.172,LLM The Genius Paradox: A Linguistic and Math Expert’s Struggle with Simple Word,-2.6640491485595703,19,True,83,False
+RealScholarQuery_29,20,doi:10.1371/journal.pdig.0000877,Retrieval augmented generation for large language models in healthcare: A system,-3.2593774795532227,29,True,364,False
+RealScholarQuery_34,1,doi:10.48550/arxiv.2305.06131,Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era,4.010982990264893,1,True,282,False
+RealScholarQuery_34,2,doi:10.1145/3629606.3629652,Research on the Reconstruction of Ming Dynasty History Based on AIGC,2.778442144393921,3,True,359,False
+RealScholarQuery_34,3,doi:10.1109/tpami.2024.3362475,SpectralGPT: Spectral Remote Sensing Foundation Model,1.819592833518982,14,True,291,False
+RealScholarQuery_34,4,doi:10.1109/cvpr52729.2023.01607,"Diffusion-based Generation, Optimization, and Planning in 3D Scenes",1.676405668258667,19,True,236,False
+RealScholarQuery_34,5,doi:10.48550/arxiv.2310.15676,Recent Advances in Multi-modal 3D Intelligence: A Comprehensive Survey and Evalu,0.8302905559539795,18,True,284,False
+RealScholarQuery_34,6,doi:10.1109/cvpr.2011.5995641,A generative model for 3D urban scene understanding from movable platforms,0.6199232339859009,4,True,251,False
+RealScholarQuery_34,7,doi:10.1007/s44212-024-00060-w,Leveraging generative AI for urban digital twins: a scoping review on the autono,0.5604945421218872,2,True,366,False
+RealScholarQuery_34,8,doi:10.1109/ojcs.2023.3300321,"A Survey on ChatGPT: AI–Generated Contents, Challenges, and Solutions",0.5098704099655151,24,True,284,False
+RealScholarQuery_34,9,doi:10.1109/cvpr.2015.7299068,Picture: A probabilistic programming language for scene perception,0.4751569330692291,20,True,318,False
+RealScholarQuery_34,10,doi:10.48550/arxiv.2305.08196,A Comprehensive Survey on Segment Anything Model for Vision and Beyond,0.4440006613731384,34,True,396,False
+RealScholarQuery_34,11,doi:10.1109/tpami.2013.185,3D Traffic Scene Understanding From Movable Platforms,0.41840583086013794,5,True,282,False
+RealScholarQuery_34,12,doi:10.1145/3728633,AI-Generated Content (AIGC) for Various Data Modalities: A Survey,0.2149585783481598,25,True,306,False
+RealScholarQuery_34,13,doi:10.48550/arxiv.2308.14177,AI-Generated Content (AIGC) for Various Data Modalities: A Survey,-0.14680713415145874,29,True,309,False
+RealScholarQuery_34,14,doi:10.1109/access.2018.2886133,Indoor Scene Understanding in 2.5/3D for Autonomous Agents: A Survey,-0.42490154504776,6,True,256,False
+RealScholarQuery_34,15,W2963951231,"Attend, infer, repeat: fast scene understanding with generative models",-0.8645445108413696,8,True,217,False
+RealScholarQuery_34,16,doi:10.48550/arxiv.1603.08575,"Attend, Infer, Repeat: Fast Scene Understanding with Generative Models",-0.8688654899597168,7,True,214,False
+RealScholarQuery_34,17,doi:10.1109/cvpr46437.2021.00928,Synthesizing Long-Term 3D Human Motion and Interaction in 3D Scenes,-1.1050937175750732,32,True,217,False
+RealScholarQuery_34,18,doi:10.1007/s13534-025-00484-6,Vision-language foundation models for medical imaging: a review of current pract,-1.5002901554107666,13,True,349,False
+RealScholarQuery_34,19,doi:10.1109/cvpr.2019.01265,Putting Humans in a Scene: Learning Affordance in 3D Indoor Environments,-1.5340375900268555,15,True,255,False
+RealScholarQuery_34,20,doi:10.48550/arxiv.1610.07584,Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversa,-1.7283902168273926,36,True,270,False
+RealScholarQuery_35,1,doi:10.1109/icdcs60910.2024.00036,Efficient Pretraining and Finetuning of Quantized LLMs with Low-Rank Structure,3.4092063903808594,2,True,399,False
+RealScholarQuery_35,2,doi:10.48550/arxiv.2306.03078,SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression,3.1862270832061768,1,True,375,False
+RealScholarQuery_35,3,doi:10.18653/v1/2025.findings-acl.694,Continual Quantization-Aware Pre-Training: When to transition from 16-bit to 1.5,2.728896379470825,41,True,278,False
+RealScholarQuery_35,4,doi:10.1109/cvprw67362.2025.00634,LLMPi: Optimizing LLMs for High-Throughput on Raspberry Pi,2.696110725402832,104,True,266,False
+RealScholarQuery_35,5,doi:10.48550/arxiv.2502.11895,Continual Quantization-Aware Pre-Training: When to transition from 16-bit to 1.5,2.6076908111572266,42,True,278,False
+RealScholarQuery_35,6,doi:10.18653/v1/2023.emnlp-main.39,LLM-FP4: 4-Bit Floating-Point Quantized Transformers,2.3423590660095215,7,True,385,False
+RealScholarQuery_35,7,doi:10.48550/arxiv.2305.17888,LLM-QAT: Data-Free Quantization Aware Training for Large Language Models,2.26664137840271,31,True,243,False
+RealScholarQuery_35,8,doi:10.18653/v1/2024.acl-long.7,BitDistiller: Unleashing the Potential of Sub-4-Bit LLMs via Self-Distillation,2.162867307662964,101,True,298,False
+RealScholarQuery_35,9,doi:10.48550/arxiv.2305.14314,QLoRA: Efficient Finetuning of Quantized LLMs,1.7916374206542969,12,True,463,False
+RealScholarQuery_35,10,doi:10.48550/arxiv.2502.05003,QuEST: Stable Training of LLMs with 1-Bit Weights and Activations,1.663148045539856,51,True,371,False
+RealScholarQuery_35,11,doi:10.48550/arxiv.2310.00034,PB-LLM: Partially Binarized Large Language Models,1.628112554550171,10,True,399,False
+RealScholarQuery_35,12,doi:10.48550/arxiv.2402.05445,Accurate LoRA-Finetuning Quantization of LLMs via Information Retention,1.239137887954712,40,True,345,False
+RealScholarQuery_35,13,doi:10.1145/3767742,Sustainable LLM Inference for Edge AI: Evaluating Quantized LLMs for Energy Effi,1.1861412525177002,5,True,313,False
+RealScholarQuery_35,14,doi:10.48550/arxiv.2405.16406,SpinQuant: LLM quantization with learned rotations,1.175304889678955,11,True,355,False
+RealScholarQuery_35,15,doi:10.18653/v1/2024.emnlp-main.467,VPTQ: Extreme Low-bit Vector Post-Training Quantization for Large Language Model,0.9589148759841919,47,True,107,False
+RealScholarQuery_35,16,W7134094495,Sparse-BitNet: 1.58-bit LLMs are Naturally Friendly to Semi-Structured Sparsity,0.93483567237854,43,True,313,False
+RealScholarQuery_35,17,doi:10.48550/arxiv.2603.05168,Sparse-BitNet: 1.58-bit LLMs are Naturally Friendly to Semi-Structured Sparsity,0.93483567237854,44,True,313,False
+RealScholarQuery_35,18,doi:10.48550/arxiv.2504.16266,TeLLMe: An Energy-Efficient Ternary LLM Accelerator for Prefilling and Decoding ,0.8045574426651001,28,True,354,False
+RealScholarQuery_35,19,doi:10.18653/v1/2024.findings-emnlp.662,Optimize Weight Rounding via Signed Gradient Descent for the Quantization of LLM,0.7838333249092102,105,True,266,False
+RealScholarQuery_35,20,doi:10.48550/arxiv.2311.16079,MEDITRON-70B: Scaling Medical Pretraining for Large Language Models,0.7223137617111206,21,True,354,False
+RealScholarQuery_38,1,doi:10.1111/cgf.13409,Assessing Effects of Task and Data Distribution on the Effectiveness of Visual E,0.35485410690307617,11,True,219,False
+RealScholarQuery_38,2,doi:10.1364/ol.25.000887,Optical encryption by double-random phase encoding in the fractional Fourier dom,0.1430988907814026,9,True,163,False
+RealScholarQuery_38,3,doi:10.1109/tassp.1986.1164962,Subband coding of images,-1.4199798107147217,37,True,274,False
+RealScholarQuery_38,4,doi:10.1002/mrm.1910030602,RARE imaging: A fast imaging method for clinical MR,-3.387829303741455,25,True,188,False
+RealScholarQuery_38,5,doi:10.1002/(sici)1522-2594(199911)42:5<952::aid-mrm16>3.0.co;2-s,SENSE: Sensitivity encoding for fast MRI,-3.7481045722961426,6,True,220,False
+RealScholarQuery_38,6,doi:10.1523/jneurosci.19-06-01895.1999,Differential Distribution of Three Members of a Gene Family Encoding Low Voltage,-3.8560595512390137,35,True,449,False
+RealScholarQuery_38,7,doi:10.1037//0021-843x.95.1.15,Attentional bias in emotional disorders.,-3.9463720321655273,28,True,244,False
+RealScholarQuery_38,8,doi:10.1109/34.244676,High confidence visual recognition of persons by a test of statistical independe,-4.373637676239014,27,True,237,False
+RealScholarQuery_38,9,doi:10.1109/tpami.2006.244,Face Description with Local Binary Patterns: Application to Face Recognition,-4.9149885177612305,33,True,106,False
+RealScholarQuery_38,10,doi:10.1109/cvpr.2007.383266,Fisher Kernels on Visual Vocabularies for Image Categorization,-5.100101470947266,1,True,230,False
+RealScholarQuery_38,11,doi:10.1109/iccv.2013.274,Transfer Feature Learning with Joint Distribution Adaptation,-5.367038726806641,40,True,166,False
+RealScholarQuery_38,12,doi:10.3758/bf03212870,Temporal and spatial characteristics of selective encoding from visual displays,-5.672766208648682,29,False,21,False
+RealScholarQuery_38,13,doi:10.1105/tpc.009308,Genome-Wide Analysis of NBS-LRR–Encoding Genes in Arabidopsis[W],-5.695591449737549,12,True,440,False
+RealScholarQuery_38,14,doi:10.48550/arxiv.1409.1556,Very Deep Convolutional Networks for Large-Scale Image Recognition,-5.860304832458496,4,True,196,False
+RealScholarQuery_38,15,doi:10.1109/tpami.2016.2644615,SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation,-6.142753601074219,10,True,464,False
+RealScholarQuery_38,16,doi:10.7717/peerj.453,scikit-image: image processing in Python,-6.305491924285889,7,True,142,False
+RealScholarQuery_38,17,doi:10.1186/s12859-017-1934-z,ImageJ2: ImageJ for the next generation of scientific image data,-6.546302318572998,15,True,452,False
+RealScholarQuery_38,18,doi:10.1007/978-3-662-12914-2_12,Digital Image Processing,-7.200003623962402,34,False,14,False
+RealScholarQuery_38,19,doi:10.1109/tip.2007.911828,Sparse Representation for Color Image Restoration,-8.100476264953613,23,True,195,False
+RealScholarQuery_38,20,doi:10.48550/arxiv.1803.07728,Unsupervised Representation Learning by Predicting Image Rotations,-8.22553539276123,14,True,410,False
+RealScholarQuery_39,1,doi:10.1145/3544548.3580688,Evaluating Large Language Models in Generating Synthetic HCI Research Data: a Ca,3.462505340576172,4,True,265,False
+RealScholarQuery_39,2,doi:10.1109/access.2025.3589503,Synthetic Data Generation Using Large Language Models: Advances in Text and Code,3.3955459594726562,2,True,342,False
+RealScholarQuery_39,3,doi:10.18653/v1/2023.emnlp-main.647,Synthetic Data Generation with Large Language Models for Text Classification: Po,3.214600086212158,1,True,239,False
+RealScholarQuery_39,4,doi:10.1145/3501385.3543957,Automatic Generation of Programming Exercises and Code Explanations Using Large ,2.797574520111084,6,True,269,False
+RealScholarQuery_39,5,doi:10.18653/v1/2024.findings-acl.658,"On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey",2.094231367111206,12,True,208,False
+RealScholarQuery_39,6,doi:10.1109/access.2024.3358206,Socially Aware Synthetic Data Generation for Suicidal Ideation Detection Using L,1.8935526609420776,3,True,378,False
+RealScholarQuery_39,7,doi:10.48550/arxiv.2303.04360,Does Synthetic Data Generation of LLMs Help Clinical Text Mining?,1.8655388355255127,8,True,356,False
+RealScholarQuery_39,8,doi:10.3390/electronics13173509,A Systematic Review of Synthetic Data Generation Techniques Using Generative AI,1.6480493545532227,18,True,283,False
+RealScholarQuery_39,9,doi:10.18653/v1/2020.emnlp-main.346,AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generate,1.051310658454895,29,True,315,False
+RealScholarQuery_39,10,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,-0.07793361693620682,24,True,342,False
+RealScholarQuery_39,11,doi:10.48550/arxiv.2107.03374,Evaluating Large Language Models Trained on Code,-0.3170382082462311,11,True,512,True
+RealScholarQuery_39,12,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,-0.5941810011863708,10,True,345,False
+RealScholarQuery_39,13,doi:10.3390/app14052074,"A Review of Current Trends, Techniques, and Challenges in Large Language Models ",-0.6882117390632629,5,True,368,False
+RealScholarQuery_39,14,doi:10.1038/s41586-023-06792-0,Autonomous chemical research with large language models,-0.7241995334625244,32,True,222,False
+RealScholarQuery_39,15,doi:10.1371/journal.pdig.0000877,Retrieval augmented generation for large language models in healthcare: A system,-0.7881484031677246,15,True,391,False
+RealScholarQuery_39,16,doi:10.1145/3637528.3671470,A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models,-0.9020329117774963,26,True,312,False
+RealScholarQuery_39,17,doi:10.1007/s10462-024-10888-y,"Large language models (LLMs): survey, technical frameworks, and future challenge",-1.0678882598876953,13,True,268,False
+RealScholarQuery_39,18,doi:10.1145/3649506,Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,-1.1404821872711182,27,True,402,False
+RealScholarQuery_39,19,doi:10.48550/arxiv.2304.13712,Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,-1.4398994445800781,28,True,394,False
+RealScholarQuery_39,20,doi:10.4230/oasics.icpec.2025.4,Can Open Large Language Models Catch Vulnerabilities?,-1.4719927310943604,30,True,336,False
+RealScholarQuery_41,1,doi:10.48550/arxiv.2406.08464,Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Not,5.0787482261657715,1,True,417,False
+RealScholarQuery_41,2,doi:10.48550/arxiv.2401.02954,DeepSeek LLM: Scaling Open-Source Language Models with Longtermism,-0.11444861441850662,31,True,271,False
+RealScholarQuery_41,3,doi:10.1371/journal.pone.0051260,A Space-For-Time (SFT) Substitution Approach to Studying Historical Phenological,-0.5598546862602234,4,True,304,False
+RealScholarQuery_41,4,doi:10.1109/lsp.2021.3125264,Synthetic-to-Real Domain Adaptation Joint Spatial Feature Transform for Stereo M,-1.6443889141082764,22,True,302,False
+RealScholarQuery_41,5,doi:10.18653/v1/2024.findings-emnlp.797,Pedagogical Alignment of Large Language Models,-2.1551265716552734,35,True,356,False
+RealScholarQuery_41,6,doi:10.48550/arxiv.2308.10792,Instruction Tuning for Large Language Models: A Survey,-2.2641525268554688,28,True,305,False
+RealScholarQuery_41,7,doi:10.1111/j.1365-313x.2011.04737.x,TaMYB13 is a transcriptional activator of fructosyltransferase genes involved in,-2.62069034576416,16,True,512,True
+RealScholarQuery_41,8,doi:10.1371/journal.pone.0008768,3′-End Sequencing for Expression Quantification (3SEQ) from Archival Tumor Sampl,-2.6679344177246094,12,True,392,False
+RealScholarQuery_41,9,doi:10.1093/jxb/ert205,"TaMYB13-1, a R2R3 MYB transcription factor, regulates the fructan synthetic path",-3.0656490325927734,34,True,512,True
+RealScholarQuery_41,10,doi:10.1093/jxb/ern337,Cloning and functional analysis of a fructosyltransferase cDNA for synthesis of ,-3.91614031791687,7,True,471,False
+RealScholarQuery_41,11,doi:10.1371/journal.pbio.0030187,Determination of Stromal Signatures in Breast Carcinoma,-4.869742393493652,39,True,330,False
+RealScholarQuery_41,12,doi:10.48550/arxiv.2210.11416,Scaling Instruction-Finetuned Language Models,-5.81259822845459,19,True,297,False
+RealScholarQuery_41,13,doi:10.1109/cvpr.2016.442,Understanding RealWorld Indoor Scenes with Synthetic Data,-5.834281921386719,20,True,196,False
+RealScholarQuery_41,14,doi:10.18653/v1/2024.naacl-industry.3,SOLAR 10.7B: Scaling Large Language Models with Simple yet Effective Depth Up-Sc,-7.385948181152344,17,True,157,False
+RealScholarQuery_41,15,doi:10.1145/3700791,AugmenToxic: Leveraging Reinforcement Learning to Optimize LLM Instruction Fine-,-7.447580337524414,6,True,512,False
+RealScholarQuery_41,16,doi:10.48550/arxiv.2210.10760,Scaling Laws for Reward Model Overoptimization,-7.459550857543945,5,True,263,False
+RealScholarQuery_41,17,doi:10.48550/arxiv.2302.13007,AugGPT: Leveraging ChatGPT for Text Data Augmentation,-7.840764045715332,9,True,297,False
+RealScholarQuery_41,18,doi:10.1103/physrevphyseducres.19.020150,Educational data augmentation in physics education research using ChatGPT,-7.929551601409912,15,True,322,False
+RealScholarQuery_41,19,doi:10.48550/arxiv.2304.08485,Visual Instruction Tuning,-8.231689453125,40,True,255,False
+RealScholarQuery_41,20,doi:10.48550/arxiv.2404.07503,Best Practices and Lessons Learned on Synthetic Data,-8.273550033569336,27,True,154,False
+RealScholarQuery_42,1,doi:10.1109/cvpr52734.2025.01279,M-LLM Based Video Frame Selection for Efficient Video Understanding,4.678219795227051,2,True,308,False
+RealScholarQuery_42,2,doi:10.1145/3077136.3080776,Personalized Key Frame Recommendation,2.6812777519226074,12,True,272,False
+RealScholarQuery_42,3,doi:10.1609/aaai.v35i2.16235,SMART Frame Selection for Action Recognition,2.0023226737976074,32,True,341,False
+RealScholarQuery_42,4,doi:10.1109/cvpr.2019.00137,AdaFrame: Adaptive Frame Selection for Fast Video Recognition,1.7168771028518677,25,True,249,False
+RealScholarQuery_42,5,doi:10.1109/tcsvt.2008.2009241,Towards Extracting Semantically Meaningful Key Frames From Personal Video Clips:,1.0796139240264893,1,True,407,False
+RealScholarQuery_42,6,doi:10.1609/aaai.v32i1.12255,Deep Reinforcement Learning for Unsupervised Video Summarization With Diversity-,0.07375355064868927,4,True,304,False
+RealScholarQuery_42,7,doi:10.32388/vlxb6m,LLaVA-MR: Large Language-and-Vision Assistant for Video Moment Retrieval,-0.7063220739364624,19,True,251,False
+RealScholarQuery_42,8,doi:10.1109/tpami.2016.2522418,Person Re-Identification by Discriminative Selection in Video Ranking,-1.4758201837539673,18,True,227,False
+RealScholarQuery_42,9,doi:10.1109/cvpr.1997.609414,Video skimming and characterization through the combination of image and languag,-2.922208786010742,3,True,183,False
+RealScholarQuery_42,10,doi:10.1016/0010-0277(95)00681-8,The use of multiple frames in verb learning via syntactic bootstrapping,-3.068143844604492,30,True,386,False
+RealScholarQuery_42,11,doi:10.1109/76.809163,Content analysis of video using principal components,-3.426790952682495,39,True,140,False
+RealScholarQuery_42,12,doi:10.48550/arxiv.1502.04681,Unsupervised Learning of Video Representations using LSTMs,-3.483360528945923,5,True,309,False
+RealScholarQuery_42,13,doi:10.1109/cvpr46437.2021.00689,Spatiotemporal Contrastive Video Representation Learning,-3.632063150405884,24,True,357,False
+RealScholarQuery_42,14,doi:10.1109/cvpr.2019.00382,Depth-Aware Video Frame Interpolation,-3.678678035736084,21,True,265,False
+RealScholarQuery_42,15,doi:10.18653/v1/2020.emnlp-main.161,HERO: Hierarchical Encoder for Video+Language Omni-representation Pre-training,-4.027586460113525,10,True,297,False
+RealScholarQuery_42,16,doi:10.1145/319463.319654,Video Manga,-4.106362342834473,11,True,194,False
+RealScholarQuery_42,17,doi:10.1007/978-3-030-01216-8_43,ECO: Efficient Convolutional Network for Online Video Understanding,-4.547430992126465,38,False,29,False
+RealScholarQuery_42,18,doi:10.1109/iccv.2017.37,Video Frame Interpolation via Adaptive Separable Convolution,-4.633829593658447,20,True,296,False
+RealScholarQuery_42,19,doi:10.1109/tcsvt.2006.877419,Joint Key-Frame Extraction and Object Segmentation for Content-Based Video Analy,-4.680965900421143,26,True,220,False
+RealScholarQuery_42,20,doi:10.1109/tpami.2021.3067464,"Video-based Facial Micro-Expression Analysis: A Survey of Datasets, Features and",-5.757494926452637,15,True,364,False
+RealScholarQuery_43,1,doi:10.1080/19420862.2025.2528902,Artificial intelligence-driven computational methods for antibody design and opt,4.36032772064209,2,True,204,False
+RealScholarQuery_43,2,doi:10.1016/j.medidd.2025.100213,Generative AI for drug discovery and protein design: the next frontier in AI-dri,2.614250421524048,1,True,434,False
+RealScholarQuery_43,3,doi:10.1371/journal.pcbi.1006112,RosettaAntibodyDesign (RAbD): A general framework for computational antibody des,0.2298508584499359,9,True,512,True
+RealScholarQuery_43,4,doi:10.1093/protein/gzs024,Computer-aided antibody design,0.1444038301706314,21,True,267,False
+RealScholarQuery_43,5,doi:10.3390/antib8040055,Antibody Structure and Function: The Basis for Engineering Therapeutics,-0.07681193947792053,7,True,227,False
+RealScholarQuery_43,6,doi:10.20944/preprints202602.1847.v1,A Comprehensive Survey of Multimodal LLMs for Scientific Discovery,-0.602338433265686,14,True,249,False
+RealScholarQuery_43,7,doi:10.1038/s41586-023-06127-z,Algorithm for optimized mRNA design improves stability and immunogenicity,-3.4256606101989746,8,True,372,False
+RealScholarQuery_43,8,doi:10.36227/techrxiv.176057860.08604810/v1,The Dawn of the AI Co-Scientist: A Comprehensive Survey of Biomedical and Chemic,-3.477353096008301,13,True,222,False
+RealScholarQuery_43,9,doi:10.1126/science.add2187,Robust deep learning–based protein sequence design using ProteinMPNN,-3.541670083999634,23,True,220,False
+RealScholarQuery_43,10,doi:10.1038/s41586-024-07487-w,Accurate structure prediction of biomolecular interactions with AlphaFold 3,-3.8685004711151123,38,True,215,False
+RealScholarQuery_43,11,doi:10.1038/s41467-022-32007-7,ProtGPT2 is a deep unsupervised language model for protein design,-4.504439353942871,11,True,260,False
+RealScholarQuery_43,12,doi:10.3389/fimmu.2013.00302,The Structural Basis of Antibody-Antigen Recognition,-4.667392253875732,34,True,381,False
+RealScholarQuery_43,13,doi:10.2147/ijn.s129300,Protein corona: a new approach for nanomedicine design,-5.0826568603515625,18,True,315,False
+RealScholarQuery_43,14,doi:10.1074/jbc.m111.258038,Roles of the Four DNA Polymerases of the Crenarchaeon Sulfolobus solfataricus an,-5.1591339111328125,30,True,512,True
+RealScholarQuery_43,15,doi:10.1016/s2666-5247(23)00139-8,Viral and antibody dynamics of acute infection with SARS-CoV-2 omicron variant (,-5.517423629760742,5,True,512,True
+RealScholarQuery_43,16,doi:10.1034/j.1600-065x.2001.1800103.x,"Structure and biology of complement protein C3, a connecting link between innate",-5.805191516876221,4,True,264,False
+RealScholarQuery_43,17,doi:10.1038/s44387-025-00066-y,Flow matching meets biology and life science: a survey,-6.226210117340088,26,True,243,False
+RealScholarQuery_43,18,doi:10.4049/jimmunol.1800708,Observed Antibody Space: A Resource for Data Mining Next-Generation Sequencing o,-6.226536750793457,19,True,278,False
+RealScholarQuery_43,19,doi:10.48550/arxiv.2507.17731,Flow Matching Meets Biology and Life Science: A Survey,-6.488923072814941,27,True,274,False
+RealScholarQuery_43,20,doi:10.1007/s13238-017-0433-3,Glycosylation engineering of therapeutic IgG antibodies: challenges for the safe,-6.518195152282715,12,True,311,False
+RealScholarQuery_47,1,doi:10.5281/zenodo.21855809,FinAgent Red-Team: A benchmark for regulatory-control bypass in financial AI age,4.383762359619141,22,True,181,False
+RealScholarQuery_47,2,doi:10.5281/zenodo.21855808,FinAgent Red-Team: A benchmark for regulatory-control bypass in financial AI age,4.383762359619141,23,True,181,False
+RealScholarQuery_47,3,doi:10.48550/arxiv.2602.19073,Evaluation and Benchmarking Suite for Financial Large Language Models and Agents,4.278343200683594,5,True,311,False
+RealScholarQuery_47,4,W7131319298,Evaluation and Benchmarking Suite for Financial Large Language Models and Agents,4.278343200683594,6,True,311,False
+RealScholarQuery_47,5,doi:10.1145/3711896.3736570,Evaluation and Benchmarking of LLM Agents: A Survey,3.835082530975342,10,True,252,False
+RealScholarQuery_47,6,doi:10.48550/arxiv.2308.09975,FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Lan,3.810279130935669,77,True,284,False
+RealScholarQuery_47,7,doi:10.18653/v1/2025.acl-long.126,INVESTORBENCH: A Benchmark for Financial Decision-Making Tasks with LLM-based Ag,3.4894745349884033,25,True,144,False
+RealScholarQuery_47,8,doi:10.1145/3802463.3802475,Large Language Model Agent in Financial Trading: A Survey,3.172443389892578,44,True,184,False
+RealScholarQuery_47,9,doi:10.1145/3770854.3785702,Can LLM-based Financial Investing Strategies Outperform the Market in Long Run?,2.8368048667907715,7,True,261,False
+RealScholarQuery_47,10,doi:10.18653/v1/2025.findings-emnlp.294,Agent Trading Arena: A Study on Numerical Understanding in LLM-Based Agents,2.7583250999450684,30,True,252,False
+RealScholarQuery_47,11,doi:10.48550/arxiv.2406.00936,A Survey of Useful LLM Evaluation,2.723881721496582,115,True,254,False
+RealScholarQuery_47,12,doi:10.1145/3677052.3698614,XBRL Agent: Leveraging Large Language Models for Financial Report Analysis,2.646577835083008,110,True,282,False
+RealScholarQuery_47,13,doi:10.1609/aaaiss.v3i1.31290,FinMem: A Performance-Enhanced LLM Trading Agent with Layered Memory and Charact,2.4466066360473633,28,True,387,False
+RealScholarQuery_47,14,doi:10.18653/v1/2025.findings-emnlp.972,"Large Language Model Agents in Finance: A Survey Bridging Research, Practice, an",2.385838270187378,45,True,265,False
+RealScholarQuery_47,15,doi:10.18653/v1/2025.trustnlp-main.20,On the Robustness of Agentic Function Calling,2.0384163856506348,53,True,185,False
+RealScholarQuery_47,16,doi:10.5281/zenodo.19313733,Measuring Temporal Behavioral Drift in LLM Agents: The Constraint Consistency Sc,1.9572360515594482,31,True,194,False
+RealScholarQuery_47,17,doi:10.5281/zenodo.19313732,Measuring Temporal Behavioral Drift in LLM Agents: The Constraint Consistency Sc,1.9572360515594482,32,True,194,False
+RealScholarQuery_47,18,doi:10.1145/3688399,Designing Heterogeneous LLM Agents for Financial Sentiment Analysis,1.8919931650161743,1,True,295,False
+RealScholarQuery_47,19,W7134991913,Real-Time Trust Verification for Safe Agentic Actions using TrustBench,1.6569855213165283,105,True,268,False
+RealScholarQuery_47,20,doi:10.1007/s41019-025-00296-9,LLM-Based Agents for Tool Learning: A Survey,1.6197588443756104,3,True,386,False
+RealScholarQuery_48,1,doi:10.18653/v1/2023.emnlp-industry.69,Harnessing LLMs for Temporal Data - A Study on Explainable Financial Time Series,2.767728090286255,40,True,259,False
+RealScholarQuery_48,2,doi:10.47852/bonviewfsi52025703,Stock Price Prediction with LLM-Guided Market Movement Signals and Transformer M,2.1461968421936035,20,True,463,False
+RealScholarQuery_48,3,doi:10.1016/j.frl.2024.105227,Sentiment trading with large language models,1.075416088104248,7,True,191,False
+RealScholarQuery_48,4,doi:10.3390/math13030487,LLM-Augmented Linear Transformer–CNN for Enhanced Stock Price Prediction,1.0753049850463867,19,True,361,False
+RealScholarQuery_48,5,doi:10.1057/s41599-024-03611-3,Large language models empowered agent-based modeling and simulation: a survey an,0.06304819881916046,11,True,309,False
+RealScholarQuery_48,6,doi:10.5815/ijisa.2017.07.03,Predicting Stock Market Behavior using Data Mining Technique and News Sentiment ,-0.587936282157898,3,True,238,False
+RealScholarQuery_48,7,doi:10.1021/jacs.3c05819,ChatGPT Chemistry Assistant for Text Mining and the Prediction of MOF Synthesis,-0.8121970891952515,14,True,351,False
+RealScholarQuery_48,8,doi:10.3390/asi4010009,A Survey of Forex and Stock Price Prediction Using Deep Learning,-1.4481782913208008,12,True,316,False
+RealScholarQuery_48,9,doi:10.1109/access.2024.3365742,"A Review on Large Language Models: Architectures, Applications, Taxonomies, Open",-1.5967204570770264,13,True,411,False
+RealScholarQuery_48,10,doi:10.1145/3531146.3533088,Taxonomy of Risks posed by Language Models,-2.383411169052124,25,True,275,False
+RealScholarQuery_48,11,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,-2.8911991119384766,15,True,316,False
+RealScholarQuery_48,12,doi:10.3390/math10224255,Using Market News Sentiment Analysis for Stock Market Prediction,-3.0250954627990723,2,True,280,False
+RealScholarQuery_48,13,doi:10.1111/jpim.12656,Augmenting human innovation teams with artificial intelligence: Exploring transf,-3.1550190448760986,34,True,233,False
+RealScholarQuery_48,14,doi:10.3389/frai.2020.00042,Using Topic Modeling Methods for Short-Text Data: A Comparative Analysis,-3.338028907775879,16,True,300,False
+RealScholarQuery_48,15,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,-3.3396830558776855,8,True,395,False
+RealScholarQuery_48,16,doi:10.18653/v1/2020.emnlp-main.676,Deep Attentive Learning for Stock Movement Prediction From Social Media Text and,-3.4392151832580566,33,True,208,False
+RealScholarQuery_48,17,doi:10.1162/coli_a_00502,Can Large Language Models Transform Computational Social Science?,-3.442614793777466,5,True,296,False
+RealScholarQuery_48,18,doi:10.1145/3605943,Recent Advances in Natural Language Processing via Large Pre-trained Language Mo,-3.4758846759796143,6,True,200,False
+RealScholarQuery_48,19,doi:10.1109/access.2020.3030226,Stock Market Forecasting Using Deep Learning and Technical Analysis: A Systemati,-3.545091152191162,9,True,279,False
+RealScholarQuery_48,20,doi:10.1007/s11704-024-40231-1,A survey on large language model based autonomous agents,-3.5787484645843506,29,True,237,False
+RealScholarQuery_6,1,doi:10.18653/v1/2024.acl-long.717,HOLMES: Hyper-Relational Knowledge Graphs for Multi-hop Question Answering using,4.818330764770508,47,True,316,False
+RealScholarQuery_6,2,doi:10.5753/jbcs.2025.5801,Pt-HotpotQA: Evaluating Multi-Hop Question Answering on Original and Portuguese-,4.755578994750977,13,True,243,False
+RealScholarQuery_6,3,doi:10.1145/3626772.3657760,IM-RAG: Multi-Round Retrieval-Augmented Generation Through Learning Inner Monolo,4.333742141723633,32,True,394,False
+RealScholarQuery_6,4,doi:10.1109/cvpr52729.2023.01438,Prompting Large Language Models with Answer Heuristics for Knowledge-Based Visua,3.8902227878570557,5,True,340,False
+RealScholarQuery_6,5,doi:10.18653/v1/2023.acl-long.885,Few-shot Reranking for Multi-hop QA via Language Model Prompting,3.848334789276123,92,True,231,False
+RealScholarQuery_6,6,doi:10.1038/s41586-023-06291-2,Large language models encode clinical knowledge,3.8415238857269287,14,True,403,False
+RealScholarQuery_6,7,doi:10.48550/arxiv.2210.01296,Recitation-Augmented Language Models,3.704693078994751,33,True,251,False
+RealScholarQuery_6,8,doi:10.18653/v1/2025.findings-emnlp.700,CoAT: Chain-of-Associated-Thoughts Framework for Enhancing Large Language Models,3.45340895652771,24,True,332,False
+RealScholarQuery_6,9,doi:10.1137/1.9781611978520.44,CoT-Decoding: Complex Reasoning via Chain-of-Thought Decoding,3.268014907836914,61,True,392,False
+RealScholarQuery_6,10,doi:10.18653/v1/2024.acl-long.642,Improving Text Embeddings with Large Language Models,3.2666893005371094,28,True,243,False
+RealScholarQuery_6,11,doi:10.1145/3583780.3614949,Large Language Models as Zero-Shot Conversational Recommenders,3.2266831398010254,18,True,239,False
+RealScholarQuery_6,12,doi:10.48550/arxiv.2306.13304,ToolQA: A Dataset for LLM Question Answering with External Tools,3.2162973880767822,35,True,291,False
+RealScholarQuery_6,13,doi:10.48550/arxiv.2403.10131,RAFT: Adapting Language Model to Domain Specific RAG,2.9963972568511963,55,True,330,False
+RealScholarQuery_6,14,doi:10.48550/arxiv.2305.14323,ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language ,2.9375877380371094,3,True,326,False
+RealScholarQuery_6,15,doi:10.18653/v1/p19-1613,Multi-hop Reading Comprehension through Question Decomposition and Rescoring,2.937483310699463,34,True,223,False
+RealScholarQuery_6,16,doi:10.18653/v1/2024.acl-long.476,ERA-CoT: Improving Chain-of-Thought through Entity Relationship Analysis,2.7748661041259766,54,True,219,False
+RealScholarQuery_6,17,doi:10.18653/v1/2023.findings-emnlp.985,ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language ,2.7296767234802246,2,True,303,False
+RealScholarQuery_6,18,doi:10.1109/cvpr52729.2023.01046,From Images to Textual Prompts: Zero-shot Visual Question Answering with Frozen ,2.4191203117370605,15,True,390,False
+RealScholarQuery_6,19,doi:10.48550/arxiv.1905.06933,Dynamically Fused Graph Network for Multi-hop Reasoning,2.326901912689209,45,True,223,False
+RealScholarQuery_6,20,doi:10.48550/arxiv.2212.10509,Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive M,2.306539535522461,51,True,373,False
+RealScholarQuery_8,1,doi:10.1109/icaisisas64483.2025.11051677,LLM Coach: Reward Shaping for Reinforcement Learning-Based Navigation Agent,4.677290916442871,2,True,224,False
+RealScholarQuery_8,2,doi:10.48550/arxiv.2303.11366,Reflexion: Language Agents with Verbal Reinforcement Learning,2.756979465484619,22,True,289,False
+RealScholarQuery_8,3,doi:10.1145/3743127,RLHF Deciphered: A Critical Analysis of Reinforcement Learning from Human Feedba,2.6953513622283936,33,True,177,False
+RealScholarQuery_8,4,doi:10.1007/s41019-025-00296-9,LLM-Based Agents for Tool Learning: A Survey,2.5548675060272217,31,True,380,False
+RealScholarQuery_8,5,doi:10.36227/techrxiv.23589741.v1,"A Survey on Large Language Models: Applications, Challenges, Limitations, and Pr",2.5536932945251465,5,True,460,False
+RealScholarQuery_8,6,doi:10.18653/v1/d18-1362,Multi-Hop Knowledge Graph Reasoning with Reward Shaping,2.4338948726654053,13,True,264,False
+RealScholarQuery_8,7,doi:10.48550/arxiv.2309.07864,The Rise and Potential of Large Language Model Based Agents: A Survey,2.407590866088867,3,True,401,False
+RealScholarQuery_8,8,doi:10.48550/arxiv.2308.11432,A Survey on Large Language Model based Autonomous Agents,2.1029045581817627,7,True,306,False
+RealScholarQuery_8,9,doi:10.1007/s11704-024-40231-1,A survey on large language model based autonomous agents,2.0350961685180664,8,True,239,False
+RealScholarQuery_8,10,doi:10.1007/s11704-026-60308-3,A Survey of Large Language Models,1.643171787261963,12,True,318,False
+RealScholarQuery_8,11,doi:10.1613/jair.1.15960,The RL/LLM Taxonomy Tree: Reviewing Synergies Between Reinforcement Learning and,1.6319360733032227,6,True,367,False
+RealScholarQuery_8,12,doi:10.1039/d4sc03921a,A review of large language models and autonomous agents in chemistry,1.3434195518493652,15,True,265,False
+RealScholarQuery_8,13,doi:10.48550/arxiv.2203.02155,Training language models to follow instructions with human feedback,1.2409167289733887,11,True,315,False
+RealScholarQuery_8,14,doi:10.48550/arxiv.2402.06196,Large Language Models: A Survey,0.7917811870574951,17,True,251,False
+RealScholarQuery_8,15,doi:10.1038/s42256-024-00832-8,Augmenting large language models with chemistry tools,0.5783913731575012,19,True,227,False
+RealScholarQuery_8,16,doi:10.1613/jair.1.12440,Reward Machines: Exploiting Reward Function Structure in Reinforcement Learning,0.5208770632743835,25,True,298,False
+RealScholarQuery_8,17,doi:10.1007/s10462-024-10896-y,Towards trustworthy LLMs: a review on debiasing and dehallucinating in large lan,0.33027827739715576,18,True,260,False
+RealScholarQuery_8,18,doi:10.48550/arxiv.2401.05566,Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training,0.1963457614183426,32,True,325,False
+RealScholarQuery_8,19,doi:10.1145/3605943,Recent Advances in Natural Language Processing via Large Pre-trained Language Mo,-0.17134800553321838,23,True,202,False
+RealScholarQuery_8,20,doi:10.1007/s10462-024-10888-y,"Large language models (LLMs): survey, technical frameworks, and future challenge",-0.21296292543411255,21,True,241,False

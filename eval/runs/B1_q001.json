@@ -1,0 +1,62 @@
+{
+  "experiment_id": "B1",
+  "query_id": "q001",
+  "raw_query": "3D point cloud classification and segmentation with deep learning networks trained on ShapeNet",
+  "gold_ids": [
+    "doi:10.1109/cvpr.2017.16",
+    "openalex:W2560609797",
+    "title:pointnet: deep learning on point sets for 3d classification and segmentation"
+  ],
+  "predicted_ids": [
+    "W2950642167",
+    "W4297836999",
+    "W2976081675",
+    "W2606987267",
+    "W4397032511",
+    "W2995932445",
+    "W3011970623",
+    "W4378191150",
+    "W2963123724",
+    "W2473418274",
+    "W4235587621",
+    "W2979750740",
+    "W3158405343",
+    "W2785053089",
+    "W3111535274",
+    "W2606202972",
+    "W2997088169",
+    "W3168997536",
+    "W3128607711",
+    "W3025802147"
+  ],
+  "precision": 0.05,
+  "recall": 1.0,
+  "f1": 0.0952,
+  "api_calls": 1,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 5502.0,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "3D point cloud classification and segmentation with deep learning networks trained on ShapeNet",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "3D point cloud classification and segmentation with deep learning networks trained on ShapeNet",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 08:00:33"
+}

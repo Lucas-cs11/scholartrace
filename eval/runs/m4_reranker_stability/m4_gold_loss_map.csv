@@ -1,0 +1,25 @@
+query_id,canonical_id,title_n,first_seen_query,first_seen_stage,source_kind,query_type,safepass,pre_rerank_rank,first_seen_rank,loss_stage,final_rank,llm_sel_freq
+RealScholarQuery_0,doi:10.48550/arxiv.2309.04564,whenlessismoreinvestigatingdatapruningforpretrainingllmsatscale,data pruning LLM,assoc_recall,rich,,True,79,123,FINAL_RETAINED,3,3
+RealScholarQuery_6,doi:10.18653/v1/2023.acl-long.557,interleavingretrievalwithchainofthoughtreasoningforknowledgeintensivemultistepquestions,HotPotQA large language models,regular_recall,rich,,False,,8,LOST_PREKEEP,,0
+RealScholarQuery_6,doi:10.18653/v1/2024.acl-long.717,holmeshyperrelationalknowledgegraphsformultihopquestionansweringusingllms,LLM HotPotQA benchmark,assoc_recall,rich,,True,47,67,FINAL_RETAINED,4,3
+RealScholarQuery_6,doi:10.18653/v1/2023.findings-emnlp.985,chatcottoolaugmentedchainofthoughtreasoningonchatbasedlargelanguagemodels,LLM HotPotQA benchmark,assoc_recall,rich,,True,2,78,FINAL_RETAINED,2,3
+RealScholarQuery_6,doi:10.48550/arxiv.2212.10509,interleavingretrievalwithchainofthoughtreasoningforknowledgeintensivemultistepquestions,chain-of-thought HotPotQA,assoc_recall,rich,,True,51,78,FINAL_RETAINED,5,3
+RealScholarQuery_6,doi:10.18653/v1/2023.emnlp-main.364,answeringquestionsbymetareasoningovermultiplechainsofthought,chain-of-thought HotPotQA,assoc_recall,rich,,True,52,79,LOST_RERANKER,,0
+RealScholarQuery_6,doi:10.48550/arxiv.2403.10131,raftadaptinglanguagemodeltodomainspecificrag,chain-of-thought HotPotQA,assoc_recall,rich,,True,55,83,LOST_RERANKER,,0
+RealScholarQuery_6,doi:10.48550/arxiv.2305.14323,chatcottoolaugmentedchainofthoughtreasoningonchatbasedlargelanguagemodels,chain-of-thought HotPotQA,assoc_recall,rich,,True,3,84,FINAL_RETAINED,3,3
+RealScholarQuery_6,doi:10.1145/3626772.3657760,imragmultiroundretrievalaugmentedgenerationthroughlearninginnermonologues,HotPotQA retrieval augmented,assoc_recall,rich,,True,32,99,LOST_RERANKER,,0
+RealScholarQuery_6,doi:10.48550/arxiv.2210.01296,recitationaugmentedlanguagemodels,HotPotQA retrieval augmented,assoc_recall,rich,,True,33,101,LOST_RERANKER,,0
+RealScholarQuery_6,doi:10.18653/v1/2022.emnlp-main.142,learningtodecomposehypotheticalquestiondecompositionbasedoncomparabletexts,Decomposed prompting HotPotQA,assoc_recall,rich,,True,77,111,LOST_RERANKER,,0
+RealScholarQuery_6,doi:10.18653/v1/2023.acl-long.885,fewshotrerankingformultihopqavialanguagemodelprompting,HotPotQA few-shot,assoc_recall,rich,,True,92,128,FINAL_RETAINED,6,3
+RealScholarQuery_15,doi:10.48550/arxiv.2212.09251,discoveringlanguagemodelbehaviorswithmodelwrittenevaluations,RL hurts supervised fine-tuning language model,regular_recall,rich,,False,,18,LOST_PREKEEP,,0
+RealScholarQuery_15,doi:10.48550/arxiv.2310.06452,understandingtheeffectsofrlhfonllmgeneralisationanddiversity,RL harms SFT LLM,assoc_recall,rich,,True,9,94,LOST_RERANKER,,3
+RealScholarQuery_23,doi:10.1109/cvpr52733.2024.00618,instructvideoinstructingvideodiffusionmodelswithhumanfeedback,InstructVideo human feedback,assoc_recall,rich,,True,11,74,FINAL_RETAINED,1,3
+RealScholarQuery_23,doi:10.48550/arxiv.2312.12490,instructvideoinstructingvideodiffusionmodelswithhumanfeedback,InstructVideo human feedback,assoc_recall,rich,,True,12,75,FINAL_RETAINED,2,3
+RealScholarQuery_25,doi:10.48550/arxiv.2312.17090,qalignteachinglmmsforvisualscoringviadiscretetextdefinedlevels,Q-Align video aesthetics,assoc_recall,rich,,True,48,79,FINAL_RETAINED,3,3
+RealScholarQuery_35,doi:10.48550/arxiv.2402.17764,theeraof1bitllmsalllargelanguagemodelsarein158bits,1-bit LLM,regular_recall,rich,,False,,20,LOST_PREKEEP,,0
+RealScholarQuery_35,doi:10.48550/arxiv.2405.16528,loqtlowrankadaptersforquantizedpretraining,LoQT rank adapters,assoc_recall,rich,,True,3,95,FINAL_RETAINED,1,3
+RealScholarQuery_35,doi:10.52202/079017-3661,loqtlowrankadaptersforquantizedpretraining,LoQT rank adapters,assoc_recall,rich,,True,4,96,FINAL_RETAINED,2,3
+RealScholarQuery_47,doi:10.48550/arxiv.2402.12659,finbenaholisticfinancialbenchmarkforlargelanguagemodels,financial LLM agent benchmark,regular_recall,rich,,False,,19,LOST_PREKEEP,,0
+RealScholarQuery_47,doi:10.52202/079017-3033,finbenaholisticfinancialbenchmarkforlargelanguagemodels,FinBen,assoc_recall,rich,,True,59,90,FINAL_RETAINED,6,3
+RealScholarQuery_47,doi:10.48550/arxiv.2308.09975,finevalachinesefinancialdomainknowledgeevaluationbenchmarkforlargelanguagemodels,FinEval,assoc_recall,rich,,True,77,108,LOST_RERANKER,,0
+RealScholarQuery_47,doi:10.18653/v1/2025.naacl-long.318,finevalachinesefinancialdomainknowledgeevaluationbenchmarkforlargelanguagemodels,FinEval,assoc_recall,rich,,True,78,109,LOST_RERANKER,,0

@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B0",
+  "query_id": "q017",
+  "raw_query": "federated learning algorithm that trains a shared model on decentralized data using local stochastic gradient descent and weight averaging",
+  "gold_ids": [
+    "doi:10.5555/3295222.3295269",
+    "openalex:W2541884796",
+    "title:communication-efficient learning of deep networks from decentralized data"
+  ],
+  "predicted_ids": [
+    "W4391462029",
+    "W4206726406",
+    "W3046653923",
+    "W2807006176",
+    "W4300686971",
+    "W3097072081",
+    "W3202150208",
+    "W3136620885",
+    "W2930926105",
+    "W4213044365",
+    "W3178661111",
+    "W3097817814",
+    "W3127190257",
+    "W3099128725",
+    "W4281753687",
+    "W4280619489",
+    "W3112044954",
+    "W2949003697",
+    "W3049535205",
+    "W4402666098"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 1,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 3191.5,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-20 20:26:58"
+}

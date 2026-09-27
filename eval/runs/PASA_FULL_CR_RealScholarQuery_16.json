@@ -1,0 +1,110 @@
+{
+  "experiment_id": "PASA_FULL_CR",
+  "query_id": "RealScholarQuery_16",
+  "raw_query": "Find papers on trigger-free document-level event extraction methods that do not use human-annotated triggers.",
+  "gold_ids": [
+    "title:coffee: a contrastive oracle-free framework for event extraction",
+    "title:doc2edag: an end-to-end document-level framework for chinese financial event extraction",
+    "title:document-level event extraction via heterogeneous graph-based interaction model with a tracker",
+    "title:document-level event extraction via human-like reading process",
+    "title:document-level multi-event extraction with event proxy nodes and hausdorff distance minimization",
+    "title:efficient document-level event extraction via pseudo-trigger-aware pruned complete graph",
+    "title:raat: relation-augmented attention transformer for relation modeling in document-level event extraction",
+    "title:trigger-free event detection via derangement reading comprehension",
+    "title_n:coffeeacontrastiveoraclefreeframeworkforeventextraction",
+    "title_n:doc2edaganendtoenddocumentlevelframeworkforchinesefinancialeventextraction",
+    "title_n:documentleveleventextractionviaheterogeneousgraphbasedinteractionmodelwithatracker",
+    "title_n:documentleveleventextractionviahumanlikereadingprocess",
+    "title_n:documentlevelmultieventextractionwitheventproxynodesandhausdorffdistanceminimization",
+    "title_n:efficientdocumentleveleventextractionviapseudotriggerawareprunedcompletegraph",
+    "title_n:raatrelationaugmentedattentiontransformerforrelationmodelingindocumentleveleventextraction",
+    "title_n:triggerfreeeventdetectionviaderangementreadingcomprehension"
+  ],
+  "predicted_ids": [
+    "doi:10.1109/icccr61138.2024.10585555",
+    "doi:10.1109/ijcnn54540.2023.10192046",
+    "doi:10.1007/978-981-96-6591-4_15",
+    "doi:10.1109/ainit61980.2024.10581557",
+    "doi:10.1162/tacl.a.51",
+    "doi:10.1109/iccnea60107.2023.00028",
+    "doi:10.3390/app13074523",
+    "doi:10.1109/icassp48485.2024.10448190",
+    "doi:10.18653/v1/2021.nuse-1.4",
+    "doi:10.18653/v1/2021.findings-emnlp.32",
+    "doi:10.3390/electronics10070824",
+    "doi:10.1109/iscai58869.2022.00015",
+    "doi:10.18653/v1/2023.findings-emnlp.844",
+    "doi:10.1162/dint_a_00103",
+    "doi:10.3390/app13053041",
+    "doi:10.1109/ialp68296.2024.11156330",
+    "doi:10.1038/s41597-025-05083-9",
+    "doi:10.24963/ijcai.2022/632",
+    "doi:10.1109/ijcnn48605.2020.9207524"
+  ],
+  "precision": 0.0526,
+  "recall": 0.125,
+  "f1": 0.0741,
+  "api_calls": 26,
+  "llm_calls": 3,
+  "input_tokens": 4237,
+  "output_tokens": 2891,
+  "latency_ms": 56169.3,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Find papers on trigger-free document-level event extraction methods that do not use human-annotated triggers.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "trigger-free document-level event extraction",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "event extraction without triggers",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "trigger-free event extraction",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "document-level event extraction",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Find papers on trigger-free document-level event extraction methods that do not use human-annotated triggers.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 26,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 16:11:39"
+}

@@ -1,0 +1,43 @@
+{
+  "experiment_id": "B0",
+  "query_id": "q006",
+  "raw_query": "encoder-decoder convolutional network with skip connections for biomedical image segmentation",
+  "gold_ids": [
+    "doi:10.1007/978-3-319-24574-4_28",
+    "openalex:W1901129140",
+    "title:u-net: convolutional networks for biomedical image segmentation"
+  ],
+  "predicted_ids": [
+    "W3125832420",
+    "W2787091153",
+    "W2582996697",
+    "W3162386519",
+    "W2950042022",
+    "W3148874463",
+    "W3036597192",
+    "W4294226146",
+    "W2788906943",
+    "W3202923600",
+    "W3160284783",
+    "W2776265614",
+    "W2998623274",
+    "W3137561054",
+    "W2737373222",
+    "W3037414627",
+    "W2952632681",
+    "W3197957534",
+    "W3133661165",
+    "W3169893408"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 1,
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 3079.6,
+  "schema_valid": true,
+  "traces": [],
+  "created_at": "2026-08-20 20:26:21"
+}

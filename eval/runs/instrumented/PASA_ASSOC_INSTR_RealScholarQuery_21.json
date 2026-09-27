@@ -1,0 +1,55 @@
+{
+  "experiment_id": "PASA_ASSOC_INSTR",
+  "query_id": "RealScholarQuery_21",
+  "raw_query": "Search for papers related to large language models that demonstrate how the same prompt with different responses can improve the performance of the SFT model.",
+  "gold_ids": [
+    "title:curry-dpo: enhancing alignment using curriculum learning &amp;amp; ranked preferences",
+    "title:relative preference optimization: enhancing llm alignment through contrasting responses across identical and diverse prompts",
+    "title_n:currydpoenhancingalignmentusingcurriculumlearningampamprankedpreferences",
+    "title_n:relativepreferenceoptimizationenhancingllmalignmentthroughcontrastingresponsesacrossidenticalanddiverseprompts"
+  ],
+  "predicted_ids": [
+    "W4404792888",
+    "W4226146865",
+    "W4392782765"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 23,
+  "llm_calls": 3,
+  "input_tokens": 4071,
+  "output_tokens": 1950,
+  "latency_ms": 80207.9,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Search for papers related to large language models that demonstrate how the same prompt with different responses can improve the performance of the SFT model.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "Search for papers related to large language models that demonstrate how the same prompt with different responses can imp",
+      "api": "openalex",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Search for papers related to large language models that demonstrate how the same prompt with different responses can improve the performance of the SFT model.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 56,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-24 12:00:00"
+}

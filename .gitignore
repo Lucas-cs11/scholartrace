@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# LaTeX build artifacts (proposal/)
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.toc
+*.xdv
+*.synctex.gz
+
+# 环境与密钥
+.env
+.env.local
+.env.bak
+.env.*
+
+# 本地工具配置（含内网 IP / 本机私钥路径）
+.claude/settings.local.json
+
+# 运行时日志
+logs/
+*.log
+
+# 大体积可重生成缓存（~57MB）：reproduce_all.sh 可重建，不入库
+eval/runs/_*.jsonl
+
+# 插桩诊断 trace（~7MB）：可重新生成
+eval/diagnostics/
+
+# 数据（大文件不入库；仅保留评测基线 query 集）
+data/*
+!data/benchmarks/
+*.sqlite
+*.db

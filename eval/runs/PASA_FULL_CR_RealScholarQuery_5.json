@@ -1,0 +1,104 @@
+{
+  "experiment_id": "PASA_FULL_CR",
+  "query_id": "RealScholarQuery_5",
+  "raw_query": "Papers that apply RLHF to address the hallucination problem in image and video description.",
+  "gold_ids": [
+    "title:aligning large multimodal models with factually augmented rlhf",
+    "title:aligning modalities in vision large language models via preference fine-tuning",
+    "title:dress: instructing large vision-language models to align and interact with humans via natural language feedback",
+    "title:enhancing image caption generation using reinforcement learning with human feedback",
+    "title:rlhf-v: towards trustworthy mllms via behavior alignment from fine-grained correctional human feedback",
+    "title:silkie: preference distillation for large visual language models",
+    "title:vigor: improving visual grounding of large vision language models with fine-grained reward modeling",
+    "title_n:aligninglargemultimodalmodelswithfactuallyaugmentedrlhf",
+    "title_n:aligningmodalitiesinvisionlargelanguagemodelsviapreferencefinetuning",
+    "title_n:dressinstructinglargevisionlanguagemodelstoalignandinteractwithhumansvianaturallanguagefeedback",
+    "title_n:enhancingimagecaptiongenerationusingreinforcementlearningwithhumanfeedback",
+    "title_n:rlhfvtowardstrustworthymllmsviabehavioralignmentfromfinegrainedcorrectionalhumanfeedback",
+    "title_n:silkiepreferencedistillationforlargevisuallanguagemodels",
+    "title_n:vigorimprovingvisualgroundingoflargevisionlanguagemodelswithfinegrainedrewardmodeling"
+  ],
+  "predicted_ids": [
+    "doi:10.1109/access.2026.3723028",
+    "doi:10.18280/jesa.580715",
+    "doi:10.7753/ijcatr1506.1001",
+    "doi:10.2139/ssrn.6338238",
+    "doi:10.1109/wacv51458.2022.00253",
+    "doi:10.1109/iccbd-ai65562.2024.00067"
+  ],
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "api_calls": 25,
+  "llm_calls": 3,
+  "input_tokens": 4132,
+  "output_tokens": 2242,
+  "latency_ms": 121137.6,
+  "schema_valid": true,
+  "traces": [
+    {
+      "round": 0,
+      "query": "Papers that apply RLHF to address the hallucination problem in image and video description.",
+      "api": "llm_parse_plan",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 0,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "RLHF hallucination image description",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "RLHF hallucination video description",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "reinforcement learning from human feedback hallucination",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "image captioning hallucination",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 1,
+      "query": "video captioning hallucination",
+      "api": "crossref",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 20,
+      "relevant_delta": 0
+    },
+    {
+      "round": 2,
+      "query": "Papers that apply RLHF to address the hallucination problem in image and video description.",
+      "api": "citation_multi",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "candidate_delta": 16,
+      "relevant_delta": 0
+    }
+  ],
+  "created_at": "2026-08-23 15:59:00"
+}

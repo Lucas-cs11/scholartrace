@@ -1,0 +1,1025 @@
+/* ================================================================
+   研迹 ScholarTrace — 字体比例修正 + 仪表板
+   ================================================================ */
+
+/* ── 1. 令牌 ── */
+:root {
+  --c-bg:      #F4F1EB;
+  --c-surface: #FFFFFF;
+  --c-sidebar: #EDEAE3;
+  --c-hover:   #EFECEA;
+  --c-raised:  #F9F8F5;
+
+  --t-1: #1A1917;
+  --t-2: #57534D;
+  --t-3: #9C9891;
+
+  --b-light:   #E2DED5;
+  --b-mid:     #CAC6BC;
+
+  --accent:    #1B3A6B;
+  --accent-bg: #EDF1FA;
+  --accent-rg: rgba(27,58,107,0.10);
+
+  --high:   #14532D; --high-bg:  #F0FDF5; --high-bd:  #A7F3CA;
+  --part:   #78350F; --part-bg:  #FFFBEB; --part-bd:  #FCD34D;
+  --no-c:   #57534D; --no-bg:    #F5F4F2; --no-bd:    #E2DED5;
+
+  --r-sm:   6px;
+  --r-md:   10px;
+  --r-lg:   14px;
+  --r-pill: 999px;
+
+  --sidebar-w: 228px;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ── 2. 重置 ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+[hidden] { display: none !important; }
+
+body {
+  background: var(--c-bg);
+  color: var(--t-1);
+  font-family: 'Noto Serif SC', 'Songti SC', 'SimSun', Georgia, serif;
+  font-size: 15px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  overflow: hidden;
+}
+
+a { color: inherit; text-decoration: none; }
+button, select, input { font-family: inherit; }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-thumb { background: var(--b-mid); border-radius: var(--r-pill); }
+
+/* ── 3. 布局 ── */
+.layout { display: flex; height: 100vh; }
+
+/* ── 4. 侧栏 ── */
+.sidebar {
+  width: var(--sidebar-w);
+  flex-shrink: 0;
+  background: var(--c-sidebar);
+  border-right: 1px solid var(--b-light);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* 品牌 */
+.sb-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 18px 16px;
+}
+
+.brand-link { display: flex; align-items: center; }
+
+.brand-zh {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--t-1);
+  letter-spacing: 0.02em;
+}
+
+.brand-sep {
+  display: inline-block;
+  width: 1px; height: 14px;
+  background: var(--b-mid);
+  margin: 0 10px;
+}
+
+.brand-en {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--t-2);
+  letter-spacing: -0.01em;
+}
+
+.online-pip {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: #16a34a;
+  animation: pip-pulse 3s ease-in-out infinite;
+}
+
+@keyframes pip-pulse {
+  0%, 100% { opacity: 0.6; }
+  50%       { opacity: 1;   }
+}
+
+/* 导航按钮 */
+.sb-nav {
+  padding: 4px 10px 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 9px 10px;
+  background: transparent;
+  border: none;
+  border-radius: var(--r-sm);
+  cursor: pointer;
+  color: var(--t-2);
+  text-align: left;
+  transition: background-color 0.12s, color 0.12s;
+}
+
+@media (hover: hover) {
+  .nav-btn:hover { background: rgba(0,0,0,0.05); color: var(--t-1); }
+}
+
+.nav-btn.active {
+  background: rgba(27,58,107,0.08);
+  color: var(--accent);
+}
+
+.nav-btn svg { flex-shrink: 0; }
+
+.nav-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.nl-zh {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.nl-en {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 9.5px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.sb-divider {
+  border: none;
+  border-top: 1px solid var(--b-light);
+  margin: 6px 16px;
+}
+
+.sb-section { padding: 10px 16px; }
+.sb-grow    { flex: 1; overflow-y: auto; min-height: 0; }
+
+/* 港铁双语标题 */
+.sb-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.sh-zh {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--t-3);
+  letter-spacing: 0.05em;
+}
+
+.sh-en {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 9px;
+  color: var(--t-3);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* 历史 */
+.history-list { display: flex; flex-direction: column; gap: 1px; }
+
+.hist-empty {
+  font-size: 12px;
+  color: var(--t-3);
+  line-height: 1.6;
+  padding: 4px 0;
+}
+
+.hist-empty em {
+  display: block;
+  font-style: normal;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  margin-top: 1px;
+}
+
+.hist-item {
+  padding: 7px 9px;
+  border-radius: var(--r-sm);
+  cursor: pointer;
+  transition: background-color 0.12s;
+}
+
+@media (hover: hover) { .hist-item:hover { background: rgba(0,0,0,0.05); } }
+.hist-item:active { transform: scale(0.98); }
+
+.hist-q {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--t-1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 2px;
+}
+
+.hist-meta {
+  display: flex;
+  gap: 6px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 10.5px;
+  color: var(--t-3);
+  font-variant-numeric: tabular-nums;
+}
+
+.hist-mode { color: var(--accent); font-weight: 600; text-transform: uppercase; }
+
+.sb-foot {
+  padding: 12px 16px;
+  border-top: 1px solid var(--b-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sb-foot-txt {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 10px;
+  color: var(--t-3);
+}
+
+.audit-chip {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--high);
+  background: var(--high-bg);
+  border: 1px solid var(--high-bd);
+  padding: 1px 6px;
+  border-radius: 3px;
+}
+
+/* ── 5. 主区域 ── */
+.main {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.view-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 48px 60px;
+  overflow-y: auto;
+}
+
+/* ── 6. 查询视图 main-inner ── */
+.main-inner {
+  width: 100%;
+  max-width: 680px;
+  padding-top: 13vh;
+  transition: padding-top 0.4s var(--ease);
+}
+
+.main-inner.compact {
+  padding-top: 36px;
+}
+
+/* ── 7. 搜索英雄区 ── */
+.hero-eyebrow {
+  font-size: 13px;
+  color: var(--t-3);
+  margin-bottom: 10px;
+  letter-spacing: 0.01em;
+}
+
+.hero-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 34px;
+  font-weight: 400;
+  color: var(--t-1);
+  letter-spacing: -0.022em;
+  line-height: 1.25;
+  margin-bottom: 24px;
+  text-wrap: balance;
+}
+
+/* 有结果时折叠标题 */
+.main-inner.compact .hero-eyebrow,
+.main-inner.compact .hero-title {
+  display: none;
+}
+
+/* ── 8. 搜索大框 ── */
+.search-box {
+  width: 100%;
+  background: var(--c-surface);
+  border: 1px solid var(--b-mid);
+  border-radius: var(--r-lg);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 6px 20px rgba(0,0,0,0.06);
+  overflow: hidden;
+  transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease);
+}
+
+.search-box:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-rg), 0 6px 20px rgba(0,0,0,0.06);
+}
+
+#query {
+  display: block;
+  width: 100%;
+  padding: 18px 20px 12px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 16px;
+  color: var(--t-1);
+  line-height: 1.65;
+  resize: none;
+  min-height: 108px;
+}
+
+#query::placeholder { color: var(--t-3); font-weight: 300; }
+
+/* 搜索底栏 */
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 9px 12px 9px 14px;
+  border-top: 1px solid var(--b-light);
+  background: var(--c-raised);
+}
+
+.bar-left { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+
+/* 模式选择 pill */
+.mode-pill-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--c-surface);
+  border: 1px solid var(--b-light);
+  border-radius: var(--r-pill);
+  padding: 0 26px 0 10px;
+  height: 34px;
+  transition: border-color 0.15s;
+}
+
+.mode-pill-wrap:focus-within { border-color: var(--accent); }
+
+.pill-icon { color: var(--t-3); flex-shrink: 0; }
+
+#mode {
+  border: none; outline: none; background: transparent;
+  font-size: 12.5px; color: var(--t-2); cursor: pointer;
+  -webkit-appearance: none; appearance: none;
+  min-width: 100px;
+}
+
+.mode-pill-wrap::after {
+  content: '';
+  position: absolute; right: 10px; top: 50%;
+  transform: translateY(-50%);
+  width: 0; height: 0;
+  border-left: 3.5px solid transparent;
+  border-right: 3.5px solid transparent;
+  border-top: 4.5px solid var(--t-3);
+  pointer-events: none;
+}
+
+/* 深度归纳 pill */
+.synth-pill {
+  display: flex; align-items: center; gap: 6px;
+  height: 34px; padding: 0 12px;
+  background: var(--c-surface);
+  border: 1px solid var(--b-light);
+  border-radius: var(--r-pill);
+  cursor: pointer;
+  transition: border-color 0.15s, background-color 0.15s;
+}
+
+.synth-pill:has(input:checked) {
+  border-color: var(--accent);
+  background: var(--accent-bg);
+}
+
+.synth-pill input { display: none; }
+
+.sp-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--b-mid);
+  flex-shrink: 0;
+  transition: background-color 0.15s;
+}
+
+.synth-pill:has(input:checked) .sp-dot { background: var(--accent); }
+
+.sp-text { font-size: 12.5px; color: var(--t-2); white-space: nowrap; }
+.synth-pill:has(input:checked) .sp-text { color: var(--accent); font-weight: 500; }
+
+/* 提交按钮 */
+#search-btn {
+  display: flex; align-items: center; gap: 7px;
+  height: 38px; padding: 0 20px;
+  background: var(--t-1); color: #fff;
+  border: none; border-radius: var(--r-pill);
+  font-size: 13.5px; font-weight: 500;
+  cursor: pointer; flex-shrink: 0;
+  touch-action: manipulation;
+  transition: background-color 0.15s, transform 0.1s;
+}
+
+@media (hover: hover) { #search-btn:hover { background: var(--accent); } }
+#search-btn:active  { transform: scale(0.95); }
+#search-btn:disabled { background: var(--b-mid); color: var(--t-3); cursor: wait; }
+
+/* ── 9. 管道进度 ── */
+.pipeline {
+  margin-top: 18px;
+  padding: 16px 18px 20px;
+  background: var(--c-surface);
+  border: 1px solid var(--b-light);
+  border-radius: var(--r-md);
+}
+
+.pipe-status-row { margin-bottom: 14px; }
+
+.pipe-status-txt { font-size: 13px; color: var(--t-2); }
+
+.pipe-track-wrap { position: relative; }
+
+.pipe-track {
+  height: 2px;
+  background: var(--b-light);
+  border-radius: var(--r-pill);
+  position: relative;
+}
+
+.pipe-fill {
+  position: absolute; inset: 0;
+  background: var(--accent);
+  border-radius: var(--r-pill);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.55s var(--ease);
+}
+
+.pipe-nodes {
+  position: absolute; top: 0; left: 0; right: 0;
+  display: flex; justify-content: space-between;
+  transform: translateY(-5px);
+}
+
+.pipe-node { display: flex; flex-direction: column; align-items: center; }
+
+.pn-dot {
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  border: 2px solid var(--b-mid);
+  background: var(--c-bg);
+  transition: border-color 0.25s, background-color 0.25s;
+}
+
+.pipe-node.active .pn-dot {
+  border-color: var(--accent);
+  background: var(--c-surface);
+  box-shadow: 0 0 0 3px var(--accent-rg);
+}
+
+.pipe-node.done .pn-dot { border-color: var(--accent); background: var(--accent); }
+
+.pipe-node span {
+  margin-top: 14px;
+  font-size: 10px; color: var(--t-3);
+  text-align: center; line-height: 1.3;
+  display: flex; flex-direction: column; align-items: center;
+}
+
+.pipe-node span em {
+  font-style: normal;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 9px; letter-spacing: 0.04em;
+  opacity: 0.8;
+}
+
+.pipe-node.active span { color: var(--accent); font-weight: 600; }
+.pipe-node.done  span  { color: var(--t-2); }
+
+/* ── 10. 遥测条 ── */
+.telemetry {
+  margin-top: 13px;
+  display: flex; align-items: center; gap: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 12px; color: var(--t-3);
+  flex-wrap: wrap;
+}
+
+.tel-item { display: flex; align-items: center; gap: 4px; }
+.tel-k    { color: var(--t-3); }
+.tel-v    { color: var(--t-2); font-weight: 500; font-variant-numeric: tabular-nums; }
+.tel-sep  { color: var(--b-mid); }
+.tel-trace { font-size: 11px; color: var(--t-3); margin-left: 4px; }
+
+/* ── 11. 归纳面板 ── */
+.summary-panel {
+  margin-top: 20px;
+  background: var(--accent-bg);
+  border: 1px solid rgba(27,58,107,0.10);
+  border-radius: var(--r-md);
+  padding: 20px 22px;
+}
+
+.sum-q {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 14.5px; font-weight: 500;
+  color: var(--t-1); line-height: 1.65;
+  margin-bottom: 14px; text-wrap: pretty;
+}
+
+.sum-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+
+.sum-chip {
+  font-size: 12px; color: var(--accent);
+  background: rgba(27,58,107,0.06);
+  border: 1px solid rgba(27,58,107,0.14);
+  border-radius: 4px; padding: 3px 10px;
+}
+
+.sum-chip em { font-style: normal; font-size: 11px; opacity: 0.7; margin-left: 3px; }
+
+.sum-overall { font-size: 13.5px; color: var(--t-2); line-height: 1.65; text-wrap: pretty; }
+
+/* ── 12. 占位 ── */
+.placeholder { padding: 48px 0 0; }
+
+.ph-t { font-size: 16px; font-weight: 500; color: var(--t-2); margin-bottom: 7px; }
+.ph-b { font-size: 13.5px; color: var(--t-3); line-height: 1.65; max-width: 340px; }
+
+/* ── 13. 结果卡 ── */
+.results-wrap {
+  margin-top: 22px;
+  background: var(--c-surface);
+  border: 1px solid var(--b-light);
+  border-radius: var(--r-lg);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  overflow: hidden;
+}
+
+.rw-header {
+  display: flex; align-items: baseline; gap: 8px;
+  padding: 15px 22px 13px;
+  border-bottom: 1px solid var(--b-light);
+}
+
+.rw-zh {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 13.5px; font-weight: 600;
+  color: var(--t-1); letter-spacing: 0.02em;
+}
+
+.rw-en {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 10px; color: var(--t-3);
+  letter-spacing: 0.06em; text-transform: uppercase;
+}
+
+.rw-count {
+  margin-left: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 11.5px; color: var(--t-3);
+  font-variant-numeric: tabular-nums;
+}
+
+.result-list { list-style: none; }
+
+.result-item {
+  padding: 18px 22px;
+  border-bottom: 1px solid var(--b-light);
+  opacity: 0; transform: translateY(6px);
+  animation: ri-in 0.28s var(--ease) forwards;
+  transition: background-color 0.1s;
+}
+
+.result-item:last-child { border-bottom: none; }
+@media (hover: hover) { .result-item:hover { background: var(--c-hover); } }
+
+@keyframes ri-in { to { opacity: 1; transform: translateY(0); } }
+
+.r-top { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 5px; }
+
+.r-num {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 11.5px; color: var(--t-3);
+  font-variant-numeric: tabular-nums;
+  width: 18px; flex-shrink: 0; padding-top: 3px; text-align: right;
+}
+
+.r-label {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 9.5px; font-weight: 600;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  padding: 2px 7px; border-radius: 3px; border: 1px solid;
+  flex-shrink: 0; margin-top: 3px;
+}
+
+.r-label.high    { background: var(--high-bg); color: var(--high); border-color: var(--high-bd); }
+.r-label.partial { background: var(--part-bg); color: var(--part); border-color: var(--part-bd); }
+.r-label.no      { background: var(--no-bg);   color: var(--no-c); border-color: var(--no-bd);   }
+
+.r-title {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 16px; font-weight: 600;
+  color: var(--t-1); line-height: 1.4;
+  letter-spacing: -0.012em; flex: 1;
+  text-wrap: pretty;
+  transition: color 0.12s;
+}
+
+@media (hover: hover) { .r-title:hover { color: var(--accent); } }
+
+.r-score {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 11px; color: var(--t-3);
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0; padding-top: 3px;
+}
+
+.r-meta {
+  padding-left: 28px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 12px; color: var(--t-3);
+  display: flex; gap: 5px; flex-wrap: wrap; align-items: center;
+  margin-top: 4px;
+}
+
+.r-ms  { color: var(--b-mid); }
+.r-pid { font-family: 'Courier New', monospace; font-size: 10.5px; opacity: 0.75; }
+
+.r-reason {
+  padding-left: 28px; margin-top: 9px;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 13.5px; color: var(--t-2); line-height: 1.65;
+}
+
+.r-cov  { padding-left: 28px; margin-top: 9px; display: flex; gap: 5px; flex-wrap: wrap; }
+
+.cov-tag {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 10.5px; background: var(--c-bg);
+  border: 1px solid var(--b-light); padding: 1px 7px;
+  border-radius: 3px; color: var(--t-3);
+}
+
+/* ── 14. 引文图 ── */
+.graph-section {
+  margin-top: 22px;
+  background: var(--c-surface);
+  border: 1px solid var(--b-light);
+  border-radius: var(--r-lg); overflow: hidden;
+}
+
+.gs-head {
+  display: flex; align-items: baseline; gap: 8px;
+  padding: 14px 22px; border-bottom: 1px solid var(--b-light);
+}
+
+.gs-zh { font-family: 'Noto Serif SC', serif; font-size: 13.5px; font-weight: 600; color: var(--t-1); }
+.gs-en {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 10px; color: var(--t-3); letter-spacing: 0.06em; text-transform: uppercase;
+}
+
+.graph-legend {
+  margin-left: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 10px; color: var(--t-3);
+  display: flex; align-items: center; gap: 10px;
+}
+
+.leg-line {
+  display: inline-block; width: 14px; height: 1.5px;
+  vertical-align: middle; margin-right: 3px;
+}
+
+.leg-line.solid { background: var(--accent); }
+.leg-line.dashed {
+  background-image: repeating-linear-gradient(
+    90deg, var(--b-mid) 0, var(--b-mid) 3px, transparent 3px, transparent 6px
+  );
+}
+
+.gs-body { position: relative; padding: 6px; background: var(--c-raised); }
+#graph-svg { display: block; }
+svg circle { transition: r 0.15s, fill 0.15s, stroke 0.15s; }
+svg text   { user-select: none; }
+
+.graph-tip {
+  position: absolute;
+  background: var(--t-1); color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 11.5px; padding: 5px 10px;
+  border-radius: var(--r-sm);
+  pointer-events: none; opacity: 0;
+  max-width: 230px; white-space: nowrap;
+  overflow: hidden; text-overflow: ellipsis;
+  z-index: 10; transition: opacity 0.12s;
+}
+
+/* ── 15. 仪表板视图 ── */
+.dash-inner {
+  width: 100%;
+  max-width: 780px;
+  padding: 44px 0 60px;
+}
+
+.dash-header { margin-bottom: 28px; }
+
+.dash-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 28px; font-weight: 500;
+  color: var(--t-1); letter-spacing: -0.018em;
+  margin-bottom: 6px;
+}
+
+.dash-sub {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 12px; color: var(--t-3);
+}
+
+.dash-sub code {
+  font-family: 'Courier New', monospace;
+  font-size: 11px; color: var(--t-3);
+}
+
+/* 块容器 */
+.dash-block {
+  margin-bottom: 28px;
+}
+
+.db-head {
+  display: flex; align-items: baseline; gap: 8px;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--b-light);
+}
+
+.db-zh {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 14px; font-weight: 600;
+  color: var(--t-1); letter-spacing: 0.02em;
+}
+
+.db-en {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 10px; color: var(--t-3);
+  letter-spacing: 0.06em; text-transform: uppercase;
+}
+
+/* 指标卡片网格 */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.stat-card {
+  background: var(--c-surface);
+  border: 1px solid var(--b-light);
+  border-radius: var(--r-md);
+  padding: 18px 18px 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  display: flex; flex-direction: column; gap: 4px;
+}
+
+/* 首要卡片：略微强调 */
+.stat-card.featured {
+  background: var(--accent-bg);
+  border-color: rgba(27,58,107,0.14);
+}
+
+.stat-eye {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 10px; color: var(--t-3);
+  letter-spacing: 0.04em; text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.stat-num {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 32px; font-weight: 600;
+  color: var(--t-1); letter-spacing: -0.022em;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-card.featured .stat-num { color: var(--accent); }
+
+.stat-denom {
+  font-size: 20px; font-weight: 400;
+  color: var(--t-3); margin-left: 1px;
+}
+
+.stat-unit {
+  font-size: 22px; font-weight: 400;
+  color: var(--t-2); margin-left: 2px;
+}
+
+/* 小进度条（仅用于 F1 分数可视化，相对 15% 上限） */
+.stat-bar-wrap {
+  height: 3px;
+  background: var(--b-light);
+  border-radius: var(--r-pill);
+  margin: 4px 0;
+  overflow: hidden;
+}
+
+.stat-bar {
+  height: 100%;
+  background: var(--accent);
+  border-radius: var(--r-pill);
+  opacity: 0.5;
+}
+
+.stat-card.featured .stat-bar { opacity: 0.8; }
+
+.stat-note {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 10.5px; color: var(--t-3); line-height: 1.4;
+  margin-top: 2px;
+}
+
+/* 效能对比表 */
+.table-wrap {
+  background: var(--c-surface);
+  border: 1px solid var(--b-light);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.eff-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 13px;
+}
+
+.eff-table thead th {
+  background: var(--c-raised);
+  padding: 11px 16px;
+  font-size: 11px; font-weight: 600;
+  color: var(--t-3); letter-spacing: 0.04em;
+  text-transform: uppercase; text-align: left;
+  border-bottom: 1px solid var(--b-light);
+}
+
+.eff-table thead th:not(:first-child) { text-align: right; }
+
+.eff-table tbody tr { border-bottom: 1px solid var(--b-light); }
+.eff-table tbody tr:last-child { border-bottom: none; }
+@media (hover: hover) { .eff-table tbody tr:hover { background: var(--c-hover); } }
+
+.eff-table td {
+  padding: 11px 16px;
+  color: var(--t-2);
+  vertical-align: middle;
+}
+
+.num-cell {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--t-1); font-weight: 500;
+}
+
+.diff-cell {
+  text-align: right;
+  font-size: 11.5px; font-weight: 600;
+}
+
+.diff-cell.worse  { color: var(--part); }
+.diff-cell.better { color: var(--high); }
+.diff-cell.equal  { color: var(--t-3); }
+
+/* 本次会话 */
+.session-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.sess-card {
+  background: var(--c-surface);
+  border: 1px solid var(--b-light);
+  border-radius: var(--r-md);
+  padding: 16px 18px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  display: flex; flex-direction: column; gap: 4px;
+}
+
+.sess-num {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 28px; font-weight: 600;
+  color: var(--t-1); letter-spacing: -0.018em;
+  font-variant-numeric: tabular-nums;
+}
+
+.sess-label {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 10.5px; color: var(--t-3);
+  display: flex; flex-direction: column; gap: 1px;
+}
+
+.sess-label em {
+  font-style: normal; font-size: 9.5px;
+  letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.8;
+}
+
+/* 模式分布 */
+.mode-breakdown {
+  display: flex; flex-wrap: wrap; gap: 6px;
+}
+
+.mode-chip {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 11px;
+  background: var(--c-surface);
+  border: 1px solid var(--b-light);
+  border-radius: var(--r-pill);
+  padding: 3px 10px;
+  color: var(--t-2);
+  display: flex; align-items: center; gap: 5px;
+}
+
+.mode-chip-label { font-weight: 600; color: var(--accent); text-transform: uppercase; }
+.mode-chip-count { font-variant-numeric: tabular-nums; }
+
+/* 门禁状态 */
+.gate-grid {
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+
+.gate-chip {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 4px 12px;
+  border-radius: var(--r-pill);
+  border: 1px solid;
+  display: flex; align-items: center; gap: 5px;
+}
+
+.gate-chip::before { content: '✓'; font-size: 10px; }
+
+.gate-chip.pass {
+  background: var(--high-bg);
+  color: var(--high);
+  border-color: var(--high-bd);
+}
+
+/* ── 16. 响应式 ── */
+@media (max-width: 860px) {
+  .layout { flex-direction: column; height: auto; overflow: visible; }
+  body    { height: auto; overflow: auto; }
+  .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--b-light); }
+  .view-panel { padding: 0 20px 48px; }
+  .main-inner { padding-top: 32px; }
+  .hero-title { font-size: 26px; }
+  .stat-grid  { grid-template-columns: repeat(2, 1fr); }
+  .session-grid { grid-template-columns: repeat(2, 1fr); }
+  .sb-grow { max-height: 180px; }
+}
+
+/* ── 17. 动效守护 ── */
+@media (prefers-reduced-motion: reduce) {
+  .result-item { animation: none; opacity: 1; transform: none; }
+  .pipe-fill   { transition: none; }
+  .online-pip  { animation: none; }
+}

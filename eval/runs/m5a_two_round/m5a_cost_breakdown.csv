@@ -1,0 +1,2 @@
+round2_planner_llm_calls,planner_input_tokens,planner_output_tokens,executed_followup_queries,followup_queries_planned,followup_queries_filtered,experiment_new_openalex_searches,experiment_physical_http,experiment_cache_hits,budget_max_new_searches,recovery_refetches_this_run,recovery_cache_reuses_this_run,incremental_gold_per_api_call,incremental_gold_per_query
+22,37730,8705,62,66,4,62,62,0,66,0,62,0.0323,0.0323

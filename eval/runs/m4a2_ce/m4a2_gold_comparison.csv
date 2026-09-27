@@ -1,0 +1,9 @@
+query_id,canonical_id,title_n,focus,llm_final_retained,llm_sel_freq,rrf_top20_retained,rrf_rank,ce_top20_retained,ce_rank,ce_score,pre_rerank_rank
+RealScholarQuery_6,doi:10.18653/v1/2023.emnlp-main.364,answeringquestionsbymetareasoningovermultiplechainsofthought,Q6 systematic FN,no,0,no,32,no,67,-2.4807963371276855,52
+RealScholarQuery_6,doi:10.48550/arxiv.2403.10131,raftadaptinglanguagemodeltodomainspecificrag,Q6 systematic FN,no,0,no,47,yes,13,2.9963972568511963,55
+RealScholarQuery_6,doi:10.1145/3626772.3657760,imragmultiroundretrievalaugmentedgenerationthroughlearninginnermonologues,Q6 systematic FN,no,0,no,69,yes,3,4.333742141723633,32
+RealScholarQuery_6,doi:10.48550/arxiv.2210.01296,recitationaugmentedlanguagemodels,Q6 systematic FN,no,0,no,82,yes,7,3.704693078994751,33
+RealScholarQuery_6,doi:10.18653/v1/2022.emnlp-main.142,learningtodecomposehypotheticalquestiondecompositionbasedoncomparabletexts,Q6 systematic FN,no,0,no,55,no,51,-0.4926013946533203,77
+RealScholarQuery_15,doi:10.48550/arxiv.2310.06452,understandingtheeffectsofrlhfonllmgeneralisationanddiversity,Q15 RLHF Gold,yes,3,no,68,yes,5,2.9246790409088135,9
+RealScholarQuery_47,doi:10.48550/arxiv.2308.09975,finevalachinesefinancialdomainknowledgeevaluationbenchmarkforlargelanguagemodels,Q47 FinEval x2,no,0,yes,8,yes,6,3.810279130935669,77
+RealScholarQuery_47,doi:10.18653/v1/2025.naacl-long.318,finevalachinesefinancialdomainknowledgeevaluationbenchmarkforlargelanguagemodels,Q47 FinEval x2,no,0,yes,10,no,79,-6.878453254699707,78
