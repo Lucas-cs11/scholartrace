@@ -21,7 +21,7 @@
 ## 文档 / 报告
 - `proposal/eZScholar_project_proposal.{tex,pdf}` — 项目提案（LaTeX 源 + 编译稿，构建中间产物不入库）
 - `docs/reports/` — 各阶段报告（s1_integration、s11\_* 审计、s2\_* 等），脚本生成类报告由 `scripts/s2*_*.py` 自动写入此处
-- `docs/` — `claim_evidence_matrix.md`、`failure_limitation_matrix.md` 等结论记录
+- `docs/` — `claim_evidence_matrix.md`、`failure_limitation_matrix.md` 等结论记录；`branch_strategy.md` 分支与 PR 约定
 - `submission/` + `submission.zip` — 竞赛提交包冻结快照（保持原样，勿直接改动；RC 冻结后从主树重建）
 
 ## 快速开始
