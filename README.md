@@ -23,6 +23,7 @@
 - `docs/reports/` — 各阶段报告（s1_integration、s11\_* 审计、s2\_* 等），脚本生成类报告由 `scripts/s2*_*.py` 自动写入此处
 - `docs/` — `claim_evidence_matrix.md`、`failure_limitation_matrix.md` 等结论记录；`branch_strategy.md` 分支与 PR 约定
 - `submission/` + `submission.zip` — 竞赛提交包冻结快照（保持原样，勿直接改动；RC 冻结后从主树重建）
+- `Dockerfile` / `docker-compose.yml` / `deploy/env/` — 容器化部署（见「容器化部署」）；`requirements.lock` 为构建用锁定依赖
 
 ## 快速开始
 ```bash
@@ -41,6 +42,54 @@ python scripts/analyze_runs.py      # S2 跨实验聚合（22 冻结查询严格
 ```
 > 需要 OpenAlex 配额（~1000 credits/天 ≈ 100 次检索）。摘要写入 `/tmp/b{0,1,2,3,4}.json`、`/tmp/full.json`；
 > 逐 query 结果在 `eval/runs/{B0,B1,B2,B3,B4,FULL}_q*.json`。评测无 LLM 时 B0 可直接复现，其余依赖 DeepSeek key。
+
+## 容器化部署（Docker · 三环境）
+
+镜像 = **API 服务 + 评测体系全量**（`src/ s1/ api/ config/ configs/ scripts/ tests/ eval/ data/ frontend/`），
+既跑 HTTP 服务，也能在容器里跑离线评测与单测。
+
+```bash
+scripts/build_image.sh              # 唯一的镜像构建入口
+scripts/build_image.sh --verify     # 构建两次并比对哈希，验证「同 commit 两次构建产物一致」
+
+docker compose --env-file deploy/env/dev.env     up -d    # :8100
+docker compose --env-file deploy/env/staging.env up -d    # :8101
+docker compose --env-file deploy/env/prod.env    up -d    # :8102
+```
+
+| | dev | staging | prod |
+|---|---|---|---|
+| 宿主机端口 | 8100 | 8101 | 8102 |
+| compose project | `scholartrace-dev` | `scholartrace-staging` | `scholartrace-prod` |
+| `RECALL_SOURCE` | crossref（免费无配额） | openalex | openalex |
+| `BUDGET_MAX_API_CALLS` / `TOP_K` | 20 / 10 | 50 / 20 | 50 / 20 |
+| `LOG_LEVEL` | debug | info | warning |
+
+三环境共用同一镜像，差异只在端口、配置、数据卷。`deploy/env/*.env` 不含密钥，可入库；
+密钥在数据卷 `/mnt/scholartrace/secrets/`，由 `ST_SECRETS_FILE` 指向，镜像里没有 `.env`。
+每个环境是独立的 compose project —— 共用 project 名会让三次 `up` 互相顶掉，机器上只剩最后一个。
+
+**在容器内跑测试**用一次性干净容器，不要 `docker exec` 进已配置的服务容器：
+
+```bash
+docker run --rm --entrypoint python scholartrace-api:latest -m pytest tests/ -q
+```
+
+服务容器注入了 `RECALL_SOURCE` 等变量，而测试套件假定配置为默认值，混进去会有 17 个用例失败
+（测试对进程环境变量不免疫，属已知问题，见下方「已知问题」）。
+
+**可重复构建**依赖三件事，缺一不可（细节见 `scripts/build_image.sh` 与 `Dockerfile` 注释）：
+基础镜像固定 digest、依赖锁定在 `requirements.lock`、层时间戳用 `SOURCE_DATE_EPOCH` + `rewrite-timestamp` 归一。
+改依赖请改 `requirements.txt`，再按 `requirements.lock` 头部注释重新生成锁定文件。
+
+## 已知问题
+
+- **测试不隔离进程环境变量**：`config/settings.py` 在导入时读取环境变量，而测试假定默认值。
+  在注入了 `RECALL_SOURCE` / `TOP_K` / `BUDGET_MAX_API_CALLS` 的进程里跑测试，
+  `tests/test_search.py`、`tests/test_full.py` 会有 17 个用例失败。CI 与干净容器不受影响（155 passed）。
+  待 P1 重构配置层时一并修。
+- **冻结输入 `eval/cache/m3r_append/recall_cache.jsonl` 缺失**：源端 rsync 显式 `--exclude=eval/cache`，
+  本机无此文件，6 个 S1 离线重放测试带明确原因 skip（不放宽断言、不删用例），文件补齐后自动恢复执行。
 
 ## 评测进度
 | 实验 | 描述 | F1 | 命中/总数 | API calls | latency | 状态 |
