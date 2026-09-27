@@ -27,6 +27,13 @@ REPO = Path(__file__).resolve().parent.parent
 Q29 = "what role do zero-shot and few-shot prompting play in pre-training large language models, and how does prompt-based learning contribute?"
 KNOWN_QID = "RealScholarQuery_29"
 
+# 冻结输入 eval/cache/ 未随代码同步（源端 rsync 显式 --exclude=eval/cache），本机缺失。
+# 缺失时整块跳过依赖它的离线重放测试，不放宽断言、不删除用例——文件补齐后自动恢复执行。
+requires_recall_cache = pytest.mark.skipif(
+    not Path(RECALL_CACHE).exists(),
+    reason=f"冻结输入缺失：{RECALL_CACHE}（同步时被 --exclude=eval/cache 排除）",
+)
+
 
 def _noop_reranker(monkeypatch):
     """替换生产 LLM Reranker 为空操作，测试不触发网络/LLM。"""
@@ -60,6 +67,7 @@ def test_m5a_plan_integrity():
             assert fu["source"] in {"gap", "entity", "terminology"}
 
 
+@requires_recall_cache
 def test_recall_caches_load():
     r1 = [json.loads(l) for l in Path(RECALL_CACHE).read_text(encoding="utf-8").splitlines() if l.strip()]
     r2 = [json.loads(l) for l in Path(M5A_R2_CACHE).read_text(encoding="utf-8").splitlines() if l.strip()]
@@ -100,6 +108,7 @@ def test_identity_dedup_same_canonical_space():
 
 
 # ------------------------------------------------------------------ cache replay（无网络）
+@requires_recall_cache
 def test_offline_round1_replay_pool(monkeypatch):
     _noop_reranker(monkeypatch)
     cfg = S1Config(mode="fast", offline=True)
@@ -122,6 +131,7 @@ def test_offline_missing_plan_raises(monkeypatch):
         asyncio.run(engine.search("some totally unknown question not in frozen set", query_id=None, mode="fast"))
 
 
+@requires_recall_cache
 def test_offline_missing_round2_cache_raises(monkeypatch):
     _noop_reranker(monkeypatch)
     cfg = S1Config(mode="deep", offline=True)
@@ -161,6 +171,7 @@ def test_gold_leakage_static():
     assert check_static() == []
 
 
+@requires_recall_cache
 def test_gold_leakage_runtime(monkeypatch):
     _noop_reranker(monkeypatch)
     cfg = S1Config(mode="deep", offline=True)
@@ -176,6 +187,7 @@ def test_gold_leakage_runtime(monkeypatch):
 
 
 # ------------------------------------------------------------------ FAST/DEEP offline smoke
+@requires_recall_cache
 def test_fast_offline_smoke(monkeypatch):
     _noop_reranker(monkeypatch)
     cfg = S1Config(mode="fast", offline=True)
@@ -188,6 +200,7 @@ def test_fast_offline_smoke(monkeypatch):
     assert res.trace.newly_discovered_papers == []
 
 
+@requires_recall_cache
 def test_deep_offline_smoke(monkeypatch):
     _noop_reranker(monkeypatch)
     cfg = S1Config(mode="deep", offline=True)
