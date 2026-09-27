@@ -1,0 +1,49 @@
+# ScholarTrace 三环境编排：同机不同端口 + 不同配置，共用同一镜像。
+#
+# 三环境差异只有三处——宿主机端口、配置变量、数据卷；镜像完全一致。
+#   dev     :8100   配置 deploy/env/dev.env
+#   staging :8101   配置 deploy/env/staging.env
+#   prod    :8102   配置 deploy/env/prod.env
+# 容器内一律监听 8100，端口差异由上面这层映射承担。
+#
+# 本文件只负责**运行**，不负责构建。构建请用 scripts/build_image.sh —— 原因见该脚本：
+# compose 的构建路径传不了 rewrite-timestamp，产物过不了「同 commit 两次构建一致」的门禁。
+# 两个构建入口并存，迟早有人用错那个坏的。
+#
+# 用法（在仓库根目录）：
+#   scripts/build_image.sh                                        # 构建镜像（先做这步）
+#   docker compose --env-file deploy/env/dev.env up -d            # 起 dev
+#   docker compose --env-file deploy/env/staging.env up -d        # 起 staging
+#   docker compose --env-file deploy/env/prod.env up -d           # 起 prod
+#   查看：docker compose --env-file deploy/env/dev.env ps
+#   停止：docker compose --env-file deploy/env/dev.env down
+#
+# 密钥不在这里，也不在仓库里：ST_SECRETS_FILE 指向数据卷上的文件（见 deploy/env/*.env）。
+# 因此本文件与 deploy/env/ 都可以入库而不会泄密。
+
+# 每个环境一个 compose project。这一点是必须的，不是风格选择：
+# 若三环境共用同一个 project 名，它们就是同一个 service `api` 的三次 up ——
+# compose 会把上一个容器当作「需要重建的服务」顶掉，机器上永远只剩最后启的那个。
+# project 名进 volume 名前缀，所以下面的卷就叫 data，靠 project 前缀区分环境。
+name: scholartrace-${ST_ENV:?ST_ENV 未设置：请用 --env-file deploy/env/<env>.env 启动}
+
+services:
+  api:
+    image: scholartrace-api:latest
+    container_name: scholartrace-api-${ST_ENV:?ST_ENV 未设置：请用 --env-file deploy/env/<env>.env 启动}
+    # 注入容器环境，pydantic-settings / uvicorn 直接读取（镜像内无 .env 文件）。
+    # 注意：命令行的 --env-file 只用于本文件的变量插值，不会进容器——
+    # 所以每环境的配置必须在这里再列一次，否则改的是插值、容器里啥也没变。
+    env_file:
+      - ${ST_SECRETS_FILE:?ST_SECRETS_FILE 未设置：指向仓库外的密钥文件}
+      - deploy/env/${ST_ENV}.env
+    ports:
+      - "${ST_PORT:?ST_PORT 未设置}:8100"
+    volumes:
+      # 每个环境独立的 SQLite 搜索历史，互不串台。
+      # 实际卷名为 <project>_data，即 scholartrace-dev_data / -staging_data / -prod_data。
+      - data:/app/data
+    restart: unless-stopped
+
+volumes:
+  data:

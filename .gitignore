@@ -23,6 +23,8 @@ __pycache__/
 .env.local
 .env.bak
 .env.*
+# 示例模板必须入库，否则新克隆上 README 的 `cp .env.example .env` 直接失败
+!.env.example
 
 # 本地工具配置（含内网 IP / 本机私钥路径）
 .claude/settings.local.json
@@ -42,3 +44,6 @@ data/*
 !data/benchmarks/
 *.sqlite
 *.db
+
+# 镜像构建产物（scripts/build_image.sh 输出）：可重建，且体积大
+dist/

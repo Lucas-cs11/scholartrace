@@ -1,15 +1,21 @@
-# ScholarTrace Contest API systemd 服务模板。
+# ScholarTrace Contest API 的 systemd 服务模板 —— 非容器部署方式。
+#
+# 主部署方式是 Docker（见 README「容器化部署」与 docker-compose.yml）；
+# 本文件是裸机/无 Docker 场景的备选，两者择一，不要同时启。
+#
 # 安装：sudo cp deploy/scholartrace-api.service /etc/systemd/system/
 #       sudo systemctl daemon-reload && sudo systemctl enable --now scholartrace-api
+#
+# 注意端口：此处 8100，与容器方案的 dev 环境同端口 —— 同时启用会冲突。
 [Unit]
 Description=ScholarTrace Contest API (FastAPI + Research Engine)
 After=network.target
 
 [Service]
 User=ubuntu
-WorkingDirectory=/home/ubuntu/scholartrace-contest
-EnvironmentFile=/home/ubuntu/scholartrace-contest/.env
-ExecStart=/home/ubuntu/scholartrace-contest/.venv/bin/python -m uvicorn api.main:app --host 0.0.0.0 --port 8100 --workers 1
+WorkingDirectory=/mnt/data/ScholarTrace
+EnvironmentFile=/mnt/scholartrace/secrets/.env
+ExecStart=/mnt/data/ScholarTrace/.venv/bin/python -m uvicorn api.main:app --host 0.0.0.0 --port 8100 --workers 1
 Restart=on-failure
 RestartSec=5
 

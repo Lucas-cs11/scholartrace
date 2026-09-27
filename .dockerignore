@@ -1,0 +1,59 @@
+# 构建上下文过滤：条目与 .gitignore 对应，但**语法不同，不能照抄**。
+#
+# Docker 的模式不是 .gitignore 语义：无斜杠的模式（如 *.log、__pycache__/）
+# 只匹配顶层，不会自动递归到任意层级。要递归必须显式写 **/。
+# 曾经踩过：写成 *.log 时 eval/_instr_run.log 照进镜像。
+# 所以下面凡需递归的一律 **/ 前缀。
+
+# ---- 版本控制与 CI ----
+.git
+.github
+
+# ---- Python 运行产物 ----
+**/__pycache__/
+**/*.py[cod]
+.venv/
+**/*.egg-info/
+**/.pytest_cache/
+**/.ruff_cache/
+
+# ---- macOS ----
+**/.DS_Store
+
+# ---- LaTeX 构建产物（proposal/）----
+**/*.aux
+**/*.fdb_latexmk
+**/*.fls
+**/*.out
+**/*.toc
+**/*.xdv
+**/*.synctex.gz
+
+# ---- 密钥：绝不入镜像 ----
+.env
+.env.local
+.env.bak
+.env.*
+
+# ---- 本地工具配置（含内网 IP / 本机私钥路径）----
+.claude/
+
+# ---- 运行时日志 ----
+logs/
+**/*.log
+
+# ---- 大体积可重生成缓存（~68MB）：reproduce_all.sh 可重建 ----
+eval/runs/_*.jsonl
+eval/diagnostics/
+
+# ---- 数据（大文件；容器内自建空库）----
+data/*.db
+data/*.sqlite
+
+# ---- Docker 自身：运行期不需要 ----
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# ---- 镜像构建产物：绝不能被卷进下一次构建的上下文 ----
+dist/
